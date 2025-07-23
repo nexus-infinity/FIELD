@@ -1,0 +1,28 @@
+version: 1
+updated: 2025-07-23T13:59:10Z
+levels:
+  - id: 0
+    name: root_law
+    node: TATA          # ▼
+    db_table: core_law
+    description: "Bare atomic truth; immutable."
+  - id: 1
+    name: pattern_logic
+    node: ATLAS         # ▲
+    db_table: pattern
+    description: "Reference patterns that pass law validation."
+  - id: 2
+    name: container_execution
+    node: DOJO          # ■
+    db_table: manifest
+    description: "Executable artefacts and live processes."
+  - id: 3
+    name: witness_memory
+    node: OBI-WAN       # ●
+    db_table: witness
+    description: "Signed observations; audit trail."
+databases:
+  core: /Volumes/Akron/bear_data/sovereignty_registry.db
+  dedup: /Volumes/Akron/bear_data/deduplication.db
+  email: /Volumes/Akron/bear_data/email_sovereignty.db
+hashes: {}          # filled automatically by validator on first run
