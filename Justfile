@@ -136,6 +136,23 @@ mcp-start:
 disk-check:
     @df -h | grep -E "/$|/System/Volumes/Data|/Volumes/Akron"
 
+# === AI Partner Management ===
+
+# Configure AI partners
+ai-config:
+    python3 scripts/ai_partners_config.py
+
+# Show AI partner matrix
+ai-matrix:
+    @python3 -c "from scripts.ai_partners_config import AIPartnerConfig; c = AIPartnerConfig(); c.display_partnership_matrix()"
+
+# Test AI API keys
+ai-test:
+    @echo "Testing AI API connections..."
+    @[ -n "${OPENAI_API_KEY:-}" ] && echo "✅ OpenAI configured" || echo "⚠️  OpenAI missing"
+    @[ -n "${GEMINI_API_KEY:-}" ] && echo "✅ Gemini configured" || echo "⚠️  Gemini missing"
+    @[ -n "${ANTHROPIC_API_KEY:-}" ] && echo "✅ Claude configured" || echo "⚠️  Claude missing"
+
 # === Sacred State Management ===
 
 # Save current state to iCloud
