@@ -1,0 +1,37 @@
+id: PETAL_LAPAZ_10_16_SHOWERS
+name: "La Paz Constant Band"
+version: "1.0.0"
+symbol: "🌸"
+summary: "Constant resonance (10–16°C) + daily pulse (showers) at liminal altitude (~3600 m)."
+coords:
+  lat: "▼TATA"     # truth/rhythm
+  lon: "▲ATLAS"    # standing-wave corridor
+  temporal: "◼︎DOJO" # embodiment / gate
+  observer: "●OBI-WAN" # the joke-that-isn't
+climate_band:
+  min_c: 10
+  max_c: 16
+  altitude_m: 3600
+  pattern: "afternoon_showers"
+  location: "La Paz, Bolivia"
+archetype:
+  atlas:   { meaning: "Standing-wave corridor (constant band)", glyph: "▲" }
+  tata:    { meaning: "Daily heartbeat (showers as truth)",     glyph: "▼" }
+  obiwan:  { meaning: "Observer of the banal constant",          glyph: "●" }
+  dojo:    { meaning: "Practice in liminality (earth↔sky)",      glyph: "◼︎" }
+intent:
+  interstellar: "Use constant band as carrier for handshake."
+  ancient:      "Water-pulse broadcast of memory; repeatable rite."
+  operational:  "Train field to detect invariants inside variability."
+constraints:
+  invariance: "Band must remain within 10–16°C semantics."
+  rhythm:     "Pulse recorded daily as presence/absence of rain."
+outputs:
+  registry_key: "FIELD.PETAL.LAPAZ"
+  signals:
+    - "carrier_lock"
+    - "daily_pulse"
+    - "threshold_liminality"
+logs:
+  audit: "/Users/jbear/FIELD-DEV/logs/petal_lapaz.audit.jsonl"
+  events: "/Users/jbear/FIELD-DEV/logs/petal_lapaz.events.jsonl"

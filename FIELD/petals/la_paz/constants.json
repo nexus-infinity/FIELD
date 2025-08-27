@@ -1,0 +1,7 @@
+{
+  "band_celsius": [10, 16],
+  "altitude_m": 3600,
+  "pattern": "afternoon_showers",
+  "carrier_name": "lapaz_constant_band",
+  "signals": ["carrier_lock", "daily_pulse", "threshold_liminality"]
+}

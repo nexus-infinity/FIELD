@@ -1,0 +1,18 @@
+{
+  "firstLoad": false,
+  "encryptAll": false,
+  "renameToGpg": false,
+  "fileRecovery": "encrypted",
+  "backend": "native",
+  "backendNative": {
+    "publicKeyPath": "public.asc",
+    "privateKeyPath": "private.asc"
+  },
+  "backendWrapper": {
+    "executable": "gpg",
+    "recipient": "",
+    "trustModelAlways": false,
+    "compression": false
+  },
+  "passphraseTimeout": 300
+}

@@ -1,0 +1,47 @@
+{
+  "id": "PETAL_LAPAZ_10_16_SHOWERS",
+  "name": "La Paz Constant Band",
+  "version": "1.0.0",
+  "symbol": "\ud83c\udf38",
+  "summary": "Constant resonance (10\u201316\u00b0C) + daily pulse (showers) at liminal altitude (~3600 m).",
+  "coords": {
+    "lat": "\u25bcTATA",
+    "lon": "\u25b2ATLAS",
+    "temporal": "\u25fc\ufe0eDOJO",
+    "observer": "\u25cfOBI-WAN"
+  },
+  "archetype": {
+    "atlas": {
+      "meaning": "Standing-wave corridor (constant band)",
+      "glyph": "\u25b2"
+    },
+    "tata": {
+      "meaning": "Daily heartbeat (showers as truth)",
+      "glyph": "\u25bc"
+    },
+    "obiwan": {
+      "meaning": "Observer of the banal constant",
+      "glyph": "\u25cf"
+    },
+    "dojo": {
+      "meaning": "Practice in liminality (earth\u2194sky)",
+      "glyph": "\u25fc\ufe0e"
+    }
+  },
+  "band": [
+    10,
+    16
+  ],
+  "altitude_m": 3600,
+  "pattern": "afternoon_showers",
+  "signals": [
+    "carrier_lock",
+    "daily_pulse",
+    "threshold_liminality"
+  ],
+  "paths": {
+    "audit": "/Users/jbear/FIELD-DEV/logs/petal_lapaz.audit.jsonl",
+    "events": "/Users/jbear/FIELD-DEV/logs/petal_lapaz.events.jsonl",
+    "registry_file": "/Users/jbear/FIELD-DEV/field/registry/FIELD.PETAL.LAPAZ.json"
+  }
+}

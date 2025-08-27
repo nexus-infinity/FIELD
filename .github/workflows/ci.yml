@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, dev ] # Use main and dev instead of master
+  pull_request:
+    branches: [ main, dev ] # Trigger CI for pull requests to main and dev
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3 # Use the latest version of checkout action
+
+    # Setup Node.js environment
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x' # Adjust based on the version you are using
+
+    # Install dependencies (can switch to npm ci if package-lock.json exists)
+    - name: Install dependencies
+      run: npm install
+
+    # Build the project (optional, if needed)
+    - run: npm run build --if-present
+
+    # Run tests
+    - run: npm test
+
+    # Optional: Upload test coverage report (if you're collecting coverage)
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        files: ./coverage/* # Assuming Jest coverage is saved in ./coverage
+        flags: unittests
+        name: codecov-umbrella

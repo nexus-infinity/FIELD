@@ -1,1 +1,118 @@
-_venvs/
+# FIELD-DEV .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+
+# Authentication & Secrets (CRITICAL - DO NOT COMMIT)
+auth/api_keys/
+auth/service_accounts/*.json
+auth/certificates/*.pem
+auth/certificates/*.key
+auth/private_keys/
+auth/tokens/
+*.env
+.env*
+.envrc
+auth_flow_*.log
+security_report_*.json
+
+# Credential Files (Environment-based)
+service_account.json
+credentials.json
+*_credentials.json
+*_key.json
+*_private_key.pem
+*_cert.pem
+
+# API Keys and Tokens
+*api_key*
+*token*
+*secret*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Data (exclude sensitive data)
+data/raw/sensitive/
+data/processed/sensitive/
+data/external/private/
+
+# Backup files
+backup/*.db
+backup/*.sql
+backup/*.zip
+
+# Monitoring
+monitoring/*.pid
+monitoring/temp/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.tar.gz
+*.zip
+*.rar
+*.7z
