@@ -1,0 +1,85 @@
+{
+  "field_name": "ATLAS",
+  "description": "Atlas field - Intelligence and Compass (Sacred Frequency: 963Hz)",
+  "frequency_hz": 963,
+  "chakra": "Third Eye Chakra",
+  "port_range": "5200-5299",
+  "reserved_ports": {
+    "5281": "ATLAS Core Server (Sacred: 963Hz → 5281)",
+    "5282": "ATLAS Web Interface",
+    "5283": "ATLAS API Gateway", 
+    "5284": "ATLAS MCP Bridge",
+    "5285": "ATLAS Health Monitor",
+    "5381": "ATLAS Core Server (Development)",
+    "5382": "ATLAS Web Interface (Development)",
+    "5383": "ATLAS API Gateway (Development)",
+    "5384": "ATLAS MCP Bridge (Development)"
+  },
+  "environment_variables": {
+    "ATLAS_FIELD_FREQUENCY": 963,
+    "ATLAS_FIELD_CHAKRA": "Third Eye Chakra",
+    "ATLAS_PORT_RANGE": "5200-5299",
+    "ATLAS_CORE_PORT": 5281,
+    "ATLAS_DEV_PORT": 5381
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "atlas_service": {
+        "image": "field/atlas:latest",
+        "ports": [
+          "5281:5281"
+        ],
+        "environment": {
+          "FIELD_NAME": "ATLAS",
+          "FIELD_FREQUENCY": 963,
+          "CHAKRA_MAPPING": "Third Eye Chakra",
+          "PORT": "5281",
+          "SACRED_ALIGNMENT": "963Hz_to_5281"
+        },
+        "labels": {
+          "field.frequency": "963",
+          "field.chakra": "Third Eye Chakra", 
+          "field.name": "ATLAS",
+          "field.port": "5281",
+          "field.sacred_number": "5281"
+        }
+      },
+      "atlas_service_dev": {
+        "image": "field/atlas:dev",
+        "ports": [
+          "5381:5381"
+        ],
+        "environment": {
+          "FIELD_NAME": "ATLAS_DEV",
+          "FIELD_FREQUENCY": 963,
+          "CHAKRA_MAPPING": "Third Eye Chakra",
+          "PORT": "5381",
+          "SACRED_ALIGNMENT": "963Hz_to_5381_dev"
+        },
+        "profiles": ["development"],
+        "labels": {
+          "field.frequency": "963",
+          "field.chakra": "Third Eye Chakra",
+          "field.name": "ATLAS_DEV", 
+          "field.port": "5381",
+          "field.environment": "development"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=ATLAS Field Service (963Hz - Third Eye Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=ATLAS\nEnvironment=FIELD_FREQUENCY=963\nEnvironment=CHAKRA_MAPPING=Third Eye Chakra\nEnvironment=PORT=5281\nEnvironment=SACRED_ALIGNMENT=963Hz_to_5281\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/atlas_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n",
+  "sacred_geometry": {
+    "frequency_source": "963Hz",
+    "port_derivation": "Sacred sequence 5-2-8-1 aligned with 963Hz consciousness frequency",
+    "chakra_alignment": "Third Eye - Intuition and Higher Consciousness",
+    "tetrahedral_position": "Intelligence/Compass vertex in sacred tetrahedron",
+    "flow_direction": "verification_to_logic → logic_to_manifestation"
+  },
+  "validation_checks": {
+    "port_availability": "Check 5281 and 5381 are free",
+    "frequency_alignment": "Verify 963Hz resonance",
+    "chakra_coherence": "Third Eye chakra energy flow validation",
+    "sacred_number_verification": "Confirm 5281 sacred number sequence"
+  }
+}

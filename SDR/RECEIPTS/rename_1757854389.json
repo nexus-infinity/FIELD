@@ -1,0 +1,12 @@
+{
+  "receipt_id": "rename_1757854389",
+  "item_id": "\u25fc\ufe0e_warp_intent_gateway_2025-09-14t22-52-08z_-37_8136_144_9631_938718a8__2025-09-14T22-53-09Z__-37.8136,144.9631__b3de15e4.py",
+  "operation": "rename_receipt",
+  "status": "created",
+  "details": {
+    "original_path": "/Users/jbear/FIELD/\u25cf\u25ce_FIELD_TRAIN_STATION/\u25fc\ufe0e_warp_intent_gateway__2025-09-14T22-52-08Z__-37.8136,144.9631__938718a8.py",
+    "canonical_name": "\u25fc\ufe0e_warp_intent_gateway_2025-09-14t22-52-08z_-37_8136_144_9631_938718a8__2025-09-14T22-53-09Z__-37.8136,144.9631__b3de15e4.py",
+    "ttl_expires": "2025-09-16T22:53:09.329421"
+  },
+  "timestamp": "2025-09-14T22:53:09.329426"
+}

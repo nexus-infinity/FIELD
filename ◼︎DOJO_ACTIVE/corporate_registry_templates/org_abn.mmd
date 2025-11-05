@@ -1,0 +1,57 @@
+graph TD;
+
+%% Style definitions
+classDef ABNFlow fill:#d6e6f9,stroke:#2257a1
+classDef TrustABN fill:#f9d6e6,stroke:#a12257
+classDef CompanyABN fill:#e6f9d6,stroke:#57a122
+classDef Verified fill:#d6f9e3,stroke:#22a147
+classDef Unverified fill:#f9d6d6,stroke:#a12222
+
+%% ABN Entities
+abn-trust-1["Ansevata Trust No. 2<br/>ABN 44 013 158 909<br/>(Original)"]:::TrustABN
+abn-company-1["Ansevata Nominees<br/>ABN 66 004 686 131<br/>(Operational)"]:::CompanyABN
+abn-trust-2["Berjak & Partners Unit Trust<br/>ABN 61 373 856 797<br/>(Secondary)"]:::TrustABN
+abn-company-2["Berjak Nominees VIC<br/>ABN 47 005 829 863<br/>(Trading)"]:::CompanyABN
+
+%% Switch Events
+switch-2020-06["2020-06: Initial Switch<br/>Trust→Trustee Operations"]:::ABNFlow
+switch-2020-09["2020-09: Secondary Registration<br/>New Trust ABN"]:::ABNFlow
+switch-2021-03["2021-03: Operation Transfer<br/>Between Trustees"]:::ABNFlow
+switch-2021-08["2021-08: Trust Consolidation<br/>Combined Operations"]:::ABNFlow
+
+%% Connections
+abn-trust-1 -->|"transfers to"| switch-2020-06
+switch-2020-06 -->|"enables"| abn-company-1
+abn-company-1 -->|"registers"| switch-2020-09
+switch-2020-09 -->|"creates"| abn-trust-2
+abn-trust-2 -->|"shifts to"| switch-2021-03
+switch-2021-03 -->|"establishes"| abn-company-2
+abn-company-2 -->|"merges into"| switch-2021-08
+switch-2021-08 -->|"results in"| abn-trust-1
+
+%% Verification Status
+ver-2020-06["Verified via ATO<br/>Reference: 2020/123"]:::Verified
+ver-2021-03["Unverified<br/>Pending Documentation"]:::Unverified
+
+switch-2020-06 -->|"confirmed by"| ver-2020-06
+switch-2021-03 -->|"status"| ver-2021-03
+
+%% Notion Database Links
+click abn-trust-1 "https://www.notion.so/abn-registry/ansevata-trust-2" "View trust ABN details" _blank
+click switch-2020-06 "https://www.notion.so/abn-switches/2020-06-initial" "View switch details" _blank
+click ver-2020-06 "https://www.notion.so/verification/2020-06-switch" "View verification" _blank
+
+%% Timeline Integration
+time-2020["2020: Initial ABN Structure"]
+time-2021["2021: Restructuring Phase"]
+
+time-2020 -->|"leads to"| switch-2020-06
+time-2021 -->|"contains"| switch-2021-03
+
+%% Pattern Annotations
+note-pattern["Pattern: Trust ABN → Company ABN → New Trust ABN<br/>Purpose: Operational flexibility and debt restructuring"]
+note-timing["Timing: Switches align with major debt movements<br/>and address changes"]
+
+%% Connect to Debt Layer
+debt-2020-09["Related: $1.2M Loan<br/>Using new ABN structure"]
+switch-2020-09 -->|"enables"| debt-2020-09

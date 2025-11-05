@@ -1,0 +1,203 @@
+graph TD;
+
+%% Style definitions
+classDef DebtFlow fill:#f9e6d6,stroke:#a15722
+classDef IntercompanyLoan fill:#e6f9d6,stroke:#57a122
+classDef ABNSwitch fill:#d6e6f9,stroke:#2257a1
+
+%% Timeline styling
+classDef TimelineEvent fill:#ffffff,stroke:#000000,stroke-width:1px
+classDef TimelinePeriod fill:#f0f0f0,stroke:#666666,stroke-width:1px
+
+%% Style definitions
+classDef Trust fill:#f9d6d6,stroke:#a12222;
+classDef UnitTrust fill:#fde8d6,stroke:#b25000;
+classDef Company fill:#d6e5f9,stroke:#225ba1;
+classDef Person fill:#d6f9e3,stroke:#22a147;
+classDef PropertyAsset fill:#e5d6f9,stroke:#5722a1;
+classDef BankRelationship fill:#f9f4d6,stroke:#a19722;
+classDef OffshoreEntity fill:#f9d6e8,stroke:#a12271;
+classDef RegistryRecord fill:#d6f9f7,stroke:#22a1a1;
+classDef ServiceProvider fill:#d6f9e8,stroke:#22a147;
+
+%% Verification Status Styles
+classDef Verified fill:#d6f9e3,stroke:#22a147;
+classDef Claimed fill:#f9e8d6,stroke:#a17122;
+classDef Contradicted fill:#f9d6d6,stroke:#a12222;
+
+%% Narrative Layer Styles
+classDef Shadow fill:#e6e6e6,stroke:#666666;
+classDef Truth fill:#ffffff,stroke:#000000;
+classDef Fractured fill:#ffe6e6,stroke:#cc0000;
+
+%% Jurisdiction Styles
+classDef JUR_AU fill:#ffffff,stroke:#225ba1,stroke-width:2px;
+classDef JUR_CH fill:#ffffff,stroke:#22a147,stroke-width:2px;
+classDef JUR_BVI fill:#ffffff,stroke:#a12271,stroke-width:2px;
+
+%% Entity definitions
+trust-at2["Ansevata Trust No. 2<br/>ABN 44 013 158 909"]:::Trust;
+co-an["Ansevata Nominees Pty Ltd<br/>ACN 004686131"]:::Company;
+co-ai["Ansevata Investments Pty Ltd<br/>ACN 004414144"]:::Company;
+co-berjak-vic["Berjak Nominees (VIC) Pty Ltd<br/>ACN 005829863"]:::Company;
+co-berjak-nt["Berjak Nominees (NT) Pty Ltd<br/>ACN 009617476"]:::Company;
+co-berjak-pty["Berjak Nominees Pty Ltd<br/>ACN 005195657"]:::Company;
+ut-bput["Berjak & Partners Unit Trust<br/>ABN 61 373 856 797"]:::UnitTrust;
+co-berjak-metals["Berjak Metals Pty Ltd<br/>ACN 004 430 808"]:::Company;
+co-next-vintage["Next Vintage Pty Ltd<br/>ACN 007 385 382"]:::Company;
+co-cumberland["Cumberland Building Co. Proprietary Limited<br/>ACN 004 703 897"]:::Company;
+
+%% People
+p-sjr["Susan Janet Rich"]:::Person;
+p-jbr["Jeremy Benjamin Rich"]:::Person;
+p-ajr["Adam Joshua Rich"]:::Person;
+p-scr["Simon Charles Rich"]:::Person;
+p-jr["Jacques Rich"]:::Person;
+
+%% Offshore entities
+off-cent["Centosa S.A."]:::OffshoreEntity;
+off-freler["Freler S.A.<br/>POA via Berjak Nominees (NT)"]:::OffshoreEntity;
+off-cfim["CF Immobilier (Switzerland)"]:::OffshoreEntity;
+
+%% Banks and service providers
+bank-nab["NAB Banking Relationship"]:::BankRelationship;
+bank-rothschild["Rothschild & Co (Switzerland)"]:::Bank;
+bank-bekb["Berner Kantonalbank AG (BEKB)"]:::Bank;
+sp-mossack["Mossack Fonseca<br/>Historical Service Provider"]:::ServiceProvider;
+
+%% Properties
+prop-watts["10 Watts Parade<br/>Mount Eliza"]:::Property;
+prop-walkerville["Walkerville Property"]:::Property;
+prop-chalet["Chalet Solidage<br/>Rougemont"]:::Property;
+
+%% Address nodes
+addr-425collins["Level 8, 425 Collins St<br/>Melbourne VIC 3000"]:::Address;
+addr-25station["25 Station St<br/>Malvern VIC 3144"]:::Address;
+addr-240bay["240 Bay St<br/>Brighton VIC 3186"]:::Address;
+addr-492st-kilda["492 St Kilda Rd<br/>Melbourne VIC 3000"]:::Address;
+addr-431burke["Suite 6, 431 Burke Rd<br/>Glen Iris VIC 3146"]:::Address;
+
+%% Shadow narrative nodes
+gk-legal["Legal Gatekeeper<br/>Coordinating filings & control"]:::Shadow;
+pattern-banking["Banking Pattern<br/>Corporate → Personal shifts"]:::Shadow;
+pattern-offshore["Offshore Pattern<br/>Bearer shares & agent tactics"]:::Shadow;
+
+%% Fractured narrative nodes
+issue-centosa["Centosa Control Issue<br/>Rougemont mortgage control unverified"]:::Fractured;
+issue-accounts["Account Type Changes<br/>Offshore claims vs statements"]:::Fractured;
+issue-nextvintage["Next Vintage $5000<br/>Close-out anomaly"]:::Fractured;
+issue-records["Records Shutdown 2017<br/>System obfuscation period"]:::Fractured;
+
+%% Timeline nodes
+evt-2017-shutdown["2017± Records shutdown"]:::Shadow;
+evt-2019-poa["2019-01 POA Jeremy→Susan"]:::Truth;
+evt-2022-collins["2022-07 Moves to 425 Collins"]:::Truth;
+evt-2024-ajr["2024-06 AJR director (claimed)"]:::Fractured;
+
+%% Core structure relationships
+co-an -->|"trustee of (VERIFIED)"| trust-at2;
+co-ai -->|"appointor of (VERIFIED)"| co-an;
+co-berjak-vic -->|"trustee for unit trust"| ut-bput;
+co-berjak-nt -->|"ultimate holding company"| co-cumberland;
+co-berjak-nt -->|"international link"| off-cent;
+co-berjak-nt -->|"international link"| off-freler;
+
+%% Banking relationships
+co-berjak-pty -->|"banking with"| bank-nab;
+co-berjak-vic -->|"banking with"| bank-nab;
+bank-rothschild -.->|"banking with"| off-cent;
+bank-bekb -->|"mortgage on"| prop-chalet;
+
+%% Person relationships
+p-jr -->|"director of"| co-cumberland;
+p-jbr -->|"director of"| co-cumberland;
+p-jr -->|"owns 1000 shares"| co-cumberland;
+p-sjr -->|"director of"| co-next-vintage;
+p-jr -->|"director of"| co-next-vintage;
+p-jr -->|"owns 6 shares"| co-next-vintage;
+p-sjr -->|"owns 6 shares"| co-next-vintage;
+
+%% Property relationships
+p-sjr -->|"owns"| prop-watts;
+trust-at2 -->|"owns"| prop-walkerville;
+off-cfim -->|"manages"| prop-chalet;
+
+%% Shadow narrative relationships
+gk-legal -.->|"unauthorized changes"| co-an;
+gk-legal -.->|"document handling"| co-berjak-nt;
+pattern-banking -.->|"transaction patterns"| bank-nab;
+pattern-offshore -.->|"bearer share chain"| off-cent;
+
+%% Fractured narrative relationships
+issue-centosa -.->|"unverified control"| prop-chalet;
+issue-accounts -.->|"reconciliation needed"| bank-rothschild;
+issue-nextvintage -.->|"closure anomaly"| co-next-vintage;
+issue-records -.->|"verification gap"| off-cent;
+
+%% Timeline relationships
+evt-2017-shutdown -.->|"impacts"| off-cent;
+evt-2019-poa -->|"establishes"| p-jbr;
+evt-2022-collins -->|"establishes"| addr-425collins;
+evt-2024-ajr -.->|pending| co-an
+
+%% Chronological debt movement and ABN switching subgraph
+subgraph timeline_debt ["Debt Movement Timeline"]
+    %% Key periods
+    period-2020["2020: Initial Debt Structure"]:::TimelinePeriod
+    period-2021["2021: Trust-Trustee Switches"]:::TimelinePeriod
+    period-2022["2022: Loan Restructuring"]:::TimelinePeriod
+    period-2023["2023: Debt Consolidation"]:::TimelinePeriod
+
+    %% Key events with debt movements
+    evt-loan-1["2020-03: Company Loan
+Ansevata Nominees → Berjak Metals
+$2.5M"]:::DebtFlow
+    evt-abn-1["2020-06: ABN Switch
+Trust ABN → Trustee Operations"]:::ABNSwitch
+    evt-loan-2["2021-02: Intercompany Loan
+Berjak VIC → Cumberland
+$1.8M"]:::IntercompanyLoan
+    evt-abn-2["2021-05: Trust Registration
+New ABN Structure"]:::ABNSwitch
+    evt-loan-3["2022-09: Debt Transfer
+Trust → Trustee → Trust
+$4.3M Combined"]:::DebtFlow
+
+    %% Event ordering
+    period-2020 --> evt-loan-1
+    evt-loan-1 --> evt-abn-1
+    evt-abn-1 --> period-2021
+    period-2021 --> evt-loan-2
+    evt-loan-2 --> evt-abn-2
+    evt-abn-2 --> period-2022
+    period-2022 --> evt-loan-3
+    evt-loan-3 --> period-2023
+end
+
+%% Connect debt events to entities
+evt-loan-1 -.->|"originated loan"| co-berjak-metals
+evt-loan-2 -.->|"created debt"| co-cumberland
+evt-loan-3 -.->|"consolidated"| trust-at2
+
+%% ABN switching patterns
+evt-abn-1 -.->|"switched registration"| co-an
+evt-abn-2 -.->|"new structure"| trust-at2
+
+%% Debt flow relationships
+co-an -->|"loan provider"| co-berjak-metals
+co-berjak-vic -->|"creditor"| co-cumberland
+trust-at2 -->|"debt holder"| co-berjak-metals
+
+%% Jurisdiction assignments
+class co-an,co-ai,co-berjak-vic,co-berjak-nt,co-berjak-pty,co-berjak-metals,co-next-vintage,bank-nab,addr-425collins,addr-25station,addr-240bay,addr-492st-kilda,addr-431burke JUR_AU;
+class off-cent,off-freler JUR_BVI;
+class off-cfim,bank-rothschild,bank-bekb,prop-chalet JUR_CH;
+
+%% Evidence links
+click bank-rothschild "https://www.notion.so/Banking-Rothschild-Centosa-9402454340e7413181c09a707ee84e2c" "Rothschild banking evidence" _blank;
+click bank-bekb "https://www.notion.so/Mortgage-BEKB-Chalet-Solidage-Rougemont-557c45ac13644c97bb6c44c27d2b130f" "BEKB mortgage evidence" _blank;
+click off-cent "https://www.notion.so/Bearer-shares-transfer-Centosa-S-A-Cumberland-Building-Co-Pty-Ltd-recipient-94c0d996427b4a55b12ce40f7907bc6e" "Centosa bearer share chain" _blank;
+click sp-mossack "https://www.notion.so/Close-down-obfuscation-response-observed-Centosa-Cumberland-context-f3a4866f04af431682243df8055a91dc" "Mossack/Centosa close-down context" _blank;
+click co-berjak-pty "https://www.notion.so/Banking-relationship-Berjak-Pty-NAB-8fc9420c044d4efc9a0a634d908cf6cb" "Berjak Pty ↔ NAB" _blank;
+click co-berjak-vic "https://www.notion.so/Banking-relationship-Berjak-VIC-NAB-1a3263adc61640b98482b446b31d361d" "Berjak VIC ↔ NAB" _blank;
+click p-jbr "https://www.notion.so/POA-Jeremy-Susan-9ff24fecb2474a9bab890d92eeb68729" "POA Jeremy → Susan" _blank;

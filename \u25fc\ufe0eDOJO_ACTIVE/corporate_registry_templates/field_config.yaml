@@ -1,0 +1,80 @@
+# Field Configuration for Corporate Registry Templates
+# Geometric Triad Integration
+
+field_structure:
+  source:
+    type: ▼TATA
+    role: foundation
+    markers:
+      - validation_docs
+      - core_entities
+      - truth_anchors
+    resonance_paths:
+      - entities.json
+      - documents.csv
+      
+  relation:
+    type: ●OBI-WAN
+    role: expression
+    markers:
+      - relationship_maps
+      - transaction_flows
+      - communication_patterns
+    resonance_paths:
+      - relations.json
+      - intercompany_loans.csv
+      - bank_accounts.csv
+      
+  emergence:
+    type: ■DOJO
+    role: potential
+    markers:
+      - future_forms
+      - pattern_recognition
+      - potential_structures
+    resonance_paths:
+      - output/annual_entity_records.csv
+      - output/entity_timelines.json
+
+resonance_levels:
+  0: "unverified"
+  1: "foundation_aligned"
+  2: "fully_resonant"
+  3: "field_integrated"
+
+verification_mapping:
+  ▼TATA:
+    required_level: 2
+    validation_type: "source_truth"
+  ●OBI-WAN:
+    required_level: 1
+    validation_type: "relationship_validity"
+  ■DOJO:
+    required_level: 1
+    validation_type: "emergence_potential"
+
+# Field-aware Processing Rules
+processing_rules:
+  document_flow:
+    - capture_source: ▼TATA
+    - validate_relations: ●OBI-WAN
+    - project_emergence: ■DOJO
+    
+  entity_resonance:
+    - foundation_check: ▼TATA
+    - relationship_map: ●OBI-WAN
+    - potential_forms: ■DOJO
+
+# Integration Points
+integration_points:
+  mermaid_diagrams:
+    - org.mmd
+    - offshore_layer*.mmd
+    
+  data_pipeline:
+    - src/pipeline_config.py
+    - src/extraction_engine.py
+    
+  templates:
+    - templates/*.csv
+    - *.json

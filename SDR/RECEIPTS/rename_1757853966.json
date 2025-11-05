@@ -1,0 +1,12 @@
+{
+  "receipt_id": "rename_1757853966",
+  "item_id": "\u25fc\ufe0e_triadic_geometry_alignment__2025-09-14T22-46-06Z__-37.8136,144.9631__0f8ad6d3.py",
+  "operation": "rename_receipt",
+  "status": "created",
+  "details": {
+    "original_path": "/Users/jbear/FIELD/\u25cf\u25ce_FIELD_TRAIN_STATION/triadic_geometry_alignment.py",
+    "canonical_name": "\u25fc\ufe0e_triadic_geometry_alignment__2025-09-14T22-46-06Z__-37.8136,144.9631__0f8ad6d3.py",
+    "ttl_expires": "2025-09-16T22:46:06.786686"
+  },
+  "timestamp": "2025-09-14T22:46:06.786721"
+}

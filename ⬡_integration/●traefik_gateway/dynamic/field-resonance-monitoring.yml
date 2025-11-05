@@ -1,0 +1,180 @@
+# 🔷 Field Resonance Monitoring Service
+# Purpose: Monitor homefield resonance scores and integrate with Traefik health checks
+# Based on: /Users/jbear/FIELD/⬡_integration/accounts/_temporal_logs/breath_scan_*.json
+
+http:
+  services:
+    # Resonance Monitoring Core Service
+    field-resonance-monitor:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:7777"  # Resonance monitoring port
+        healthCheck:
+          path: "/resonance/health"
+          interval: 15s
+          timeout: 5s
+          headers:
+            X-Monitor-Type: "Field Resonance"
+            X-Threshold: "0.85"
+            X-Current-State: "monitoring"
+
+    # Breath Scan Analytics Service
+    breath-scan-analytics:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:7778"  # Analytics port
+        healthCheck:
+          path: "/analytics/health"
+          interval: 30s
+          timeout: 10s
+          headers:
+            X-Analytics-Type: "Breath Scan"
+            X-Log-Location: "_temporal_logs"
+
+    # API Validation Service (for critical services monitoring)
+    api-validation-service:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:7779"  # Validation port
+        healthCheck:
+          path: "/validation/health"
+          interval: 60s
+          timeout: 15s
+          headers:
+            X-Validation-Target: "OpenAI,Gemini,GCP"
+            X-Critical-Only: "true"
+
+  routers:
+    # Real-time resonance dashboard
+    resonance-dashboard:
+      rule: "Host(`homefield.local`) && PathPrefix(`/resonance/dashboard`)"
+      service: "field-resonance-monitor"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resonance-headers"
+        - "cors-headers"
+
+    # Resonance API endpoints
+    resonance-current:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/resonance/current`)"
+      service: "field-resonance-monitor"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "resonance-auth"
+
+    resonance-history:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/resonance/history`)"
+      service: "field-resonance-monitor"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "resonance-auth"
+
+    # Breath scan endpoints
+    breath-scan-latest:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/breath-scan/latest`)"
+      service: "breath-scan-analytics"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "breath-scan-auth"
+
+    breath-scan-analytics-endpoint:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/breath-scan/analytics`)"
+      service: "breath-scan-analytics"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "analytics-headers"
+
+    # API validation monitoring
+    api-validation-status:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/validation/status`)"
+      service: "api-validation-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "validation-auth"
+
+    # Critical alerts endpoint (for low resonance notifications)
+    resonance-alerts:
+      rule: "Host(`homefield.local`) && PathPrefix(`/alerts/resonance`)"
+      service: "field-resonance-monitor"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "alert-headers"
+        - "rate-limit"
+
+  middlewares:
+    # Resonance monitoring specific headers
+    resonance-headers:
+      headers:
+        customRequestHeaders:
+          X-Monitor-Service: "Field Resonance"
+          X-Threshold-Target: "0.85"
+          X-Monitor-Frequency: "15s"
+          X-Data-Source: "_temporal_logs/breath_scan"
+        customResponseHeaders:
+          X-Field-State: "monitoring"
+          X-Resonance-Monitoring: "active"
+
+    # Breath scan analytics headers
+    analytics-headers:
+      headers:
+        customRequestHeaders:
+          X-Analytics-Service: "Breath Scan"
+          X-Log-Pattern: "breath_scan_*.json"
+          X-Critical-Services: "OpenAI,Gemini,GCP"
+        customResponseHeaders:
+          X-Analytics-Active: "true"
+          X-Data-Processing: "real-time"
+
+    # Alert system headers (for low resonance warnings)
+    alert-headers:
+      headers:
+        customRequestHeaders:
+          X-Alert-Type: "Resonance Threshold"
+          X-Critical-Level: "0.85"
+          X-Alert-Priority: "HIGH"
+        customResponseHeaders:
+          X-Alert-System: "active"
+          X-Notification-Method: "headers"
+
+    # Authentication for resonance endpoints
+    resonance-auth:
+      headers:
+        customRequestHeaders:
+          X-Auth-Type: "Field Resonance"
+          X-Access-Level: "monitoring"
+          X-Field-Auth: "homefield-7.0"
+
+    # Breath scan authentication  
+    breath-scan-auth:
+      headers:
+        customRequestHeaders:
+          X-Auth-Type: "Breath Scan Analytics"
+          X-Access-Level: "analytics"
+          X-Temporal-Access: "true"
+
+    # API validation authentication
+    validation-auth:
+      headers:
+        customRequestHeaders:
+          X-Auth-Type: "API Validation"
+          X-Access-Level: "system"
+          X-Critical-Only: "true"
+
+    # Rate limiting for alert endpoints
+    alert-rate-limit:
+      rateLimit:
+        burst: 10
+        period: 1m
+        average: 5

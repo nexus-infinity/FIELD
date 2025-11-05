@@ -1,0 +1,114 @@
+#!/bin/bash
+
+# field_status - FIELD system status check script
+# This is a stub implementation that needs to be developed
+
+show_help() {
+    cat << 'EOF'
+field_status - FIELD system status checker
+
+USAGE:
+    field_status [OPTIONS]
+
+OPTIONS:
+    --verbose, -v       Verbose status output
+    --json, -j          Output in JSON format
+    --quick, -q         Quick status check only
+    --help, -h          Show this help message
+
+DESCRIPTION:
+    Checks and reports the overall status of the FIELD system.
+    This is currently a stub implementation.
+
+STATUS: STUB - Needs implementation
+EOF
+}
+
+# Parse arguments
+VERBOSE=false
+JSON_OUTPUT=false
+QUICK=false
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --verbose|-v)
+            VERBOSE=true
+            shift
+            ;;
+        --json|-j)
+            JSON_OUTPUT=true
+            shift
+            ;;
+        --quick|-q)
+            QUICK=true
+            shift
+            ;;
+        --help|-h)
+            show_help
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1" >&2
+            exit 1
+            ;;
+    esac
+done
+
+# Status check function
+check_status() {
+    local errors=0
+    
+    # Basic environment checks
+    [ ! -d "$FIELD_ROOT" ] && ((errors++))
+    [ ! -d "$FIELD_DEV_DIR" ] && ((errors++))
+    [ ! -d "$FIELD_ROOT/●OBI-WAN" ] && ((errors++))
+    [ ! -d "$FIELD_ROOT/▲ATLAS" ] && ((errors++))
+    
+    # Return status based on errors
+    if [ $errors -eq 0 ]; then
+        return 0  # All good
+    else
+        return 1  # Issues found
+    fi
+}
+
+# Text output
+if [ "$QUICK" = true ]; then
+    # Quick check for prompt
+    check_status
+    exit $?
+fi
+
+# Full status output
+echo "🔮 FIELD System Status (STUB)"
+echo "============================="
+echo "Timestamp: $(date)"
+echo ""
+
+echo "Environment:"
+echo "- FIELD_ROOT: $FIELD_ROOT"
+echo "- FIELD_DEV_DIR: $FIELD_DEV_DIR"
+echo ""
+
+echo "Core Components:"
+echo "- ●OBI-WAN: $([ -d "$FIELD_ROOT/●OBI-WAN" ] && echo "✅ Active" || echo "❌ Missing")"
+echo "- ▲ATLAS: $([ -d "$FIELD_ROOT/▲ATLAS" ] && echo "✅ Active" || echo "❌ Missing")"
+echo "- ▼TATA: $([ -d "$FIELD_ROOT/▼TATA" ] && echo "✅ Active" || echo "❌ Missing")"
+echo "- ◼︎DOJO: $([ -d "$FIELD_ROOT/◼︎DOJO" ] && echo "✅ Active" || echo "❌ Missing")"
+echo "- SomaLink: $([ -d "$FIELD_ROOT/SomaLink" ] && echo "✅ Active" || echo "❌ Missing")"
+
+if [ "$VERBOSE" = true ]; then
+    echo ""
+    echo "Detailed Information:"
+    echo "- Current Working Directory: $(pwd)"
+    echo "- Shell: $SHELL"
+    echo "- PATH includes FIELD directories: $(echo $PATH | grep -q "$FIELD_ROOT\|$FIELD_DEV_DIR" && echo "✅" || echo "❌")"
+    echo "- FIELD commands available: $(command -v field_validate >/dev/null && echo "✅" || echo "❌")"
+fi
+
+echo ""
+echo "⚠️  This is a STUB implementation - full status logic needs to be implemented"
+echo "   Location: /Users/jbear/FIELD/bin/field_status"
+
+# Return appropriate exit code
+check_status

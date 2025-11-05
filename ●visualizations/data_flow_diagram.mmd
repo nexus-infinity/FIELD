@@ -1,0 +1,105 @@
+
+flowchart TD
+    %% Sacred Tetrahedral Structure with Frequency Overlay
+    
+    %% External Input Layer
+    GMAIL[📧 Gmail Feed]
+    APIS[🔌 API Feeds]
+    LOGS[📋 Log Feeds]
+    
+    %% Intake Buffer
+    INTAKE[◐ INTAKE<br/>Buffer Zone<br/>/Volumes/Akron/INTAKE]
+    
+    %% Sacred Heart - FIELD Core
+    FIELD{△ FIELD<br/>Sacred Heart<br/>432 Hz<br/>Port 3000}
+    
+    %% Tetrahedral Core Nodes
+    OBI_WAN[● OBI-WAN<br/>Observer<br/>528 Hz Love<br/>Port 6000]
+    TATA[▼ TATA<br/>Temporal Law<br/>741 Hz Awakening<br/>Port 7000]
+    ATLAS[▲ ATLAS<br/>Intelligence<br/>256 Hz Root<br/>Port 2560]
+    DOJO[◼︎ DOJO<br/>Manifestation<br/>963 Hz Crown<br/>Port 8000]
+    
+    %% Support Layers
+    FIELD_LIVING[◎ FIELD-LIVING<br/>Infrastructure<br/>Port 9000-9999]
+    FIELD_DEV[● FIELD-DEV<br/>Development<br/>Archive]
+    
+    %% Storage & Archive
+    SDR[◉ SDR<br/>Canonical Truth<br/>/Volumes/Akron/SDR]
+    
+    %% Interface Layer
+    INTERFACE[○ INTERFACE<br/>berjak.com.au<br/>berjak.co]
+    
+    %% Data Flow Connections
+    GMAIL --> INTAKE
+    APIS --> INTAKE
+    LOGS --> INTAKE
+    
+    INTAKE --> FIELD
+    
+    %% Sacred Geometric Flow (Tetrahedral)
+    FIELD --> OBI_WAN
+    FIELD --> TATA
+    FIELD --> ATLAS
+    FIELD --> DOJO
+    
+    %% Cross-resonance (Sacred Connections)
+    OBI_WAN -.-> TATA
+    TATA -.-> ATLAS
+    ATLAS -.-> DOJO
+    DOJO -.-> OBI_WAN
+    
+    %% Support Infrastructure
+    FIELD --> FIELD_LIVING
+    FIELD_LIVING --> FIELD_DEV
+    
+    %% Manifestation Output
+    DOJO --> INTERFACE
+    
+    %% Archival & Canonical
+    FIELD --> SDR
+    
+    %% Frequency Resonance Groups
+    subgraph RESONANCE[" 🎵 Frequency Resonance"]
+        direction TB
+        F256[256 Hz - Root Chakra]
+        F341[341.3 Hz - Solar Plexus]
+        F384[384 Hz - Heart Chakra]
+        F432[432 Hz - Universal]
+        F528[528 Hz - Love]
+        F741[741 Hz - Awakening]
+        F963[963 Hz - Crown]
+    end
+    
+    %% Port Mapping Groups
+    subgraph PORTS[" 🔗 Port Mapping"]
+        direction TB
+        P2000[2000-2999: ATLAS]
+        P3000[3000-3999: FIELD]
+        P4000[4000-4999: CHAKRA]
+        P5000[5000-5999: GEOMETRY]
+        P6000[6000-6999: OBI-WAN]
+        P7000[7000-7999: TATA]
+        P8000[8000-8999: DOJO]
+        P9000[9000-9999: FIELD-LIVING]
+    end
+    
+    %% Styling
+    classDef observer fill:#9370DB,stroke:#333,stroke-width:2px,color:#fff
+    classDef temporal fill:#4B0082,stroke:#333,stroke-width:2px,color:#fff
+    classDef intelligence fill:#8B4513,stroke:#333,stroke-width:2px,color:#fff
+    classDef manifestation fill:#DC143C,stroke:#333,stroke-width:2px,color:#fff
+    classDef sacred fill:#FFD700,stroke:#333,stroke-width:3px,color:#000
+    classDef support fill:#32CD32,stroke:#333,stroke-width:2px,color:#000
+    classDef interface fill:#20B2AA,stroke:#333,stroke-width:2px,color:#fff
+    classDef archive fill:#4682B4,stroke:#333,stroke-width:2px,color:#fff
+    classDef buffer fill:#87CEEB,stroke:#333,stroke-width:2px,color:#000
+    
+    class OBI_WAN observer
+    class TATA temporal
+    class ATLAS intelligence
+    class DOJO manifestation
+    class FIELD sacred
+    class FIELD_LIVING support
+    class INTERFACE interface
+    class SDR archive
+    class INTAKE buffer

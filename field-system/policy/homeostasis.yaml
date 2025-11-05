@@ -1,0 +1,289 @@
+# FIELD System Homeostasis Policy
+# Defines Sacred Field operations, HOME FIELD budgets, and gating rules
+# Last Updated: 2025-08-17
+
+version: "1.0.0"
+environment: production
+
+# Sacred Field Operations - Always Priority 10
+sacred_field:
+  operations:
+    - name: canonical_sdr_ingestion
+      description: "Canonical SDR data ingestion system"
+      priority: 10
+      slo:
+        success_rate: 0.99
+        max_latency_ms: 5000
+        daily_window: "02:00-06:00"
+      placement: MAC_STUDIO
+      
+    - name: backup_automation
+      description: "Automated backup via LaunchAgent"
+      priority: 10
+      slo:
+        success_rate: 0.99
+        rpo_hours: 24
+        rto_hours: 4
+      destinations:
+        - /Volumes/Akron/backups
+        - iCloud Drive/FIELD/backups
+        
+    - name: sovereignty_registry_sync
+      description: "Sovereignty Registry database updates"
+      priority: 10
+      slo:
+        success_rate: 0.99
+        sync_interval_minutes: 60
+      database: /Volumes/Akron/bear_data/sovereignty_registry.db
+      
+    - name: pieces_os_monitoring
+      description: "Pieces OS health and resource monitoring"
+      priority: 10
+      slo:
+        availability: 0.999
+        check_interval_seconds: 30
+      metrics:
+        - cpu_usage
+        - memory_usage
+        - port_status
+        - resource_trends
+        
+    - name: health_api_963
+      description: "Health API endpoint on port 963"
+      priority: 10
+      slo:
+        availability: 0.999
+        response_time_ms: 100
+      port: 963
+      endpoints:
+        - /health
+        - /metrics
+        - /sacred_state
+
+# HOME FIELD Homeostasis Budgets
+homeostasis:
+  cpu:
+    metric: cpu_percent_5m_avg
+    threshold: 70
+    critical: 85
+    actions:
+      - throttle_non_sacred
+      - defer_optimization_tasks
+      - alert_if_sustained
+      
+  memory:
+    metric: memory_percent
+    threshold: 80
+    critical: 90
+    actions:
+      - suspend_walkers
+      - gc_aggressive
+      - restart_heavy_services
+      
+  disk:
+    metric: disk_free_percent
+    threshold: 20
+    critical: 15
+    emergency: 10
+    actions:
+      - cleanup_safe_targets
+      - alert_immediately
+      - emergency_cleanup_if_critical
+      
+  network:
+    metric: network_saturation_percent
+    threshold: 70
+    critical: 85
+    window_seconds: 300
+    actions:
+      - backoff_external_calls
+      - defer_large_transfers
+      - prioritize_local_traffic
+      
+  temperature:
+    metric: cpu_temperature_celsius
+    threshold: 80
+    critical: 90
+    actions:
+      - reduce_workload
+      - increase_fan_speed
+      - emergency_shutdown_if_critical
+
+# Priority Levels
+priorities:
+  sacred: 10
+  homeostasis: 8
+  optimization: 5
+  analysis: 3
+  external: 2
+  deferred: 1
+
+# Node-Specific Configurations
+nodes:
+  MAC_STUDIO:
+    role: primary_orchestrator
+    capabilities:
+      - heavy_compute
+      - always_on
+      - high_bandwidth
+    frequency: continuous
+    concurrency: 8
+    
+  KITCHEN_IMAC:
+    role: development_hub
+    capabilities:
+      - nixos
+      - akron_gateway
+      - sdr_databases
+    frequency: high
+    concurrency: 4
+    
+  DEN_IMAC:
+    role: operations_center
+    capabilities:
+      - monitoring
+      - control_center
+      - legacy_stable
+    frequency: medium
+    concurrency: 2
+    note: "Older Mac - be gentle"
+    
+  MACBOOK_AIR:
+    role: mobile_operations
+    capabilities:
+      - field_testing
+      - mobile_dev
+      - battery_aware
+    frequency: low
+    concurrency: 2
+    active_hours: "09:00-18:00"
+
+# Internal Alignment Scoring
+internal_alignment:
+  components:
+    - name: sacred_slo_achievement
+      weight: 0.35
+      metric: sacred_operations_success_rate
+      
+    - name: homeostasis_compliance
+      weight: 0.25
+      metric: budget_violations_per_day
+      inverse: true
+      
+    - name: task_completion_rate
+      weight: 0.20
+      metric: tasks_completed_vs_created_ratio
+      
+    - name: system_stability
+      weight: 0.10
+      metric: mtbf_hours
+      
+    - name: test_coverage
+      weight: 0.10
+      metric: test_pass_rate
+      
+  gate:
+    minimum_score: 0.8
+    consecutive_days: 14
+    actions_when_met:
+      - enable_external_engagement
+      - unlock_market_analysis
+      - allow_community_interaction
+
+# Sovereignty Targets
+sovereignty:
+  electricity:
+    current: 0.0
+    phase1_target: 0.5
+    ultimate_target: 1.0
+    measurement: produced_kwh_vs_consumed
+    
+  compute:
+    current: 0.3
+    phase1_target: 0.7
+    ultimate_target: 0.95
+    measurement: local_workloads_vs_cloud
+    
+  data:
+    current: 0.6
+    phase1_target: 0.9
+    ultimate_target: 1.0
+    measurement: local_critical_data_percentage
+    
+  network_independence:
+    current: 0
+    phase1_target: 3
+    ultimate_target: 7
+    measurement: offline_operability_days
+
+# External Engagement Rules
+external_engagement:
+  mode: observe_only
+  gate_required: internal_alignment
+  
+  signals_to_monitor:
+    - home_energy_sovereignty
+    - mcp_ecosystem
+    - pieces_os_community
+    - starlink_policies
+    - local_solar_incentives
+    
+  entry_criteria:
+    readiness_score: 0.7
+    opportunity_score: 0.6
+    combined_threshold: 0.65
+    
+  shadow_mode:
+    enabled: true
+    collect_data: true
+    no_external_actions: true
+    queue_for_approval: true
+
+# Cleanup Targets (Safe)
+cleanup:
+  safe_targets:
+    - path: ~/Library/Caches
+      age_days: 7
+      
+    - path: /Library/Logs
+      age_days: 30
+      
+    - path: /private/var/folders
+      pattern: "*/T/*"
+      age_days: 3
+      
+    - path: ~/Library/Developer/Xcode/DerivedData
+      age_days: 14
+      
+    - path: ~/.npm/_cacache
+      age_days: 30
+      
+    - path: ~/Library/Caches/Homebrew
+      command: brew cleanup
+      
+  emergency_mode:
+    trigger_disk_free_percent: 10
+    require_approval: false
+    notify_immediately: true
+
+# Scheduling Windows
+schedules:
+  heavy_operations: "02:00-06:00"
+  backups: "03:00-05:00"
+  optimization: "00:00-07:00"
+  external_scans: "04:00-05:00"
+  
+# Monitoring & Alerting
+monitoring:
+  health_check_interval: 30
+  metric_retention_days: 90
+  alert_channels:
+    - macos_notification_center
+    - log_file
+    - health_api
+  
+  alert_thresholds:
+    sacred_failure: immediate
+    homeostasis_violation: 5_minutes
+    disk_critical: immediate
+    api_key_failure: 15_minutes

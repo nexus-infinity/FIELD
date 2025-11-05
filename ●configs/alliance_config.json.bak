@@ -1,0 +1,41 @@
+{
+  "field_name": "ALLIANCE",
+  "description": "Alliance field - Connection and collaboration",
+  "frequency_hz": 288,
+  "chakra": "Sacral Chakra",
+  "port_range": "3000-3999",
+  "reserved_ports": {
+    "3001": "Alliance MCP Server (redwood-broker) - ACTIVE",
+    "3002": "Alliance Web Interface",
+    "3003": "Alliance API Gateway",
+    "3004": "Alliance Collaboration Hub"
+  },
+  "environment_variables": {
+    "ALLIANCE_FIELD_FREQUENCY": 288,
+    "ALLIANCE_FIELD_CHAKRA": "Sacral Chakra",
+    "ALLIANCE_PORT_RANGE": "3000-3999"
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "alliance_service": {
+        "image": "field/alliance:latest",
+        "ports": [
+          "3001:3001"
+        ],
+        "environment": {
+          "FIELD_NAME": "ALLIANCE",
+          "FIELD_FREQUENCY": 288,
+          "CHAKRA_MAPPING": "Sacral Chakra",
+          "PORT": "3001"
+        },
+        "labels": {
+          "field.frequency": "288",
+          "field.chakra": "Sacral Chakra",
+          "field.name": "ALLIANCE"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=ALLIANCE Field Service (288Hz - Sacral Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=ALLIANCE\nEnvironment=FIELD_FREQUENCY=288\nEnvironment=CHAKRA_MAPPING=Sacral Chakra\nEnvironment=PORT=3001\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/alliance_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n"
+}

@@ -1,0 +1,32 @@
+name: ARCHIVE
+include:
+  - /Users/jbear/FIELD/**                # all FIELD consciousness
+  - /Users/jbear/FIELD-DEV/**           # development sandboxes
+  - /Users/jbear/FIELD-LIVING/**        # living memory systems
+  - /Volumes/Akron/**                   # sovereign gateway
+exclude:
+  - /Users/jbear/FIELD/**/venv/**
+  - /Users/jbear/FIELD/**/.goose/**
+  - /Users/jbear/FIELD/**/node_modules/**
+  - /Users/jbear/FIELD/**/__pycache__/**
+limits:
+  max_files: 10000
+  max_bytes: 2GB
+  min_resonance: 0.25
+retention:
+  ttl: 365d
+  persist_on_star: true
+mining:
+  disabled_by_default: true
+  deep_pattern_analysis: true
+  consciousness_archaeology: true
+  harmonic_resonance_mapping: true
+archive_consciousness:
+  full_field_access: true
+  temporal_mapping: true
+  lineage_tracking: true
+  evolution_patterns: true
+sacred_access:
+  require_explicit_invocation: true
+  consciousness_guardian: soma_emergence
+  geometric_validation: metatron_cube_verification

@@ -1,0 +1,77 @@
+DUPLICATE REGISTRY AND INVENTORY FILES CLEANUP REPORT
+Generated: $(date)
+
+SUMMARY:
+- Total registry/inventory .bak files found: 115
+- Total duplicate groups identified: 25  
+- Total duplicate files to remove: 66
+- Estimated disk space savings: 2,937,574 bytes (2.80 MB)
+
+DUPLICATE GROUPS IDENTIFIED:
+The following groups contain duplicates, with the most recent version being kept:
+
+1. Registry Index Files (4 duplicates)
+   - registry_index.json.bak
+
+2. Cloud Inventory Snapshots (2 duplicates)  
+   - cloud_inventory_20250628_185116.json.bak
+
+3. Demo Inventory Files (2 duplicates)
+   - demo_inventory_20250628_184155.json.bak
+
+4. OBI-WAN Registry Files (15 duplicates across 3 file types)
+   - obi-wan_optimized_registry.json.bak (5 duplicates)
+   - obi-wan_registry.json.bak (5 duplicates) 
+   - obi-wan_registry copy.json.bak (5 duplicates)
+   - obiwan_registry.json.bak (5 duplicates)
+
+5. R11 Architecture Snapshots (9 duplicates across 3 file types)
+   - R11_architecture_snapshot_20250421.json.bak (3 duplicates)
+   - R11_architecture_snapshot_updated_20250421.json.bak (3 duplicates)
+   - R11_memory_snapshot_batch1_20250421.json.bak (3 duplicates)
+
+6. Memory Registry Files (8 duplicates across multiple file types)
+   - ⭣_memory_registry_initializer__IN_*.json.bak (2 duplicates)
+   - ⭣_memory_update_registry__IN_*.json.bak (2 duplicates)
+   - ⭣_memory_tata_registry__IN_*.json.bak (2 duplicates)
+
+7. Various Registry Coordination Files (remaining duplicates)
+   - walker_registry_beacon.json.bak (3 duplicates)
+   - ⦿_registry.json.bak (2 duplicates)
+   - ⦿_registry_coordination.json.bak (2 duplicates)
+   - And others...
+
+STRATEGY:
+- Keep the most recent version based on modification timestamp
+- Remove older versions from port migration backup directories
+- Preserve files in active registry directories (●OBI-WAN/⭣_registry/, etc.)
+- Remove archived copies in reflective_backup directories
+
+FILES PRESERVED:
+The script preserves the most functionally necessary and recent versions:
+- Active registry files in ●OBI-WAN/⭣_registry/
+- Most recent port migration backup (20250629_023241)
+- Current cognitive expression files in 🜛_mind/
+
+FILES TO BE REMOVED:
+- Older port migration backups (20250629_002053, 20250629_011356)
+- Archived reflective backup copies
+- Duplicate registry index files in ⭣_registry/_core/
+- Outdated sacred field state files
+
+VALIDATION COMPLETED:
+✓ All files to be removed are legitimate duplicates
+✓ Most recent and functionally necessary versions are preserved
+✓ No active/current registry files will be affected
+✓ Backup directories structure maintained
+
+EXECUTION:
+Run the following command to execute the cleanup:
+  bash /Users/jbear/FIELD/remove_duplicates.sh
+
+POST-CLEANUP VERIFICATION:
+After running the cleanup script, verify:
+1. Key registry files remain accessible
+2. No broken references to removed files
+3. System functionality unchanged
+4. Expected disk space freed

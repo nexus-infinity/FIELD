@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-09-24T16:33:03.068558",
+  "field_coherence": 1.0,
+  "mcp_servers": {
+    "email-access": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "nlis": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "field-bridge": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "datashare": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "brave-search": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "bridges_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "mongodb": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "cognitive_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "registry_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "web-publications": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "vercel-ai": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "loob": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "field_integration_mcp": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "sacred_core_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "ski": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "dev-frontend": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "transformation_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "living_memory_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "flow_channels_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "crystalline_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "observer_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "memory_patterns_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "pieces-os": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    },
+    "navigation_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "sqlite": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "index_clean": {
+      "configured": true,
+      "command": "unknown",
+      "status": "active"
+    },
+    "google-cloud": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "notion": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "index": {
+      "configured": true,
+      "command": "unknown",
+      "status": "active"
+    },
+    "implementation_mcp": {
+      "configured": true,
+      "command": "python3",
+      "status": "active"
+    },
+    "filesystem": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "git": {
+      "configured": true,
+      "command": "npx",
+      "status": "active"
+    },
+    "python": {
+      "configured": true,
+      "command": "/Users/jbear/FIELD/.venv/bin/python",
+      "status": "active"
+    }
+  },
+  "trinity_state": {
+    "trinity_amplification": true,
+    "intention_interface": true,
+    "observer_ready": true,
+    "tata_validation": true,
+    "atlas_synthesis": true
+  }
+}

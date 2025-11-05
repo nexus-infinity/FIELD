@@ -1,0 +1,96 @@
+{
+  "created": "2025-07-31T18:52:46.180875",
+  "base_path": "/Users/jbear/FIELD/logs",
+  "monitors": {
+    "cleanup": {
+      "description": "System cleanup operations and maintenance",
+      "directory": "/Users/jbear/FIELD/logs/cleanup",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/cleanup/cleanup_config.json"
+    },
+    "system": {
+      "description": "System-level events and errors from macOS",
+      "directory": "/Users/jbear/FIELD/logs/system",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/system/system_config.json"
+    },
+    "install": {
+      "description": "Software installation and update events",
+      "directory": "/Users/jbear/FIELD/logs/install",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/install/install_config.json"
+    },
+    "memory": {
+      "description": "Memory usage monitoring and process tracking",
+      "directory": "/Users/jbear/FIELD/logs/memory",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/memory/memory_config.json"
+    },
+    "disk": {
+      "description": "Disk space analysis and storage monitoring",
+      "directory": "/Users/jbear/FIELD/logs/disk",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/disk/disk_config.json"
+    },
+    "network": {
+      "description": "Network activity and connectivity monitoring",
+      "directory": "/Users/jbear/FIELD/logs/network",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/network/network_config.json"
+    },
+    "process": {
+      "description": "Process lifecycle and resource usage",
+      "directory": "/Users/jbear/FIELD/logs/process",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/process/process_config.json"
+    },
+    "security": {
+      "description": "Security events and authentication logs",
+      "directory": "/Users/jbear/FIELD/logs/security",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/security/security_config.json"
+    },
+    "performance": {
+      "description": "System performance metrics and benchmarks",
+      "directory": "/Users/jbear/FIELD/logs/performance",
+      "active": false,
+      "last_run": null,
+      "next_scheduled": null,
+      "alert_threshold": "24h",
+      "log_retention": "30d",
+      "config_file": "/Users/jbear/FIELD/logs/performance/performance_config.json"
+    }
+  }
+}

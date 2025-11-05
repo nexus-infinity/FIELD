@@ -1,0 +1,13 @@
+{
+  "name": "warp_gcp",
+  "description": "Warp + GCP bootstrap runbook",
+  "operations": [
+    "bootstrap",
+    "runbook",
+    "deployment"
+  ],
+  "api_endpoint": "http://localhost:8000/warp-gcp",
+  "notion_sync": true,
+  "datashare_integration": true,
+  "gitbook_docs": true
+}

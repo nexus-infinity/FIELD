@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berjak CRM - Field Resource Ecosystem</title>
+    <style>
+        /* ===================================== */
+        /* DOCUMENT STATE VISUAL HIERARCHY      */
+        /* Based on Real Document Presentation  */
+        /* ===================================== */
+        
+        :root {
+            /* Document State Color Palette */
+            --draft-color: #8B7355;          /* Rough paper brown */
+            --draft-bg: #FAF7F0;             /* Cream paper */
+            --wip-color: #4A5568;            /* Pencil gray */
+            --wip-bg: #F7FAFC;               /* Clean white */
+            --review-color: #2D3748;         /* Professional blue-gray */
+            --review-bg: #EDF2F7;            /* Light review background */
+            --approved-color: #1A365D;       /* Deep authoritative blue */
+            --approved-bg: #FFFFFF;          /* Pure white */
+            --archived-color: #2F4F4F;       /* Historic dark slate */
+            --archived-bg: #F8F8FF;          /* Ghost white */
+            
+            /* Accent Colors */
+            --berjak-primary: #1B4B5A;       /* Deep teal - sophisticated */
+            --berjak-secondary: #2C5F2D;     /* Forest green - stability */
+            --berjak-accent: #B8860B;        /* Dark goldenrod - quality */
+            --berjak-highlight: #CD853F;     /* Peru - warmth */
+            
+            /* Typography */
+            --font-primary: 'Georgia', 'Times New Roman', serif;
+            --font-secondary: 'Helvetica Neue', 'Arial', sans-serif;
+            --font-mono: 'SF Mono', 'Monaco', monospace;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-primary);
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            color: var(--approved-color);
+        }
+        
+        /* ===================================== */
+        /* MAIN CONTAINER - Like a Desk Surface */
+        /* ===================================== */
+        
+        .desk-surface {
+            min-height: 100vh;
+            padding: 2rem;
+            background: 
+                radial-gradient(circle at 20% 20%, rgba(255,255,255,0.1) 1px, transparent 1px),
+                linear-gradient(135deg, 
+                    #2C3E50 0%,   /* Dark slate */
+                    #34495E 25%, /* Wet asphalt */
+                    #2C3E50 50%, /* Dark slate */
+                    #1A252F 100% /* Midnight blue */
+                );
+            background-size: 60px 60px, 100% 100%;
+        }
+        
+        /* ===================================== */
+        /* HEADER - Executive Nameplate Style   */
+        /* ===================================== */
+        
+        .executive-header {
+            background: linear-gradient(145deg, 
+                #1B4B5A 0%,
+                #2C5F2D 50%, 
+                #1B4B5A 100%
+            );
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 
+                0 8px 32px rgba(0,0,0,0.3),
+                inset 0 1px 0 rgba(255,255,255,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .executive-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, 
+                transparent 0%,
+                var(--berjak-accent) 50%,
+                transparent 100%
+            );
+        }
+        
+        .company-title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #FFFFFF;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-family: var(--font-primary);
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .system-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.8);
+            font-family: var(--font-secondary);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        /* ===================================== */
+        /* DOCUMENT CONTAINERS                   */
+        /* Each represents different doc states  */
+        /* ===================================== */
+        
+        .document-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        /* DRAFT DOCUMENTS - Rough, unfinished */
+        .document-draft {
+            background: var(--draft-bg);
+            border: 2px dashed var(--draft-color);
+            border-radius: 4px;
+            padding: 1.5rem;
+            position: relative;
+            transform: rotate(-0.5deg);
+            box-shadow: 2px 2px 8px rgba(139, 115, 85, 0.2);
+        }
+        
+        .document-draft::before {
+            content: "DRAFT";
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: var(--draft-color);
+            font-size: 0.8rem;
+            opacity: 0.6;
+            transform: rotate(15deg);
+            font-family: var(--font-mono);
+        }
+        
+        .document-draft .doc-title {
+            color: var(--draft-color);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        
+        /* WORK IN PROGRESS - Clean but incomplete */
+        .document-wip {
+            background: var(--wip-bg);
+            border: 1px solid var(--wip-color);
+            border-left: 4px solid var(--berjak-primary);
+            border-radius: 6px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(74, 85, 104, 0.15);
+            position: relative;
+        }
+        
+        .document-wip::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, 
+                var(--berjak-primary) 0%,
+                var(--berjak-primary) 60%,
+                transparent 60%,
+                transparent 100%
+            );
+            width: 100%;
+        }
+        
+        .document-wip .doc-title {
+            color: var(--wip-color);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* APPROVED DOCUMENTS - Authoritative, final */
+        .document-approved {
+            background: var(--approved-bg);
+            border: 2px solid var(--berjak-primary);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 
+                0 8px 24px rgba(27, 75, 90, 0.2),
+                inset 0 1px 0 rgba(255,255,255,0.8);
+            position: relative;
+        }
+        
+        .document-approved::before {
+            content: "✓";
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            color: var(--berjak-secondary);
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .document-approved .doc-title {
+            color: var(--approved-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        /* ARCHIVED DOCUMENTS - Historic, preserved */
+        .document-archived {
+            background: var(--archived-bg);
+            border: 1px solid var(--archived-color);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 
+                0 6px 20px rgba(47, 79, 79, 0.15),
+                inset 0 0 0 1px rgba(248, 248, 255, 0.8);
+            position: relative;
+            opacity: 0.9;
+        }
+        
+        .document-archived::before {
+            content: "📜";
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 1.2rem;
+            opacity: 0.7;
+        }
+        
+        .document-archived .doc-title {
+            color: var(--archived-color);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        
+        /* ===================================== */
+        /* DOCUMENT CONTENT STYLING              */
+        /* ===================================== */
+        
+        .doc-meta {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-bottom: 1rem;
+            font-family: var(--font-secondary);
+        }
+        
+        .doc-content {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .doc-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            opacity: 0.8;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            padding-top: 1rem;
+        }
+        
+        /* ===================================== */
+        /* BUSINESS METRICS DASHBOARD            */
+        /* Like a Financial Statement Layout     */
+        /* ===================================== */
+        
+        .business-dashboard {
+            background: #FFFFFF;
+            border: 2px solid var(--berjak-primary);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 
+                0 10px 30px rgba(27, 75, 90, 0.2),
+                inset 0 1px 0 rgba(255,255,255,0.9);
+        }
+        
+        .dashboard-title {
+            font-size: 1.8rem;
+            color: var(--berjak-primary);
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, 
+                rgba(27, 75, 90, 0.05) 0%,
+                rgba(44, 95, 45, 0.05) 100%
+            );
+            border: 1px solid rgba(27, 75, 90, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--berjak-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--berjak-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* ===================================== */
+        /* NAVIGATION - Like Folder Tabs        */
+        /* ===================================== */
+        
+        .folder-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .folder-tab {
+            background: linear-gradient(145deg, 
+                #E2E8F0 0%,
+                #CBD5E0 100%
+            );
+            border: 1px solid var(--berjak-primary);
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            padding: 0.8rem 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: var(--font-secondary);
+            font-weight: 500;
+            color: var(--berjak-primary);
+        }
+        
+        .folder-tab:hover {
+            background: linear-gradient(145deg, 
+                #F7FAFC 0%,
+                #E2E8F0 100%
+            );
+            transform: translateY(-2px);
+        }
+        
+        .folder-tab.active {
+            background: #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        /* ===================================== */
+        /* RESPONSIVE DESIGN                     */
+        /* ===================================== */
+        
+        @media (max-width: 768px) {
+            .desk-surface {
+                padding: 1rem;
+            }
+            
+            .document-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .company-title {
+                font-size: 2rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        /* ===================================== */
+        /* INTERACTIVE ELEMENTS                  */
+        /* ===================================== */
+        
+        .document-draft:hover,
+        .document-wip:hover,
+        .document-approved:hover,
+        .document-archived:hover {
+            transform: scale(1.02) translateY(-2px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .document-approved:hover {
+            box-shadow: 
+                0 12px 32px rgba(27, 75, 90, 0.3),
+                inset 0 1px 0 rgba(255,255,255,0.9);
+        }
+    </style>
+</head>
+<body>
+    <div class="desk-surface">
+        <!-- Executive Header -->
+        <header class="executive-header">
+            <h1 class="company-title">Berjak</h1>
+            <p class="system-subtitle">Field Resource Ecosystem • Customer Relationship Management</p>
+        </header>
+        
+        <!-- Business Dashboard -->
+        <section class="business-dashboard">
+            <h2 class="dashboard-title">Business Intelligence Overview</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">2,859</div>
+                    <div class="metric-label">Files Managed</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">80%</div>
+                    <div class="metric-label">System Health</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">11.9 GB</div>
+                    <div class="metric-label">Data Processed</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">5</div>
+                    <div class="metric-label">Active Projects</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Document State Tabs -->
+        <nav class="folder-tabs">
+            <div class="folder-tab active">Active Documents</div>
+            <div class="folder-tab">In Review</div>
+            <div class="folder-tab">Approved</div>
+            <div class="folder-tab">Archive</div>
+            <div class="folder-tab">Drafts</div>
+        </nav>
+        
+        <!-- Document Grid -->
+        <section class="document-grid">
+            <!-- Draft Document -->
+            <article class="document-draft">
+                <h3 class="doc-title">Q4 Strategy Notes</h3>
+                <div class="doc-meta">Created: Today • Last modified: 2 hours ago</div>
+                <div class="doc-content">
+                    Initial thoughts on strategic direction for Q4. Need to incorporate feedback from the team meeting and align with the field resource ecosystem rollout...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: Draft</span>
+                    <span>Progress: 30%</span>
+                </div>
+            </article>
+            
+            <!-- Work in Progress -->
+            <article class="document-wip">
+                <h3 class="doc-title">Client Onboarding Process</h3>
+                <div class="doc-meta">Created: Sept 14 • Under development</div>
+                <div class="doc-content">
+                    Comprehensive guide for onboarding new clients into the Berjak CRM system. Includes data migration, training schedules, and integration protocols...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: In Progress</span>
+                    <span>Progress: 75%</span>
+                </div>
+            </article>
+            
+            <!-- Approved Document -->
+            <article class="document-approved">
+                <h3 class="doc-title">Field Resource Ecosystem Implementation</h3>
+                <div class="doc-meta">Approved: Sept 16, 2025 • Executive Level</div>
+                <div class="doc-content">
+                    Comprehensive implementation guide for the Field Resource Ecosystem. This document outlines the professional integration of all business systems into a unified interface...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: Approved</span>
+                    <span>Importance: Executive</span>
+                </div>
+            </article>
+            
+            <!-- Archived Document -->
+            <article class="document-archived">
+                <h3 class="doc-title">Legacy System Migration Records</h3>
+                <div class="doc-meta">Archived: Aug 2025 • Historical Reference</div>
+                <div class="doc-content">
+                    Complete documentation of the migration from legacy ERP systems to the new Field Resource Ecosystem. Preserved for compliance and historical reference...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: Archived</span>
+                    <span>Retention: 7 years</span>
+                </div>
+            </article>
+            
+            <!-- Another Draft -->
+            <article class="document-draft">
+                <h3 class="doc-title">Meeting Notes - MBA Strategic Framework</h3>
+                <div class="doc-meta">Created: Today • Personal notes</div>
+                <div class="doc-content">
+                    Ideas from the MBA strategic development framework. Need to integrate these concepts with the backbone structure for the CRM evolution...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: Draft</span>
+                    <span>Visibility: Private</span>
+                </div>
+            </article>
+            
+            <!-- Work in Progress - CRM Enhancement -->
+            <article class="document-wip">
+                <h3 class="doc-title">Visual Design System Guidelines</h3>
+                <div class="doc-meta">Created: Sept 16 • Design in progress</div>
+                <div class="doc-content">
+                    Defining the visual hierarchy for document states in the CRM. Moving away from fractured modern design toward something with real gravity and institutional weight...
+                </div>
+                <div class="doc-stats">
+                    <span>Status: Active Development</span>
+                    <span>Next Review: Tomorrow</span>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <script>
+        // Simple tab functionality
+        document.querySelectorAll('.folder-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.folder-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        
+        // Document interaction
+        document.querySelectorAll('[class^="document-"]').forEach(doc => {
+            doc.addEventListener('click', function() {
+                console.log('Document clicked:', this.querySelector('.doc-title').textContent);
+            });
+        });
+    </script>
+</body>
+</html>

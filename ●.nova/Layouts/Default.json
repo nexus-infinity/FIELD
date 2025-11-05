@@ -1,0 +1,52 @@
+{
+  "layout": {
+    "type": "split",
+    "direction": "horizontal",
+    "items": [
+      {
+        "type": "sidebar",
+        "size": 240,
+        "sections": [
+          {
+            "id": "project",
+            "expanded": true
+          },
+          {
+            "id": "git",
+            "expanded": true
+          },
+          {
+            "id": "symbols",
+            "expanded": false
+          }
+        ]
+      },
+      {
+        "type": "editor",
+        "size": "flex"
+      }
+    ]
+  },
+  "panels": {
+    "bottom": {
+      "height": 200,
+      "visible": false,
+      "active": "terminal"
+    },
+    "right": {
+      "width": 300,
+      "visible": false,
+      "active": "symbols"
+    }
+  },
+  "toolbars": {
+    "visible": true,
+    "items": [
+      "project",
+      "git",
+      "search",
+      "terminal"
+    ]
+  }
+}
+

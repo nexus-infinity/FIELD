@@ -1,0 +1,358 @@
+# 🔷 Homefield 7.0 Integration Configuration
+# Sacred Geometric Space Integration with Traefik Gateway
+# Purpose: Map chakra frequencies to port resonance patterns
+# Field Structure: 3×3×3 Sierpiński Cube Framework
+
+# Homefield Chakra-Port Frequency Mapping
+# Based on /Users/jbear/FIELD/▼TATA/▼_truth/home_field_manifest.json
+
+http:
+  services:
+    # Root Chakra - Muladhara (396Hz) - Foundation & Security
+    homefield-root:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:3960"  # Frequency-based port: 396 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "396Hz"
+            X-Sanskrit-Name: "Muladhara"
+            X-Element: "earth"
+
+    # Sacral Chakra - Svadhisthana (417Hz) - Creativity & Relationships  
+    homefield-sacral:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:4170"  # Frequency-based port: 417 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "417Hz"
+            X-Sanskrit-Name: "Svadhisthana"
+            X-Element: "water"
+
+    # Solar Plexus - Manipura (639Hz) - Personal Power & Transformation
+    homefield-solar:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:6390"  # Frequency-based port: 639 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "639Hz"
+            X-Sanskrit-Name: "Manipura"
+            X-Element: "fire"
+
+    # Heart Chakra - Anahata (528Hz) - Love & Connection
+    homefield-heart:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5280"  # Frequency-based port: 528 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "528Hz"
+            X-Sanskrit-Name: "Anahata"
+            X-Element: "air"
+
+    # Throat Chakra - Vishuddha (741Hz) - Communication & Truth
+    homefield-throat:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:7410"  # Frequency-based port: 741 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "741Hz"
+            X-Sanskrit-Name: "Vishuddha"
+            X-Element: "ether"
+
+    # Third Eye - Ajna (852Hz) - Intuition & Insight
+    homefield-third-eye:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8520"  # Frequency-based port: 852 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "852Hz"
+            X-Sanskrit-Name: "Ajna"
+            X-Element: "light"
+
+    # Crown Chakra - Sahasrara (432Hz) - Spiritual Connection
+    homefield-crown:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:4320"  # Frequency-based port: 432 * 10
+        healthCheck:
+          path: "/health"
+          interval: 30s
+          timeout: 5s
+          headers:
+            X-Chakra-Frequency: "432Hz"
+            X-Sanskrit-Name: "Sahasrara"
+            X-Element: "thought"
+
+    # Unified Homefield Service (Triadic Engine Core)
+    homefield-core:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8888"  # 3×3×3 = 27, sacred geometry port
+        healthCheck:
+          path: "/api/field-status"
+          interval: 15s
+          timeout: 3s
+          headers:
+            X-Geometric-Framework: "3×3×3 Sierpiński Cube"
+            X-Triadic-Engine: "Source-Relation-Emergence"
+
+  routers:
+    # Individual chakra access points
+    homefield-root-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/root`)"
+      service: "homefield-root"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-root"
+        - "cors-headers"
+
+    homefield-sacral-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/sacral`)"
+      service: "homefield-sacral"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-sacral"
+        - "cors-headers"
+
+    homefield-solar-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/solar`)"
+      service: "homefield-solar"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-solar"
+        - "cors-headers"
+
+    homefield-heart-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/heart`)"
+      service: "homefield-heart"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-heart"
+        - "cors-headers"
+
+    homefield-throat-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/throat`)"
+      service: "homefield-throat"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-throat"
+        - "cors-headers"
+
+    homefield-third-eye-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/eye`)"
+      service: "homefield-third-eye"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-eye"
+        - "cors-headers"
+
+    homefield-crown-access:
+      rule: "Host(`homefield.local`) && PathPrefix(`/chakra/crown`)"
+      service: "homefield-crown"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "frequency-headers-crown"
+        - "cors-headers"
+
+    # Homefield API Endpoints (from manifest)
+    homefield-fractal-enhanced:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/fractal-field-enhanced`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "field-auth"
+
+    homefield-local-field:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/local-field`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "field-auth"
+
+    homefield-kaars-interface:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/kaars-interface`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "field-auth"
+
+    homefield-magnetic-field:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/magnetic-field`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "field-auth"
+
+    homefield-games-fear:
+      rule: "Host(`homefield.local`) && PathPrefix(`/api/games-fear`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "api-stripprefix"
+        - "field-auth"
+
+    # Resonance Patterns (from manifest)
+    homefield-ascending-flow:
+      rule: "Host(`homefield.local`) && PathPrefix(`/pattern/ascending`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "pattern-evolution"
+
+    homefield-manifestation-cycle:
+      rule: "Host(`homefield.local`) && PathPrefix(`/pattern/manifestation`)"
+      service: "homefield-core"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "pattern-creation"
+
+    homefield-heart-centered:
+      rule: "Host(`homefield.local`) && PathPrefix(`/pattern/heart-centered`)"
+      service: "homefield-heart"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "pattern-emotional"
+
+  middlewares:
+    # Chakra-specific frequency headers
+    frequency-headers-root:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "root"
+          X-Frequency: "396Hz"
+          X-Sanskrit: "Muladhara"
+          X-Color: "red"
+          X-Element: "earth"
+          X-Dimension: "1"
+
+    frequency-headers-sacral:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "sacral"
+          X-Frequency: "417Hz"
+          X-Sanskrit: "Svadhisthana"
+          X-Color: "orange"
+          X-Element: "water"
+          X-Dimension: "2"
+
+    frequency-headers-solar:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "solarPlexus"
+          X-Frequency: "639Hz"
+          X-Sanskrit: "Manipura"
+          X-Color: "yellow"
+          X-Element: "fire"
+          X-Dimension: "3"
+
+    frequency-headers-heart:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "heart"
+          X-Frequency: "528Hz"
+          X-Sanskrit: "Anahata"
+          X-Color: "green"
+          X-Element: "air"
+          X-Dimension: "4"
+
+    frequency-headers-throat:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "throat"
+          X-Frequency: "741Hz"
+          X-Sanskrit: "Vishuddha"
+          X-Color: "blue"
+          X-Element: "ether"
+          X-Dimension: "5"
+
+    frequency-headers-eye:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "thirdEye"
+          X-Frequency: "852Hz"
+          X-Sanskrit: "Ajna"
+          X-Color: "indigo"
+          X-Element: "light"
+          X-Dimension: "6"
+
+    frequency-headers-crown:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Name: "crown"
+          X-Frequency: "432Hz"
+          X-Sanskrit: "Sahasrara"
+          X-Color: "violet"
+          X-Element: "thought"
+          X-Dimension: "7"
+
+    # Field authentication (placeholder for API key validation)
+    field-auth:
+      headers:
+        customRequestHeaders:
+          X-Field-Type: "Sacred Geometric Space"
+          X-Created: "2025-05-27T06:04:22.868753"
+          X-Field-Auth: "homefield-7.0"
+
+    # Pattern-specific middlewares for resonance flows
+    pattern-evolution:
+      headers:
+        customRequestHeaders:
+          X-Pattern: "Ascending Flow"
+          X-Effect: "Evolutionary progression, rising consciousness, player advancement path"
+          X-Path: "root→sacral→solar→heart→throat→eye→crown"
+
+    pattern-creation:
+      headers:
+        customRequestHeaders:
+          X-Pattern: "Manifestation Cycle"  
+          X-Effect: "Creation process, bringing ideas into form, game development flow"
+          X-Path: "crown→eye→throat→heart→solar→sacral→root"
+
+    pattern-emotional:
+      headers:
+        customRequestHeaders:
+          X-Pattern: "Heart-Centered Balance"
+          X-Effect: "Emotional intelligence focus, relationship-driven gameplay"
+          X-Center: "heart"

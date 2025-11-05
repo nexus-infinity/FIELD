@@ -1,0 +1,56 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: datashare
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: datashare
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.1
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+
+  neo4j:
+    image: neo4j:4.4
+    environment:
+      NEO4J_AUTH: neo4j/password
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+
+  datashare:
+    image: icij/datashare:latest
+    environment:
+      DS_DOCKER_MODE: SERVER
+      DS_DOCKER_ELASTICSEARCH_ADDRESS: http://elasticsearch:9200
+      DS_DOCKER_DATABASE_URL: postgresql://datashare:password@postgres/datashare
+      DS_DOCKER_NEO4J_URI: bolt://neo4j:7687
+    depends_on:
+      - postgres
+      - elasticsearch 
+      - neo4j
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/home/datashare/Datashare
+
+volumes:
+  postgres_data:
+  elasticsearch_data:
+  neo4j_data:
+  neo4j_logs:

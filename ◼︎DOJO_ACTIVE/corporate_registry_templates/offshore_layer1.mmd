@@ -1,0 +1,50 @@
+graph TD;
+
+%% Style definitions
+classDef BVITrust fill:#ffe6e6,stroke:#990000,stroke-width:2px
+classDef Trustee fill:#e6ffe6,stroke:#009900,stroke-width:2px
+classDef Protector fill:#e6e6ff,stroke:#000099,stroke-width:2px
+classDef Email fill:#fff2e6,stroke:#994d00,stroke-width:1px
+classDef Verified fill:#d6f9e3,stroke:#22a147
+classDef Unverified fill:#f9d6d6,stroke:#a12222
+
+%% Core Structure
+pascalli["Pascalli Trust<br/>(BVI)<br/>Est. 2019"]:::BVITrust
+centosa["Centosa S.A.<br/>Trustee<br/>Panama Reg: 155-789-103"]:::Trustee
+freler["Freler Associates<br/>Protector<br/>BVI Reg: 2023-456-789"]:::Protector
+
+%% Email Evidence
+email1["Email: July 12, 2023<br/>Re: Trustee Appointment<br/>From: Panamanian Firm"]:::Email
+email2["Email: July 15, 2023<br/>Re: Protector Role<br/>Response: Acceptance"]:::Email
+email3["Email: July 20, 2023<br/>Re: Structure Confirmation<br/>Final Setup"]:::Email
+
+%% Verification Links
+ver1["Document: Trust Deed<br/>Status: Verified<br/>Ref: BVI-2019-103"]:::Verified
+ver2["Document: Trustee Appointment<br/>Status: Unverified<br/>Pending Original"]:::Unverified
+ver3["Document: Protector Agreement<br/>Status: Verified<br/>Ref: PA-2023-789"]:::Verified
+
+%% Structure Connections
+pascalli -->|"trustee appointed"| centosa
+pascalli -->|"protector assigned"| freler
+centosa -->|"reports to"| freler
+
+%% Evidence Connections
+email1 -->|"establishes"| centosa
+email2 -->|"confirms"| freler
+email3 -->|"finalizes"| pascalli
+
+%% Verification Status
+pascalli -.->|"verified by"| ver1
+centosa -.->|"pending"| ver2
+freler -.->|"verified by"| ver3
+
+%% Notion Database Links
+click pascalli "https://www.notion.so/trusts/pascalli-trust" "View trust details" _blank
+click centosa "https://www.notion.so/trustees/centosa" "View trustee details" _blank
+click freler "https://www.notion.so/protectors/freler" "View protector details" _blank
+click email1 "https://www.notion.so/emails/july-12-2023" "View email thread" _blank
+click email2 "https://www.notion.so/emails/july-15-2023" "View email thread" _blank
+click email3 "https://www.notion.so/emails/july-20-2023" "View email thread" _blank
+
+%% Navigation Notes
+note["Click any element to view detailed documentation<br/>Green border = Verified<br/>Red border = Unverified"]

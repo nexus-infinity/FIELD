@@ -1,0 +1,31 @@
+{
+  "local_patterns": {
+    "space_used": {},
+    "duplicate_clusters": {},
+    "fragmentation_points": {}
+  },
+  "network_patterns": {
+    "connected_nodes": {
+      "bears_imac": {
+        "role": "observer_base",
+        "status": "pending",
+        "hostname": "Bear's iMac._smb._tcp.local"
+      },
+      "den_imac": {
+        "role": "weaver_node",
+        "status": "pending",
+        "hostname": "Den iMac._smb._tcp.local"
+      },
+      "mac_studio": {
+        "role": "architect_core",
+        "status": "pending",
+        "hostname": "Mac Studio._smb._tcp.local"
+      }
+    },
+    "shared_patterns": {},
+    "mirror_points": {}
+  },
+  "truth_signatures": {},
+  "observation_frequency": "963Hz",
+  "timestamp": "2025-06-15T15:29:29.998150"
+}

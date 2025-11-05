@@ -1,0 +1,51 @@
+{
+  "id": "6e19f602-f73b-42b4-9c30-f48d3abcfac7",
+  "content": {
+    "id": "6e19f602-f73b-42b4-9c30-f48d3abcfac7",
+    "symbolic_anchor": "\u25fc\ufe0e",
+    "geometric_validation": {
+      "is_clean": true,
+      "violations": [],
+      "resonance_score": 0.8,
+      "validation_timestamp": "2025-08-06T13:08:06.903238"
+    },
+    "content": {
+      "type": "test_manifestation",
+      "content": "Sacred geometry validation test",
+      "source": "unit_test"
+    },
+    "metadata": {
+      "test": true,
+      "validation_run": true
+    },
+    "execution_ready": true,
+    "sacred_path": "~/FIELD/\u25fc\ufe0e/",
+    "timestamp": "2025-08-06T13:08:06.903653",
+    "lineage": [
+      "test_input",
+      "AKRON \u2192 FIELD-LIVING",
+      "FIELD-LIVING \u2192 FIELD-DEV",
+      "FIELD-DEV \u2192 FIELD"
+    ]
+  },
+  "metadata": {
+    "test": true,
+    "validation_run": true
+  },
+  "phase": "breath_out",
+  "sphere": "field",
+  "symbolic_anchor": "\u25fc\ufe0e",
+  "geometric_validation": {
+    "is_clean": true,
+    "violations": [],
+    "resonance_score": 0.8,
+    "validation_timestamp": "2025-08-06T13:08:06.903238"
+  },
+  "lineage": [
+    "test_input",
+    "AKRON \u2192 FIELD-LIVING",
+    "FIELD-LIVING \u2192 FIELD-DEV",
+    "FIELD-DEV \u2192 FIELD"
+  ],
+  "timestamp": "2025-08-06T13:08:06.899938"
+}

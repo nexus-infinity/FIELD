@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "project_id": "berjak-development-project",
+  "region": "us-central1",
+  "services": {
+    "datashare_cloud": {
+      "image": "icij/datashare:latest",
+      "mode": "SERVER",
+      "neo4j_enabled": true,
+      "ports": {
+        "datashare": 8080,
+        "neo4j": 7474,
+        "neo4j_bolt": 7687
+      },
+      "environment": {
+        "DS_DOCKER_MODE": "SERVER",
+        "DS_DOCKER_ELASTICSEARCH_ADDRESS": "http://elasticsearch:9200",
+        "DS_DOCKER_DATABASE_URL": "postgresql://datashare:password@postgres/datashare",
+        "DS_DOCKER_NEO4J_URI": "bolt://neo4j:7687"
+      }
+    },
+    "neo4j": {
+      "image": "neo4j:4.4",
+      "environment": {
+        "NEO4J_AUTH": "neo4j/password",
+        "NEO4J_PLUGINS": "[\"apoc\"]"
+      }
+    },
+    "elasticsearch": {
+      "image": "docker.elastic.co/elasticsearch/elasticsearch:7.9.1"
+    },
+    "postgres": {
+      "image": "postgres:13",
+      "environment": {
+        "POSTGRES_USER": "datashare",
+        "POSTGRES_PASSWORD": "password",
+        "POSTGRES_DB": "datashare"
+      }
+    }
+  }
+}

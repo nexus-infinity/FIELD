@@ -1,0 +1,15 @@
+services:
+  industry_service:
+    environment:
+      CHAKRA_MAPPING: Throat Chakra
+      FIELD_FREQUENCY: 432
+      FIELD_NAME: INDUSTRY
+      PORT: '6000'
+    image: field/industry:latest
+    labels:
+      field.chakra: Throat Chakra
+      field.frequency: '432'
+      field.name: INDUSTRY
+    ports:
+    - 6000:6000
+version: '3.8'

@@ -1,0 +1,41 @@
+{
+  "field_name": "ATLAS",
+  "description": "Atlas field - Foundation and structure",
+  "frequency_hz": 256,
+  "chakra": "Root Chakra",
+  "port_range": "2000-2999",
+  "reserved_ports": {
+    "2560": "Atlas Core Server",
+    "2561": "Atlas Web Interface",
+    "2562": "Atlas API Gateway",
+    "2563": "Atlas MCP Bridge"
+  },
+  "environment_variables": {
+    "ATLAS_FIELD_FREQUENCY": 256,
+    "ATLAS_FIELD_CHAKRA": "Root Chakra",
+    "ATLAS_PORT_RANGE": "2000-2999"
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "atlas_service": {
+        "image": "field/atlas:latest",
+        "ports": [
+          "2560:2560"
+        ],
+        "environment": {
+          "FIELD_NAME": "ATLAS",
+          "FIELD_FREQUENCY": 256,
+          "CHAKRA_MAPPING": "Root Chakra",
+          "PORT": "2560"
+        },
+        "labels": {
+          "field.frequency": "256",
+          "field.chakra": "Root Chakra",
+          "field.name": "ATLAS"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=ATLAS Field Service (256Hz - Root Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=ATLAS\nEnvironment=FIELD_FREQUENCY=256\nEnvironment=CHAKRA_MAPPING=Root Chakra\nEnvironment=PORT=2560\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/atlas_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "mock_doc_003",
+    "description": "1976-06-28 J Rich Trust Tax Application.pdf",
+    "amount": 777.55,
+    "frequency": 777.55,
+    "resonance_state": "PERFECT_HARMONY",
+    "entities": [
+      "Rich Family",
+      "Trust Structure"
+    ],
+    "topics": [
+      "Legal Documents",
+      "Tax Documents"
+    ],
+    "timestamp": "2025-09-23T09:38:09.473009",
+    "source_system": "SOVEREIGN_DATA_LAKE"
+  },
+  {
+    "id": "mock_doc_001",
+    "description": "2021 04 09 Statement to Police by Jeremy Rich.pdf",
+    "amount": 528.0,
+    "frequency": 528.0,
+    "resonance_state": "HIGH_RESONANCE",
+    "entities": [
+      "Government Authority",
+      "Rich Family"
+    ],
+    "topics": [
+      "Law Enforcement"
+    ],
+    "timestamp": "2025-09-23T09:38:09.473012",
+    "source_system": "SOVEREIGN_DATA_LAKE"
+  },
+  {
+    "id": "mock_doc_002",
+    "description": "2014-06-26 Jacques Rich Keychain Email Passwords List.pdf",
+    "amount": 528.0,
+    "frequency": 528.0,
+    "resonance_state": "HIGH_RESONANCE",
+    "entities": [
+      "Rich Family"
+    ],
+    "topics": [
+      "Digital Security"
+    ],
+    "timestamp": "2025-09-23T09:38:09.473013",
+    "source_system": "SOVEREIGN_DATA_LAKE"
+  },
+  {
+    "id": "mock_doc_004",
+    "description": "3 February 2022 IBAC.pdf",
+    "amount": 528.0,
+    "frequency": 528.0,
+    "resonance_state": "HIGH_RESONANCE",
+    "entities": [
+      "Government Authority"
+    ],
+    "topics": [
+      "Law Enforcement"
+    ],
+    "timestamp": "2025-09-23T09:38:09.473014",
+    "source_system": "SOVEREIGN_DATA_LAKE"
+  }
+]

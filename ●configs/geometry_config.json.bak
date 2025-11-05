@@ -1,0 +1,41 @@
+{
+  "field_name": "GEOMETRY",
+  "description": "Geometry field - Sacred patterns and mathematics",
+  "frequency_hz": 384,
+  "chakra": "Heart Chakra",
+  "port_range": "5000-5999",
+  "reserved_ports": {
+    "5000": "Geometry Pattern Engine",
+    "5001": "Geometry Web Interface",
+    "5002": "Geometry API Gateway",
+    "5280": "Geometry Field Living Server (if active)"
+  },
+  "environment_variables": {
+    "GEOMETRY_FIELD_FREQUENCY": 384,
+    "GEOMETRY_FIELD_CHAKRA": "Heart Chakra",
+    "GEOMETRY_PORT_RANGE": "5000-5999"
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "geometry_service": {
+        "image": "field/geometry:latest",
+        "ports": [
+          "5000:5000"
+        ],
+        "environment": {
+          "FIELD_NAME": "GEOMETRY",
+          "FIELD_FREQUENCY": 384,
+          "CHAKRA_MAPPING": "Heart Chakra",
+          "PORT": "5000"
+        },
+        "labels": {
+          "field.frequency": "384",
+          "field.chakra": "Heart Chakra",
+          "field.name": "GEOMETRY"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=GEOMETRY Field Service (384Hz - Heart Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=GEOMETRY\nEnvironment=FIELD_FREQUENCY=384\nEnvironment=CHAKRA_MAPPING=Heart Chakra\nEnvironment=PORT=5000\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/geometry_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n"
+}

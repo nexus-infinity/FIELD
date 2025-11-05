@@ -1,0 +1,66 @@
+graph TD;
+
+%% Style definitions
+classDef MoneyFlow fill:#e6ffe6,stroke:#006600,stroke-width:2px
+classDef Obscured fill:#ffe6e6,stroke:#660000,stroke-width:2px
+classDef Changed fill:#fff2e6,stroke:#664d00,stroke-width:2px
+classDef Bank fill:#e6f2ff,stroke:#000066,stroke-width:2px
+
+%% Financial Entities
+pascalli["Pascalli Trust<br/>BVI Structure"]
+rothschild["Rothschild Bank<br/>Switzerland"]:::Bank
+bekb["BEKB<br/>Property Finance"]:::Bank
+centosa["Centosa S.A.<br/>Operating Account"]:::Bank
+
+%% Flow Points
+flow1["2021 Initial Flow<br/>CHF 2.5M<br/>Source: Rothschild"]:::MoneyFlow
+flow2["2022 Property Finance<br/>CHF 3.8M<br/>Via: BEKB"]:::MoneyFlow
+flow3["2023 Restructure<br/>CHF 4.2M<br/>Destination: Unclear"]:::Obscured
+
+%% Change Events
+change1["Late 2021<br/>Account Signatory Change<br/>J.R. → A.R."]:::Changed
+change2["Mid 2022<br/>Authority Transfer<br/>Without Notice"]:::Changed
+change3["Early 2023<br/>Structure Modification<br/>During Health Decline"]:::Changed
+
+%% Pattern Identifiers
+pattern1["Pattern: Gradual Control Shift<br/>Method: Signature Changes"]:::Obscured
+pattern2["Pattern: Documentation Gaps<br/>Period: Late 2022"]:::Obscured
+pattern3["Pattern: Authority Transfer<br/>Timing: Health Events"]:::Obscured
+
+%% Flow Connections
+rothschild -->|"initiates"| flow1
+flow1 -->|"enables"| flow2
+flow2 -->|"leads to"| flow3
+bekb -->|"finances"| flow2
+centosa -->|"processes"| flow3
+
+%% Change Connections
+change1 -.->|"precedes"| change2
+change2 -.->|"enables"| change3
+change3 -.->|"results in"| pattern3
+
+%% Pattern Analysis
+pattern1 -->|"manifests in"| change1
+pattern2 -->|"connects to"| change2
+pattern3 -->|"explains"| change3
+
+%% Oversight Gaps
+gap1["Oversight Gap 1<br/>Late 2021<br/>During Health Issues"]:::Obscured
+gap2["Oversight Gap 2<br/>Mid 2022<br/>Documentation Missing"]:::Obscured
+gap3["Oversight Gap 3<br/>Early 2023<br/>Authority Questions"]:::Obscured
+
+%% Connect Gaps to Changes
+gap1 -->|"enables"| change1
+gap2 -->|"permits"| change2
+gap3 -->|"facilitates"| change3
+
+%% Notion Database Links
+click flow1 "https://www.notion.so/flows/2021-initial" "View flow details" _blank
+click change1 "https://www.notion.so/changes/2021-signatory" "View signatory change" _blank
+click pattern1 "https://www.notion.so/patterns/control-shift" "View pattern analysis" _blank
+click gap1 "https://www.notion.so/gaps/2021-oversight" "View oversight analysis" _blank
+
+%% Timeline Notes
+note1["Note: Changes align with health decline periods"]
+note2["Note: Documentation gaps increase during transitions"]
+note3["Note: Authority transfers occur during low oversight"]

@@ -1,0 +1,12 @@
+root_path: /Users/jbear/FIELD
+protected_aliases:
+  - FIELD
+  - FIELD-LIVING
+  - FIELD-DEV
+shadow_exclusions:
+  - /Volumes
+  - /System
+  - /Library
+  - /private
+last_scan: 2025-08-01T00:21:52+10:00
+initialized: true

@@ -1,0 +1,13 @@
+{
+  "receipt_id": "hold_1757853966",
+  "item_id": "\u25fc\ufe0e_triadic_geometry_alignment__2025-09-14T22-46-06Z__-37.8136,144.9631__0f8ad6d3.py",
+  "operation": "hold_receipt",
+  "status": "held",
+  "details": {
+    "reason": "HELD: Failed validation checks: within_capacity",
+    "failed_checks": [
+      "within_capacity"
+    ]
+  },
+  "timestamp": "2025-09-14T22:46:06.787606"
+}

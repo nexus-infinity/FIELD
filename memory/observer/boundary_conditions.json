@@ -1,0 +1,383 @@
+{
+  "access_patterns": [
+    {
+      "file": "real_migration.py",
+      "path": "/Users/jbear/FIELD/real_migration.py",
+      "type": "executable"
+    },
+    {
+      "file": "field_cli.py",
+      "path": "/Users/jbear/FIELD/field_cli.py",
+      "type": "executable"
+    },
+    {
+      "file": "post_migration_integrity_verification.py",
+      "path": "/Users/jbear/FIELD/post_migration_integrity_verification.py",
+      "type": "executable"
+    },
+    {
+      "file": "extract_pdf_content.py",
+      "path": "/Users/jbear/FIELD/extract_pdf_content.py",
+      "type": "executable"
+    },
+    {
+      "file": "process_dark_psychology_direct.py",
+      "path": "/Users/jbear/FIELD/process_dark_psychology_direct.py",
+      "type": "executable"
+    },
+    {
+      "file": "FIELD_symbolic_scanner.py",
+      "path": "/Users/jbear/FIELD/FIELD_symbolic_scanner.py",
+      "type": "executable"
+    },
+    {
+      "file": "process_dark_psychology_intake.py",
+      "path": "/Users/jbear/FIELD/process_dark_psychology_intake.py",
+      "type": "executable"
+    },
+    {
+      "file": "warp_control.py",
+      "path": "/Users/jbear/FIELD/warp_control.py",
+      "type": "executable"
+    },
+    {
+      "file": "warp_observer.py",
+      "path": "/Users/jbear/FIELD/warp_observer.py",
+      "type": "executable"
+    },
+    {
+      "file": "dry_run_staged_migration.py",
+      "path": "/Users/jbear/FIELD/dry_run_staged_migration.py",
+      "type": "executable"
+    },
+    {
+      "file": "warp_weaver.py",
+      "path": "/Users/jbear/FIELD/warp_weaver.py",
+      "type": "executable"
+    },
+    {
+      "file": "warp_architect.py",
+      "path": "/Users/jbear/FIELD/warp_architect.py",
+      "type": "executable"
+    },
+    {
+      "file": "test_weight_boosting.py",
+      "path": "/Users/jbear/FIELD/\u25cfSomaLink/resonance_analysis/venv/lib/python3.11/site-packages/sklearn/ensemble/tests/test_weight_boosting.py",
+      "type": "executable"
+    },
+    {
+      "file": "run_autonomous_workflow.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/run_autonomous_workflow.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf\u26a1\u25b2_metatron_consciousness_bridge_backup_20250707_104927.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf\u26a1\u25b2_metatron_consciousness_bridge_backup_20250707_104927.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf_enhanced_crystalline_protocol.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf_enhanced_crystalline_protocol.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf_sacred_realignment.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf_sacred_realignment.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u25c9_atlas_dojo_bridge.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25c9_atlas_dojo_bridge.py",
+      "type": "executable"
+    },
+    {
+      "file": "metatron_bridge.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/metatron_bridge.py",
+      "type": "executable"
+    },
+    {
+      "file": "verify_autonomous_mode.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/verify_autonomous_mode.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf_unified_field_indexer.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf_unified_field_indexer.py",
+      "type": "executable"
+    },
+    {
+      "file": "validate_dojo_requirements.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/validate_dojo_requirements.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf_sacred_field_activation.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf_sacred_field_activation.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u29bf\u26a1\u25b2_metatron_consciousness_bridge.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u29bf\u26a1\u25b2_metatron_consciousness_bridge.py",
+      "type": "executable"
+    },
+    {
+      "file": "emergence_protocol.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25fc\ufe0eDOJO/emergence_protocol.py",
+      "type": "executable"
+    },
+    {
+      "file": "field_geometry_cli.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25fc\ufe0eDOJO/cli/field_geometry_cli.py",
+      "type": "executable"
+    },
+    {
+      "file": "client.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25fc\ufe0eDOJO/venv/lib/python3.11/site-packages/redis/client.py",
+      "type": "executable"
+    },
+    {
+      "file": "print_coercion_tables.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25fc\ufe0eDOJO/venv/lib/python3.11/site-packages/numpy/testing/print_coercion_tables.py",
+      "type": "executable"
+    },
+    {
+      "file": "initialize_dojo_bridge.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u2726_metatron_translator_core/initialize_dojo_bridge.py",
+      "type": "executable"
+    },
+    {
+      "file": "access_pattern_analyzer.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/access_pattern_analyzer.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u25c9_symlink_purge_enforcer.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/\u25c9_symlink_purge_enforcer.py",
+      "type": "executable"
+    },
+    {
+      "file": "install_dependencies.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/install_dependencies.py",
+      "type": "executable"
+    },
+    {
+      "file": "\u25c9_dojo_model_walker.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/\u25c9_dojo_model_walker.py",
+      "type": "executable"
+    },
+    {
+      "file": "create_review_record.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/review_management/create_review_record.py",
+      "type": "executable"
+    },
+    {
+      "file": "validate_requirements.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/review_management/validate_requirements.py",
+      "type": "executable"
+    },
+    {
+      "file": "generate_iteration_report.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/_tools/review_management/generate_iteration_report.py",
+      "type": "executable"
+    },
+    {
+      "file": "niama_gap_analyzer.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/active_logic/memory_apis_benchmark/niama_gap_analyzer.py",
+      "type": "executable"
+    },
+    {
+      "file": "check_log_symmetry.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/check_log_symmetry.py",
+      "type": "executable"
+    },
+    {
+      "file": "test_setup.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/test_setup.py",
+      "type": "executable"
+    },
+    {
+      "file": "monitor.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/monitor.py",
+      "type": "executable"
+    },
+    {
+      "file": "run_tests.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/run_tests.py",
+      "type": "executable"
+    },
+    {
+      "file": "control.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/control.py",
+      "type": "executable"
+    },
+    {
+      "file": "file_processor.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/file_processor.py",
+      "type": "executable"
+    },
+    {
+      "file": "run_api_tests.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/run_api_tests.py",
+      "type": "executable"
+    },
+    {
+      "file": "pieces_monitor.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/pieces_monitor.py",
+      "type": "executable"
+    },
+    {
+      "file": "validate_config.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/validate_config.py",
+      "type": "executable"
+    },
+    {
+      "file": "knowledge_sync.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/knowledge_sync.py",
+      "type": "executable"
+    },
+    {
+      "file": "fix_mcp_ports.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/fix_mcp_ports.py",
+      "type": "executable"
+    },
+    {
+      "file": "warp_monitor.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/warp_monitor.py",
+      "type": "executable"
+    },
+    {
+      "file": "entropy_flow_controller.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/entropy_flow_controller.py",
+      "type": "executable"
+    },
+    {
+      "file": "test_sacred.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/test_sacred.py",
+      "type": "executable"
+    },
+    {
+      "file": "cleanup_system.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/cleanup_system.py",
+      "type": "executable"
+    },
+    {
+      "file": "verify_connections.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/verify_connections.py",
+      "type": "executable"
+    },
+    {
+      "file": "print_coercion_tables.py",
+      "path": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf\u26a1_analysis_tools/system-monitor/venv/lib/python3.11/site-packages/numpy/testing/print_coercion_tables.py",
+      "type": "executable"
+    },
+    {
+      "file": "test_chakra_sync.py",
+      "path": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_pulse/test_chakra_sync.py",
+      "type": "executable"
+    },
+    {
+      "file": "field_notion_chakra_sync.py",
+      "path": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_pulse/field_notion_chakra_sync.py",
+      "type": "executable"
+    },
+    {
+      "file": "chakra_csv_notion_importer.py",
+      "path": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_pulse/chakra_csv_notion_importer.py",
+      "type": "executable"
+    },
+    {
+      "file": "monitor.py",
+      "path": "/Users/jbear/FIELD/\u25cf\u25bcTATA/\u2b21_validation_tools/frequency_monitor/monitor.py",
+      "type": "executable"
+    },
+    {
+      "file": "initialize_frequencies.py",
+      "path": "/Users/jbear/FIELD/\u25cf\u25bcTATA/\u2b21_validation_tools/frequency_monitor/initialize_frequencies.py",
+      "type": "executable"
+    },
+    {
+      "file": "irrefutable_truth_verification_system.py",
+      "path": "/Users/jbear/FIELD/Dojo/irrefutable_truth_verification_system.py",
+      "type": "executable"
+    },
+    {
+      "file": "dojo_manifestation_consolidator.py",
+      "path": "/Users/jbear/FIELD/Dojo/dojo_manifestation_consolidator.py",
+      "type": "executable"
+    },
+    {
+      "file": "dimensional_integrity_audit.py",
+      "path": "/Users/jbear/FIELD/Dojo/dimensional_integrity_audit.py",
+      "type": "executable"
+    },
+    {
+      "file": "run_consolidation.py",
+      "path": "/Users/jbear/FIELD/Dojo/run_consolidation.py",
+      "type": "executable"
+    },
+    {
+      "file": "ios_test_runner.py",
+      "path": "/Users/jbear/FIELD/Dojo/Scripts/ios_test_runner.py",
+      "type": "executable"
+    },
+    {
+      "file": "run_e2e_demo.py",
+      "path": "/Users/jbear/FIELD/Dojo/Scripts/run_e2e_demo.py",
+      "type": "executable"
+    },
+    {
+      "file": "end_to_end_demo_framework.py",
+      "path": "/Users/jbear/FIELD/Dojo/Scripts/end_to_end_demo_framework.py",
+      "type": "executable"
+    },
+    {
+      "file": "__init__.py",
+      "path": "/Users/jbear/FIELD/.venv/lib/python3.13/site-packages/google/protobuf/testdata/__init__.py",
+      "type": "executable"
+    },
+    {
+      "file": "__init__.py",
+      "path": "/Users/jbear/FIELD/.venv/lib/python3.13/site-packages/google/protobuf/util/__init__.py",
+      "type": "executable"
+    },
+    {
+      "file": "__init__.py",
+      "path": "/Users/jbear/FIELD/.venv/lib/python3.13/site-packages/google/protobuf/pyext/__init__.py",
+      "type": "executable"
+    },
+    {
+      "file": "__init__.py",
+      "path": "/Users/jbear/FIELD/.venv/lib/python3.13/site-packages/google/protobuf/compiler/__init__.py",
+      "type": "executable"
+    },
+    {
+      "file": "workflow_orchestrator.py",
+      "path": "/Users/jbear/FIELD/\u25cfscripts/workflow_orchestrator.py",
+      "type": "executable"
+    },
+    {
+      "file": "symlink_manager.py",
+      "path": "/Users/jbear/FIELD/\u25cfscripts/symlink_manager.py",
+      "type": "executable"
+    },
+    {
+      "file": "access_pattern_analyzer.py",
+      "path": "/Users/jbear/FIELD/\u25cfscripts/access_pattern_analyzer.py",
+      "type": "executable"
+    },
+    {
+      "file": "port_routing_service.py",
+      "path": "/Users/jbear/FIELD/\u25cfscripts/port_routing_service.py",
+      "type": "executable"
+    }
+  ],
+  "permission_edges": [],
+  "integration_points": [
+    {
+      "file": ".warpconfig.yaml",
+      "path": "/Users/jbear/FIELD/.warpconfig.yaml",
+      "type": "configuration"
+    }
+  ],
+  "external_connections": []
+}

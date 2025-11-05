@@ -1,0 +1,534 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-19T17:06:52.056220",
+    "analysis_type": "seven_trust_resonance_analysis",
+    "field_geometry": "tetrahedral_flow",
+    "symbolic_glyph": "\u27c1RE"
+  },
+  "summary": {
+    "total_transactions": 9,
+    "harmonic_count": 7,
+    "dissonant_count": 0,
+    "fraudulent_count": 2,
+    "harmonic_percentage": 77.8,
+    "dissonant_percentage": 0.0,
+    "fraudulent_percentage": 22.2,
+    "system_integrity_score": 0.778
+  },
+  "harmonic_transactions": [
+    {
+      "transaction_id": "ORIGINAL_001",
+      "timestamp": "1984-10-15 11:00:00",
+      "from_entity": "J. Rich",
+      "to_entity": "Ansevata Nominees Pty Ltd",
+      "amount": 1000000.0,
+      "transaction_type": "TransactionType.TRUST_DISTRIBUTION",
+      "base_frequency": 680.0,
+      "harmonic_series": [
+        136.0,
+        170.0,
+        226.67,
+        340.0,
+        680.0,
+        1360.0,
+        2040.0,
+        2720.0,
+        3400.0
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.241,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.66,
+        "missing_vertices": [
+          0
+        ],
+        "symmetry_score": 0.714,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.63,
+        "sacral": 0.405,
+        "solar": 0.473,
+        "heart": 0.28,
+        "throat": 0.551,
+        "third_eye": 0.394,
+        "crown": 0.272
+      },
+      "fraud_probability": 0.4,
+      "anomaly_flags": [
+        "unknown_source_entity",
+        "round_number_bias"
+      ],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "ORIGINAL_002",
+      "timestamp": "1985-02-23 14:30:00",
+      "from_entity": "Ansevata Nominees Pty Ltd",
+      "to_entity": "J Rich and Partners",
+      "amount": 390000.0,
+      "transaction_type": "TransactionType.TRUST_DISTRIBUTION",
+      "base_frequency": 639.11,
+      "harmonic_series": [
+        127.82,
+        159.78,
+        213.04,
+        319.56,
+        639.11,
+        1278.22,
+        1917.33,
+        2556.44,
+        3195.55
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.005,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.99,
+        "missing_vertices": [],
+        "symmetry_score": 0.333,
+        "golden_ratio_alignment": 0.979
+      },
+      "chakra_impact": {
+        "root": 0.828,
+        "sacral": 0.75,
+        "solar": 0.608,
+        "heart": 0.573,
+        "throat": 0.718,
+        "third_eye": 0.495,
+        "crown": 0.342
+      },
+      "fraud_probability": 0.0,
+      "anomaly_flags": [],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "MODERN_001",
+      "timestamp": "2017-07-10 09:15:00",
+      "from_entity": "Ansevata Trust No 2",
+      "to_entity": "J Rich and Partners",
+      "amount": 850000.0,
+      "transaction_type": "TransactionType.TRUST_DISTRIBUTION",
+      "base_frequency": 672.94,
+      "harmonic_series": [
+        134.59,
+        168.24,
+        224.31,
+        336.47,
+        672.94,
+        1345.88,
+        2018.82,
+        2691.76,
+        3364.7
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.076,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.99,
+        "missing_vertices": [],
+        "symmetry_score": 0.333,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.924,
+        "sacral": 0.632,
+        "solar": 0.692,
+        "heart": 0.446,
+        "throat": 0.808,
+        "third_eye": 0.574,
+        "crown": 0.394
+      },
+      "fraud_probability": 0.0,
+      "anomaly_flags": [],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "MODERN_002",
+      "timestamp": "2020-06-12 14:00:00",
+      "from_entity": "Mount Eliza Trust No.2",
+      "to_entity": "Berjak Nominees (Vic) Pty Ltd",
+      "amount": 1200000.0,
+      "transaction_type": "TransactionType.TRUST_DISTRIBUTION",
+      "base_frequency": 687.92,
+      "harmonic_series": [
+        137.58,
+        171.98,
+        229.31,
+        343.96,
+        687.92,
+        1375.84,
+        2063.76,
+        2751.68,
+        3439.6
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.076,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.99,
+        "missing_vertices": [],
+        "symmetry_score": 0.429,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.967,
+        "sacral": 0.603,
+        "solar": 0.73,
+        "heart": 0.39,
+        "throat": 0.848,
+        "third_eye": 0.609,
+        "crown": 0.424
+      },
+      "fraud_probability": 0.0,
+      "anomaly_flags": [],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "CENTOSA_001",
+      "timestamp": "2015-06-26 16:45:00",
+      "from_entity": "Centosa S.A",
+      "to_entity": "Unknown Rothschild Entity",
+      "amount": 1618034.0,
+      "transaction_type": "TransactionType.NOMINEE_TRANSFER",
+      "base_frequency": 1134.05,
+      "harmonic_series": [
+        226.81,
+        283.51,
+        378.02,
+        567.02,
+        1134.05,
+        2268.1,
+        3402.15,
+        4536.2,
+        5670.25
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.241,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.66,
+        "missing_vertices": [
+          1
+        ],
+        "symmetry_score": 0.143,
+        "golden_ratio_alignment": 1.0
+      },
+      "chakra_impact": {
+        "root": 0.259,
+        "sacral": 0.653,
+        "solar": 0.6,
+        "heart": 0.562,
+        "throat": 0.35,
+        "third_eye": 0.223,
+        "crown": 0.426
+      },
+      "fraud_probability": 0.3,
+      "anomaly_flags": [
+        "unknown_destination_entity"
+      ],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "CENTOSA_002",
+      "timestamp": "2016-02-01 23:30:00",
+      "from_entity": "The Pascali Trust",
+      "to_entity": "Centosa S.A",
+      "amount": 3141592.0,
+      "transaction_type": "TransactionType.SYNTHETIC_TRANSACTION",
+      "base_frequency": 928.64,
+      "harmonic_series": [
+        185.73,
+        232.16,
+        309.55,
+        464.32,
+        928.64,
+        1857.28,
+        2785.92,
+        3714.56,
+        4643.2
+      ],
+      "resonance_status": "ResonanceStatus.DISSONANT",
+      "dissonance_score": 0.45,
+      "geometric_signature": {
+        "shape_type": "irregular",
+        "completion_ratio": 0.1,
+        "missing_vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "symmetry_score": 0.143,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.087,
+        "sacral": 0.083,
+        "solar": 0.065,
+        "heart": 0.076,
+        "throat": 0.049,
+        "third_eye": 0.082,
+        "crown": 0.093
+      },
+      "fraud_probability": 0.5,
+      "anomaly_flags": [
+        "unknown_source_entity",
+        "incomplete_geometric_pattern"
+      ],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "CIRCULAR_001",
+      "timestamp": "2019-07-21 12:00:00",
+      "from_entity": "Centosa S.A",
+      "to_entity": "Centosa S.A",
+      "amount": 2718281.0,
+      "transaction_type": "TransactionType.NOMINEE_TRANSFER",
+      "base_frequency": 1170.51,
+      "harmonic_series": [
+        234.1,
+        292.63,
+        390.17,
+        585.25,
+        1170.51,
+        2341.02,
+        3511.53,
+        4682.04,
+        5852.55
+      ],
+      "resonance_status": "ResonanceStatus.HARMONIC",
+      "dissonance_score": 0.005,
+      "geometric_signature": {
+        "shape_type": "triangle",
+        "completion_ratio": 0.99,
+        "missing_vertices": [],
+        "symmetry_score": 0.143,
+        "golden_ratio_alignment": 0.962
+      },
+      "chakra_impact": {
+        "root": 0.306,
+        "sacral": 0.937,
+        "solar": 0.961,
+        "heart": 0.775,
+        "throat": 0.574,
+        "third_eye": 0.37,
+        "crown": 0.563
+      },
+      "fraud_probability": 0.5,
+      "anomaly_flags": [
+        "self_referential_transaction"
+      ],
+      "vault_anchor_distance": 1.0
+    }
+  ],
+  "dissonant_transactions": [],
+  "fraudulent_transactions": [
+    {
+      "transaction_id": "FRAUD_001",
+      "timestamp": "2021-09-09 03:22:00",
+      "from_entity": "Synthetic NAB Entity",
+      "to_entity": "Ansevata Nominees Pty Ltd ATFT Ansevata Trust No 2",
+      "amount": 10000000.0,
+      "transaction_type": "TransactionType.LOAN_FACILITY",
+      "base_frequency": 526.5,
+      "harmonic_series": [
+        105.3,
+        131.62,
+        175.5,
+        263.25,
+        526.5,
+        1053.0,
+        1579.5,
+        2106.0,
+        2632.5
+      ],
+      "resonance_status": "ResonanceStatus.DISSONANT",
+      "dissonance_score": 0.521,
+      "geometric_signature": {
+        "shape_type": "square",
+        "completion_ratio": 0.1,
+        "missing_vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "symmetry_score": 0.75,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.098,
+        "sacral": 0.085,
+        "solar": 0.034,
+        "heart": 0.099,
+        "throat": 0.042,
+        "third_eye": 0.053,
+        "crown": 0.081
+      },
+      "fraud_probability": 0.9,
+      "anomaly_flags": [
+        "unknown_source_entity",
+        "unknown_destination_entity",
+        "incomplete_geometric_pattern",
+        "round_number_bias"
+      ],
+      "vault_anchor_distance": 1.0
+    },
+    {
+      "transaction_id": "FRAUD_002",
+      "timestamp": "2020-04-14 19:00:00",
+      "from_entity": "Unknown Jurisdictional Entity",
+      "to_entity": "J Rich Family Trust No 7",
+      "amount": 500000.0,
+      "transaction_type": "TransactionType.SYNTHETIC_TRANSACTION",
+      "base_frequency": 827.06,
+      "harmonic_series": [
+        165.41,
+        206.76,
+        275.69,
+        413.53,
+        827.06,
+        1654.12,
+        2481.18,
+        3308.24,
+        4135.3
+      ],
+      "resonance_status": "ResonanceStatus.DISSONANT",
+      "dissonance_score": 0.45,
+      "geometric_signature": {
+        "shape_type": "irregular",
+        "completion_ratio": 0.1,
+        "missing_vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "symmetry_score": 0.667,
+        "golden_ratio_alignment": 0.0
+      },
+      "chakra_impact": {
+        "root": 0.09,
+        "sacral": 0.093,
+        "solar": 0.091,
+        "heart": 0.057,
+        "throat": 0.077,
+        "third_eye": 0.094,
+        "crown": 0.072
+      },
+      "fraud_probability": 0.8,
+      "anomaly_flags": [
+        "unknown_source_entity",
+        "unknown_destination_entity",
+        "incomplete_geometric_pattern"
+      ],
+      "vault_anchor_distance": 1.0
+    }
+  ],
+  "seven_trust_entities": {
+    "trustees": {
+      "Ansevata Nominees Pty Ltd": {
+        "role": "trustee",
+        "trusts": [
+          "P. Shulman Trust (No.2 Trust)",
+          "Superannuation Fund"
+        ],
+        "shareholders": [
+          "J.R",
+          "S.J.R"
+        ],
+        "directors": [
+          "M.R.B",
+          "S.J.R"
+        ],
+        "secretary": "J.R"
+      },
+      "Ansevata Nominees (NT) Pty Ltd": {
+        "role": "trustee",
+        "trusts": [
+          "Holding Noosa Pty for MJT O'Halloran Trust and No.2 Trust"
+        ],
+        "directors": [
+          "J.R",
+          "S.J.R"
+        ]
+      },
+      "Berjak Nominees (Vic) Pty Ltd": {
+        "role": "trustee",
+        "trusts": [
+          "M.J.T. O'HALLORAN SETTLEMENT TRUST (Trading as BERJAK & PARTNERS)"
+        ],
+        "directors": [
+          "J.R",
+          "S.J.R"
+        ],
+        "secretary": "A.M. J.B.M"
+      },
+      "Berjak Nominees (N.T.) Pty Ltd": {
+        "role": "trustee",
+        "trusts": [
+          "J. RICH FAMILY TRUSTS NOS. 1-6",
+          "J. RICH FAMILY TRUST NO. 7"
+        ],
+        "structure": "complex_multi_trust"
+      }
+    },
+    "operating_entities": {
+      "J. Rich & Partners 'Marapana'": {
+        "partners": {
+          "J. Rich": "51%",
+          "S.J. Rich": "10%"
+        },
+        "trustee": "Ansevata Nominees P/L",
+        "trust_no": "No 2 Trust",
+        "ownership_percentage": "39%"
+      },
+      "Ansevata Investments Pty Ltd": {
+        "shares": 107,
+        "ownership": "1 N.R.B.",
+        "directors": [
+          "J.R",
+          "S.J.R"
+        ],
+        "secretary": "M.M"
+      },
+      "Berjak Metals Pty Ltd": {
+        "shares": 20000,
+        "ownership": "1 J.R.",
+        "directors": [
+          "J.R",
+          "S.J.R"
+        ]
+      },
+      "Cumberland Building Co Pty Ltd": {
+        "shares": 1000,
+        "ownership": "1 J.R.",
+        "directors": [
+          "J.R",
+          "S.J.R"
+        ]
+      }
+    },
+    "modern_structure": {
+      "Centosa S.A": {
+        "jurisdiction": "British Virgin Islands",
+        "company_number": "343505",
+        "status": "active",
+        "role": "offshore_holding_company",
+        "connection_to_original": "unknown_pattern"
+      },
+      "Mount Eliza Trust No.2": {
+        "abn": "67597861391",
+        "trustee_entity": "likely_ansevata_connection"
+      }
+    }
+  }
+}

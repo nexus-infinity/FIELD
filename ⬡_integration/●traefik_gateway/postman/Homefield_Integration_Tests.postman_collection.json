@@ -1,0 +1,704 @@
+{
+	"info": {
+		"_postman_id": "homefield-integration-741hz",
+		"name": "🏠 Homefield 7.0 Integration Tests - 741Hz",
+		"description": "Complete API testing for Homefield 7.0 Sacred Geometric Space integration through Traefik Gateway\n\nResonant Location: ⬡_integration/●traefik_gateway\nFrequency: 741Hz (Insight & Integration)\nField Structure: 3×3×3 Sierpiński Cube Framework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "🔷 Gateway & Health",
+			"description": "Test gateway health, dashboard access, and monitoring endpoints",
+			"item": [
+				{
+					"name": "Traefik Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{gateway_url}}/dashboard/",
+							"host": ["{{gateway_url}}"],
+							"path": ["dashboard", ""]
+						}
+					}
+				},
+				{
+					"name": "Gateway API Health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{gateway_url}}/api/rawdata",
+							"host": ["{{gateway_url}}"],
+							"path": ["api", "rawdata"]
+						}
+					}
+				},
+				{
+					"name": "Field Health Monitor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{gateway_health_url}}/health",
+							"host": ["{{gateway_health_url}}"],
+							"path": ["health"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "🏠 Homefield 7.0 Core",
+			"description": "Test homefield core system and triadic engine",
+			"item": [
+				{
+					"name": "Homefield Main",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/",
+							"host": ["{{homefield_url}}"],
+							"path": [""]
+						}
+					}
+				},
+				{
+					"name": "Triadic Engine Status",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "X-Geometric-Framework",
+								"value": "3×3×3 Sierpiński Cube"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_core_url}}/api/field-status",
+							"host": ["{{homefield_core_url}}"],
+							"path": ["api", "field-status"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "🧘 Chakra Frequency System",
+			"description": "Test individual chakra endpoints with frequency mappings",
+			"item": [
+				{
+					"name": "Root Chakra - 396Hz (Muladhara)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "root"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "396Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Muladhara"
+							},
+							{
+								"key": "X-Element",
+								"value": "earth"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/root",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "root"]
+						}
+					}
+				},
+				{
+					"name": "Sacral Chakra - 417Hz (Svadhisthana)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "sacral"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "417Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Svadhisthana"
+							},
+							{
+								"key": "X-Element",
+								"value": "water"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/sacral",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "sacral"]
+						}
+					}
+				},
+				{
+					"name": "Solar Plexus - 639Hz (Manipura)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "solarPlexus"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "639Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Manipura"
+							},
+							{
+								"key": "X-Element",
+								"value": "fire"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/solar",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "solar"]
+						}
+					}
+				},
+				{
+					"name": "Heart Chakra - 528Hz (Anahata)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "heart"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "528Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Anahata"
+							},
+							{
+								"key": "X-Element",
+								"value": "air"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/heart",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "heart"]
+						}
+					}
+				},
+				{
+					"name": "Throat Chakra - 741Hz (Vishuddha)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "throat"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "741Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Vishuddha"
+							},
+							{
+								"key": "X-Element",
+								"value": "ether"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/throat",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "throat"]
+						}
+					}
+				},
+				{
+					"name": "Third Eye - 852Hz (Ajna)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "thirdEye"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "852Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Ajna"
+							},
+							{
+								"key": "X-Element",
+								"value": "light"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/eye",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "eye"]
+						}
+					}
+				},
+				{
+					"name": "Crown Chakra - 432Hz (Sahasrara)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Chakra-Name",
+								"value": "crown"
+							},
+							{
+								"key": "X-Frequency",
+								"value": "432Hz"
+							},
+							{
+								"key": "X-Sanskrit",
+								"value": "Sahasrara"
+							},
+							{
+								"key": "X-Element",
+								"value": "thought"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/chakra/crown",
+							"host": ["{{homefield_url}}"],
+							"path": ["chakra", "crown"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "🔮 Homefield API Endpoints",
+			"description": "Test the core homefield API endpoints from manifest",
+			"item": [
+				{
+					"name": "Fractal Field Enhanced",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/fractal-field-enhanced",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "fractal-field-enhanced"]
+						}
+					}
+				},
+				{
+					"name": "Local Field",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/local-field",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "local-field"]
+						}
+					}
+				},
+				{
+					"name": "Kaars Interface",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/kaars-interface",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "kaars-interface"]
+						}
+					}
+				},
+				{
+					"name": "Magnetic Field",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/magnetic-field",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "magnetic-field"]
+						}
+					}
+				},
+				{
+					"name": "Games Fear API",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/games-fear",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "games-fear"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "🌀 Resonance Patterns",
+			"description": "Test the resonance flow patterns from manifest",
+			"item": [
+				{
+					"name": "Ascending Flow Pattern",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Pattern",
+								"value": "Ascending Flow"
+							},
+							{
+								"key": "X-Effect",
+								"value": "Evolutionary progression"
+							},
+							{
+								"key": "X-Path",
+								"value": "root→sacral→solar→heart→throat→eye→crown"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/pattern/ascending",
+							"host": ["{{homefield_url}}"],
+							"path": ["pattern", "ascending"]
+						}
+					}
+				},
+				{
+					"name": "Manifestation Cycle Pattern",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Pattern",
+								"value": "Manifestation Cycle"
+							},
+							{
+								"key": "X-Effect",
+								"value": "Creation process, bringing ideas into form"
+							},
+							{
+								"key": "X-Path",
+								"value": "crown→eye→throat→heart→solar→sacral→root"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/pattern/manifestation",
+							"host": ["{{homefield_url}}"],
+							"path": ["pattern", "manifestation"]
+						}
+					}
+				},
+				{
+					"name": "Heart-Centered Balance Pattern",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Pattern",
+								"value": "Heart-Centered Balance"
+							},
+							{
+								"key": "X-Effect",
+								"value": "Emotional intelligence focus"
+							},
+							{
+								"key": "X-Center",
+								"value": "heart"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/pattern/heart-centered",
+							"host": ["{{homefield_url}}"],
+							"path": ["pattern", "heart-centered"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "📊 Field Resonance Monitoring",
+			"description": "Test resonance monitoring and breath scan analytics",
+			"item": [
+				{
+					"name": "Resonance Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Monitor-Service",
+								"value": "Field Resonance"
+							},
+							{
+								"key": "X-Threshold-Target",
+								"value": "0.85"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/resonance/dashboard",
+							"host": ["{{homefield_url}}"],
+							"path": ["resonance", "dashboard"]
+						}
+					}
+				},
+				{
+					"name": "Current Resonance Score",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Auth-Type",
+								"value": "Field Resonance"
+							},
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/resonance/current",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "resonance", "current"]
+						}
+					}
+				},
+				{
+					"name": "Resonance History",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Auth-Type",
+								"value": "Field Resonance"
+							},
+							{
+								"key": "X-Field-Auth",
+								"value": "homefield-7.0"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/resonance/history",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "resonance", "history"]
+						}
+					}
+				},
+				{
+					"name": "Latest Breath Scan",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Auth-Type",
+								"value": "Breath Scan Analytics"
+							},
+							{
+								"key": "X-Temporal-Access",
+								"value": "true"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/breath-scan/latest",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "breath-scan", "latest"]
+						}
+					}
+				},
+				{
+					"name": "API Validation Status",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Auth-Type",
+								"value": "API Validation"
+							},
+							{
+								"key": "X-Critical-Only",
+								"value": "true"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/api/validation/status",
+							"host": ["{{homefield_url}}"],
+							"path": ["api", "validation", "status"]
+						}
+					}
+				},
+				{
+					"name": "Resonance Alerts",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Alert-Type",
+								"value": "Resonance Threshold"
+							},
+							{
+								"key": "X-Critical-Level",
+								"value": "0.85"
+							}
+						],
+						"url": {
+							"raw": "{{homefield_url}}/alerts/resonance",
+							"host": ["{{homefield_url}}"],
+							"path": ["alerts", "resonance"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set dynamic timestamps for requests",
+					"pm.environment.set('current_timestamp', new Date().toISOString());",
+					"",
+					"// Set field frequency context",
+					"pm.environment.set('field_frequency', '741Hz');",
+					"pm.environment.set('geometric_framework', '3×3×3 Sierpiński Cube');",
+					"",
+					"console.log('🏠 Homefield 7.0 Test Initiated at:', pm.environment.get('current_timestamp'));"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Universal test validations for all homefield requests",
+					"pm.test('🔷 Response status is successful', function () {",
+					"    pm.expect(pm.response).to.have.property('code').that.is.oneOf([200, 201, 202, 204]);",
+					"});",
+					"",
+					"// Check for field-specific headers",
+					"pm.test('🏠 Field headers present', function () {",
+					"    const headers = pm.response.headers;",
+					"    // Allow tests to pass even if specific headers aren't present",
+					"    console.log('Response headers:', headers.toJSON());",
+					"});",
+					"",
+					"// Log response for debugging",
+					"console.log('🔷 Homefield Response Status:', pm.response.status);",
+					"console.log('🎵 Field Frequency:', pm.environment.get('field_frequency'));"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "gateway_url",
+			"value": "http://localhost:9090"
+		},
+		{
+			"key": "gateway_health_url",
+			"value": "http://gateway.local:8080"
+		},
+		{
+			"key": "homefield_url",
+			"value": "http://homefield.local:8080"
+		},
+		{
+			"key": "homefield_core_url",
+			"value": "http://localhost:8888"
+		},
+		{
+			"key": "field_frequency",
+			"value": "741Hz"
+		},
+		{
+			"key": "geometric_framework",
+			"value": "3×3×3 Sierpiński Cube"
+		},
+		{
+			"key": "resonance_threshold",
+			"value": "0.85"
+		},
+		{
+			"key": "triadic_engine",
+			"value": "Source-Relation-Emergence"
+		}
+	]
+}

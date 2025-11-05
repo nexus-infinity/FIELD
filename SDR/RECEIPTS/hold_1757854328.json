@@ -1,0 +1,13 @@
+{
+  "receipt_id": "hold_1757854328",
+  "item_id": "\u25fc\ufe0e_warp_intent_gateway__2025-09-14T22-52-08Z__-37.8136,144.9631__938718a8.py",
+  "operation": "hold_receipt",
+  "status": "held",
+  "details": {
+    "reason": "HELD: Failed validation checks: within_capacity",
+    "failed_checks": [
+      "within_capacity"
+    ]
+  },
+  "timestamp": "2025-09-14T22:52:08.702495"
+}

@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-09-22T23:38:09.472675+00:00",
+  "system": "FIELD_INTEGRATED_ANALYSIS",
+  "components": {
+    "sovereign_data": {
+      "frequency_distribution": [
+        [
+          "PERFECT_HARMONY",
+          1,
+          777.55
+        ],
+        [
+          "HIGH_RESONANCE",
+          3,
+          528.0
+        ]
+      ],
+      "entity_correlations": [],
+      "priority_frequency_correlation": [
+        [
+          "High",
+          652.775,
+          2
+        ],
+        [
+          "Critical",
+          528.0,
+          2
+        ]
+      ],
+      "total_patterns": 2
+    },
+    "resonance_analysis": {
+      "total_documents": 4,
+      "resonance_patterns": {
+        "Rich Family": {
+          "documents": 3,
+          "average_frequency": 611.1833333333333,
+          "resonance_level": "HIGH_RESONANCE"
+        },
+        "Trust Structure": {
+          "documents": 1,
+          "average_frequency": 777.55,
+          "resonance_level": "PERFECT_HARMONY"
+        },
+        "Government Authority": {
+          "documents": 2,
+          "average_frequency": 528.0,
+          "resonance_level": "HIGH_RESONANCE"
+        }
+      },
+      "frequency_analysis": {
+        "min_frequency": 528.0,
+        "max_frequency": 777.55,
+        "avg_frequency": 590.3875,
+        "perfect_harmony_count": 1,
+        "high_resonance_count": 3,
+        "harmonic_alignment_count": 0
+      },
+      "harmonic_anomalies": []
+    }
+  },
+  "cross_correlations": {
+    "entity_frequency": {
+      "Rich Family": {
+        "avg_frequency": 611.1833333333333,
+        "resonance_level": "HIGH_RESONANCE",
+        "document_count": 3
+      },
+      "Trust Structure": {
+        "avg_frequency": 777.55,
+        "resonance_level": "PERFECT_HARMONY",
+        "document_count": 1
+      },
+      "Government Authority": {
+        "avg_frequency": 528.0,
+        "resonance_level": "HIGH_RESONANCE",
+        "document_count": 2
+      }
+    },
+    "frequency_distribution_correlation": {
+      "sovereign_patterns": 2,
+      "resonance_anomalies": 0,
+      "high_resonance_ratio": 0.75
+    }
+  },
+  "unified_insights": {
+    "key_findings": [
+      "High resonance entities detected: Rich Family, Trust Structure, Government Authority",
+      "High resonance ratio: 75.0% of documents in optimal frequency range"
+    ],
+    "investigation_priorities": [],
+    "system_health": {
+      "resonance_analysis": {
+        "status": "LOADED",
+        "operational": true
+      },
+      "harmonic_transaction": {
+        "status": "ACTIVE",
+        "operational": true
+      },
+      "field_integration": {
+        "status": "LOADED",
+        "operational": true
+      },
+      "investigation_interface": {
+        "status": "ACTIVE",
+        "operational": true
+      }
+    },
+    "recommendations": [
+      "All FIELD systems operational - continue integrated analysis",
+      "Good resonance baseline - consider frequency optimization techniques"
+    ]
+  }
+}

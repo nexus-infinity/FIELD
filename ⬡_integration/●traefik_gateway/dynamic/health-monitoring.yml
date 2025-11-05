@@ -1,0 +1,66 @@
+# 🔷 Dynamic Health Monitoring & Advanced Middleware
+# Purpose: Real-time health checks and monitoring for field integration
+
+http:
+  middlewares:
+    # Rate limiting to protect services
+    rate-limit:
+      rateLimit:
+        burst: 100
+        period: 1m
+        average: 30
+        
+    # Authentication (placeholder for future JWT implementation)
+    auth-headers:
+      headers:
+        customRequestHeaders:
+          X-Field-Gateway: "Traefik"
+          X-Integration-Point: "⬡_integration"
+          
+    # Request/Response logging
+    access-log:
+      accessLog:
+        fields:
+          headers:
+            names:
+              Authorization: redact
+              
+    # Health check responses
+    health-check:
+      headers:
+        customResponseHeaders:
+          X-Health-Status: "healthy"
+          X-Field-Frequency: "741Hz"
+          
+  services:
+    # Health monitoring endpoint
+    field-health:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8080/dashboard"
+        healthCheck:
+          path: "/api/rawdata"
+          interval: 30s
+          timeout: 5s
+
+  routers:
+    # Health monitoring dashboard
+    health-dashboard:
+      rule: "Host(`gateway.local`) && PathPrefix(`/health`)"
+      service: "field-health"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "cors-headers"
+        - "health-check"
+        
+    # Unified API endpoint for external access
+    unified-api:
+      rule: "Host(`api.local`)"
+      service: "walkerville-api"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "cors-headers"
+        - "rate-limit"
+        - "auth-headers"

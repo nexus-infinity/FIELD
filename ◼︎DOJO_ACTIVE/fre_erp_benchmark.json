@@ -1,0 +1,123 @@
+{
+  "last_updated": "2025-09-26T10:23:16Z",
+  "benchmark_version": "1.0",
+  "weights": {
+    "architecture": 0.25,
+    "security": 0.20,
+    "financials": 0.20,
+    "operability": 0.15,
+    "data_model": 0.10,
+    "ai_bi": 0.10
+  },
+  "core_modules": {
+    "financials": {
+      "score": 1,
+      "features": ["Basic GL structure", "Transaction model in FREE"],
+      "gaps": ["Missing AP/AR automation", "No fixed asset management", "Limited tax handling"],
+      "next_steps": ["Implement double-entry ledger in Sovereign Field", "Build AP/AR workflows"]
+    },
+    "hcm": {
+      "score": 0,
+      "features": [],
+      "gaps": ["No payroll", "No HR management", "Missing compliance"],
+      "next_steps": ["Define HCM data model in Sovereign Field"]
+    },
+    "scm": {
+      "score": 1,
+      "features": ["Basic inventory tracking", "Simple supplier management"],
+      "gaps": ["No WMS", "Limited procurement", "Missing demand planning"],
+      "next_steps": ["Extend FREE for inventory management"]
+    },
+    "manufacturing": {
+      "score": 0,
+      "features": [],
+      "gaps": ["No BOM management", "No MRP", "Missing quality control"],
+      "next_steps": ["Evaluate manufacturing requirements"]
+    },
+    "crm": {
+      "score": 2,
+      "features": ["Berjak CRM foundation", "Customer tracking", "Basic pipeline"],
+      "gaps": ["Limited marketing automation", "Basic service tracking"],
+      "next_steps": ["Enhance Berjak CRM integration", "Add marketing capabilities"]
+    },
+    "projects": {
+      "score": 1,
+      "features": ["Basic project tracking"],
+      "gaps": ["No resource management", "Limited time tracking", "Missing WIP"],
+      "next_steps": ["Implement project management module"]
+    }
+  },
+  "architecture": {
+    "single_source": {
+      "score": 2,
+      "features": ["Sovereign Field foundation", "Entity versioning"],
+      "gaps": ["Incomplete data lineage"],
+      "next_steps": ["Enhance data lineage tracking"]
+    },
+    "integration": {
+      "score": 1,
+      "features": ["Basic event handling"],
+      "gaps": ["Missing robust event bus", "No schema registry"],
+      "next_steps": ["Implement event bus", "Add schema registry"]
+    },
+    "automation": {
+      "score": 1,
+      "features": ["Basic workflow capabilities"],
+      "gaps": ["Limited SLA handling", "Missing compensation logic"],
+      "next_steps": ["Build workflow engine"]
+    }
+  },
+  "platform": {
+    "cloud_native": {
+      "score": 1,
+      "features": ["Basic containerization"],
+      "gaps": ["No autoscaling", "Missing SLOs"],
+      "next_steps": ["Define SLOs", "Implement autoscaling"]
+    },
+    "ai_ml": {
+      "score": 2,
+      "features": ["Five-Beat pattern detection", "Anomaly detection"],
+      "gaps": ["Limited ML integration", "No generative AI"],
+      "next_steps": ["Expand ML capabilities"]
+    },
+    "bi_analytics": {
+      "score": 2,
+      "features": ["GAR evidence model", "Basic analytics"],
+      "gaps": ["No semantic layer", "Limited self-service"],
+      "next_steps": ["Build semantic layer"]
+    }
+  },
+  "security": {
+    "identity": {
+      "score": 1,
+      "features": ["Basic auth"],
+      "gaps": ["No SSO", "Missing JIT access"],
+      "next_steps": ["Implement SSO", "Add JIT access"]
+    },
+    "data_security": {
+      "score": 2,
+      "features": ["TATA verification", "Evidence hashing"],
+      "gaps": ["Limited field masking"],
+      "next_steps": ["Implement field-level security"]
+    },
+    "audit": {
+      "score": 2,
+      "features": ["Append-only logs", "Evidence bundles"],
+      "gaps": ["Limited tamper detection"],
+      "next_steps": ["Enhance tamper detection"]
+    }
+  },
+  "total_score": {
+    "raw": 21,
+    "weighted": 1.75,
+    "max_possible": 3.0,
+    "percentage": 58.33
+  },
+  "priority_gaps": [
+    "Implement double-entry ledger system",
+    "Build robust event bus",
+    "Enhance data lineage tracking",
+    "Implement SSO and security features",
+    "Build semantic layer for analytics"
+  ]
+}

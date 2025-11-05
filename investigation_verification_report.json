@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-09-19T14:31:24.901401",
+  "overall_status": "PARTIALLY_READY",
+  "component_status": {
+    "dojo_gateway": {
+      "status": "OPERATIONAL",
+      "components": [
+        "money-hub",
+        "discovery",
+        "evidence",
+        "warp",
+        "geometry"
+      ],
+      "version": "1.0.0"
+    },
+    "datashare": {
+      "status": "ERROR",
+      "error": "HTTP 404"
+    }
+  },
+  "data_access": {
+    "financial_data": {
+      "tata_directory": true,
+      "financial_manifest": true,
+      "master_account_list": true,
+      "csv_files": 94,
+      "pdf_files": 1267
+    },
+    "investigation_results": {
+      "directory_exists": true,
+      "session_directories": [
+        "investigation-1758032257"
+      ],
+      "latest_session": "investigation-1758032257"
+    }
+  },
+  "integration_health": {
+    "money_hub": {
+      "status": "OPERATIONAL",
+      "operations": [
+        "institutions",
+        "accounts",
+        "claims",
+        "tasks",
+        "documents",
+        "interactions"
+      ]
+    },
+    "evidence_bundles": {
+      "status": "OPERATIONAL"
+    },
+    "search_tests": {
+      "CENTOSA SA": {
+        "status": "ERROR",
+        "error": "HTTP 404"
+      },
+      "PASCALI TRUST": {
+        "status": "ERROR",
+        "error": "HTTP 404"
+      },
+      "Jacques Rich": {
+        "status": "ERROR",
+        "error": "HTTP 404"
+      }
+    }
+  },
+  "recommendations": [
+    "\ud83d\udd0d Start Datashare: Ensure Datashare is running on port 9630 with indexed documents",
+    "\ud83d\udd0d Search Issues: Review search capability for entities: CENTOSA SA, PASCALI TRUST, Jacques Rich",
+    "\ud83c\udfaf 31-Task Integration: Ensure investigation process uses API endpoints for entity searches",
+    "\ud83d\udcc8 Real-time Monitoring: Use http://localhost:8000/ for system status monitoring",
+    "\ud83d\udd17 Cross-Reference: Leverage both Dojo discovery and Datashare search for complete coverage",
+    "\u2696\ufe0f Evidence Export: Prepare legal-ready bundles using /evidence/bundles endpoint"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-22T23:38:09.473393+00:00",
+  "system_status": {
+    "resonance_analysis": "LOADED",
+    "harmonic_transaction": "ACTIVE",
+    "field_integration": "LOADED",
+    "investigation_interface": "ACTIVE"
+  },
+  "summary_metrics": {
+    "total_patterns": 2,
+    "entity_correlations": 0,
+    "avg_frequency": 590.39,
+    "perfect_harmony_docs": 1
+  },
+  "high_priority_items": [],
+  "resonance_overview": {
+    "total_documents": 4,
+    "frequency_bands": {
+      "perfect_harmony": 1,
+      "high_resonance": 3,
+      "harmonic_alignment": 0
+    },
+    "anomalies_detected": 0
+  },
+  "investigation_focus_areas": [
+    "High resonance entities detected: Rich Family, Trust Structure, Government Authority",
+    "High resonance ratio: 75.0% of documents in optimal frequency range"
+  ]
+}

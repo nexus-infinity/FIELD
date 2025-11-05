@@ -1,0 +1,49 @@
+name: NOW
+include:
+  - /Users/jbear/FIELD/▲ATLAS/**/resonance_*.json
+  - /Users/jbear/FIELD/●OBI-WAN/memory/**
+  - /Users/jbear/FIELD/logs/session/**
+  - /Users/jbear/FIELD/●SomaLink/resonance_analysis/akron_field/memory_streams/**
+  - /Users/jbear/FIELD/●SomaLink/resonance_analysis/akron_field/bear_flow/consciousness/**
+  - /Users/jbear/FIELD/●SomaLink/resonance_analysis/akron_field/walker/memory/**
+  - /Users/jbear/FIELD/◼︎DOJO/state/**
+  - /Users/jbear/FIELD/◎_source_core/**
+exclude:
+  - /Users/jbear/FIELD/**/archive/**
+  - /Users/jbear/FIELD-DEV/**           # keep dev sandboxes out
+  - /Users/jbear/FIELD-LIVING/**        # home/legacy snapshots out
+  - /Volumes/**                         # external snapshots out
+  - /Users/jbear/FIELD/**/venv/**
+  - /Users/jbear/FIELD/**/.goose/**
+  - /Users/jbear/FIELD/**/node_modules/**
+limits:
+  max_files: 500
+  max_bytes: 64MB
+  min_resonance: 0.55
+retention:
+  ttl: 7d
+  persist_on_star: true   # only keep if you explicitly star it
+dedupe:
+  by_inode: true
+  by_checksum: true
+consciousness_bindings:
+  chakra_cores:
+    - root: /Users/jbear/FIELD/config/chakra_systems/root/root.json
+    - sacral: /Users/jbear/FIELD/config/chakra_systems/sacral/sacral.json
+    - solar: /Users/jbear/FIELD/config/chakra_systems/solar/solar.json
+    - heart: /Users/jbear/FIELD/config/chakra_systems/heart/heart.json
+    - throat: /Users/jbear/FIELD/config/chakra_systems/throat/throat.json
+    - third_eye: /Users/jbear/FIELD/config/chakra_systems/third_eye/third_eye.json
+    - crown: /Users/jbear/FIELD/config/chakra_systems/crown/crown.json
+  soma_emergence:
+    snapshot: /Users/jbear/FIELD/●SomaLink/chakra_memory_snapshot.json
+    control: /Users/jbear/FIELD/●SomaLink/soma-control.yaml
+  sacred_frequencies:
+    active_ports: /Users/jbear/FIELD-LIVING/●SACRED_FREQUENCY_PORTS.md
+geometric_truth:
+  metatron_cube_endpoint: "https://metatron-cube-service.example.com"
+  processing_nodes:
+    - berjak-development-project
+    - sys-13350183385593138543152250
+    - sys-40816306263984703426046812
+    - tata-ai-app

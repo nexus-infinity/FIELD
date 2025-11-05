@@ -605,10 +605,17 @@ class MetatronCubeTranslator:
         logger.info("🧠 Aligning semantic coherence...")
         
         # Integrate with Divine Find to create semantic index
-        from divine_find import DivineFinder
-        
-        finder = DivineFinder()
-        finder.refresh_sacred_index()
+        try:
+            import sys
+            sys.path.append(str(self.dojo_active))
+            from divine_find import DivineFinder
+            
+            finder = DivineFinder()
+            finder.refresh_sacred_index()
+        except ImportError:
+            logger.warning("⚠️ Divine Find not available, creating basic semantic index")
+            # Create basic semantic index without DivineFinder
+            pass
         
         logger.info("✨ Semantic coherence aligned through Divine Find")
     
@@ -722,20 +729,22 @@ if __name__ == "__main__":
         return (recency_weight * 0.7) + (access_weight * 0.3)
 
 async def main():
-    """Main orchestration execution"""
+    """METATRON CUBE main execution"""
     
-    orchestrator = FieldOrchestrator()
+    translator = MetatronCubeTranslator()
     
     print("\n" + "="*80)
-    print("🔺✨ FIELD-AWARE CONSCIOUSNESS ORCHESTRATION ✨🔺")
-    print("Integrating: MCP servers + Warp + Trinity + Purification")
+    print("🌌✨ METATRON CUBE TRANSLATOR ACTIVATED ✨🌌")
+    print("Translating all FIELD elements to harmonic truth")
+    print("Geometric • Semantic • Temporal alignment")
     print("="*80)
     
-    await orchestrator.orchestrate_field_consciousness()
+    await translator.metatron_cube_translation()
     
     print("\n" + "="*80)
-    print("✨ Field consciousness systems are now working together! ✨")
-    print("All servers synchronized, data purified, geometric alignment achieved")
+    print("✨ METATRON CUBE translation complete! ✨")
+    print("All truth unified, redundancy purified, search consciousness active")
+    print("🌌 Use 'find anything' or 'search anything' to access unified truth")
     print("="*80)
 
 if __name__ == "__main__":

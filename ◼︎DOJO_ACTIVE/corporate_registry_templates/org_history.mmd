@@ -1,0 +1,82 @@
+graph TD;
+
+%% Style definitions
+classDef HistoricalEntity fill:#f0f0f0,stroke:#333333
+classDef ActiveEntity fill:#ffffff,stroke:#000000
+classDef TransferEvent fill:#ffe6cc,stroke:#994c00
+classDef DocumentLink fill:#e6ccff,stroke:#4c0099
+
+%% Ansevata Trust No. 2 Historical Chain
+trust-at2-1982["Ansevata Trust No. 2 (1982)<br/>Initial Settlement<br/>ABN: None<br/>Settlor: J. Rich<br/>Initial Assets: $100"]:::HistoricalEntity
+trust-at2-1990["Ansevata Trust No. 2 (1990)<br/>First Major Asset<br/>ABN: Pending<br/>Trustee: AN Pty Ltd<br/>Asset: Boundary Rd Property"]:::HistoricalEntity
+trust-at2-2000["Ansevata Trust No. 2 (2000)<br/>Business Operations<br/>ABN: 44 013 158 909<br/>Multiple Properties<br/>Banking: NAB"]:::HistoricalEntity
+trust-at2-2020["Ansevata Trust No. 2 (2020)<br/>Current Structure<br/>Complex Holdings<br/>Multiple ABNs<br/>Swiss Properties"]:::ActiveEntity
+
+%% Documentation Links
+doc-1982["Trust Deed (1982)<br/>Settlement Document<br/>Click for details"]:::DocumentLink
+doc-1990["Property Transfer (1990)<br/>Asset Acquisition<br/>Click for details"]:::DocumentLink
+doc-2000["Business Structure (2000)<br/>Operational Setup<br/>Click for details"]:::DocumentLink
+doc-2020["Current Status (2020)<br/>Full Structure<br/>Click for details"]:::DocumentLink
+
+%% Transfer Events
+transfer-1990["1990 Transfer Event<br/>Property → Trust<br/>Value: $450,000"]:::TransferEvent
+transfer-2000["2000 Restructure<br/>Business Assets<br/>Multiple Transfers"]:::TransferEvent
+transfer-2020["2020 Consolidation<br/>Entity Merger<br/>Debt Restructure"]:::TransferEvent
+
+%% Historical Connections
+trust-at2-1982 -->|"evolves to"| trust-at2-1990
+trust-at2-1990 -->|"expands into"| trust-at2-2000
+trust-at2-2000 -->|"transforms to"| trust-at2-2020
+
+%% Document Connections
+trust-at2-1982 -.->|"documented in"| doc-1982
+trust-at2-1990 -.->|"recorded in"| doc-1990
+trust-at2-2000 -.->|"detailed in"| doc-2000
+trust-at2-2020 -.->|"current docs"| doc-2020
+
+%% Transfer Event Connections
+trust-at2-1990 -->|"involves"| transfer-1990
+trust-at2-2000 -->|"includes"| transfer-2000
+trust-at2-2020 -->|"contains"| transfer-2020
+
+%% Notion Database Links
+click trust-at2-1982 "https://www.notion.so/trust-history/at2-1982" "View 1982 trust details" _blank
+click trust-at2-1990 "https://www.notion.so/trust-history/at2-1990" "View 1990 trust details" _blank
+click trust-at2-2000 "https://www.notion.so/trust-history/at2-2000" "View 2000 trust details" _blank
+click trust-at2-2020 "https://www.notion.so/trust-history/at2-2020" "View current trust details" _blank
+
+click doc-1982 "https://www.notion.so/documents/1982-trust-deed" "View trust deed" _blank
+click doc-1990 "https://www.notion.so/documents/1990-property-transfer" "View property transfer" _blank
+click doc-2000 "https://www.notion.so/documents/2000-business-structure" "View business structure" _blank
+click doc-2020 "https://www.notion.so/documents/2020-current-status" "View current status" _blank
+
+click transfer-1990 "https://www.notion.so/transfers/1990-property" "View property transfer details" _blank
+click transfer-2000 "https://www.notion.so/transfers/2000-restructure" "View restructure details" _blank
+click transfer-2020 "https://www.notion.so/transfers/2020-consolidation" "View consolidation details" _blank
+
+%% Historical Notes
+note-1982["1982: Initial trust settlement<br/>Purpose: Family asset protection<br/>Key parties: Jacques Rich, Susan Rich"]
+note-1990["1990: First major asset acquisition<br/>Significant property purchase<br/>Start of business operations"]
+note-2000["2000: Business expansion<br/>Multiple property acquisitions<br/>Banking relationship establishment"]
+note-2020["2020: Modern structure<br/>Complex holdings<br/>International connections"]
+
+%% Detailed Entity Information
+subgraph entity-details ["Entity Details Over Time"]
+    direction TB
+    
+    trustees["Trustees:<br/>1982-1990: J Rich<br/>1990-2000: AN Pty Ltd<br/>2000-2020: Multiple entities"]
+    assets["Asset Growth:<br/>1982: $100<br/>1990: $450,000<br/>2000: $2.5M<br/>2020: $15M+"]
+    operations["Operational Changes:<br/>1982: Passive trust<br/>1990: Property holding<br/>2000: Active business<br/>2020: International structure"]
+end
+
+%% Connect to Other Layers
+connection-debt["Links to Debt Layer:<br/>See debt_view.svg for<br/>financial movements"]
+connection-abn["Links to ABN Layer:<br/>See abn_view.svg for<br/>registration changes"]
+connection-address["Links to Address Layer:<br/>See address_view.svg for<br/>location history"]
+
+style connection-debt fill:#f0f0f0,stroke:#666666,stroke-width:2px
+style connection-abn fill:#f0f0f0,stroke:#666666,stroke-width:2px
+style connection-address fill:#f0f0f0,stroke:#666666,stroke-width:2px
+
+%% Additional Information Popups
+note-click-info["Click any entity box for:<br/>1. Full historical details<br/>2. Document links<br/>3. Related entities<br/>4. Transaction history"]

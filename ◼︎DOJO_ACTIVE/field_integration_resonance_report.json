@@ -1,0 +1,48 @@
+{
+  "field_integration_metadata": {
+    "timestamp": "2025-09-19T19:48:29.984656",
+    "analysis_type": "real_field_data_resonance_analysis",
+    "field_geometry": "tetrahedral_flow",
+    "symbolic_glyph": "\u27c1RE",
+    "integration_version": "1.0"
+  },
+  "system_analysis": {
+    "total_transactions_analyzed": 25,
+    "harmonic_count": 0,
+    "dissonant_count": 0,
+    "fraudulent_count": 25,
+    "system_integrity_score": 0.0,
+    "fraud_detection_rate": 1.0,
+    "data_source_analysis": {
+      "Database: ATRANSACTION": 10,
+      "Database: ATRANSACTIONSTRING": 10,
+      "Database: ANSCKMETADATAENTRY": 5
+    }
+  },
+  "resonance_results": {
+    "harmonic_transactions": 0,
+    "dissonant_transactions": 0,
+    "fraudulent_transactions": 25
+  },
+  "field_data_insights": {
+    "data_source": "actual_field_data"
+  },
+  "actionable_intelligence": {
+    "immediate_actions": [
+      {
+        "priority": "HIGH",
+        "action": "Investigate fraudulent transactions",
+        "details": "25 transactions detected with high fraud probability"
+      }
+    ],
+    "investigation_priorities": [],
+    "system_recommendations": [
+      {
+        "priority": "CRITICAL",
+        "recommendation": "System integrity compromised",
+        "details": "Only 0.0% of transactions are harmonic"
+      }
+    ],
+    "confidence_assessment": "high"
+  }
+}

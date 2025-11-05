@@ -1,0 +1,15 @@
+services:
+  chakra_service:
+    environment:
+      CHAKRA_MAPPING: Solar Plexus Chakra
+      FIELD_FREQUENCY: 341.3
+      FIELD_NAME: CHAKRA
+      PORT: '4000'
+    image: field/chakra:latest
+    labels:
+      field.chakra: Solar Plexus Chakra
+      field.frequency: '341.3'
+      field.name: CHAKRA
+    ports:
+    - 4000:4000
+version: '3.8'

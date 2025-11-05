@@ -1,0 +1,510 @@
+# Berjak | Nexus | Infinity System - Traefik Integration Configuration
+# Sacred Geometry-Aligned Business Intelligence & CRM Platform
+# Integrating Field Resource Ecosystem with Nexus Infinity Platform
+
+http:
+  services:
+    # ===========================================
+    # CORE BERJAK SERVICES
+    # Professional business operations platform
+    # ===========================================
+    
+    berjak-crm-core:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5000"  # Main CRM application
+        healthCheck:
+          path: "/health"
+          interval: "30s"
+    
+    berjak-nexus-platform:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5001"  # Nexus Infinity Platform
+        healthCheck:
+          path: "/api/health"
+          interval: "30s"
+    
+    berjak-asset-recovery:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5002"  # Global Asset Recovery CRM
+        healthCheck:
+          path: "/api/status"
+          interval: "30s"
+    
+    berjak-business-intelligence:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5003"  # Business Intelligence Dashboard
+        healthCheck:
+          path: "/dashboard/health"
+          interval: "30s"
+    
+    berjak-document-management:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5004"  # Document state management system
+        healthCheck:
+          path: "/docs/status"
+          interval: "30s"
+    
+    berjak-tetrahedron-dojo:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5006"  # Dynamic ERP System - Tetrahedron Dojo
+        healthCheck:
+          path: "/health"
+          interval: "30s"
+    
+    berjak-metatron-cube:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:5007"  # Metatron Cube Translator
+        healthCheck:
+          path: "/api/status"
+          interval: "30s"
+
+  # ===========================================
+  # ROUTING RULES
+  # Sacred geometry aligned URL structure
+  # ===========================================
+  
+  routers:
+    # Main Berjak CRM Router
+    berjak-crm-router:
+      rule: "Host(`berjak.local`) || Host(`crm.berjak.local`)"
+      service: "berjak-crm-core"
+      middlewares:
+        - "berjak-auth"
+        - "berjak-business-headers"
+        - "berjak-rate-limit"
+        - "berjak-logging"
+      tls: {}
+    
+    # Nexus Platform Router - Adaptive Digital Ecosystem
+    nexus-platform-router:
+      rule: "Host(`nexus.berjak.local`) || PathPrefix(`/nexus`)"
+      service: "berjak-nexus-platform"
+      middlewares:
+        - "nexus-auth"
+        - "nexus-adaptive-headers"
+        - "nexus-rate-limit"
+        - "nexus-logging"
+      tls: {}
+    
+    # Infinity System Router - Comprehensive Integration
+    infinity-system-router:
+      rule: "Host(`infinity.berjak.local`) || PathPrefix(`/infinity`)"
+      service: "berjak-nexus-platform"  # Same service, different context
+      middlewares:
+        - "infinity-auth"
+        - "infinity-scaling-headers"
+        - "infinity-rate-limit"
+        - "infinity-logging"
+      tls: {}
+    
+    # Asset Recovery System Router
+    asset-recovery-router:
+      rule: "Host(`recovery.berjak.local`) || PathPrefix(`/recovery`)"
+      service: "berjak-asset-recovery"
+      middlewares:
+        - "recovery-fire-protocol-auth"
+        - "recovery-security-headers"
+        - "recovery-strict-rate-limit"
+        - "recovery-audit-logging"
+      tls: {}
+    
+    # Business Intelligence Router
+    business-intelligence-router:
+      rule: "Host(`bi.berjak.local`) || PathPrefix(`/intelligence`)"
+      service: "berjak-business-intelligence"
+      middlewares:
+        - "bi-analytics-auth"
+        - "bi-performance-headers"
+        - "bi-rate-limit"
+        - "bi-metrics-logging"
+      tls: {}
+    
+    # Document Management Router
+    document-management-router:
+      rule: "Host(`docs.berjak.local`) || PathPrefix(`/documents`)"
+      service: "berjak-document-management"
+      middlewares:
+        - "docs-state-auth"
+        - "docs-workflow-headers"
+        - "docs-rate-limit"
+        - "docs-state-logging"
+      tls: {}
+    
+    # Tetrahedron Dojo ERP Router - Sacred Geometry Operations
+    tetrahedron-dojo-router:
+      rule: "Host(`dojo.berjak.local`) || PathPrefix(`/dojo`)"
+      service: "berjak-tetrahedron-dojo"
+      middlewares:
+        - "dojo-sacred-auth"
+        - "dojo-tetrahedral-headers"
+        - "dojo-rate-limit"
+        - "dojo-sacred-logging"
+      tls: {}
+    
+    # Metatron Cube Translator Router - Trident Rotational Lock
+    metatron-cube-router:
+      rule: "Host(`metatron.berjak.local`) || PathPrefix(`/metatron`)"
+      service: "berjak-metatron-cube"
+      middlewares:
+        - "metatron-trident-auth"
+        - "metatron-cube-headers"
+        - "metatron-rate-limit"
+        - "metatron-sacred-logging"
+      tls: {}
+
+  # ===========================================
+  # MIDDLEWARE CONFIGURATIONS
+  # Professional business-grade security & performance
+  # ===========================================
+  
+  middlewares:
+    # Core Berjak Authentication & Security
+    berjak-auth:
+      basicAuth:
+        users:
+          - "admin:$apr1$H6uskkkW$IgXLP6ewTrSuBkTrqE8wj/"  # admin:secret
+          - "manager:$2y$10$3pK7QYQgWJLW1YsLbN/QYe5kF9N2J3K7L8M9Q3P5R7S9T1U3V5W7X"
+    
+    nexus-auth:
+      basicAuth:
+        users:
+          - "nexus:$2y$10$NexusAdaptiveSystemKey2025"
+    
+    infinity-auth:
+      basicAuth:
+        users:
+          - "infinity:$2y$10$InfinityScalableFrameworkKey"
+    
+    recovery-fire-protocol-auth:
+      basicAuth:
+        users:
+          - "recovery:$2y$10$FireProtocolSecurityKey2025"
+    
+    bi-analytics-auth:
+      basicAuth:
+        users:
+          - "analytics:$2y$10$BusinessIntelligenceKey2025"
+    
+    docs-state-auth:
+      basicAuth:
+        users:
+          - "documents:$2y$10$DocumentStateManagementKey"
+    
+    dojo-sacred-auth:
+      basicAuth:
+        users:
+          - "dojo:$2y$10$TetrahedronSacredGeometryKey"
+          - "obiwan:$2y$10$ObservationIntelligenceKey"
+          - "tata:$2y$10$TransformationArchitectureKey"
+          - "atlas:$2y$10$AnalysisLogicSystemKey"
+    
+    metatron-trident-auth:
+      basicAuth:
+        users:
+          - "metatron:$2y$10$MetatronCubeTranslatorKey"
+          - "trident:$2y$10$TridentRotationalLockKey"
+          - "sacred:$2y$10$SacredGeometryAlignmentKey"
+    
+    # Professional Business Headers
+    berjak-business-headers:
+      headers:
+        customRequestHeaders:
+          X-Berjak-Trading-Since: "1954"
+          X-Berjak-System: "Field-Resource-Ecosystem"
+          X-Business-Context: "Professional-CRM"
+          X-Sacred-Geometry: "Tetrahedral-Processing"
+        customResponseHeaders:
+          X-Berjak-Response: "Professional-Grade"
+          X-Document-State-Support: "Draft-WIP-Review-Approved-Archived"
+          Cache-Control: "private, max-age=3600"
+          Strict-Transport-Security: "max-age=31536000; includeSubDomains"
+    
+    # Nexus Adaptive System Headers  
+    nexus-adaptive-headers:
+      headers:
+        customRequestHeaders:
+          X-Nexus-Mode: "Adaptive-Digital-Ecosystem"
+          X-User-Centric-Design: "Inclusive-Non-Technical"
+          X-Privacy-Security: "End-to-End-Encryption"
+          X-Environmental-Awareness: "Energy-Conscious"
+        customResponseHeaders:
+          X-Nexus-Response: "Smoke-Morphing-Interface"
+          X-Modularity: "Dynamic-Component-Loading"
+          X-Scalability: "Effortless-Growth"
+    
+    # Infinity System Scaling Headers
+    infinity-scaling-headers:
+      headers:
+        customRequestHeaders:
+          X-Infinity-Framework: "Comprehensive-Integration"
+          X-Learning-System: "Reinforcement-Memory"
+          X-Automation-Level: "Minimal-User-Input"
+          X-Synergy-Mapping: "Collaborative-Optimization"
+        customResponseHeaders:
+          X-Infinity-Response: "Unified-Processing-Engine"
+          X-AI-Enhancement: "TensorFlow-PyTorch-Ready"
+          X-Data-Processing: "Classification-NLP-Schema"
+    
+    # Asset Recovery Security Headers
+    recovery-security-headers:
+      headers:
+        customRequestHeaders:
+          X-Fire-Protocol: "Strategic-Deployment-Ready"
+          X-Asset-Recovery: "Global-Multi-Jurisdiction"
+          X-Evidence-Status: "ASIC-Violations-Documented"
+          X-Security-Level: "Critical-Priority-4"
+        customResponseHeaders:
+          X-Recovery-Response: "Fire-Protocol-Active"
+          X-Jurisdictions: "Australia-Switzerland-Austria-BVI"
+          X-Monitoring: "IoT-Pattern-Recognition"
+          Content-Security-Policy: "default-src 'self'; script-src 'self' 'unsafe-inline'"
+    
+    # Business Intelligence Performance Headers
+    bi-performance-headers:
+      headers:
+        customRequestHeaders:
+          X-BI-Mode: "Real-Time-Analytics"
+          X-Metrics-Processing: "Multi-Entity-Analysis"
+          X-Dashboard-State: "Executive-Intelligence"
+          X-Data-Volume: "11.9GB-Processed"
+        customResponseHeaders:
+          X-BI-Response: "Intelligence-Dashboard"
+          X-Performance-Optimized: "Fast-Analytics"
+          X-System-Health: "80-Percent-Optimal"
+    
+    # Document State Workflow Headers
+    docs-workflow-headers:
+      headers:
+        customRequestHeaders:
+          X-Document-System: "State-Based-Workflow"
+          X-Visual-Hierarchy: "Professional-Document-States"
+          X-Workflow-States: "Draft-WIP-Review-Approved-Archived"
+          X-Design-Philosophy: "Institutional-Weight"
+        customResponseHeaders:
+          X-Docs-Response: "State-Managed"
+          X-Visual-Design: "Executive-Professional-Layout"
+          X-Document-Retention: "7-Year-Compliance"
+    
+    # Tetrahedron Dojo Sacred Headers
+    dojo-tetrahedral-headers:
+      headers:
+        customRequestHeaders:
+          X-Sacred-Geometry: "Tetrahedron-Dojo-Active"
+          X-Dojo-Vertices: "OBI-WAN|TATA|ATLAS|DOJO"
+          X-Sacred-Frequencies: "432Hz|528Hz|639Hz|741Hz"
+          X-Golden-Ratio: "1.618033988749"
+          X-ERP-Architecture: "Dynamic-Operations-Junction"
+        customResponseHeaders:
+          X-Dojo-Response: "Tetrahedral-Processing"
+          X-Vertex-Alignment: "Sacred-Geometry-Locked"
+          X-Business-Operations: "Real-Time-ERP-Active"
+    
+    # Metatron Cube Translator Headers
+    metatron-cube-headers:
+      headers:
+        customRequestHeaders:
+          X-Metatron-Cube: "13-Sacred-Circles-Active"
+          X-Trident-Lock: "Rotational-Axis-Aligned"
+          X-Semantic-Alignment: "Meaning-Context-Vector"
+          X-Temporal-Alignment: "Time-Sequence-Phase"
+          X-Geometric-Alignment: "Structure-Form-Position"
+          X-Platonic-Solids: "All-Five-Embodied"
+        customResponseHeaders:
+          X-Cube-Response: "Sacred-Translation-Complete"
+          X-Trident-Status: "Rotationally-Locked"
+          X-Coherence-Level: "Harmonic-Resonance-Active"
+    
+    # Rate Limiting - Professional tier limits
+    berjak-rate-limit:
+      rateLimit:
+        burst: 100
+        period: "60s"
+        average: 50
+    
+    nexus-rate-limit:
+      rateLimit:
+        burst: 200
+        period: "60s"  
+        average: 100
+    
+    infinity-rate-limit:
+      rateLimit:
+        burst: 300
+        period: "60s"
+        average: 150
+    
+    recovery-strict-rate-limit:
+      rateLimit:
+        burst: 50
+        period: "60s"
+        average: 25  # More restrictive for security
+    
+    bi-rate-limit:
+      rateLimit:
+        burst: 150
+        period: "60s"
+        average: 75
+    
+    docs-rate-limit:
+      rateLimit:
+        burst: 80
+        period: "60s"
+        average: 40
+    
+    dojo-rate-limit:
+      rateLimit:
+        burst: 144
+        period: "60s"  # Sacred numbers: 144 = 12^2 (divine completion)
+        average: 72     # 72 = 360/5 (pentagonal harmony)
+    
+    metatron-rate-limit:
+      rateLimit:
+        burst: 169
+        period: "60s"  # 169 = 13^2 (Metatron's 13 circles squared)
+        average: 89     # 89 = Fibonacci number (sacred sequence)
+    
+    # Logging Configurations
+    berjak-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Berjak-System: "keep"
+              X-Business-Context: "keep"
+              X-Sacred-Geometry: "keep"
+    
+    nexus-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Nexus-Mode: "keep"
+              X-User-Centric-Design: "keep"
+              X-Environmental-Awareness: "keep"
+    
+    infinity-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Infinity-Framework: "keep"
+              X-Learning-System: "keep"
+              X-Automation-Level: "keep"
+    
+    recovery-audit-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Fire-Protocol: "keep"
+              X-Asset-Recovery: "keep"
+              X-Evidence-Status: "keep"
+              X-Security-Level: "keep"
+    
+    bi-metrics-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-BI-Mode: "keep"
+              X-Metrics-Processing: "keep"
+              X-Dashboard-State: "keep"
+    
+    docs-state-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Document-System: "keep"
+              X-Workflow-States: "keep"
+              X-Design-Philosophy: "keep"
+    
+    dojo-sacred-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Sacred-Geometry: "keep"
+              X-Dojo-Vertices: "keep"
+              X-Sacred-Frequencies: "keep"
+              X-Golden-Ratio: "keep"
+              X-ERP-Architecture: "keep"
+    
+    metatron-sacred-logging:
+      accessLog:
+        format: "json"
+        fields:
+          headers:
+            names:
+              X-Metatron-Cube: "keep"
+              X-Trident-Lock: "keep"
+              X-Semantic-Alignment: "keep"
+              X-Temporal-Alignment: "keep"
+              X-Geometric-Alignment: "keep"
+              X-Platonic-Solids: "keep"
+
+# ===========================================
+# SYSTEM INTEGRATION NOTES
+# ===========================================
+
+# Core Philosophy Integration:
+# - Berjak: Professional trading operations since 1954
+# - Nexus: Adaptive digital ecosystem with user-centric design  
+# - Infinity: Comprehensive framework with AI learning systems
+# - Asset Recovery: Fire protocol strategic deployment system
+# - Business Intelligence: Real-time analytics and metrics
+# - Document Management: State-based workflow system
+
+# Sacred Geometry Alignment:
+# - Tetrahedral processing through OBI-WAN → TATA → ATLAS → DOJO
+# - Harmonic frequencies maintained throughout system
+# - Field Resource Ecosystem integration maintained
+# - Professional institutional weight in design
+
+# Technical Architecture:
+# - Modular service architecture
+# - Scalable component loading
+# - End-to-end encryption
+# - Multi-layer authentication
+# - Comprehensive audit logging
+# - State-based document management
+
+# Business Integration:
+# - Global asset recovery operations
+# - Multi-jurisdiction compliance (Australia, Switzerland, Austria, BVI)
+# - ASIC violation documentation
+# - Real-time business intelligence
+# - Professional CRM functionality
+# - Executive-level reporting
+
+# URLs Available:
+# - https://berjak.local (Main CRM)
+# - https://nexus.berjak.local (Nexus Platform)
+# - https://infinity.berjak.local (Infinity System)
+# - https://recovery.berjak.local (Asset Recovery)
+# - https://bi.berjak.local (Business Intelligence)
+# - https://docs.berjak.local (Document Management)
+# - https://dojo.berjak.local (Tetrahedron Dojo ERP)
+# - https://metatron.berjak.local (Metatron Cube Translator)
+
+# Sacred Geometry Integration Notes:
+# - Tetrahedron Dojo: 4 vertices (OBI-WAN, TATA, ATLAS, DOJO) for dynamic ERP operations
+# - Metatron Cube: 13 sacred circles containing all Platonic solids for universal translation
+# - Trident Lock: 3 rotational axes (Semantic, Temporal, Geometric) for attribute alignment
+# - Golden Ratio: φ = 1.618... used throughout for harmonic proportion
+# - Sacred Frequencies: 432Hz, 528Hz, 639Hz, 741Hz for resonant processing
+# - Fibonacci Sequence: Rate limiting and burst values align with natural growth patterns

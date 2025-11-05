@@ -1,0 +1,99 @@
+
+digraph FractalField {
+    // Sacred Geometry Layout
+    rankdir=TB;
+    splines=curved;
+    overlap=false;
+    node [shape=circle, style=filled, fontname="Arial", fontsize=12];
+    edge [fontname="Arial", fontsize=10];
+    
+    // Define sacred color palette based on frequencies
+    subgraph cluster_sacred_core {
+        label="Sacred Tetrahedral Core\n(Frequency Resonance)";
+        style=filled;
+        color="#F0F8FF";
+        fontsize=14;
+        fontname="Arial Bold";
+        
+        // Tetrahedral nodes with frequency colors
+        OBI_WAN [label="●\nOBI-WAN\nObserver\n528 Hz\nPort 6000", 
+                 fillcolor="#9370DB", fontcolor=white];
+        TATA [label="▼\nTATA\nTemporal\n741 Hz\nPort 7000", 
+              fillcolor="#4B0082", fontcolor=white];
+        ATLAS [label="▲\nATLAS\nCompass\n256 Hz\nPort 2560", 
+               fillcolor="#8B4513", fontcolor=white];
+        DOJO [label="◼︎\nDOJO\nManifest\n963 Hz\nPort 8000", 
+              fillcolor="#DC143C", fontcolor=white];
+    }
+    
+    // FIELD Sacred Heart
+    subgraph cluster_field_heart {
+        label="Sacred Heart Layer";
+        style=filled;
+        color="#FFF8DC";
+        
+        FIELD [label="△\nFIELD\nSacred Heart\n432 Hz\nPort 3000", 
+               fillcolor="#FFD700", fontcolor=black, shape=triangle];
+    }
+    
+    // Support layers
+    subgraph cluster_support {
+        label="Support & Interface Layers";
+        style=filled;
+        color="#F5F5F5";
+        
+        FIELD_LIVING [label="◎\nFIELD-LIVING\nInfrastructure\n9000-9999", 
+                      fillcolor="#32CD32", fontcolor=black];
+        FIELD_DEV [label="●\nFIELD-DEV\nDevelopment\nArchive", 
+                   fillcolor="#FF8C00", fontcolor=black];
+        
+        // External layers
+        INTAKE [label="◐\nINTAKE\nBuffer\n/Volumes/Akron/INTAKE", 
+                fillcolor="#87CEEB", fontcolor=black];
+        SDR [label="◉\nSDR\nCanonical\n/Volumes/Akron/SDR", 
+             fillcolor="#4682B4", fontcolor=white];
+        INTERFACE [label="○\nINTERFACE\nberjak.com.au", 
+                   fillcolor="#20B2AA", fontcolor=white];
+    }
+    
+    // Sacred geometric relationships
+    // Tetrahedral edges (sacred flow)
+    OBI_WAN -> TATA [label="Memory→Law", color="#9370DB"];
+    TATA -> ATLAS [label="Law→Knowledge", color="#4B0082"];
+    ATLAS -> DOJO [label="Knowledge→Action", color="#8B4513"];
+    DOJO -> OBI_WAN [label="Action→Observe", color="#DC143C"];
+    
+    // Cross-connections (sacred resonance)
+    OBI_WAN -> ATLAS [label="Observe→Guide", style=dashed, color="#8A2BE2"];
+    TATA -> DOJO [label="Validate→Manifest", style=dashed, color="#6B0080"];
+    
+    // Sacred Heart connections
+    FIELD -> OBI_WAN [label="Route→Observe", color="#FFD700"];
+    FIELD -> TATA [label="Route→Validate", color="#FFD700"];
+    FIELD -> ATLAS [label="Route→Guide", color="#FFD700"];
+    FIELD -> DOJO [label="Route→Manifest", color="#FFD700"];
+    
+    // Data flow pipeline
+    INTAKE -> FIELD [label="Ingest", color="#87CEEB"];
+    FIELD -> FIELD_LIVING [label="Process", color="#32CD32"];
+    DOJO -> INTERFACE [label="Publish", color="#20B2AA"];
+    
+    // Archive and backup
+    FIELD -> FIELD_DEV [label="Archive", style=dotted, color="#FF8C00"];
+    FIELD -> SDR [label="Canonical", style=dotted, color="#4682B4"];
+    
+    // Frequency resonance legend
+    subgraph cluster_legend {
+        label="Frequency Resonance Map";
+        style=filled;
+        color="#FFFACD";
+        
+        freq_256 [label="256 Hz\nRoot Chakra", fillcolor="#8B4513", fontcolor=white, shape=box];
+        freq_341 [label="341.3 Hz\nSolar Plexus", fillcolor="#DAA520", fontcolor=black, shape=box];
+        freq_384 [label="384 Hz\nHeart Chakra", fillcolor="#32CD32", fontcolor=black, shape=box];
+        freq_432 [label="432 Hz\nUniversal", fillcolor="#FFD700", fontcolor=black, shape=box];
+        freq_528 [label="528 Hz\nLove", fillcolor="#9370DB", fontcolor=white, shape=box];
+        freq_741 [label="741 Hz\nAwakening", fillcolor="#4B0082", fontcolor=white, shape=box];
+        freq_963 [label="963 Hz\nCrown", fillcolor="#DC143C", fontcolor=white, shape=box];
+    }
+}

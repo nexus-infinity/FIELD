@@ -1,0 +1,69 @@
+{
+  "execution_timestamp": "2025-09-19T15:55:39.509175",
+  "total_entities": 6,
+  "entity_results": {
+    "CENTOSA SA": {
+      "entity": "CENTOSA SA",
+      "timestamp": "2025-09-19T15:55:39.509186",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    },
+    "PASCALI TRUST": {
+      "entity": "PASCALI TRUST",
+      "timestamp": "2025-09-19T15:55:43.517848",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    },
+    "Jacques Rich": {
+      "entity": "Jacques Rich",
+      "timestamp": "2025-09-19T15:55:47.038025",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    },
+    "Adam Rich": {
+      "entity": "Adam Rich",
+      "timestamp": "2025-09-19T15:55:50.663787",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    },
+    "David Rich": {
+      "entity": "David Rich",
+      "timestamp": "2025-09-19T15:55:54.505566",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    },
+    "BERJAK NOMINEES": {
+      "entity": "BERJAK NOMINEES",
+      "timestamp": "2025-09-19T15:55:57.887261",
+      "validation_status": "FAILED",
+      "external_validation": null,
+      "internal_comparison": null,
+      "risk_assessment": null,
+      "error": "External validation failed: HTTP 500"
+    }
+  },
+  "summary": {
+    "completed": 0,
+    "failed": 6,
+    "high_risk": [],
+    "medium_risk": [],
+    "low_risk": [],
+    "clear": [],
+    "external_matches_found": {}
+  }
+}

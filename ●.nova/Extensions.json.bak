@@ -1,0 +1,49 @@
+{
+  "extensions": [
+    {
+      "identifier": "panic.Python",
+      "name": "Python",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "identifier": "panic.Git",
+      "name": "Git",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "identifier": "panic.Terminal",
+      "name": "Terminal",
+      "enabled": true,
+      "priority": "medium"
+    },
+    {
+      "identifier": "panic.path-finder",
+      "name": "Path Finder",
+      "enabled": true,
+      "priority": "medium"
+    },
+    {
+      "identifier": "panic.LSP",
+      "name": "Language Server Protocol",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "identifier": "panic.ColorPicker",
+      "name": "Color Picker",
+      "enabled": true,
+      "priority": "low"
+    },
+    {
+      "identifier": "apexskier.prettier",
+      "name": "Prettier",
+      "enabled": true,
+      "priority": "medium"
+    }
+  ],
+  "autoUpdate": true,
+  "checkForUpdates": "daily"
+}
+

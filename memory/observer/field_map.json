@@ -1,0 +1,924 @@
+{
+  "observer_state": {
+    "node": "OB1",
+    "role": "Field Cartographer",
+    "glyph": "\u25cf",
+    "timestamp": "2025-07-22 21:53:55.428226",
+    "status": "INITIALIZED"
+  },
+  "field_scan": {
+    "weave_layer.py": {
+      "type": "file",
+      "size": 7053,
+      "last_modified": "1753132022.217662"
+    },
+    "\u25cfregistry_cleanup_report.json": {
+      "type": "file",
+      "size": 494324,
+      "last_modified": "1751994820.5357265"
+    },
+    ".meta": {
+      "type": "directory",
+      "file_count": 2,
+      "last_modified": "1752910121.583971"
+    },
+    "\u25cfSomaLink": {
+      "type": "directory",
+      "file_count": 10547,
+      "last_modified": "1751215795.0854716"
+    },
+    "real_migration.py": {
+      "type": "file",
+      "size": 13283,
+      "last_modified": "1752985644.905783"
+    },
+    "\u25b2ATLAS": {
+      "type": "directory",
+      "file_count": 74252,
+      "last_modified": "1753075692.6522164"
+    },
+    "\u25cfvalidators": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1751215807.1165447"
+    },
+    "claude_desktop_config.json": {
+      "type": "file",
+      "size": 1963,
+      "last_modified": "1753080287.809637"
+    },
+    "field_manifest.json": {
+      "type": "file",
+      "size": 206010072,
+      "last_modified": "1753031942.640415"
+    },
+    "field_cli.py": {
+      "type": "file",
+      "size": 4473,
+      "last_modified": "1753105474.3039813"
+    },
+    "sovereign_ledger.log": {
+      "type": "file",
+      "size": 305,
+      "last_modified": "1752946265.0807219"
+    },
+    "\u25cfsacred_alignment_report_20250628_141143.json.bak": {
+      "type": "file",
+      "size": 2639,
+      "last_modified": "1751137038.1918795"
+    },
+    "\u25cfsacred_field_validation_report.json": {
+      "type": "file",
+      "size": 119854,
+      "last_modified": "1752990152.040805"
+    },
+    "\u25cfFRACTAL_VISUALIZATION_IMPLEMENTATION_SUMMARY.md": {
+      "type": "file",
+      "size": 8408,
+      "last_modified": "1751839350.0102708"
+    },
+    "\u25cfOBI-WAN": {
+      "type": "directory",
+      "file_count": 3367,
+      "last_modified": "1752990160.1652844"
+    },
+    "post_migration_integrity_verification.py": {
+      "type": "file",
+      "size": 19639,
+      "last_modified": "1753008631.2020545"
+    },
+    "\u25cfDOMAIN_TERMINOLOGY_AND_SCOPE.md": {
+      "type": "file",
+      "size": 10177,
+      "last_modified": "1751249462.3658695"
+    },
+    ".klein_memory": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1751214453.7525225"
+    },
+    ".envrc": {
+      "type": "file",
+      "size": 504,
+      "last_modified": "1749322612.3700166"
+    },
+    "FIELD_DETECTION_UPDATE_SUMMARY.md": {
+      "type": "file",
+      "size": 2720,
+      "last_modified": "1752891878.297219"
+    },
+    "SOLANA_WALLET_TECHNICAL_SPECS.md": {
+      "type": "file",
+      "size": 20471,
+      "last_modified": "1752129717.5631442"
+    },
+    "\u25cf\u25ce_FIELD_TRAIN_STATION": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1751215805.5995014"
+    },
+    "\u25cfsacred_tool_registry.md": {
+      "type": "file",
+      "size": 4635,
+      "last_modified": "1752265624.2330823"
+    },
+    "\u2299_trade_registry.json": {
+      "type": "file",
+      "size": 2159,
+      "last_modified": "1752990154.5028439"
+    },
+    "canonical_ingestion_verification_report.json": {
+      "type": "file",
+      "size": 531,
+      "last_modified": "1753032028.6952884"
+    },
+    "\u25cfmigration_backups": {
+      "type": "directory",
+      "file_count": 6,
+      "last_modified": "1751120426.824952"
+    },
+    ".DS_Store": {
+      "type": "file",
+      "size": 6148,
+      "last_modified": "1753175546.9997144"
+    },
+    "canonical_ingestion.db": {
+      "type": "file",
+      "size": 16384,
+      "last_modified": "1753080047.9805484"
+    },
+    "\u27e1_arcadia_core": {
+      "type": "directory",
+      "file_count": 3,
+      "last_modified": "1753129367.5378437"
+    },
+    "\u25bcTATA": {
+      "type": "directory",
+      "file_count": 395,
+      "last_modified": "1752990159.4097288"
+    },
+    "dark_psychology_integrator.py": {
+      "type": "file",
+      "size": 16400,
+      "last_modified": "1752950639.8752825"
+    },
+    "migration_integrity_report_20250720_205054.json": {
+      "type": "file",
+      "size": 171826,
+      "last_modified": "1753008657.905696"
+    },
+    "memory": {
+      "type": "directory",
+      "file_count": 16,
+      "last_modified": "1752947405.1736374"
+    },
+    "DARK_PSYCHOLOGY_WORKFLOW_GUIDE.md": {
+      "type": "file",
+      "size": 5789,
+      "last_modified": "1752950062.5747094"
+    },
+    "\u25c7_metatron_influence.db": {
+      "type": "file",
+      "size": 20480,
+      "last_modified": "1752595195.8482563"
+    },
+    "\u25cfstorage_optimization.db": {
+      "type": "file",
+      "size": 16384,
+      "last_modified": "1751842882.3392282"
+    },
+    "nixos-latest-aarch64.iso": {
+      "type": "file",
+      "size": 1171941376,
+      "last_modified": "1752945989.6677594"
+    },
+    ".pytest_cache": {
+      "type": "directory",
+      "file_count": 3,
+      "last_modified": "1751215274.1326444"
+    },
+    "SovereignDataRepository": {
+      "type": "directory",
+      "file_count": 7,
+      "last_modified": "1753080033.484132"
+    },
+    ".goose": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1752246797.215336"
+    },
+    "\u27c1RE_manifest_links.json": {
+      "type": "file",
+      "size": 685,
+      "last_modified": "1752911462.3512883"
+    },
+    "extract_pdf_content.py": {
+      "type": "file",
+      "size": 6574,
+      "last_modified": "1752949991.132514"
+    },
+    "\u25cfsacred_naming_rename_preview_20250707_074231.json": {
+      "type": "file",
+      "size": 84406377,
+      "last_modified": "1751838152.9710414"
+    },
+    "SETUP.md": {
+      "type": "file",
+      "size": 3717,
+      "last_modified": "1753107863.043401"
+    },
+    "fractal_field_activation_checklist.md": {
+      "type": "file",
+      "size": 8046,
+      "last_modified": "1752990157.8141942"
+    },
+    "\u25cfsacred_alignment_report_20250628_141143.json": {
+      "type": "file",
+      "size": 2639,
+      "last_modified": "1751137468.2395709"
+    },
+    "\u25cfmigration_log_20250629_002028.json": {
+      "type": "file",
+      "size": 2628,
+      "last_modified": "1751137730.1028998"
+    },
+    "_common": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1753107910.6577783"
+    },
+    "\u25cf_core": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1751215801.2198484"
+    },
+    "Dojo_FINAL_SNAPSHOT_20250719_163927.tar.gz": {
+      "type": "file",
+      "size": 419421,
+      "last_modified": "1752907167.3710008"
+    },
+    "glyph_tagging_system.json": {
+      "type": "file",
+      "size": 3715,
+      "last_modified": "1752911488.4051545"
+    },
+    "\u25cfsacred_geometry_compliance_report_20250711_185232.json": {
+      "type": "file",
+      "size": 19541,
+      "last_modified": "1752223952.8955064"
+    },
+    "\u25fc\ufe0eDOJO": {
+      "type": "directory",
+      "file_count": 2191,
+      "last_modified": "1753079345.8160686"
+    },
+    "TATA": {
+      "type": "directory",
+      "file_count": 2,
+      "last_modified": "1753144175.0928247"
+    },
+    "\u25cf\u25c7_port_migration_backup_20250629_002053": {
+      "type": "directory",
+      "file_count": 83059,
+      "last_modified": "1752990160.164086"
+    },
+    "\u25cffractal_interactive_explorer.py": {
+      "type": "file",
+      "size": 22485,
+      "last_modified": "1751839221.5825732"
+    },
+    "\u25cfprime_petal_glyph_validation_20250719_123653.json": {
+      "type": "file",
+      "size": 27265,
+      "last_modified": "1752892613.7731495"
+    },
+    "\u25cftest_prime_petal_navigation.py": {
+      "type": "file",
+      "size": 8799,
+      "last_modified": "1752892976.0602121"
+    },
+    "\u25cf\u25ce_sandbox": {
+      "type": "directory",
+      "file_count": 31,
+      "last_modified": "1751215805.6187098"
+    },
+    "living_membrane.py": {
+      "type": "file",
+      "size": 905,
+      "last_modified": "1753131933.5107646"
+    },
+    "\u25cfduplicate_cleanup_summary.txt": {
+      "type": "file",
+      "size": 2951,
+      "last_modified": "1751873028.3567352"
+    },
+    "\u25cffractal_visualization_system.py": {
+      "type": "file",
+      "size": 26731,
+      "last_modified": "1751839110.0700724"
+    },
+    "\u25cf\u25bcTATA": {
+      "type": "directory",
+      "file_count": 406,
+      "last_modified": "1752990157.8199842"
+    },
+    "\u2b22_CHAKRA_SYSTEM": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1752911419.6300528"
+    },
+    "pyproject.toml": {
+      "type": "file",
+      "size": 384,
+      "last_modified": "1753105493.2847886"
+    },
+    "claude_desktop_config_canonical.json": {
+      "type": "file",
+      "size": 1850,
+      "last_modified": "1753079837.1583333"
+    },
+    "Dojo": {
+      "type": "directory",
+      "file_count": 6914,
+      "last_modified": "1753144175.0934312"
+    },
+    "process_dark_psychology_direct.py": {
+      "type": "file",
+      "size": 3057,
+      "last_modified": "1752950243.7161293"
+    },
+    "run_scripts": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1753107910.6578166"
+    },
+    "run_field_dashboard.py": {
+      "type": "file",
+      "size": 2390,
+      "last_modified": "1752382248.9510946"
+    },
+    "\u25cfDIRECTORY_RELATIONSHIPS_DOCUMENTATION.md": {
+      "type": "file",
+      "size": 12021,
+      "last_modified": "1751249631.937265"
+    },
+    "load_astrology_ontology.py": {
+      "type": "file",
+      "size": 4130,
+      "last_modified": "1752951266.6965187"
+    },
+    "starship_performance_summary.md": {
+      "type": "file",
+      "size": 2533,
+      "last_modified": "1752895449.5595353"
+    },
+    "notion_api_integration_template.py": {
+      "type": "file",
+      "size": 13694,
+      "last_modified": "1752908370.0314999"
+    },
+    "SOLANA_WALLET_COMPREHENSIVE_ANALYSIS.md": {
+      "type": "file",
+      "size": 10815,
+      "last_modified": "1752129158.6027658"
+    },
+    "astrology_engine.py": {
+      "type": "file",
+      "size": 39882,
+      "last_modified": "1752951225.1705675"
+    },
+    "field_decision_tree_engine.py": {
+      "type": "file",
+      "size": 19302,
+      "last_modified": "1752993791.980332"
+    },
+    "\u25e6GHOST-STATION": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1753128273.3065693"
+    },
+    "_meta": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1752266737.2221558"
+    },
+    "\u25cftrident_tetra_ontology.json": {
+      "type": "file",
+      "size": 4046,
+      "last_modified": "1751835844.5736194"
+    },
+    "__pycache__": {
+      "type": "directory",
+      "file_count": 5,
+      "last_modified": "1752950330.0194275"
+    },
+    "THROAT": {
+      "type": "directory",
+      "file_count": 85,
+      "last_modified": "1753168936.0842597"
+    },
+    "\u2022OBI-WAN": {
+      "type": "directory",
+      "file_count": 4,
+      "last_modified": "1752973019.9634156"
+    },
+    "\u25cfFIELD_GEOMETRY_MAP.md": {
+      "type": "file",
+      "size": 2146,
+      "last_modified": "1751835818.7539656"
+    },
+    "\u25cfworkflow_orchestrator.log": {
+      "type": "file",
+      "size": 1293,
+      "last_modified": "1751842882.3431685"
+    },
+    "\u25cfprime_petal_glyph_detection.py": {
+      "type": "file",
+      "size": 4085,
+      "last_modified": "1752893249.1994712"
+    },
+    "OBI-WAN": {
+      "type": "directory",
+      "file_count": 4,
+      "last_modified": "1753144175.0925953"
+    },
+    "\u25cfremove_duplicates.sh": {
+      "type": "file",
+      "size": 11178,
+      "last_modified": "1751855148.65429"
+    },
+    "\u25cf\u25b3_IMPLEMENTATION_WORKFLOWS_v1.2.md": {
+      "type": "file",
+      "size": 5455,
+      "last_modified": "1751836511.1352036"
+    },
+    "\u25cf.nova": {
+      "type": "directory",
+      "file_count": 7,
+      "last_modified": "1751214622.0788448"
+    },
+    "\u25cfstorage_optimization_plan.md": {
+      "type": "file",
+      "size": 2291,
+      "last_modified": "1751838448.6553578"
+    },
+    "\u25cf\u25c7_port_migration_backup_20250629_011356": {
+      "type": "directory",
+      "file_count": 83027,
+      "last_modified": "1752990160.1455612"
+    },
+    "test_canonical_ingestion_verification.py": {
+      "type": "file",
+      "size": 14715,
+      "last_modified": "1753032018.4439828"
+    },
+    "\u25cfMISSING_COMMANDS_RESOLUTION.md": {
+      "type": "file",
+      "size": 6202,
+      "last_modified": "1751811152.598375"
+    },
+    "\u25cfprime_petal_glyph_validation_20250719_124729.json": {
+      "type": "file",
+      "size": 27480,
+      "last_modified": "1752893249.199272"
+    },
+    "\u25cfvisualizations": {
+      "type": "directory",
+      "file_count": 7,
+      "last_modified": "1751839275.384197"
+    },
+    "README.md": {
+      "type": "file",
+      "size": 14041,
+      "last_modified": "1752976310.986557"
+    },
+    "INVESTIGATION_INTEGRATION_PLAN.md": {
+      "type": "file",
+      "size": 4523,
+      "last_modified": "1753128220.6010528"
+    },
+    "\u25cfsacred_field_validation_report.json.bak": {
+      "type": "file",
+      "size": 119854,
+      "last_modified": "1751137306.9297676"
+    },
+    "Dojo_FINAL_SNAPSHOT_20250719_163748.tar.gz": {
+      "type": "file",
+      "size": 28585717,
+      "last_modified": "1752907070.730842"
+    },
+    "test_field_detection.py": {
+      "type": "file",
+      "size": 2611,
+      "last_modified": "1752891821.465035"
+    },
+    "\u25cf\u25c7_port_migration_backup_20250629_023241": {
+      "type": "directory",
+      "file_count": 44965,
+      "last_modified": "1752990159.9558382"
+    },
+    "FIELD_symbolic_scanner.py": {
+      "type": "file",
+      "size": 3021,
+      "last_modified": "1753105247.283297"
+    },
+    "\u25c7_SPHERE_REGISTRY.json": {
+      "type": "file",
+      "size": 1870,
+      "last_modified": "1752596052.8174677"
+    },
+    "unified_field_dashboard.py": {
+      "type": "file",
+      "size": 293,
+      "last_modified": "1752282333.2608387"
+    },
+    ".env.template": {
+      "type": "file",
+      "size": 5501,
+      "last_modified": "1750910585.9209096"
+    },
+    "notion_id_verification.py": {
+      "type": "file",
+      "size": 10755,
+      "last_modified": "1752910939.790997"
+    },
+    "logs": {
+      "type": "directory",
+      "file_count": 14,
+      "last_modified": "1753080047.9794722"
+    },
+    "\u25cf\u2b63_prime_petal_glyph_validator.py": {
+      "type": "file",
+      "size": 17851,
+      "last_modified": "1752893208.2760036"
+    },
+    "\u25cfFIELD_TOPOLOGY.json": {
+      "type": "file",
+      "size": 0,
+      "last_modified": null
+    },
+    "\u25cfduplicate_analysis.py": {
+      "type": "file",
+      "size": 4857,
+      "last_modified": "1751855033.2701433"
+    },
+    "\u25cfsdr_ingestion_script.py": {
+      "type": "file",
+      "size": 2672,
+      "last_modified": "1751909101.2147388"
+    },
+    "\u25cf\u2b63_registry": {
+      "type": "directory",
+      "file_count": 47,
+      "last_modified": "1753175546.9968402"
+    },
+    "\u2b21_walkerville_origin": {
+      "type": "directory",
+      "file_count": 8,
+      "last_modified": "1752930384.8733623"
+    },
+    "process_dark_psychology_intake.py": {
+      "type": "file",
+      "size": 15177,
+      "last_modified": "1752949861.6633253"
+    },
+    "warp_control.py": {
+      "type": "file",
+      "size": 8547,
+      "last_modified": "1752947141.2139323"
+    },
+    "\u25cfreorganization_plan.json.bak": {
+      "type": "file",
+      "size": 16183,
+      "last_modified": "1751137051.8557034"
+    },
+    "STORAGE_OPTIMIZATION_README.md": {
+      "type": "file",
+      "size": 7497,
+      "last_modified": "1751838793.582681"
+    },
+    "field_binder.py": {
+      "type": "file",
+      "size": 3935,
+      "last_modified": "1753132441.606863"
+    },
+    ".venv": {
+      "type": "directory",
+      "file_count": 6127,
+      "last_modified": "1751215805.6217153"
+    },
+    "\u25b2_harmonic_sphere_organizer.py": {
+      "type": "file",
+      "size": 7790,
+      "last_modified": "1751892953.2762523"
+    },
+    "_MCP": {
+      "type": "directory",
+      "file_count": 3,
+      "last_modified": "1753146126.7437239"
+    },
+    "FIELD_OPERATIONS_WORKFLOW_GUIDE.md": {
+      "type": "file",
+      "size": 16030,
+      "last_modified": "1752990156.6790254"
+    },
+    "arcadian_validation_engine.py": {
+      "type": "file",
+      "size": 21538,
+      "last_modified": "1752918873.4570706"
+    },
+    "warp_observer.py": {
+      "type": "file",
+      "size": 8790,
+      "last_modified": "1752946704.1390097"
+    },
+    "\u2299_VALUE_FLOW": {
+      "type": "directory",
+      "file_count": 3,
+      "last_modified": "1752599806.7584562"
+    },
+    "\u25cfsacred_naming_audit.py": {
+      "type": "file",
+      "size": 20279,
+      "last_modified": "1751837936.9639251"
+    },
+    "\u25cfexecution_report.json.bak": {
+      "type": "file",
+      "size": 39390,
+      "last_modified": "1751137461.5256953"
+    },
+    "\u25cfreorganization_plan.json": {
+      "type": "file",
+      "size": 16183,
+      "last_modified": "1751137482.0503168"
+    },
+    "\u25cfrotate_models_and_cache.py": {
+      "type": "file",
+      "size": 5533,
+      "last_modified": "1751892766.1894507"
+    },
+    "\u25cffield_topology_diagram.svg": {
+      "type": "file",
+      "size": 0,
+      "last_modified": null
+    },
+    "\u25cf\u25b3_FIELD_SYSTEM_TOPOLOGY_v1.2.json": {
+      "type": "file",
+      "size": 2874,
+      "last_modified": "1751836475.0873435"
+    },
+    "\u25cfcleanup_completion_report.txt": {
+      "type": "file",
+      "size": 1864,
+      "last_modified": "1751891680.3588912"
+    },
+    "field_registry.json": {
+      "type": "file",
+      "size": 740,
+      "last_modified": "1753031939.0475647"
+    },
+    "\u25cfdeduplication_executor.py": {
+      "type": "file",
+      "size": 6021,
+      "last_modified": "1752944394.2469327"
+    },
+    "symbolic_lacing.sh": {
+      "type": "file",
+      "size": 1067,
+      "last_modified": "1753105209.1832368"
+    },
+    "living_membrane.json": {
+      "type": "file",
+      "size": 1237,
+      "last_modified": "1753132212.5600584"
+    },
+    "\u25cffield_optimization_plan.md": {
+      "type": "file",
+      "size": 4522,
+      "last_modified": "1751835318.0901573"
+    },
+    "field_system_dashboard.py": {
+      "type": "file",
+      "size": 24628,
+      "last_modified": "1752891746.0651176"
+    },
+    "ssh_key_inventory_results.md": {
+      "type": "file",
+      "size": 5593,
+      "last_modified": "1752977916.7479243"
+    },
+    "requirements_dashboard.txt": {
+      "type": "file",
+      "size": 48,
+      "last_modified": "1752372490.484738"
+    },
+    "TRIDENT_DOJO_NODE_TEMPLATES.md": {
+      "type": "file",
+      "size": 33813,
+      "last_modified": "1752976218.5763817"
+    },
+    "\u25cf\u25b3_FIELD_SYSTEM_TOPOLOGY_v1.2.md": {
+      "type": "file",
+      "size": 4356,
+      "last_modified": "1751836419.3998718"
+    },
+    "\u25cfscripts": {
+      "type": "directory",
+      "file_count": 4,
+      "last_modified": "1751838741.753482"
+    },
+    "\u25cfSACRED_NAMING_FRACTAL_VALIDATION_SUMMARY.md": {
+      "type": "file",
+      "size": 7334,
+      "last_modified": "1751838213.5285573"
+    },
+    "\u25cfsacred_geometry_compliance_report_20250711_185543.json": {
+      "type": "file",
+      "size": 20327,
+      "last_modified": "1752224143.8091955"
+    },
+    "\u25ce_INTENTIONS": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1753128173.7645252"
+    },
+    "\u25cf\u25ce_memory_core": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1753107910.6577473"
+    },
+    "\u25cfsacred_naming_validation_report_20250707_073940.json": {
+      "type": "file",
+      "size": 440037296,
+      "last_modified": "1751837993.8443835"
+    },
+    "dry_run_staged_migration.py": {
+      "type": "file",
+      "size": 16860,
+      "last_modified": "1752980746.6355689"
+    },
+    "\u25cfconfigs": {
+      "type": "directory",
+      "file_count": 15,
+      "last_modified": "1751215805.6204407"
+    },
+    "ATLAS": {
+      "type": "directory",
+      "file_count": 2,
+      "last_modified": "1753144175.0930772"
+    },
+    "VTATA": {
+      "type": "directory",
+      "file_count": 2,
+      "last_modified": "1752829637.7268994"
+    },
+    "\u25cf\u25ce_validation": {
+      "type": "directory",
+      "file_count": 4,
+      "last_modified": "1751215807.0980287"
+    },
+    ".warp": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1751215807.1189735"
+    },
+    "\u25a0DOJO": {
+      "type": "directory",
+      "file_count": 0,
+      "last_modified": "1752901308.7606223"
+    },
+    "warp_weaver.py": {
+      "type": "file",
+      "size": 13399,
+      "last_modified": "1752946849.6491454"
+    },
+    ".git": {
+      "type": "directory",
+      "file_count": 516,
+      "last_modified": "1751215815.6873703"
+    },
+    "\u25cf\u25ce_sacred_geometry_corrective_action_plan.md": {
+      "type": "file",
+      "size": 6086,
+      "last_modified": "1752224238.5920162"
+    },
+    "\u25cf\u25ce_sacred_geometry_compliance_validator.py": {
+      "type": "file",
+      "size": 19249,
+      "last_modified": "1752224030.5620093"
+    },
+    "Dojo_backup_20250715_101528": {
+      "type": "directory",
+      "file_count": 5,
+      "last_modified": "1752538528.5302262"
+    },
+    "field_circuit_breakers.py": {
+      "type": "file",
+      "size": 13449,
+      "last_modified": "1752372565.2083821"
+    },
+    "_registry": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1753105672.870053"
+    },
+    "consolidation_plan.md": {
+      "type": "file",
+      "size": 2373,
+      "last_modified": "1752990160.0937994"
+    },
+    "\u25cfprime_petal_glyph_validation_20250719_124111.json": {
+      "type": "file",
+      "size": 27480,
+      "last_modified": "1752892871.4172368"
+    },
+    "nixos-latest-aarch64.iso.sha256": {
+      "type": "file",
+      "size": 121,
+      "last_modified": "1752946171.5349965"
+    },
+    "complete_fractal_field_demo.py": {
+      "type": "file",
+      "size": 10383,
+      "last_modified": "1752952544.7597365"
+    },
+    "\u25cfmigration_log_20250629_002028.json.bak": {
+      "type": "file",
+      "size": 2628,
+      "last_modified": "1751137306.9255207"
+    },
+    "\u25cfbin": {
+      "type": "directory",
+      "file_count": 6,
+      "last_modified": "1751817378.9076576"
+    },
+    "warp_architect.py": {
+      "type": "file",
+      "size": 9345,
+      "last_modified": "1752947087.0524917"
+    },
+    "\u25cfFIELD_TOPOLOGY.md": {
+      "type": "file",
+      "size": 0,
+      "last_modified": null
+    },
+    ".sacred_cleanup_archive_20250628_125639": {
+      "type": "directory",
+      "file_count": 2,
+      "last_modified": "1751136718.575849"
+    },
+    "\u27c1SOMA": {
+      "type": "directory",
+      "file_count": 1,
+      "last_modified": "1752910121.5816398"
+    },
+    "test_field_awareness.sh": {
+      "type": "file",
+      "size": 12391,
+      "last_modified": "1752926834.514331"
+    },
+    ".direnv": {
+      "type": "directory",
+      "file_count": 1210,
+      "last_modified": "1751215827.7238166"
+    },
+    ".warpconfig.yaml": {
+      "type": "file",
+      "size": 5419,
+      "last_modified": "1752939757.7542875"
+    },
+    "notion_sdr_mapping_manifest.json": {
+      "type": "file",
+      "size": 7730,
+      "last_modified": "1752908815.2959287"
+    },
+    "notion_sdr_sync_engine.py": {
+      "type": "file",
+      "size": 15318,
+      "last_modified": "1752908772.7740784"
+    },
+    "\u25cftool_consolidation_complete.md": {
+      "type": "file",
+      "size": 5196,
+      "last_modified": "1752265686.9159648"
+    },
+    "FIELD_LIVING_INDEX.md": {
+      "type": "file",
+      "size": 1854,
+      "last_modified": "1753132396.8340652"
+    },
+    "\u25cfsacred_naming_auto_rename.py": {
+      "type": "file",
+      "size": 17956,
+      "last_modified": "1751838117.5298219"
+    },
+    "sovereign_ontology_blueprint": {
+      "type": "directory",
+      "file_count": 3,
+      "last_modified": "1752223403.9552515"
+    }
+  },
+  "timestamp": "2025-07-22 21:53:55.428226",
+  "total_items": 182,
+  "resonance_score": 0.75
+}

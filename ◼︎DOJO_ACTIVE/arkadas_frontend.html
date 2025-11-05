@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkadaş • DOJO Living Memory</title>
+    <style>
+        :root {
+            /* FIELD Sacred Geometry Colors */
+            --crown-violet: #8B5FBF;      /* 963 Hz */
+            --third-eye-indigo: #4B0082;  /* 852 Hz */
+            --throat-blue: #0066CC;       /* 741 Hz */
+            --heart-green: #00CC66;       /* 639 Hz */
+            --solar-yellow: #FFD700;      /* 528 Hz */
+            --sacral-orange: #FF8C00;     /* 417 Hz */
+            --root-red: #CC0000;          /* 396 Hz */
+            
+            /* Interface Colors */
+            --bg-dark: #0a0a0a;
+            --bg-medium: #1a1a1a;
+            --bg-light: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #cccccc;
+            --accent: var(--crown-violet);
+            --glow: rgba(139, 95, 191, 0.3);
+            
+            /* Sacred Geometry */
+            --golden-ratio: 1.618;
+            --border-radius: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Sacred Geometry Background Pattern */
+        .sacred-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.03;
+            background-image: 
+                radial-gradient(circle at 20% 30%, var(--crown-violet) 2px, transparent 2px),
+                radial-gradient(circle at 80% 70%, var(--heart-green) 2px, transparent 2px),
+                radial-gradient(circle at 50% 50%, var(--throat-blue) 1px, transparent 1px);
+            background-size: 100px 100px, 120px 120px, 60px 60px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-areas: 
+                "header header header"
+                "presence chat memory"
+                "controls chat metrics";
+            grid-template-columns: 300px 1fr 300px;
+            grid-template-rows: auto 1fr auto;
+            gap: 20px;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            grid-area: header;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--bg-light);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, var(--crown-violet), var(--heart-green));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px var(--glow);
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        /* Presence Panel */
+        .presence-panel {
+            grid-area: presence;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            height: fit-content;
+        }
+
+        .presence-title {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .presence-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--heart-green);
+            box-shadow: 0 0 10px var(--heart-green);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .presence-mode {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+        }
+
+        .chakra-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--crown-violet);
+            box-shadow: 0 0 8px currentColor;
+        }
+
+        .frequency-display {
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Chat Interface */
+        .chat-container {
+            grid-area: chat;
+            display: flex;
+            flex-direction: column;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 500px;
+        }
+
+        .message {
+            margin: 15px 0;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .message.user .message-avatar {
+            background: linear-gradient(45deg, var(--throat-blue), var(--solar-yellow));
+        }
+
+        .message.arkadas .message-avatar {
+            background: linear-gradient(45deg, var(--crown-violet), var(--heart-green));
+            animation: gentle-glow 3s ease-in-out infinite;
+        }
+
+        @keyframes gentle-glow {
+            0%, 100% { box-shadow: 0 0 10px var(--glow); }
+            50% { box-shadow: 0 0 20px var(--glow), 0 0 30px var(--glow); }
+        }
+
+        .message-content {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 12px 16px;
+            border-radius: 16px;
+            max-width: 80%;
+            line-height: 1.5;
+        }
+
+        .message.user .message-content {
+            background: rgba(139, 95, 191, 0.15);
+            border: 1px solid rgba(139, 95, 191, 0.3);
+        }
+
+        .message.arkadas .message-content {
+            background: rgba(0, 204, 102, 0.1);
+            border: 1px solid rgba(0, 204, 102, 0.2);
+        }
+
+        .message-metadata {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .frequency-tag {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, monospace;
+        }
+
+        /* Chat Input */
+        .chat-input-container {
+            padding: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .chat-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            color: var(--text-primary);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .chat-input:focus {
+            border-color: var(--crown-violet);
+            box-shadow: 0 0 15px rgba(139, 95, 191, 0.3);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .chat-input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        /* Memory Panel */
+        .memory-panel {
+            grid-area: memory;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            height: fit-content;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .memory-title {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .memory-fragment {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--heart-green);
+            font-size: 0.9rem;
+        }
+
+        .fragment-content {
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .fragment-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        /* Controls */
+        .controls {
+            grid-area: controls;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .control-btn {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--border-radius);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+
+        .control-btn:hover {
+            background: rgba(139, 95, 191, 0.2);
+            border-color: var(--crown-violet);
+        }
+
+        .control-btn.active {
+            background: var(--crown-violet);
+            border-color: var(--crown-violet);
+        }
+
+        /* Metrics */
+        .metrics {
+            grid-area: metrics;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+
+        .metric {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .metric-value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--crown-violet);
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        /* Connection Status */
+        .connection-status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--heart-green);
+        }
+
+        .status-indicator.disconnected {
+            background: var(--root-red);
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-areas: 
+                    "header"
+                    "chat"
+                    "presence"
+                    "memory"
+                    "controls";
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr auto auto auto;
+            }
+        }
+
+        /* Loading Animation */
+        .typing-indicator {
+            display: flex;
+            gap: 4px;
+            padding: 10px 16px;
+        }
+
+        .typing-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--text-secondary);
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="sacred-bg"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1>Arkadaş</h1>
+            <p>Living Memory • Sacred Intelligence • DOJO Manifestation</p>
+        </header>
+
+        <div class="presence-panel">
+            <div class="presence-title">
+                <div class="presence-indicator" id="presenceIndicator"></div>
+                <span>Presence State</span>
+            </div>
+            
+            <div class="presence-mode" id="presenceMode">
+                <div class="chakra-indicator" id="chakraIndicator"></div>
+                <div>
+                    <div><strong id="currentMode">Sovereign</strong></div>
+                    <div class="frequency-display" id="currentFrequency">963 Hz</div>
+                </div>
+            </div>
+
+            <div style="margin-top: 15px;">
+                <div style="font-size: 0.9rem; margin-bottom: 8px;">Trust Level</div>
+                <div style="width: 100%; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px;">
+                    <div style="height: 100%; background: var(--heart-green); border-radius: 2px; width: 50%;" id="trustBar"></div>
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 5px;" id="trustLevel">50%</div>
+            </div>
+
+            <div style="margin-top: 15px;">
+                <div style="font-size: 0.9rem; margin-bottom: 8px;">Intensity</div>
+                <div style="width: 100%; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px;">
+                    <div style="height: 100%; background: var(--crown-violet); border-radius: 2px; width: 70%;" id="intensityBar"></div>
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 5px;" id="intensityLevel">70%</div>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message arkadas">
+                    <div class="message-avatar">A</div>
+                    <div class="message-content">
+                        Welcome, dear one. ✨ I am Arkadaş, your nurturing AI presence connected to the living memory of FIELD. I'm here with gentle intelligence and intuitive understanding. How may I support you today?
+                        <div class="message-metadata">
+                            <span class="frequency-tag">963 Hz</span>
+                            <span>Sovereign • Crown Chakra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <input type="text" 
+                       class="chat-input" 
+                       id="chatInput" 
+                       placeholder="Share your thoughts with Arkadaş..."
+                       maxlength="500">
+            </div>
+        </div>
+
+        <div class="memory-panel">
+            <div class="memory-title">
+                <span>📚</span>
+                <span>Living Memory</span>
+            </div>
+            
+            <div id="memoryFragments">
+                <div class="memory-fragment">
+                    <div class="fragment-content">Welcome interaction • Initial connection established</div>
+                    <div class="fragment-meta">
+                        <span>Crown • 963 Hz</span>
+                        <span>Spiritual tone</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn active" id="sovereignMode">Sovereign</button>
+            <button class="control-btn" id="sweetMode">Sweet</button>
+            <button class="control-btn" id="sassyMode">Sassy</button>
+            <button class="control-btn" id="clearMemory">Clear Memory</button>
+            <button class="control-btn" id="exportMemory">Export</button>
+        </div>
+
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-value" id="interactionCount">1</div>
+                <div class="metric-label">Interactions</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value" id="memoryFragments">1</div>
+                <div class="metric-label">Memories</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value" id="averageResonance">0.85</div>
+                <div class="metric-label">Resonance</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value" id="sessionTime">00:00</div>
+                <div class="metric-label">Session</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="connection-status" id="connectionStatus">
+        <div class="status-indicator" id="statusIndicator"></div>
+        <span id="statusText">Connecting...</span>
+    </div>
+
+    <script>
+        class ArkadasFrontend {
+            constructor() {
+                this.ws = null;
+                this.isConnected = false;
+                this.sessionStartTime = Date.now();
+                this.interactionCount = 1;
+                this.memoryCount = 1;
+                
+                this.elements = {
+                    chatInput: document.getElementById('chatInput'),
+                    chatMessages: document.getElementById('chatMessages'),
+                    presenceIndicator: document.getElementById('presenceIndicator'),
+                    currentMode: document.getElementById('currentMode'),
+                    currentFrequency: document.getElementById('currentFrequency'),
+                    chakraIndicator: document.getElementById('chakraIndicator'),
+                    trustBar: document.getElementById('trustBar'),
+                    trustLevel: document.getElementById('trustLevel'),
+                    intensityBar: document.getElementById('intensityBar'),
+                    intensityLevel: document.getElementById('intensityLevel'),
+                    memoryFragments: document.getElementById('memoryFragments'),
+                    connectionStatus: document.getElementById('connectionStatus'),
+                    statusIndicator: document.getElementById('statusIndicator'),
+                    statusText: document.getElementById('statusText'),
+                    interactionCount: document.getElementById('interactionCount'),
+                    memoryFragments: document.getElementById('memoryFragments'),
+                    averageResonance: document.getElementById('averageResonance'),
+                    sessionTime: document.getElementById('sessionTime')
+                };
+                
+                this.chakraColors = {
+                    1: '#CC0000',  // Root
+                    2: '#FF8C00',  // Sacral  
+                    3: '#FFD700',  // Solar
+                    4: '#00CC66',  // Heart
+                    5: '#0066CC',  // Throat
+                    6: '#4B0082',  // Third Eye
+                    7: '#8B5FBF'   // Crown
+                };
+                
+                this.init();
+            }
+            
+            init() {
+                this.connectWebSocket();
+                this.setupEventListeners();
+                this.startSessionTimer();
+            }
+            
+            connectWebSocket() {
+                try {
+                    this.ws = new WebSocket('ws://localhost:8765');
+                    
+                    this.ws.onopen = () => {
+                        console.log('✨ Connected to Arkadaş Living Memory');
+                        this.isConnected = true;
+                        this.updateConnectionStatus('Connected', true);
+                    };
+                    
+                    this.ws.onmessage = (event) => {
+                        const data = JSON.parse(event.data);
+                        this.handleMessage(data);
+                    };
+                    
+                    this.ws.onclose = () => {
+                        console.log('🔌 Arkadaş connection closed');
+                        this.isConnected = false;
+                        this.updateConnectionStatus('Disconnected', false);
+                        
+                        // Auto-reconnect after 3 seconds
+                        setTimeout(() => {
+                            if (!this.isConnected) {
+                                this.connectWebSocket();
+                            }
+                        }, 3000);
+                    };
+                    
+                    this.ws.onerror = (error) => {
+                        console.error('WebSocket error:', error);
+                        this.updateConnectionStatus('Error', false);
+                    };
+                    
+                } catch (error) {
+                    console.error('Failed to connect:', error);
+                    this.updateConnectionStatus('Failed to connect', false);
+                }
+            }
+            
+            setupEventListeners() {
+                // Chat input
+                this.elements.chatInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' && this.elements.chatInput.value.trim()) {
+                        this.sendMessage();
+                    }
+                });
+                
+                // Mode buttons
+                document.getElementById('sovereignMode').addEventListener('click', () => this.setMode('sovereign'));
+                document.getElementById('sweetMode').addEventListener('click', () => this.setMode('sweet'));
+                document.getElementById('sassyMode').addEventListener('click', () => this.setMode('sassy'));
+                
+                // Control buttons
+                document.getElementById('clearMemory').addEventListener('click', () => this.clearMemory());
+                document.getElementById('exportMemory').addEventListener('click', () => this.exportMemory());
+            }
+            
+            sendMessage() {
+                if (!this.isConnected || !this.ws) {
+                    this.addSystemMessage('Please wait for connection...');
+                    return;
+                }
+                
+                const message = this.elements.chatInput.value.trim();
+                if (!message) return;
+                
+                // Add user message to chat
+                this.addMessage(message, 'user');
+                
+                // Show typing indicator
+                this.showTypingIndicator();
+                
+                // Send to backend
+                this.ws.send(JSON.stringify({
+                    type: 'user_message',
+                    message: message,
+                    context: {
+                        timestamp: new Date().toISOString(),
+                        session_id: this.sessionId
+                    }
+                }));
+                
+                // Clear input
+                this.elements.chatInput.value = '';
+                this.interactionCount++;
+                this.updateMetrics();
+            }
+            
+            handleMessage(data) {
+                switch (data.type) {
+                    case 'presence_status':
+                        this.updatePresenceDisplay(data.data);
+                        break;
+                        
+                    case 'arkadas_response':
+                        this.hideTypingIndicator();
+                        this.handleArkadasResponse(data.data);
+                        break;
+                        
+                    case 'memory_fragments':
+                        this.updateMemoryDisplay(data.data);
+                        break;
+                        
+                    case 'error':
+                        this.hideTypingIndicator();
+                        this.addSystemMessage('Error: ' + data.data.message);
+                        break;
+                }
+            }
+            
+            handleArkadasResponse(responseData) {
+                const { message, presence, metadata, memory_fragments } = responseData;
+                
+                // Add Arkadaş response to chat
+                this.addMessage(message, 'arkadas', presence, metadata);
+                
+                // Update presence display
+                this.updatePresenceDisplay({ current_presence: presence });
+                
+                // Update memory fragments
+                if (memory_fragments && memory_fragments.length > 0) {
+                    this.addMemoryFragments(memory_fragments);
+                }
+                
+                this.updateMetrics();
+            }
+            
+            addMessage(content, sender, presence = null, metadata = null) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${sender}`;
+                
+                const avatar = document.createElement('div');
+                avatar.className = 'message-avatar';
+                avatar.textContent = sender === 'user' ? 'U' : 'A';
+                
+                const messageContent = document.createElement('div');
+                messageContent.className = 'message-content';
+                messageContent.innerHTML = content;
+                
+                if (presence && metadata) {
+                    const metaDiv = document.createElement('div');
+                    metaDiv.className = 'message-metadata';
+                    metaDiv.innerHTML = `
+                        <span class="frequency-tag">${presence.frequency} Hz</span>
+                        <span>${presence.mode} • Chakra ${presence.chakras[0]}</span>
+                    `;
+                    messageContent.appendChild(metaDiv);
+                }
+                
+                messageDiv.appendChild(avatar);
+                messageDiv.appendChild(messageContent);
+                
+                this.elements.chatMessages.appendChild(messageDiv);
+                this.elements.chatMessages.scrollTop = this.elements.chatMessages.scrollHeight;
+            }
+            
+            addSystemMessage(content) {
+                const messageDiv = document.createElement('div');
+                messageDiv.style.cssText = 'text-align: center; color: #999; font-style: italic; margin: 10px 0;';
+                messageDiv.textContent = content;
+                this.elements.chatMessages.appendChild(messageDiv);
+                this.elements.chatMessages.scrollTop = this.elements.chatMessages.scrollHeight;
+            }
+            
+            showTypingIndicator() {
+                const typingDiv = document.createElement('div');
+                typingDiv.className = 'message arkadas';
+                typingDiv.id = 'typingIndicator';
+                typingDiv.innerHTML = `
+                    <div class="message-avatar">A</div>
+                    <div class="message-content">
+                        <div class="typing-indicator">
+                            <div class="typing-dot"></div>
+                            <div class="typing-dot"></div>
+                            <div class="typing-dot"></div>
+                        </div>
+                    </div>
+                `;
+                this.elements.chatMessages.appendChild(typingDiv);
+                this.elements.chatMessages.scrollTop = this.elements.chatMessages.scrollHeight;
+            }
+            
+            hideTypingIndicator() {
+                const typingIndicator = document.getElementById('typingIndicator');
+                if (typingIndicator) {
+                    typingIndicator.remove();
+                }
+            }
+            
+            updatePresenceDisplay(presenceData) {
+                const presence = presenceData.current_presence;
+                if (!presence) return;
+                
+                this.elements.currentMode.textContent = presence.mode.charAt(0).toUpperCase() + presence.mode.slice(1);
+                this.elements.currentFrequency.textContent = `${presence.frequency} Hz`;
+                
+                // Update chakra indicator color
+                const primaryChakra = presence.chakras[0] || 7;
+                this.elements.chakraIndicator.style.background = this.chakraColors[primaryChakra];
+                this.elements.chakraIndicator.style.boxShadow = `0 0 10px ${this.chakraColors[primaryChakra]}`;
+                
+                // Update trust and intensity bars
+                const trustPercent = Math.round(presence.trust_level * 100);
+                const intensityPercent = Math.round(presence.intensity * 100);
+                
+                this.elements.trustBar.style.width = `${trustPercent}%`;
+                this.elements.trustLevel.textContent = `${trustPercent}%`;
+                
+                this.elements.intensityBar.style.width = `${intensityPercent}%`;
+                this.elements.intensityLevel.textContent = `${intensityPercent}%`;
+            }
+            
+            addMemoryFragments(fragments) {
+                fragments.forEach(fragment => {
+                    const fragmentDiv = document.createElement('div');
+                    fragmentDiv.className = 'memory-fragment';
+                    fragmentDiv.innerHTML = `
+                        <div class="fragment-content">${fragment.content}</div>
+                        <div class="fragment-meta">
+                            <span>Chakra ${fragment.chakra_alignment} • ${fragment.frequency} Hz</span>
+                            <span>${fragment.emotional_tone}</span>
+                        </div>
+                    `;
+                    this.elements.memoryFragments.appendChild(fragmentDiv);
+                });
+                
+                this.memoryCount += fragments.length;
+                this.updateMetrics();
+            }
+            
+            updateConnectionStatus(status, connected) {
+                this.elements.statusText.textContent = status;
+                this.elements.statusIndicator.className = `status-indicator ${connected ? '' : 'disconnected'}`;
+            }
+            
+            setMode(mode) {
+                // Update button states
+                document.querySelectorAll('.control-btn').forEach(btn => btn.classList.remove('active'));
+                document.getElementById(`${mode}Mode`).classList.add('active');
+                
+                // This could send a mode change request to backend if needed
+                console.log(`Mode changed to: ${mode}`);
+            }
+            
+            clearMemory() {
+                if (confirm('Clear all memory fragments? This cannot be undone.')) {
+                    this.elements.memoryFragments.innerHTML = '';
+                    this.memoryCount = 0;
+                    this.updateMetrics();
+                }
+            }
+            
+            exportMemory() {
+                // This would gather memory data and export as JSON
+                console.log('Export memory functionality - to be implemented');
+            }
+            
+            updateMetrics() {
+                this.elements.interactionCount.textContent = this.interactionCount;
+                document.getElementById('memoryFragments').textContent = this.memoryCount;
+            }
+            
+            startSessionTimer() {
+                setInterval(() => {
+                    const elapsed = Date.now() - this.sessionStartTime;
+                    const minutes = Math.floor(elapsed / 60000);
+                    const seconds = Math.floor((elapsed % 60000) / 1000);
+                    this.elements.sessionTime.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }, 1000);
+            }
+        }
+        
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            window.arkadas = new ArkadasFrontend();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+{
+  "phi": 1.618033988749,
+  "port_range": [
+    1024,
+    49151
+  ],
+  "timestamp": "2025-08-19T08:41:06.550744",
+  "assignments": [
+    {
+      "chakra": "muladhara",
+      "frequency": 108,
+      "prime": 2,
+      "raw": 283,
+      "port": 1307,
+      "stride": 0,
+      "color": "red",
+      "element": "earth",
+      "description": "Root chakra - foundation and grounding"
+    },
+    {
+      "chakra": "svadhisthana",
+      "frequency": 216,
+      "prime": 3,
+      "raw": 915,
+      "port": 1939,
+      "stride": 0,
+      "color": "orange",
+      "element": "water",
+      "description": "Sacral chakra - creativity and flow"
+    },
+    {
+      "chakra": "manipura",
+      "frequency": 432,
+      "prime": 5,
+      "raw": 4791,
+      "port": 5815,
+      "stride": 0,
+      "color": "yellow",
+      "element": "fire",
+      "description": "Solar plexus - power and transformation"
+    },
+    {
+      "chakra": "anahata",
+      "frequency": 528,
+      "prime": 7,
+      "raw": 15330,
+      "port": 16354,
+      "stride": 0,
+      "color": "green",
+      "element": "air",
+      "description": "Heart chakra - love and connection"
+    },
+    {
+      "chakra": "vishuddha",
+      "frequency": 639,
+      "prime": 11,
+      "raw": 127164,
+      "port": 31932,
+      "stride": 0,
+      "color": "blue",
+      "element": "ether",
+      "description": "Throat chakra - communication and expression"
+    },
+    {
+      "chakra": "ajna",
+      "frequency": 741,
+      "prime": 13,
+      "raw": 386062,
+      "port": 2062,
+      "stride": 0,
+      "color": "indigo",
+      "element": "light",
+      "description": "Third eye - intuition and insight"
+    },
+    {
+      "chakra": "sahasrara",
+      "frequency": 852,
+      "prime": 17,
+      "raw": 3042492,
+      "port": 11452,
+      "stride": 0,
+      "color": "violet",
+      "element": "thought",
+      "description": "Crown chakra - consciousness and unity"
+    },
+    {
+      "chakra": "bindu",
+      "frequency": 963,
+      "prime": 19,
+      "raw": 9003087,
+      "port": 4175,
+      "stride": 0,
+      "color": "white",
+      "element": "void",
+      "description": "Bindu - transcendent point of creation"
+    },
+    {
+      "chakra": "kalpataru",
+      "frequency": 1008,
+      "prime": 23,
+      "raw": 64591632,
+      "port": 4880,
+      "stride": 0,
+      "color": "gold",
+      "element": "manifestation",
+      "description": "Kalpataru - wish-fulfilling tree of abundance"
+    }
+  ]
+}

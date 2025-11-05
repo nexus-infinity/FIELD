@@ -1,0 +1,16 @@
+{
+  "name": "money_hub",
+  "description": "Money Hub operations management",
+  "operations": [
+    "institutions",
+    "accounts",
+    "claims",
+    "tasks",
+    "documents",
+    "interactions"
+  ],
+  "api_endpoint": "http://localhost:8000/money-hub",
+  "notion_sync": true,
+  "datashare_integration": true,
+  "gitbook_docs": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dojo System API Gateway",
+  "version": "1.0.0",
+  "components": [
+    "money_hub",
+    "discovery_links",
+    "evidence_principles",
+    "warp_gcp",
+    "geometric_alignment"
+  ],
+  "endpoints": {
+    "/money-hub": "Money Hub operations API",
+    "/discovery": "Discovery Links API",
+    "/evidence": "Evidence management API",
+    "/warp": "Warp+GCP operations API",
+    "/geometry": "Geometric Alignment API",
+    "/datashare": "Document search proxy",
+    "/notion": "Notion workspace sync"
+  },
+  "integrations": {
+    "gitbook": "https://app.gitbook.com/o/XRXzpVdz6OYh9MuiQD08/sites/site_E7eCZ",
+    "notion": "https://berjak-nexus-infinity.notion.site",
+    "datashare": "http://localhost:9630"
+  }
+}

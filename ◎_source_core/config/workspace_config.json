@@ -1,0 +1,8 @@
+{
+  "admin_email": "jeremy.rich@berjak.com.au",
+  "organization_name": "Berjak",
+  "default_password_policy": {
+    "length": 16,
+    "require_change": true
+  }
+}

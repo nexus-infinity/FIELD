@@ -1,0 +1,114 @@
+{
+  "1f204c15-e4f1-8076-a5f7-f06e6ac2cfc4": {
+    "type": "database",
+    "title": "Fractal File Map",
+    "status": "valid",
+    "node": "\u25b2ATLAS",
+    "expected_name": "Fractal File Map",
+    "sdr_path": "/Volumes/Akron/\u25b2ATLAS/fractal_file_map/"
+  },
+  "1fb04c15-e4f1-804a-90a9-de0ec43ba235": {
+    "type": "database",
+    "title": "Lens Modules",
+    "status": "valid",
+    "node": "\u25b2ATLAS",
+    "expected_name": "Lens Modules",
+    "sdr_path": "/Volumes/Akron/\u25b2ATLAS/lens_modules/"
+  },
+  "20004c15-e4f1-8055-9848-f2cf1cc93ec9": {
+    "type": "page",
+    "title": "Sacred Field Architecture: System Overview",
+    "status": "valid",
+    "node": "\u25b2ATLAS",
+    "expected_name": "Sacred Field Architecture: System Overview",
+    "sdr_path": "/Volumes/Akron/\u25b2ATLAS/_core/sacred_field_architecture/"
+  },
+  "20004c15-e4f1-8112-9bf0-f3c4a3a8bd40": {
+    "type": "database",
+    "title": "Consolidated Corporate Entities",
+    "status": "valid",
+    "node": "\u25bcTATA",
+    "expected_name": "Consolidated Corporate Entities",
+    "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/corporate_entities/"
+  },
+  "11304c15-e4f1-81b2-a0f7-de1c888f0f10": {
+    "type": "database",
+    "title": "Corporate Entities Database",
+    "status": "valid",
+    "node": "\u25bcTATA",
+    "expected_name": "Corporate Entities Database",
+    "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/corporate_entities/database_1/"
+  },
+  "b5660f03-4fb4-414f-99b5-c8c65cdbb06c": {
+    "type": "page",
+    "title": "Rich Family Trust Squeeze Analysis (2006-2024): A Pattern of Systematic Control",
+    "status": "valid",
+    "node": "\u25bcTATA",
+    "expected_name": "Rich Family Trust Squeeze Analysis (2006-2024): A Pattern of Systematic Control",
+    "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/BANK_RECORDS/rich_family_trust_analysis/"
+  },
+  "7b784ce7-0b6f-47f4-ad81-0407f6c17304": {
+    "type": "page",
+    "title": "Financial Management",
+    "status": "valid",
+    "node": "\u25bcTATA",
+    "expected_name": "Financial Management",
+    "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/BANK_RECORDS/financial_management/"
+  },
+  "20004c15-e4f1-8104-8cce-f650e0c0b548": {
+    "type": "page",
+    "title": "Technical Implementation",
+    "status": "valid",
+    "node": "\u25fc\ufe0eDOJO",
+    "expected_name": "Technical Implementation",
+    "sdr_path": "/Volumes/Akron/\u25fc\ufe0eDOJO/technical_implementation/"
+  },
+  "1f204c15-e4f1-8070-b9b6-ef18f0e7159a": {
+    "type": "page",
+    "title": "Integration Protocol",
+    "status": "valid",
+    "node": "\u25fc\ufe0eDOJO",
+    "expected_name": "Integration Protocol",
+    "sdr_path": "/Volumes/Akron/\u25fc\ufe0eDOJO/integration_protocols/"
+  },
+  "1f204c15-e4f1-8085-8637-dc78577f6759": {
+    "type": "page",
+    "title": "Activation Sequence",
+    "status": "valid",
+    "node": "\u25cfOBI-WAN",
+    "expected_name": "Activation Sequence",
+    "sdr_path": "/Volumes/Akron/\u25cfOBI-WAN/activation_sequences/"
+  },
+  "1f204c15-e4f1-8080-8d77-f56e03c72d3c": {
+    "type": "page",
+    "title": "Core System Ontology",
+    "status": "valid",
+    "node": "\u25cfOBI-WAN",
+    "expected_name": "Core System Ontology",
+    "sdr_path": "/Volumes/Akron/\u25cfOBI-WAN/system_ontology/"
+  },
+  "1f304c15-e4f1-8093-9f6a-e8b4faaadcf6": {
+    "type": "database",
+    "title": "Chakra System",
+    "status": "valid",
+    "node": "\u2b22_CHAKRA_SYSTEM",
+    "expected_name": "Chakra System",
+    "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/primary/"
+  },
+  "20004c15-e4f1-81a8-b043-de5a6007d98a": {
+    "type": "database",
+    "title": "Chakra System",
+    "status": "valid",
+    "node": "\u2b22_CHAKRA_SYSTEM",
+    "expected_name": "Chakra System",
+    "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/secondary/"
+  },
+  "1d604c15-e4f1-8022-a052-ec7996422810": {
+    "type": "page",
+    "title": "Chakra JSON Templates",
+    "status": "valid",
+    "node": "\u2b22_CHAKRA_SYSTEM",
+    "expected_name": "Chakra JSON Templates",
+    "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/templates/"
+  }
+}

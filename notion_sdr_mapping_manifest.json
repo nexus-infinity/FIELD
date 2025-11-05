@@ -1,0 +1,228 @@
+{
+  "manifest_info": {
+    "version": "1.0",
+    "created": "2025-07-19T17:05:00Z",
+    "author": "FIELD-DEV",
+    "description": "Sovereign mapping manifest for bi-directional Notion-SDR integration",
+    "sovereign_contract": "All mappings maintain symbolic alignment and audit trails"
+  },
+  "field_node_mappings": {
+    "\u25b2ATLAS": {
+      "description": "Intelligence, pathfinding, system architecture",
+      "notion_databases": [
+        {
+          "notion_id": "1f204c15-e4f1-8076-a5f7-f06e6ac2cfc4",
+          "notion_name": "Fractal File Map",
+          "sdr_path": "/Volumes/Akron/\u25b2ATLAS/fractal_file_map/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u25b2",
+            "\u25ce",
+            "\u2b22"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:46.480606"
+        },
+        {
+          "notion_id": "1fb04c15-e4f1-804a-90a9-de0ec43ba235",
+          "notion_name": "Lens Modules",
+          "sdr_path": "/Volumes/Akron/\u25b2ATLAS/lens_modules/",
+          "sync_frequency": "weekly",
+          "symbolic_tags": [
+            "\u25b2",
+            "\u2b22"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:47.067394"
+        },
+        {
+          "notion_id": "20004c15-e4f1-8055-9848-f2cf1cc93ec9",
+          "notion_name": "Sacred Field Architecture: System Overview",
+          "sdr_path": "/Volumes/Akron/\u25b2ATLAS/_core/sacred_field_architecture/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u25b2",
+            "\u25ce"
+          ],
+          "data_format": "markdown",
+          "last_sync": null
+        }
+      ]
+    },
+    "\u25bcTATA": {
+      "description": "Legal entities, financial records, verification",
+      "notion_databases": [
+        {
+          "notion_id": "20004c15-e4f1-8112-9bf0-f3c4a3a8bd40",
+          "notion_name": "Consolidated Corporate Entities",
+          "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/corporate_entities/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u25bc",
+            "\u25fc\ufe0e"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:48.477869"
+        },
+        {
+          "notion_id": "11304c15-e4f1-81b2-a0f7-de1c888f0f10",
+          "notion_name": "Corporate Entities Database",
+          "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/corporate_entities/database_1/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u25bc",
+            "\u25fc\ufe0e"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:49.137128"
+        },
+        {
+          "notion_id": "b5660f03-4fb4-414f-99b5-c8c65cdbb06c",
+          "notion_name": "Rich Family Trust Squeeze Analysis (2006-2024): A Pattern of Systematic Control",
+          "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/BANK_RECORDS/rich_family_trust_analysis/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u25bc",
+            "\u2696\ufe0f"
+          ],
+          "data_format": "json",
+          "last_sync": null
+        },
+        {
+          "notion_id": "7b784ce7-0b6f-47f4-ad81-0407f6c17304",
+          "notion_name": "Financial Management",
+          "sdr_path": "/Volumes/Akron/\u25bcTATA/_vault/BANK_RECORDS/financial_management/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u25bc",
+            "\ud83d\udcb0"
+          ],
+          "data_format": "json",
+          "last_sync": null
+        }
+      ]
+    },
+    "\u25fc\ufe0eDOJO": {
+      "description": "Execution patterns, system implementation",
+      "notion_databases": [
+        {
+          "notion_id": "20004c15-e4f1-8104-8cce-f650e0c0b548",
+          "notion_name": "Technical Implementation",
+          "sdr_path": "/Volumes/Akron/\u25fc\ufe0eDOJO/technical_implementation/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u25fc\ufe0e",
+            "\u2699\ufe0f"
+          ],
+          "data_format": "markdown",
+          "last_sync": null
+        },
+        {
+          "notion_id": "1f204c15-e4f1-8070-b9b6-ef18f0e7159a",
+          "notion_name": "Integration Protocol",
+          "sdr_path": "/Volumes/Akron/\u25fc\ufe0eDOJO/integration_protocols/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u25fc\ufe0e",
+            "\ud83d\udd17"
+          ],
+          "data_format": "markdown",
+          "last_sync": null
+        }
+      ]
+    },
+    "\u25cfOBI-WAN": {
+      "description": "Observation, memory, reflection patterns",
+      "notion_databases": [
+        {
+          "notion_id": "1f204c15-e4f1-8085-8637-dc78577f6759",
+          "notion_name": "Activation Sequence",
+          "sdr_path": "/Volumes/Akron/\u25cfOBI-WAN/activation_sequences/",
+          "sync_frequency": "weekly",
+          "symbolic_tags": [
+            "\u25cf",
+            "\ud83d\udd04"
+          ],
+          "data_format": "json",
+          "last_sync": null
+        },
+        {
+          "notion_id": "1f204c15-e4f1-8080-8d77-f56e03c72d3c",
+          "notion_name": "Core System Ontology",
+          "sdr_path": "/Volumes/Akron/\u25cfOBI-WAN/system_ontology/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u25cf",
+            "\u25ce"
+          ],
+          "data_format": "json",
+          "last_sync": null
+        }
+      ]
+    },
+    "\u2b22_CHAKRA_SYSTEM": {
+      "description": "Sacred geometry, energy systems, chakra templates",
+      "notion_databases": [
+        {
+          "notion_id": "1f304c15-e4f1-8093-9f6a-e8b4faaadcf6",
+          "notion_name": "Chakra System",
+          "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/primary/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u2b22",
+            "\ud83d\udd49\ufe0f"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:53.354390"
+        },
+        {
+          "notion_id": "20004c15-e4f1-81a8-b043-de5a6007d98a",
+          "notion_name": "Chakra System",
+          "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/secondary/",
+          "sync_frequency": "daily",
+          "symbolic_tags": [
+            "\u2b22",
+            "\ud83d\udd49\ufe0f"
+          ],
+          "data_format": "json",
+          "last_sync": "2025-07-19T17:06:55.295669"
+        },
+        {
+          "notion_id": "1d604c15-e4f1-8022-a052-ec7996422810",
+          "notion_name": "Chakra JSON Templates",
+          "sdr_path": "/Volumes/Akron/\u2b22_CHAKRA_SYSTEM/templates/",
+          "sync_frequency": "on_change",
+          "symbolic_tags": [
+            "\u2b22",
+            "\ud83d\udccb"
+          ],
+          "data_format": "json",
+          "last_sync": null
+        }
+      ]
+    }
+  },
+  "sync_configuration": {
+    "audit_log_path": "/Volumes/Akron/_logs/notion_sdr_sync.log",
+    "deduplication": {
+      "method": "sha256_hash",
+      "collision_strategy": "timestamp_priority"
+    },
+    "backup": {
+      "enabled": true,
+      "retention_days": 30,
+      "backup_path": "/Volumes/Akron/_backups/notion_sync/"
+    },
+    "validation": {
+      "symbolic_integrity_check": true,
+      "data_schema_validation": true,
+      "relationship_verification": true
+    }
+  },
+  "operational_sovereignty": {
+    "data_ownership": "All data remains under sovereign control within SDR",
+    "audit_trail": "Every sync operation logged with cryptographic integrity",
+    "access_control": "Notion API key managed through FIELD vault system",
+    "symbolic_alignment": "All mappings maintain geometric and symbolic coherence"
+  }
+}

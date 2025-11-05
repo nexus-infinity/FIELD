@@ -1,0 +1,99 @@
+# L5-Aware Infrastructure Discovery
+
+## Sovereign Host Environment
+- Location: `10 Watts Parade, Mount Eliza VIC Australia`
+- Device: `Mac Studio`
+- Role: `Primary FIELD host`
+- Status: `active`
+- Layers: `L1-L5`
+
+## Discovered Hosts:
+- **Secondary Mac**: Development extension (pending integration)
+- **iPhone Field Node**: Mobile FIELD extension (pending integration)
+- **Apple Watch Sensor**: Biometric FIELD interface (pending integration)
+
+## Network Topology
+- **Field Network**: `192.168.1.0/24`
+- **Continuity Mesh**: Apple Ecosystem
+- **Discovery Protocols**: Bonjour, Handoff, Universal Clipboard
+
+```yaml
+# ~/FIELD/◎_structure/sovereign_infrastructure_map.yaml
+sovereign_hosts:
+  primary_field:
+    location: "10 Watts Parade, Mount Eliza VIC Australia"
+    device: "Mac Studio"
+    role: "Primary FIELD host"
+    status: "active"
+    layers: ["L1", "L2", "L3", "L4", "L5"]
+  
+  discovered_hosts:
+    - name: "secondary_mac"
+      role: "Development extension"
+      discovery_method: "network_scan"
+      integration_status: "pending"
+    
+    - name: "iphone_field_node"
+      role: "Mobile FIELD extension"
+      discovery_method: "continuity_handoff"
+      integration_status: "pending"
+    
+    - name: "apple_watch_sensor"
+      role: "Biometric FIELD interface"
+      discovery_method: "health_kit_sync"
+      integration_status: "pending"
+
+network_topology:
+  field_network: "192.168.1.0/24"
+  continuity_mesh: "apple_ecosystem"
+  discovery_protocols: ["bonjour", "handoff", "universal_clipboard"]
+```
+
+---
+
+# Biological Rhythm Integration
+```python
+# ~/FIELD/◎_structure/apple_breath_integration.py
+class AppleBiologicalIntegration:
+    def __init__(self):
+        self.breath_phases = {
+            "inhale": {
+                "apple_services": [
+                    "icloud_sync",
+                    "continuity_handoff", 
+                    "airdrop_receive",
+                    "health_data_intake"
+                ],
+                "field_components": ["FIELD-LIVING", "SomaLink"]
+            },
+            "exhale": {
+                "apple_services": [
+                    "app_execution",
+                    "notification_delivery",
+                    "screen_mirroring",
+                    "automation_triggers"
+                ],
+                "field_components": ["◼︎DOJO", "▲ATLAS"]
+            },
+            "immune": {
+                "apple_services": [
+                    "security_validation",
+                    "keychain_verification", 
+                    "device_trust_check",
+                    "network_boundary_scan"
+                ],
+                "field_components": ["▼TATA", "geometric_cleanliness"]
+            }
+        }
+    
+    def integrate_apple_into_breath(self, current_phase):
+        """Lace Apple services into current breath phase"""
+        apple_services = self.breath_phases[current_phase]["apple_services"]
+        field_components = self.breath_phases[current_phase]["field_components"]
+        
+        return self.coordinate_apple_field_sync(apple_services, field_components)
+```
+
+---
+
+

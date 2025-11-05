@@ -1,0 +1,112 @@
+{
+  "sacred_sovereign": {
+    "version": "2025-01-27T21:30:00+10:00",
+    "geometric_alignment": "tetrahedral-manifest",
+    "sphere_mappings": {
+      "akron": {
+        "mount_point": "/Volumes/Akron/",
+        "access_mode": "archive_only",
+        "latitude": 0,
+        "longitude": "00:00:00",
+        "symbol": "⟡",
+        "purity": "immutable",
+        "color": "⚪"
+      },
+      "field": {
+        "mount_point": "~/FIELD/",
+        "access_mode": "sacred_manifestation",
+        "latitude": 90,
+        "longitude": "runtime_rotation",
+        "symbol": "⚪",
+        "purity": "sacred",
+        "color": "🟦"
+      },
+      "field_living": {
+        "mount_point": "~/FIELD-LIVING/",
+        "access_mode": "temporary_processing",
+        "latitude": "variable",
+        "longitude": "temporal_flow",
+        "symbol": "⚪",
+        "purity": "mirror_decay",
+        "color": "🟡",
+        "decay_timer": "24h"
+      },
+      "field_dev": {
+        "mount_point": "~/FIELD-DEV/",
+        "access_mode": "validation_testing",
+        "latitude": 45,
+        "longitude": "upward_rotation",
+        "symbol": "⚫",
+        "purity": "experimental",
+        "color": "🟩"
+      }
+    },
+    "tetrahedral_nodes": {
+      "atlas": {
+        "symbol": "▲",
+        "path": "~/FIELD/▲ATLAS/",
+        "function": "tooling_validation",
+        "description": "Tool and agent validation node"
+      },
+      "tata": {
+        "symbol": "▼",
+        "path": "~/FIELD/▼TATA/",
+        "function": "temporal_truth",
+        "description": "Time and truth logging node"
+      },
+      "obi_wan": {
+        "symbol": "●",
+        "path": "~/FIELD/●OBI-WAN/",
+        "function": "living_memory",
+        "description": "Memory and observation node"
+      },
+      "dojo": {
+        "symbol": "◼",
+        "path": "~/FIELD/◼DOJO/",
+        "function": "manifestation",
+        "description": "Primary manifestation node"
+      }
+    },
+    "biological_flow": {
+      "breath_in": "Akron → FIELD-LIVING",
+      "process": "FIELD-LIVING → FIELD-DEV",
+      "breath_out": "FIELD → DOJO",
+      "memory_loop": "DOJO → OBI-WAN → Akron"
+    },
+    "geometric_cleanliness": {
+      "no_duplicated_logic": true,
+      "no_unauthorized_launch_agents": true,
+      "no_unverified_binaries": true,
+      "symbolic_binary_mapping_required": true,
+      "profane_command_filtering": true,
+      "tetrahedral_alignment_required": false
+    },
+    "validation_settings": {
+      "purity_threshold": 0.7,
+      "geometric_score_minimum": 0.6,
+      "sacred_sphere_validation": "strict",
+      "symbolic_anchor_required": true,
+      "lineage_verification": true
+    },
+    "websocket_server": {
+      "port": 8080,
+      "host": "localhost",
+      "max_connections": 100,
+      "connection_timeout": 300000
+    },
+    "redis_settings": {
+      "url": "redis://localhost:6379",
+      "db": 0,
+      "key_prefix": "sacred_bridge:",
+      "max_memory_policy": "allkeys-lru"
+    },
+    "logging": {
+      "level": "info",
+      "sacred_logs_path": "~/FIELD/◼DOJO/sacred-logs/",
+      "validation_logs_path": "~/FIELD/◼DOJO/validation-logs/",
+      "flow_logs_path": "~/FIELD/◼DOJO/biological-flow-logs/",
+      "sphere_transition_logs": "~/FIELD/◼DOJO/sphere-transitions/",
+      "log_retention_days": 30
+    }
+  }
+}

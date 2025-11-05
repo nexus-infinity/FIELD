@@ -1,0 +1,41 @@
+{
+  "field_name": "INDUSTRY",
+  "description": "Industry field - Implementation and production",
+  "frequency_hz": 432,
+  "chakra": "Throat Chakra",
+  "port_range": "6000-6999",
+  "reserved_ports": {
+    "6000": "Industry Production Server",
+    "6001": "Industry Web Interface",
+    "6002": "Industry API Gateway",
+    "6003": "Industry Monitoring Hub"
+  },
+  "environment_variables": {
+    "INDUSTRY_FIELD_FREQUENCY": 432,
+    "INDUSTRY_FIELD_CHAKRA": "Throat Chakra",
+    "INDUSTRY_PORT_RANGE": "6000-6999"
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "industry_service": {
+        "image": "field/industry:latest",
+        "ports": [
+          "6000:6000"
+        ],
+        "environment": {
+          "FIELD_NAME": "INDUSTRY",
+          "FIELD_FREQUENCY": 432,
+          "CHAKRA_MAPPING": "Throat Chakra",
+          "PORT": "6000"
+        },
+        "labels": {
+          "field.frequency": "432",
+          "field.chakra": "Throat Chakra",
+          "field.name": "INDUSTRY"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=INDUSTRY Field Service (432Hz - Throat Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=INDUSTRY\nEnvironment=FIELD_FREQUENCY=432\nEnvironment=CHAKRA_MAPPING=Throat Chakra\nEnvironment=PORT=6000\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/industry_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n"
+}

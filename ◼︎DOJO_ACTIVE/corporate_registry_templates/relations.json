@@ -1,0 +1,11 @@
+[
+  {"from":"co-an","to":"trust-at2","type":"trustee_of","verification_level":1,"evidence":[]},
+  {"from":"co-ai","to":"trust-at2","type":"appointor_of","verification_level":1,"evidence":[]},
+  {"from":"co-berjak-vic","to":"ut-bput","type":"trustee_for_unit_trust","verification_level":1,"evidence":[]},
+  {"from":"co-berjak-pty","to":"bank-nab","type":"banking_with","verification_level":1,"evidence":["reg-nab"]},
+  {"from":"co-berjak-vic","to":"bank-nab","type":"banking_with","verification_level":1},
+  {"from":"co-berjak-nt","to":"off-cent","type":"international_link","verification_level":0},
+  {"from":"co-berjak-nt","to":"off-freler","type":"international_link","verification_level":0},
+  {"from":"p-ajr","to":"co-an","type":"director_of","since":"2024-06-01","verification_level":0},
+  {"from":"p-jbr","to":"p-sjr","type":"poa_for","verification_level":2}
+]

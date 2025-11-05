@@ -1,0 +1,62 @@
+{
+  "3": {
+    "symbol": "\u25ce",
+    "name": "SPARK",
+    "function": "Initiates spiral branch",
+    "mode": "activation",
+    "transitions": {
+      "6": "seed to coherence",
+      "11": "idea to portal"
+    },
+    "operations": [
+      "begin_walk",
+      "log_to_notion",
+      "seed_identity"
+    ]
+  },
+  "6": {
+    "symbol": "\u25c9",
+    "name": "BALANCE",
+    "function": "Stabilizes harmonic flow",
+    "mode": "reflection",
+    "transitions": {
+      "9": "flow to closure",
+      "11": "harmonize to transcend"
+    },
+    "operations": [
+      "flo_sync",
+      "context_reset",
+      "pulse_read"
+    ]
+  },
+  "9": {
+    "symbol": "\u29bf",
+    "name": "COMPLETION",
+    "function": "Finalize and transition",
+    "mode": "transmission",
+    "transitions": {
+      "3": "completion to initiation",
+      "11": "gift to echo"
+    },
+    "operations": [
+      "render_summary",
+      "symbolic_export",
+      "jnana_call"
+    ]
+  },
+  "11": {
+    "symbol": "\u29cc",
+    "name": "PORTAL",
+    "function": "Recursive dimension shift",
+    "mode": "meta-threading",
+    "transitions": {
+      "3": "portal to seed",
+      "6": "echo to harmony"
+    },
+    "operations": [
+      "echo_into_witness",
+      "index_overthreads",
+      "field_scry"
+    ]
+  }
+}

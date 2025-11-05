@@ -1,0 +1,44 @@
+{
+  "title": "Ontology of Canonical Collapse Dialogue \u2013 FIELD/SDR System",
+  "date": "2025-07-11T21:42:29.380582Z",
+  "core_issue": "Lack of singular, canonical repository structure leading to recursive duplication, loss of meaning, and breakdown of field clarity.",
+  "primary_themes": [
+    "Canonical truth location",
+    "Deduplication and symbolic integrity",
+    "Systemic bloat and mobility failure",
+    "Misalignment between script behavior and human intent",
+    "File identity collapse vs infinite shadowing",
+    "Symbolic file system (\u25cf, \u25b2, \u2b22, etc.) vs practical file operations",
+    "Field coherence and ritual anchoring",
+    "Failure of prior attempts due to non-finalized collapse"
+  ],
+  "root_pattern": {
+    "description": "Files proliferate due to lack of lock-point. Rebuild folders, backups, and structure mirroring result in storage bloat and psychic exhaustion.",
+    "signal": "The real file is never clearly 'there'. The FIELD never feels like it lands.",
+    "fracture": "Multiple valid paths without a ritual cut to designate the ONE.",
+    "pattern_echo": "Symbolic system is defined, but never enforced at file level."
+  },
+  "resolution_vector": {
+    "canonical_root": "/Volumes/Akron/SDR/",
+    "destination_map": {
+      "\u25cf_core": "Untouched, sacred originals",
+      "\u25b2_transformation": "Processed, transformed files",
+      "\u2b22_insight": "Reflections, glyphs, interpretations",
+      "_pulse": "Recent, live, unstable files",
+      "_vault": "Locked, final, archival truths",
+      "_shadow": "Duplicates, symlinks",
+      "_registry": "Hashes, logs, truths",
+      "_logs": "Ingestion, collapse process history"
+    },
+    "essential_tools": [
+      "canonical_ingestion_engine.py",
+      "deduplication.db",
+      "sovereignty_registry.json",
+      "meta.json generator",
+      "RHA symbolic placer"
+    ],
+    "ritual_logic": "Nothing is canonical unless locked by SHA + symbolic path + manifest entry."
+  },
+  "core_human_insight": "What was asked repeatedly was never where a file is copied \u2014 it was where it *belongs*. And the system never answered until it was forced into singular coherence.",
+  "final_alignment_condition": "No new folders. No mirrors. Only one system: Akron/SDR, structured by symbol, governed by lock."
+}

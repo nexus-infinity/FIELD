@@ -1,0 +1,80 @@
+{
+  "scan_timestamp": "2025-07-25T18:33:03.793089",
+  "sphere": "FIELD",
+  "active_services": {
+    "OPENAI_API_KEY": {
+      "service": "OpenAI",
+      "type": "AI",
+      "critical": true,
+      "masked_value": "sk-proj-...o5IA",
+      "found": true,
+      "length": 164
+    },
+    "GEMINI_API_KEY": {
+      "service": "Google Gemini",
+      "type": "AI",
+      "critical": true,
+      "masked_value": "AIzaSyB7...6uS4",
+      "found": true,
+      "length": 39
+    },
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "service": "Google Cloud",
+      "type": "Infrastructure",
+      "critical": true,
+      "masked_value": "/Users/j...json",
+      "found": true,
+      "length": 65
+    },
+    "GITHUB_TOKEN": {
+      "service": "GitHub",
+      "type": "Development",
+      "critical": false,
+      "found": false
+    },
+    "ANTHROPIC_API_KEY": {
+      "service": "Anthropic",
+      "type": "AI",
+      "critical": false,
+      "found": false
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "service": "AWS",
+      "type": "Infrastructure",
+      "critical": false,
+      "found": false
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "service": "AWS",
+      "type": "Infrastructure",
+      "critical": false,
+      "found": false
+    }
+  },
+  "api_validations": {
+    "OpenAI": {
+      "status": "active",
+      "response_code": 200,
+      "test_timestamp": "2025-07-25T18:33:03.793089"
+    },
+    "GitHub": {
+      "status": "active",
+      "cli_authenticated": true
+    }
+  },
+  "cost_analysis": {
+    "GCP": {
+      "billing_accounts": 3,
+      "project": "berjak-development-project",
+      "status": "accessible"
+    }
+  },
+  "resonance_scores": {
+    "api_availability": 1.0,
+    "critical_services": 1.0,
+    "overall_resonance": 1.0,
+    "threshold_met": true,
+    "breath_state": "sustained"
+  },
+  "actionable_insights": []
+}

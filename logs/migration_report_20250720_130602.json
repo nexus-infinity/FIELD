@@ -1,0 +1,412 @@
+{
+  "migration_summary": {
+    "timestamp": "2025-07-20T13:06:08.793851",
+    "total_macs": 3,
+    "online_macs": 2,
+    "offline_macs": 1,
+    "total_results": 32
+  },
+  "mac_configurations": [
+    {
+      "name": "kitchen_imac",
+      "ip": "192.168.86.29",
+      "user": "jeremyrich",
+      "ssh_key": "~/.ssh/id_ed25519_homefield",
+      "status": "online",
+      "data_paths": [
+        "~/Documents",
+        "~/Desktop",
+        "~/Downloads",
+        "~/Pictures",
+        "~/Music",
+        "~/Movies",
+        "~/Library/Application Support",
+        "~/Library/Preferences"
+      ]
+    },
+    {
+      "name": "den_imac",
+      "ip": "192.168.86.20",
+      "user": "jacquesrich",
+      "ssh_key": "~/.ssh/id_ed25519_homefield",
+      "status": "online",
+      "data_paths": [
+        "~/Documents",
+        "~/Desktop",
+        "~/Downloads",
+        "~/Pictures",
+        "~/Music",
+        "~/Movies",
+        "~/Library/Application Support",
+        "~/Library/Preferences"
+      ]
+    },
+    {
+      "name": "macbook_air",
+      "ip": "192.168.86.22",
+      "user": "jeremyrich",
+      "ssh_key": "~/.ssh/id_ed25519_homefield",
+      "status": "offline",
+      "data_paths": [
+        "~/Documents",
+        "~/Desktop",
+        "~/Downloads",
+        "~/Pictures",
+        "~/Music",
+        "~/Movies",
+        "~/Library/Application Support",
+        "~/Library/Preferences"
+      ]
+    }
+  ],
+  "migration_results": [
+    {
+      "success": false,
+      "source_path": "jeremyrich@192.168.86.29:~/Documents",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Documents",
+      "files_found": 0,
+      "estimated_size": "Error",
+      "conflicts": [],
+      "errors": [
+        "'utf-8' codec can't decode byte 0xe2 in position 2537: invalid continuation byte"
+      ],
+      "timestamp": "2025-07-20T13:06:02.981351"
+    },
+    {
+      "success": false,
+      "source_path": "jeremyrich@192.168.86.29:~/Desktop",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Desktop",
+      "files_found": 6,
+      "estimated_size": "Unknown",
+      "conflicts": [],
+      "errors": [
+        "rsync(33892): error: multiplex buffer overflow (tag 100 0x6b1fc080, len 2080896)",
+        "rsync(33892): error: io_read_flush",
+        "rsync(33892): error: rsync_receiver",
+        "rsync(33892): warning: child 33893 exited with status 1"
+      ],
+      "timestamp": "2025-07-20T13:06:03.292704"
+    },
+    {
+      "success": false,
+      "source_path": "jeremyrich@192.168.86.29:~/Downloads",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Downloads",
+      "files_found": 0,
+      "estimated_size": "Error",
+      "conflicts": [],
+      "errors": [
+        "'utf-8' codec can't decode byte 0xe2 in position 10384: invalid continuation byte"
+      ],
+      "timestamp": "2025-07-20T13:06:03.551759"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Pictures",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Pictures",
+      "files_found": 23651,
+      "estimated_size": "50528",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:06.994975"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Music",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Music",
+      "files_found": 141,
+      "estimated_size": "8200",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.100970"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Movies",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Movies",
+      "files_found": 178,
+      "estimated_size": "213",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.277446"
+    },
+    {
+      "success": false,
+      "source_path": "jeremyrich@192.168.86.29:~/Library/Application Support",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Library_Application Support",
+      "files_found": 1,
+      "estimated_size": "Unknown",
+      "conflicts": [],
+      "errors": [
+        "rsync(18262): error: /Users/jeremyrich/Library/Application: (l)stat: No such file or directory",
+        "rsync(18262): error: Support/: (l)stat: No such file or directory",
+        "rsync(33907): warning: receiver has empty file list: exiting",
+        "rsync(33907): warning: child 33908 exited with status 23"
+      ],
+      "timestamp": "2025-07-20T13:06:07.317675"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Library/Preferences",
+      "destination_path": "/Volumes/Akron/MIGRATION/kitchen_imac/Library_Preferences",
+      "files_found": 536,
+      "estimated_size": "1418",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.551434"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Documents",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.552539"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Desktop",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.552630"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Downloads",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.552714"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Pictures",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.552817"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Music",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.552929"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Movies",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.553052"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Library/Application Support",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.553168"
+    },
+    {
+      "success": true,
+      "source_path": "jeremyrich@192.168.86.29:~/Library/Preferences",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:07.553270"
+    },
+    {
+      "success": false,
+      "source_path": "jacquesrich@192.168.86.20:~/Documents",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Documents",
+      "files_found": 0,
+      "estimated_size": "Error",
+      "conflicts": [],
+      "errors": [
+        "'utf-8' codec can't decode byte 0xe2 in position 990: invalid continuation byte"
+      ],
+      "timestamp": "2025-07-20T13:06:08.070057"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Desktop",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Desktop",
+      "files_found": 15,
+      "estimated_size": "6148",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.172342"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Downloads",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Downloads",
+      "files_found": 48,
+      "estimated_size": "12335",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.308566"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Pictures",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Pictures",
+      "files_found": 68,
+      "estimated_size": "5176",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.402573"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Music",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Music",
+      "files_found": 65,
+      "estimated_size": "58279",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.512916"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Movies",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Movies",
+      "files_found": 14,
+      "estimated_size": "0",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.607921"
+    },
+    {
+      "success": false,
+      "source_path": "jacquesrich@192.168.86.20:~/Library/Application Support",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Library_Application Support",
+      "files_found": 0,
+      "estimated_size": "Unknown",
+      "conflicts": [],
+      "errors": [
+        "rsync: link_stat \"/Users/jacquesrich/Library/Application\" failed: No such file or directory (2)",
+        "rsync: link_stat \"/Users/jacquesrich/Support/.\" failed: No such file or directory (2)",
+        "rsync(33928): warning: receiver has empty file list: exiting",
+        "rsync error: some files could not be transferred (code 23) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-47/rsync/main.c(685) [sender=2.6.9]",
+        "rsync(33928): warning: child 33929 exited with status 23"
+      ],
+      "timestamp": "2025-07-20T13:06:08.675077"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Library/Preferences",
+      "destination_path": "/Volumes/Akron/MIGRATION/den_imac/Library_Preferences",
+      "files_found": 210,
+      "estimated_size": "414",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.789981"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Documents",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.791608"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Desktop",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.791932"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Downloads",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792129"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Pictures",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792297"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Music",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792475"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Movies",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792629"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Library/Application Support",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792785"
+    },
+    {
+      "success": true,
+      "source_path": "jacquesrich@192.168.86.20:~/Library/Preferences",
+      "destination_path": "/Volumes/Akron/SDR",
+      "files_found": 0,
+      "estimated_size": "SDR Analysis Required",
+      "conflicts": [],
+      "errors": [],
+      "timestamp": "2025-07-20T13:06:08.792936"
+    }
+  ],
+  "summary_statistics": {
+    "successful_analyses": 26,
+    "failed_analyses": 6,
+    "total_conflicts": 0,
+    "total_errors": 16
+  }
+}

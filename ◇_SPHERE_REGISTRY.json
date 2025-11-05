@@ -1,0 +1,64 @@
+{
+  "GRAVITY_ZONES": {
+    "DEV_GRAVITY": {
+      "type": "gravity",
+      "center": "/Users/jbear/FIELD-DEV",
+      "radius": 3,
+      "influence": "code_attraction",
+      "active": true,
+      "description": "Pulls related code files toward development projects"
+    },
+    "DATA_GRAVITY": {
+      "type": "gravity",
+      "center": "/Volumes/Akron/bear_data",
+      "radius": 2,
+      "influence": "data_consolidation",
+      "active": true,
+      "description": "Attracts scattered data files to central repository"
+    }
+  },
+  "MAGNETIC_ZONES": {
+    "LIVING_MAGNETIC": {
+      "type": "magnetic",
+      "center": "/Users/jbear/FIELD-LIVING",
+      "radius": 2,
+      "influence": "lifestyle_clustering",
+      "active": true,
+      "description": "Groups personal files by life categories"
+    },
+    "PHOTO_MAGNETIC": {
+      "type": "magnetic",
+      "center": "/Users/jbear/Pictures",
+      "radius": 1,
+      "influence": "media_organization",
+      "active": true,
+      "description": "Organizes photos by date and location metadata"
+    },
+    "DOJO_MAGNETIC": {
+      "type": "magnetic",
+      "center": "/Users/jbear/FIELD/◼︎DOJO",
+      "radius": 2,
+      "influence": "sacred_organization",
+      "active": true,
+      "description": "Organizes DOJO files by sacred geometric principles"
+    }
+  },
+  "BARRIER_ZONES": {
+    "SYSTEM_BARRIER": {
+      "type": "barrier",
+      "center": "/System",
+      "radius": 1,
+      "influence": "system_protection",
+      "active": true,
+      "description": "Prevents accidental modification of system files"
+    },
+    "BACKUP_BARRIER": {
+      "type": "barrier",
+      "center": "/Users/jbear/backups",
+      "radius": 1,
+      "influence": "backup_integrity",
+      "active": true,
+      "description": "Maintains backup file structure and prevents corruption"
+    }
+  }
+}

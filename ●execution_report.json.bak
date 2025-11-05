@@ -1,0 +1,928 @@
+{
+  "timestamp": "2025-06-28T13:54:29.876872",
+  "execution_summary": {
+    "total_moves_planned": 47,
+    "successful_moves": 36,
+    "failed_moves": 11,
+    "conflicts_resolved": 33,
+    "directories_created": 29
+  },
+  "sacred_structure_status": {
+    "nodes_validated": [],
+    "missing_nodes": [],
+    "core_data_stores": {
+      "\u25cfOBI-WAN": "/Users/jbear/FIELD/\u25cfOBI-WAN/_core/resonance_map.json",
+      "\u25bcTATA": "/Users/jbear/FIELD/\u25bcTATA/_core/sovereign_law.json",
+      "\u25b2ATLAS": [
+        "/Users/jbear/FIELD/\u25b2ATLAS/_core/symbolic_links.json",
+        "/Users/jbear/FIELD/\u25b2ATLAS/_core/ontological_layers.json"
+      ],
+      "\u25fc\ufe0eDOJO": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_core/manifest_record.json",
+      "\u2b63_registry": "/Users/jbear/FIELD/\u2b63_registry/_core/registry_index.json",
+      "\u25ce_sandbox": "/Users/jbear/FIELD/\u25ce_sandbox/_core/sandbox_state.json"
+    }
+  },
+  "conflicts_resolved": [
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/ontology",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+        "reason": "Contains 'ontology' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/ontology",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429"
+    },
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+        "reason": "Contains 'atlas' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429"
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/ontology",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+        "reason": "Contains 'ontology' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/ontology",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429"
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/ontology",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/ontology",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+          "reason": "Contains 'ontology' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/ontology",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+          "reason": "Contains 'ontology' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cb_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u25cb_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u2726_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u2726_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+        "reason": "Contains 'atlas' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429"
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/types/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/types/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/server/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/server/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/static/chunks/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/static/chunks/app/api/atlas/chakra-system",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/lib/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/lib/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/ontology",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+        "reason": "Contains 'ontology' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/ontology",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429"
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/ontology",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/ontology",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+          "reason": "Contains 'ontology' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/ontology",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+          "reason": "Contains 'ontology' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/chakra",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+          "reason": "Contains 'chakra' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cb_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u25cb_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u2726_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u2726_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+          "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+          "reason": "Contains 'dojo' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "original_move": {
+        "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+        "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+        "reason": "Contains 'atlas' pattern",
+        "type": "directory",
+        "conflict_resolved": true
+      },
+      "conflict": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS",
+      "resolution": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429"
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory",
+          "conflict_resolved": true
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25bcTATA/tata",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25b2ATLAS/src/atlas_field/tata",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/tata",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/sacred_locations/tata",
+          "to": "/Users/jbear/FIELD/\u25bcTATA/tata",
+          "reason": "Contains 'tata' pattern",
+          "type": "directory"
+        }
+      ]
+    },
+    {
+      "type": "duplicate_target",
+      "target": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "moves": [
+        {
+          "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        },
+        {
+          "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/sacred_locations/atlas",
+          "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+          "reason": "Contains 'atlas' pattern",
+          "type": "directory"
+        }
+      ]
+    }
+  ],
+  "successful_moves": [
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25cb_atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/ontology",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+      "reason": "Contains 'ontology' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/chakra",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cb_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/tests/data/\u2726_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000559/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/ontology",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+      "reason": "Contains 'ontology' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/chakra",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u25cb_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/tests/data/\u2726_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/types/app/api/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/server/app/api/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/static/chunks/app/api/atlas/chakra-system",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/lib/chakra",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/\u25c9_chakra_flow",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25c9_chakra_flow",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/ontology",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/ontology_20250628_135429",
+      "reason": "Contains 'ontology' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u2726_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u2726_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/observer_core/chakra_flow",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra_flow",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/observer_core/\u25ce_containers/chakra_core",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra_core",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25cf_DOJO",
+      "to": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25cf_DOJO",
+      "reason": "Contains 'dojo' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25b2_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25b2_ATLAS_20250628_135429",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "conflict_resolved": true
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25bcTATA/core/Chakra-notion",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/Chakra-notion",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25b2ATLAS/\u25bc_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25bc_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cf_OBI-WAN",
+      "to": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25cf_OBI-WAN",
+      "reason": "Contains 'obi' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25b2ATLAS/src/atlas_field/tata",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/tata",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25b2ATLAS/src/atlas_field/obi_wan",
+      "to": "/Users/jbear/FIELD/\u25cfOBI-WAN/obi_wan",
+      "reason": "Contains 'obi' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/\u25ce_ontology",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25ce_ontology",
+      "reason": "Contains 'ontology' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/sacred_locations/tata",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/tata",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/temp/OBI-WAN",
+      "to": "/Users/jbear/FIELD/\u25cfOBI-WAN/OBI-WAN",
+      "reason": "Contains 'obi' pattern",
+      "type": "directory"
+    }
+  ],
+  "failed_moves": [
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\ud83d\udcc1_archive_or_general_assets/reflective_backup_20250602_000508/observer/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA_backup_20250628_135429/\u25cf_TATA' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/app/api/atlas/chakra-system",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory",
+      "error": "Source not found"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/types/app/api/atlas/chakra-system",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory",
+      "error": "Source not found"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/server/app/api/atlas/chakra-system",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra-system",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory",
+      "error": "Source not found"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/.next/static/chunks/app/api/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25b2ATLAS/atlas_backup_20250628_135429/atlas' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u2b20_cognitive_expression/frontend/lib/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25b2ATLAS/atlas_backup_20250628_135429/atlas' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/chakra",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/chakra",
+      "reason": "Contains 'chakra' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25b2ATLAS/chakra_backup_20250628_135429/chakra' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u25cb_ATLAS",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25b2ATLAS/\u25cb_ATLAS_backup_20250628_135429/\u25cb_ATLAS' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/tests/data/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA_backup_20250628_135429/\u25cf_TATA' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25cfOBI-WAN/\u25ce_observer_core/~/PROD/\u25c9_sacred_field_index/\u25cf_TATA",
+      "to": "/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA",
+      "reason": "Contains 'tata' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25bcTATA/\u25cf_TATA_backup_20250628_135429/\u25cf_TATA' already exists"
+    },
+    {
+      "from": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/sacred_locations/atlas",
+      "to": "/Users/jbear/FIELD/\u25b2ATLAS/atlas",
+      "reason": "Contains 'atlas' pattern",
+      "type": "directory",
+      "error": "Destination path '/Users/jbear/FIELD/\u25b2ATLAS/atlas_backup_20250628_135429/atlas' already exists"
+    }
+  ],
+  "created_directories": [
+    "/Users/jbear/FIELD/\u25cfOBI-WAN/_memory",
+    "/Users/jbear/FIELD/\u25cfOBI-WAN/_resonance",
+    "/Users/jbear/FIELD/\u25cfOBI-WAN/_cognitive_expression",
+    "/Users/jbear/FIELD/\u25cfOBI-WAN/_conscious_flow",
+    "/Users/jbear/FIELD/\u25cfOBI-WAN/_observation_logs",
+    "/Users/jbear/FIELD/\u25bcTATA/_verification",
+    "/Users/jbear/FIELD/\u25bcTATA/_governance",
+    "/Users/jbear/FIELD/\u25bcTATA/_law_repository",
+    "/Users/jbear/FIELD/\u25bcTATA/_api_verifications",
+    "/Users/jbear/FIELD/\u25bcTATA/_sovereign_protocols",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_compass",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_intelligence",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_ontology",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_symbolic_navigation",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_knowledge_cycles",
+    "/Users/jbear/FIELD/\u25b2ATLAS/_chakra_system",
+    "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_execution",
+    "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_manifestation",
+    "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_training_grounds",
+    "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_deployment",
+    "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/_performance_metrics",
+    "/Users/jbear/FIELD/\u2b63_registry/_core",
+    "/Users/jbear/FIELD/\u2b63_registry/_node_registry",
+    "/Users/jbear/FIELD/\u2b63_registry/_data_lineage",
+    "/Users/jbear/FIELD/\u2b63_registry/_cross_references",
+    "/Users/jbear/FIELD/\u25ce_sandbox/_core",
+    "/Users/jbear/FIELD/\u25ce_sandbox/_experiments",
+    "/Users/jbear/FIELD/\u25ce_sandbox/_prototypes",
+    "/Users/jbear/FIELD/\u25ce_sandbox/_testing_grounds"
+  ],
+  "next_steps": [
+    "Validate sacred directory structure",
+    "Initialize core data stores with existing data",
+    "Update symbolic links and references",
+    "Test sacred geometry alignment",
+    "Create validation scripts for ongoing maintenance"
+  ]
+}

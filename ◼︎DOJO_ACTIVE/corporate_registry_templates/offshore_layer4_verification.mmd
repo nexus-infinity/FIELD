@@ -1,0 +1,81 @@
+graph TD;
+
+%% Style definitions
+classDef Verified fill:#d6f9e3,stroke:#22a147,stroke-width:2px
+classDef Suspicious fill:#f9d6d6,stroke:#a12222,stroke-width:2px
+classDef Missing fill:#f9f2d6,stroke:#a17122,stroke-width:2px
+classDef Timeline fill:#d6e6f9,stroke:#225ba1,stroke-width:1px
+
+%% Document Categories
+subgraph trust_docs ["Trust Documentation"]
+    trust1["Original Trust Deed<br/>1982<br/>Status: Verified"]:::Verified
+    trust2["Amendment 1990<br/>Property Addition<br/>Status: Verified"]:::Verified
+    trust3["Amendment 2020<br/>Structure Change<br/>Status: Suspicious"]:::Suspicious
+    trust4["Current Version<br/>Post-2023<br/>Status: Missing"]:::Missing
+end
+
+subgraph authority_docs ["Authority Documentation"]
+    auth1["Original POA<br/>J.R. Signature<br/>Status: Verified"]:::Verified
+    auth2["Authority Transfer<br/>Late 2021<br/>Status: Suspicious"]:::Suspicious
+    auth3["New Structure Auth<br/>2022<br/>Status: Missing"]:::Missing
+    auth4["Current Authority<br/>2023<br/>Status: Suspicious"]:::Suspicious
+end
+
+subgraph email_docs ["Email Correspondence"]
+    email1["Early Communications<br/>2019-2020<br/>Complete Thread"]:::Verified
+    email2["Transition Period<br/>2021-2022<br/>Gaps Present"]:::Suspicious
+    email3["Recent Changes<br/>2023<br/>Partial Records"]:::Missing
+end
+
+%% Timeline Events
+time1["2019: Full Oversight<br/>Complete Records"]:::Timeline
+time2["2021: Health Decline<br/>Documentation Gaps"]:::Timeline
+time3["2022: Authority Shifts<br/>Missing Records"]:::Timeline
+time4["2023: New Structure<br/>Limited Verification"]:::Timeline
+
+%% Pattern Identification
+pattern1["Pattern: Documentation Quality<br/>Decreases Over Time"]
+pattern2["Pattern: Authority Documents<br/>Missing at Key Points"]
+pattern3["Pattern: Email Gaps Align<br/>with Structure Changes"]
+
+%% Verification Connections
+trust1 -->|"verified by"| email1
+trust2 -->|"supported by"| auth1
+trust3 -.->|"questionable"| auth2
+trust4 -.->|"no support"| auth3
+
+%% Timeline Progression
+time1 -->|"leads to"| time2
+time2 -->|"transitions to"| time3
+time3 -->|"results in"| time4
+
+%% Document Relationships
+email1 -->|"confirms"| auth1
+email2 -.->|"partially supports"| auth2
+email3 -.->|"contradicts"| auth4
+
+%% Pattern Analysis
+pattern1 -->|"evident in"| trust3
+pattern2 -->|"shows in"| auth3
+pattern3 -->|"visible in"| email2
+
+%% Verification Notes
+note1["Note: Document quality declines with health status"]
+note2["Note: Authority changes lack proper documentation"]
+note3["Note: Email gaps coincide with major changes"]
+
+%% Notion Database Links
+click trust1 "https://www.notion.so/documents/original-trust" "View original trust deed" _blank
+click auth2 "https://www.notion.so/documents/authority-transfer" "View authority transfer" _blank
+click email2 "https://www.notion.so/emails/transition-period" "View email gaps" _blank
+click pattern1 "https://www.notion.so/analysis/documentation-quality" "View pattern analysis" _blank
+
+%% Suspicious Document Patterns
+susp1["Suspicious Pattern 1<br/>Missing Signatures"]:::Suspicious
+susp2["Suspicious Pattern 2<br/>Inconsistent Dates"]:::Suspicious
+susp3["Suspicious Pattern 3<br/>Authority Gaps"]:::Suspicious
+
+%% Connect Suspicious Patterns
+susp1 -->|"relates to"| auth2
+susp2 -->|"visible in"| trust3
+susp3 -->|"explains"| auth4

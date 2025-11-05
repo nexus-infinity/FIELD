@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-19T16:25:35.665520",
+  "service": "myGov/Centrelink Authentication",
+  "user_documents": {
+    "passport": {
+      "status": "ACCEPTED",
+      "number": "048508764"
+    },
+    "drivers_license": {
+      "status": "ACCEPTED",
+      "number": "P0891687"
+    },
+    "medicare_card": {
+      "status": "REJECTED",
+      "reason": "Unknown verification failure"
+    }
+  },
+  "system_behavior": {
+    "expected": "2 documents sufficient for authentication",
+    "actual": "System requests 3rd document then fails Medicare verification",
+    "error_type": "Medicare card rejection despite valid entry"
+  },
+  "impact": {
+    "financial": "Cannot access benefits/payments",
+    "health": "Cannot update banking details for payment receipt",
+    "safety": "No access to food/shelter funding"
+  },
+  "attempts": {
+    "in_person": 3,
+    "phone_calls": "Multiple",
+    "online_attempts": "Multiple daily"
+  }
+}

@@ -1,0 +1,20 @@
+# Observer Integration Config
+version: 1
+pattern: bouncing_resonance
+harmonics:
+  port: 963
+  mode: observe
+  notes:
+    - "No binding; verify availability only"
+    - "Symbolic resonance used for routing metadata"
+flow:
+  topology: ["●OBI-WAN", "▼TATA", "▲ATLAS", "◼︎DOJO"]
+  enforce_order: true
+  telemetry:
+    enabled: true
+    sample_interval_s: 10
+    emit: file
+    output_path: "/users/jbear/FIELD/observer_telemetry.log"
+guards:
+  filesystem: read-only
+  network: observe-only

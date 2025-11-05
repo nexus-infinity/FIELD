@@ -1,0 +1,52 @@
+{
+  "session_id": "investigation-1758032257",
+  "cloud_ip": null,
+  "extraction_time": "2025-09-17T00:17:56.152310",
+  "entities_analyzed": [
+    "CENTOSA SA",
+    "PASCALI TRUST",
+    "Jacques Rich",
+    "Adam Rich",
+    "David Rich",
+    "BERJAK NOMINEES"
+  ],
+  "global_database_matches": {
+    "panama_papers": {
+      "matches": 0,
+      "status": "checked"
+    },
+    "paradise_papers": {
+      "matches": 0,
+      "status": "checked"
+    },
+    "opencorporates": {
+      "matches": 2,
+      "status": "found_matches"
+    },
+    "sanctions_lists": {
+      "matches": 0,
+      "status": "clear"
+    }
+  },
+  "compliance_status": "CLEAR",
+  "high_value_findings": {
+    "corporate_connections": [
+      {
+        "entity": "CENTOSA SA",
+        "jurisdiction": "BVI",
+        "status": "active"
+      },
+      {
+        "entity": "PASCALI TRUST",
+        "jurisdiction": "Unknown",
+        "status": "investigation_needed"
+      }
+    ]
+  },
+  "risk_score": {
+    "overall": "MEDIUM",
+    "sanctions": "LOW",
+    "regulatory": "MEDIUM",
+    "reputational": "MEDIUM"
+  }
+}

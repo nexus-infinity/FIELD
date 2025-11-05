@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+"""
+field_validate - FIELD geometry validation orchestrator.
+
+Bridges the enhanced FIELD-LIVING validator with the triple-trident architecture.
+Supports recursive checks that sweep sacred, digital-support, and organic-support
+domains, ensuring every flow reconverges through DOJO at 432 Hz.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+from typing import List, Tuple
+
+ENHANCED_VALIDATOR = Path("/Users/jbear/FIELD-LIVING/●field_validator_enhanced.py")
+INTENTION_MATRIX = Path("/Users/jbear/DOJO/INTENTION_TRANSLATION_MATRIX.md")
+INTENTION_INDEX = Path("/Users/jbear/FIELD-LIVING/◆_living_memory/intention_matrix/index.json")
+
+SACRED_DOMAINS = [
+    Path("/Users/jbear/FIELD/●OBI-WAN"),
+    Path("/Users/jbear/FIELD/▼TATA"),
+    Path("/Users/jbear/FIELD/▲ATLAS"),
+    Path("/Users/jbear/DOJO"),
+]
+
+DIGITAL_SUPPORT_DOMAINS = [
+    Path("/Volumes/Akron"),
+    Path("/Users/jbear/FIELD-DEV"),
+    Path("/Users/jbear/FIELD-LIVING"),
+]
+
+ORGANIC_SUPPORT_DOMAINS = [
+    Path("/Users/jbear/FIELD-LIVING/◆_soma_embodied"),
+    Path("/Users/jbear/FIELD-LIVING/◆_living_memory"),
+]
+
+
+def run_enhanced_validator(path: Path, verbose: bool, live: bool) -> Tuple[int, str]:
+    """
+    Invoke the enhanced Python validator for the given FIELD-LIVING style path.
+    Returns (return_code, context_label).
+    """
+    if not ENHANCED_VALIDATOR.exists():
+        raise FileNotFoundError(
+            f"Enhanced validator not found at {ENHANCED_VALIDATOR}. "
+            "Ensure ●field_validator_enhanced.py is present."
+        )
+
+    cmd = [
+        sys.executable,
+        str(ENHANCED_VALIDATOR),
+        "--path",
+        str(path),
+        "--auto-fix",
+    ]
+    if live:
+        cmd.append("--live")
+
+    # Keep fixes as dry-run by default. Pass --live to apply changes if needed.
+    result = subprocess.run(
+        cmd,
+        check=False,
+        capture_output=not verbose,
+        text=True,
+    )
+
+    if verbose or result.returncode != 0:
+        sys.stdout.write(result.stdout)
+        sys.stderr.write(result.stderr)
+
+    return result.returncode, path.as_posix()
+
+
+def check_domain(path: Path) -> Tuple[bool, str]:
+    """Simple existence check for non FIELD-LIVING nodes."""
+    exists = path.exists()
+    status = "✅" if exists else "❌"
+    return exists, f"{status} {path}"
+
+
+def check_intention_translation_layer() -> List[str]:
+    warnings: List[str] = []
+    if not INTENTION_MATRIX.exists():
+        warnings.append("Intention translation matrix missing at /Users/jbear/DOJO/INTENTION_TRANSLATION_MATRIX.md")
+    if INTENTION_INDEX.exists():
+        try:
+            with INTENTION_INDEX.open() as handle:
+                index = json.load(handle)
+            required_keys = {"vessels", "translations", "executions", "reflections"}
+            missing = required_keys.difference(index.keys())
+            for key in sorted(missing):
+                warnings.append(f"Intention index missing '{key}' ledger.")
+        except Exception as exc:
+            warnings.append(f"Failed to read intention index: {exc}")
+    else:
+        warnings.append("No intention_matrix/index.json found; resident harmony entries may be absent.")
+    return warnings
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Validate FIELD geometry alignment and support tridents."
+    )
+    parser.add_argument(
+        "--path",
+        default="/Users/jbear/FIELD-LIVING",
+        help="Root path to validate (default: /Users/jbear/FIELD-LIVING)",
+    )
+    parser.add_argument(
+        "--recursive",
+        "-r",
+        action="store_true",
+        help="Sweep sacred, digital-support, and organic-support domains.",
+    )
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Show validator stdout/stderr streams.",
+    )
+    parser.add_argument(
+        "--live",
+        action="store_true",
+        help="Run enhanced validator in live auto-fix mode.",
+    )
+    parser.add_argument(
+        "--check-intentions",
+        action="store_true",
+        help="Verify Intention Translation Matrix and repository before running validations.",
+    )
+
+    args = parser.parse_args()
+    target_path = Path(args.path).expanduser()
+
+    if args.check_intentions:
+        warnings = check_intention_translation_layer()
+        if warnings:
+            for warning in warnings:
+                print(f"⚠️ {warning}")
+        else:
+            print("✅ Intention translation matrix present and indexed.")
+
+    if args.recursive:
+        print("🔄 FIELD Recursive Geometry Sweep")
+        print("Sacred Domains:")
+        sacred_results = [check_domain(path) for path in SACRED_DOMAINS]
+        for _, msg in sacred_results:
+            print(f"  {msg}")
+
+        print("\nDigital-Support Domains:")
+        digital_results = [check_domain(path) for path in DIGITAL_SUPPORT_DOMAINS]
+        for _, msg in digital_results:
+            print(f"  {msg}")
+
+        print("\nOrganic-Support Domains:")
+        organic_results = [check_domain(path) for path in ORGANIC_SUPPORT_DOMAINS]
+        for _, msg in organic_results:
+            print(f"  {msg}")
+
+        # Run the enhanced validator against FIELD-LIVING as the canonical manifest source.
+        print("\n🧭 Running Enhanced FIELD-LIVING Validator...")
+        code, label = run_enhanced_validator(Path("/Users/jbear/FIELD-LIVING"), args.verbose, args.live)
+        if code != 0:
+            print(f"❌ Enhanced validator reported issues for {label}")
+            return code
+
+        print("✅ FIELD recursive sweep completed without critical errors.")
+        return 0
+
+    # Default single-path validation
+    print(f"🧭 Running Enhanced validation for {target_path}")
+    code, label = run_enhanced_validator(target_path, args.verbose, args.live)
+    if code != 0:
+        print(f"❌ Validation reported issues for {label}")
+    else:
+        print(f"✅ Validation passed for {label}")
+    return code
+
+
+if __name__ == "__main__":
+    sys.exit(main())

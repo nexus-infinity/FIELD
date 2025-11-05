@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2025-07-30T19:33:48.469074",
+    "action_type": "example_cleanup",
+    "details": {
+      "description": "Sample cleanup demonstration",
+      "files_removed": 0,
+      "directories_cleaned": 1,
+      "space_freed": "0MB"
+    },
+    "user": "jbear",
+    "hostname": "mac-studio.lan",
+    "working_directory": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/mermaid_visuals"
+  }
+]

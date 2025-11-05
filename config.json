@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "sync": {
+    "notion": {
+      "pull_interval": "1h",
+      "push_interval": "1h",
+      "endpoints": {
+        "facts": "/facts",
+        "assets": "/assets",
+        "vocab": "/vocab",
+        "sources": "/sources"
+      }
+    }
+  },
+  "state": {
+    "root": "/users/jbear/FIELD/state",
+    "keys": {
+      "uid": "uid",
+      "observed_at": "observed_at",
+      "validated_until": "validated_until",
+      "hash": "evidence_hash"
+    }
+  },
+  "metrics": {
+    "collection_interval": "1h",
+    "export_interval": "24h",
+    "categories": [
+      "staleness",
+      "orphan_rate",
+      "search_failures",
+      "self_service"
+    ]
+  },
+  "domains": {
+    "energy": {
+      "enabled": true,
+      "source_patterns": ["*10-watts*.pdf", "*watts-parade*.csv"],
+      "fact_types": ["meter_reading", "connection_point", "usage_pattern"],
+      "asset_types": ["report", "visualization", "forecast"]
+    },
+    "nab": {
+      "enabled": true,
+      "source_patterns": ["*nab-dispute*.pdf", "*nab-correspondence*.eml"],
+      "fact_types": ["transaction", "dispute_claim", "resolution_status"],
+      "asset_types": ["timeline", "evidence_package", "correspondence_log"] 
+    }
+  }
+}

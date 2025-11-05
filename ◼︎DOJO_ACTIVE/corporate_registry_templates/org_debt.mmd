@@ -1,0 +1,58 @@
+graph TD;
+
+%% Style definitions
+classDef DebtFlow fill:#f9e6d6,stroke:#a15722
+classDef IntercompanyLoan fill:#e6f9d6,stroke:#57a122
+classDef ABNSwitch fill:#d6e6f9,stroke:#2257a1
+classDef AddressChange fill:#e6d6f9,stroke:#5722a1
+classDef Verified fill:#d6f9e3,stroke:#22a147
+classDef Unverified fill:#f9d6d6,stroke:#a12222
+
+%% Debt Flow Events
+evt-2020-03["2020-03: Initial Loan<br/>$2.5M AN→BM<br/>Verified"]:::Verified
+evt-2020-06["2020-06: ABN Switch 1<br/>Trust→Trustee<br/>Unverified"]:::Unverified
+evt-2020-09["2020-09: Secondary Loan<br/>$1.2M BV→CB<br/>Verified"]:::Verified
+evt-2021-02["2021-02: Debt Transfer<br/>$1.8M CB→AT2<br/>Unverified"]:::Unverified
+evt-2021-05["2021-05: New ABN Structure<br/>Multiple Entities<br/>Verified"]:::Verified
+evt-2021-08["2021-08: Debt Consolidation<br/>$3.7M Combined<br/>Unverified"]:::Unverified
+evt-2022-03["2022-03: Trust Registration<br/>New Structure<br/>Verified"]:::Verified
+
+%% Address Change Events
+addr-2020-12["2020-12: Address Change<br/>Bay St→Station St"]:::AddressChange
+addr-2021-07["2021-07: PO Box Update<br/>Brighton North"]:::AddressChange
+addr-2022-01["2022-01: Collins St Move<br/>All Entities"]:::AddressChange
+
+%% Event Connections
+evt-2020-03 -->|"initiates"| evt-2020-06
+evt-2020-06 -->|"enables"| evt-2020-09
+evt-2020-09 -->|"precedes"| addr-2020-12
+addr-2020-12 -->|"followed by"| evt-2021-02
+evt-2021-02 -->|"leads to"| evt-2021-05
+evt-2021-05 -->|"triggers"| addr-2021-07
+addr-2021-07 -->|"enables"| evt-2021-08
+evt-2021-08 -->|"results in"| evt-2022-03
+evt-2022-03 -->|"concludes at"| addr-2022-01
+
+%% Notion Database Links
+click evt-2020-03 "https://www.notion.so/debt-movements/2020-03-initial-loan" "View loan details" _blank
+click evt-2020-06 "https://www.notion.so/abn-switches/2020-06-trust-trustee" "View ABN switch details" _blank
+click evt-2021-05 "https://www.notion.so/structure-changes/2021-05-reorganization" "View restructure details" _blank
+click addr-2022-01 "https://www.notion.so/address-changes/2022-01-collins" "View address change details" _blank
+
+%% Verification Status Links
+click evt-2020-03 "https://www.notion.so/verification/2020-03-loan-verified" "View verification evidence" _blank
+click evt-2021-02 "https://www.notion.so/verification/2021-02-transfer-unverified" "View verification status" _blank
+
+%% Timeline Annotations
+annotation-2020["2020: Initial Structure<br/>Focus on loan establishment"]
+annotation-2021["2021: Restructuring Period<br/>Multiple entity changes"]
+annotation-2022["2022: Consolidation Phase<br/>Address and registration updates"]
+
+%% Connect to Core Structure
+co-an["Ansevata Nominees"]
+co-bm["Berjak Metals"]
+trust-at2["Ansevata Trust No. 2"]
+
+co-an -->|"initial lender"| evt-2020-03
+co-bm -->|"loan recipient"| evt-2020-03
+trust-at2 -->|"debt holder"| evt-2021-08

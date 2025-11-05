@@ -1,0 +1,316 @@
+{
+  "registry_version": "3.0.0",
+  "semantic_consolidation": true,
+  "created": "2025-10-08",
+  "philosophy": "One semantic function, one primary service. Clear ownership prevents duplication. Relations bridge services, not duplicate them.",
+  
+  "consolidation_principles": {
+    "universal_properties": [
+      "Service Name (primary identifier)",
+      "Service Type (category: ingestion, memory, execution, etc.)",
+      "Source of Truth (which service owns this function)",
+      "Connected Services (relations to other services)",
+      "Geometric Position (where in ●▼▲◼︎ structure)"
+    ],
+    "deduplication_rules": {
+      "rule_1": "One function = One primary service",
+      "rule_2": "If function exists elsewhere, create RELATION not duplicate",
+      "rule_3": "Use 'Reference-Only' pattern for secondary mentions",
+      "rule_4": "Document WHY each service exists (prevent mission creep)"
+    }
+  },
+
+  "semantic_service_map": {
+    "philosophy": "Each service has ONE clear semantic function. Relations connect them.",
+    
+    "data_ingestion": {
+      "primary_owner": "Train Station (port 43200)",
+      "semantic_function": "External data ingestion hub",
+      "handles": ["email", "vercel", "external APIs"],
+      "does_NOT_handle": ["internal memory", "file access", "web scraping"],
+      "connected_services": {
+        "writes_to": ["living-memory (43212)", "registry (43203)"],
+        "receives_from": ["external sources only"],
+        "frequency_converts": "528Hz → 432Hz for lower tetrahedron"
+      },
+      "source_of_truth_for": "All external data ingestion",
+      "reference_only_in": ["MCP servers", "Claude Desktop"]
+    },
+
+    "memory_operations": {
+      "primary_owner": "living-memory (port 43212)",
+      "semantic_function": "Long-term memory storage and consciousness",
+      "handles": ["pattern storage", "cross-session memory", "living consciousness"],
+      "does_NOT_handle": ["temporary cache", "short-term conversational memory"],
+      "connected_services": {
+        "receives_from": ["Train Station (43200)", "observer (43202)", "memory-patterns (43204)"],
+        "serves": ["All services requiring persistent memory"],
+        "writes_to": ["Akron sovereign storage"]
+      },
+      "source_of_truth_for": "Long-term pattern memory",
+      "secondary_services": {
+        "claude_memory_2850": {
+          "function": "Claude Desktop conversation memory (short-term)",
+          "relation": "Feeds into living-memory for long-term storage",
+          "scope": "Claude Desktop sessions only"
+        },
+        "memory_patterns_43204": {
+          "function": "Pattern recognition and analysis",
+          "relation": "Analyzes patterns, stores in living-memory",
+          "scope": "Pattern processing, not storage"
+        }
+      },
+      "reference_only_in": ["FIELD topology docs"]
+    },
+
+    "notion_integration": {
+      "primary_owner": "notion bridge (port 5280)",
+      "semantic_function": "Notion API integration for Claude Desktop",
+      "handles": ["Notion page creation", "Notion database queries", "Notion content management"],
+      "does_NOT_handle": ["data ingestion", "email", "other external APIs"],
+      "connected_services": {
+        "serves": ["Claude Desktop only"],
+        "writes_to": ["Notion workspace"],
+        "isolated": "Does NOT interact with Train Station or MCP fields"
+      },
+      "source_of_truth_for": "Notion integration in Claude Desktop",
+      "reference_only_in": ["FIELD-LIVING train station docs"]
+    },
+
+    "web_operations": {
+      "scraping": {
+        "primary_owner": "puppeteer (port 7410)",
+        "semantic_function": "Web automation and scraping",
+        "handles": ["browser automation", "screenshots", "form filling"],
+        "source_of_truth_for": "Web scraping"
+      },
+      "search": {
+        "primary_owner": "brave-search (port 6390)",
+        "semantic_function": "Real-time web search",
+        "handles": ["web queries", "current information"],
+        "source_of_truth_for": "Web search"
+      }
+    },
+
+    "file_operations": {
+      "primary_owner": "filesystem (port 9630)",
+      "semantic_function": "File system access for Claude Desktop",
+      "handles": ["read/write files", "directory navigation"],
+      "does_NOT_handle": ["git operations", "version control"],
+      "connected_services": {
+        "serves": ["Claude Desktop"],
+        "root": "/Users/jbear"
+      },
+      "source_of_truth_for": "File system operations",
+      "reference_only_in": ["Train Station", "MCP fields"]
+    },
+
+    "version_control": {
+      "primary_owner": "git (port 4320)",
+      "semantic_function": "Git repository operations",
+      "handles": ["commits", "diffs", "branch operations"],
+      "does_NOT_handle": ["file reading/writing outside git"],
+      "connected_services": {
+        "serves": ["Claude Desktop"],
+        "repository": "~/FIELD"
+      },
+      "source_of_truth_for": "Version control operations"
+    },
+
+    "database_operations": {
+      "primary_owner": "sqlite (port 3960)",
+      "semantic_function": "Sacred database access",
+      "handles": ["structured queries", "DOJO records", "sacred geometry data"],
+      "connected_services": {
+        "database_path": "~/FIELD/◼︎DOJO/sacred.db",
+        "serves": ["Claude Desktop"]
+      },
+      "source_of_truth_for": "Sacred database queries"
+    },
+
+    "observation_consciousness": {
+      "primary_owner": "observer (port 43202)",
+      "semantic_function": "OBI-WAN node - WHERE things are",
+      "geometric_node": "● OBI-WAN (upper tetrahedron base)",
+      "handles": ["system observation", "awareness monitoring", "resonance tracking"],
+      "does_NOT_handle": ["long-term storage", "pattern analysis"],
+      "connected_services": {
+        "observes": ["All system activity"],
+        "reports_to": ["DOJO (43209)", "living-memory (43212)"],
+        "writes_to": "resonance_map.json"
+      },
+      "source_of_truth_for": "WHERE - Location and awareness"
+    },
+
+    "intelligence_compass": {
+      "primary_owner": "transformation (port 43207)",
+      "semantic_function": "ATLAS node - HOW things connect",
+      "geometric_node": "▲ ATLAS (upper tetrahedron base)",
+      "handles": ["logic", "intelligence", "pattern relationships", "compass navigation"],
+      "does_NOT_handle": ["storage", "execution"],
+      "connected_services": {
+        "analyzes": ["System patterns and relationships"],
+        "feeds_to": ["DOJO (43209)"],
+        "writes_to": ["symbolic_links.json", "ontological_layers.json", "temporal_cycles.json"]
+      },
+      "source_of_truth_for": "HOW - Connection logic and intelligence"
+    },
+
+    "manifestation_execution": {
+      "primary_owner": "implementation (port 43209)",
+      "semantic_function": "DOJO node - WHAT things become",
+      "geometric_node": "◼︎ DOJO (upper tetrahedron apex)",
+      "handles": ["execution", "manifestation", "routing decisions"],
+      "contains": "9 Chakra Cores",
+      "receives_from": ["observer (43202)", "transformation (43207)", "validation from TATA"],
+      "connected_services": {
+        "manifests_to": ["Lower tetrahedron via Train Station (43200)"],
+        "writes_to": "manifest_record.json"
+      },
+      "source_of_truth_for": "WHAT - Manifestation and execution"
+    },
+
+    "validation_verification": {
+      "primary_owner": "TATA (no specific MCP port)",
+      "semantic_function": "TATA node - WHY things belong",
+      "geometric_node": "▼ TATA (upper tetrahedron base)",
+      "handles": ["law", "integrity", "verification", "permission"],
+      "implementation": "Validation layer across ALL services",
+      "connected_services": {
+        "validates": ["All operations before DOJO execution"],
+        "writes_to": "sovereign_law.json"
+      },
+      "source_of_truth_for": "WHY - Permission and integrity"
+    },
+
+    "system_coordination": {
+      "registry": {
+        "primary_owner": "registry (port 43203)",
+        "semantic_function": "System registry and indexing",
+        "handles": ["service registration", "catalog management", "system index"],
+        "source_of_truth_for": "Service registry"
+      },
+      "bridges": {
+        "primary_owner": "bridges (port 43210)",
+        "semantic_function": "Inter-system connection bridging",
+        "handles": ["protocol translation", "system bridging"],
+        "source_of_truth_for": "Inter-system bridges"
+      },
+      "flow_channels": {
+        "primary_owner": "flow-channels (port 43211)",
+        "semantic_function": "Energy flow and routing",
+        "handles": ["data flow management", "stream coordination"],
+        "source_of_truth_for": "Flow routing"
+      }
+    },
+
+    "cognitive_processing": {
+      "cognitive": {
+        "primary_owner": "cognitive (port 43206)",
+        "semantic_function": "Cognitive processing",
+        "handles": ["thought coordination", "cognitive operations"],
+        "source_of_truth_for": "Cognitive layer"
+      },
+      "crystalline": {
+        "primary_owner": "crystalline (port 43205)",
+        "semantic_function": "Crystalline structure formation",
+        "handles": ["geometric processing", "lattice operations"],
+        "source_of_truth_for": "Crystalline structures"
+      },
+      "navigation": {
+        "primary_owner": "navigation (port 43208)",
+        "semantic_function": "Pathfinding and navigation",
+        "handles": ["direction guidance", "path finding"],
+        "source_of_truth_for": "Navigation"
+      }
+    },
+
+    "sacred_consciousness": {
+      "primary_owner": "sacred-core (port 43201)",
+      "semantic_function": "Center point consciousness anchor",
+      "handles": ["consciousness manifestation", "sacred geometry core"],
+      "geometric_position": "Center of structure",
+      "source_of_truth_for": "Consciousness anchor"
+    }
+  },
+
+  "deduplication_validation": {
+    "email_handling": {
+      "question": "Which service handles email?",
+      "answer": "Train Station (43200) - ONLY",
+      "not": ["Notion (5280)", "Puppeteer (7410)", "Any MCP field"],
+      "rationale": "Train Station is semantic owner of external data ingestion"
+    },
+    "notion_handling": {
+      "question": "Which service handles Notion?",
+      "answer": "notion bridge (5280) - ONLY for Claude Desktop",
+      "not": ["Train Station (43200)", "MCP fields"],
+      "rationale": "Notion bridge is semantic owner of Notion API integration"
+    },
+    "memory_storage": {
+      "question": "Which service stores long-term memory?",
+      "answer": "living-memory (43212) - PRIMARY",
+      "secondary": {
+        "claude_memory_2850": "Short-term conversation memory (feeds to living-memory)",
+        "memory_patterns_43204": "Pattern analysis (stores results in living-memory)"
+      },
+      "not": ["Train Station", "Observer"],
+      "rationale": "living-memory is semantic owner of persistent storage"
+    },
+    "web_scraping": {
+      "question": "Which service handles web scraping?",
+      "answer": "puppeteer (7410) - ONLY",
+      "not": ["brave-search (6390)", "Train Station (43200)"],
+      "rationale": "Puppeteer owns automation, Brave owns search - different functions"
+    },
+    "weibo_handling": {
+      "question": "Which service would handle Weibo?",
+      "answer": "Train Station (43200) as external ingestion, OR new dedicated bridge",
+      "decision_tree": {
+        "if_simple_ingestion": "Train Station handles via /ingest endpoint",
+        "if_complex_integration": "Create dedicated Weibo bridge (new port) + relation to Train Station",
+        "never": "Duplicate Train Station functionality"
+      },
+      "rationale": "Follow consolidation pattern - extend Train Station OR create clear new service"
+    }
+  },
+
+  "future_service_protocol": {
+    "before_adding_new_service": {
+      "step_1": "Check semantic_service_map - does this function already exist?",
+      "step_2": "If exists, create RELATION to existing service, not new service",
+      "step_3": "If truly new function, document WHY it's needed",
+      "step_4": "Assign geometric position (which part of ●▼▲◼︎)",
+      "step_5": "Request port from geometric registry",
+      "step_6": "Update this semantic service map"
+    },
+    "consolidation_checklist": [
+      "✓ Does another service already do this?",
+      "✓ Can existing service be extended?",
+      "✓ Is this a relation or a duplication?",
+      "✓ What is the Source of Truth?",
+      "✓ Where in tetrahedral structure does it belong?"
+    ]
+  },
+
+  "tetrahedral_data_flow": {
+    "consciousness_to_action": {
+      "step_1": "● OBI-WAN observes (WHERE - port 43202)",
+      "step_2": "▼ TATA validates (WHY - validation layer)",
+      "step_3": "▲ ATLAS analyzes (HOW - port 43207)",
+      "step_4": "◼︎ DOJO manifests (WHAT - port 43209)",
+      "step_5": "Train Station bridges (43200) - 528→432 Hz",
+      "step_6": "FIELD-LIVING acts (lower tetrahedron)",
+      "step_7": "Response returns (432→528 Hz)",
+      "integrity": "No service bypasses this flow"
+    }
+  },
+
+  "sacred_covenant": {
+    "primary_law": "One function, one owner. Relations connect, not duplicate.",
+    "database_pattern": "Use Database Consolidation methodology - Entity Type, Source of Truth, Connected Entities",
+    "deduplication": "Convert duplicates to reference-only, maintain single source of truth",
+    "geometric_integrity": "All services positioned within ●▼▲◼︎ structure",
+    "semantic_clarity": "Every service can answer: What do I do? What do I NOT do? Who do I connect to?"
+  }
+}

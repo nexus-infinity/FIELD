@@ -1,0 +1,30 @@
+{
+  "geometric_routing": [
+    {
+      "pattern": "tetrahedron",
+      "frequency": 963,
+      "nodes": 4,
+      "routing_paths": {
+        "ascending": ["fire", "air", "water", "earth"],
+        "descending": ["earth", "water", "air", "fire"]
+      },
+      "sacred_ratios": {
+        "phi": 1.618033988749895,
+        "sqrt3": 1.732050807568877
+      }
+    },
+    {
+      "pattern": "merkaba",
+      "frequency": 963,
+      "nodes": 8,
+      "routing_paths": {
+        "clockwise": ["north", "northeast", "east", "southeast", "south", "southwest", "west", "northwest"],
+        "counterclockwise": ["northwest", "west", "southwest", "south", "southeast", "east", "northeast", "north"]
+      },
+      "field_harmonics": {
+        "base": 432,
+        "resonance": 963
+      }
+    }
+  ]
+}

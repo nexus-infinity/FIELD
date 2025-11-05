@@ -1,0 +1,12 @@
+{
+  "name": "discovery_links",
+  "description": "Discovery Links intake and sovereign reconciliation",
+  "operations": [
+    "intake",
+    "sovereign_reconciliation"
+  ],
+  "api_endpoint": "http://localhost:8000/discovery-links",
+  "notion_sync": true,
+  "datashare_integration": true,
+  "gitbook_docs": true
+}

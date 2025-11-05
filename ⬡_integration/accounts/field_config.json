@@ -1,0 +1,71 @@
+{
+  "account_parameters": {
+    "github": {
+      "username": "nexus-infinity",
+      "status": "keyring_invalid",
+      "auth_command": "gh auth login -h github.com"
+    },
+    "google_cloud": {
+      "project": "berjak-development-project",
+      "billing_account_id": "0173F4-82369F-5D95C5",
+      "credentials_path": "/Users/jbear/FIELD-DEV/auth/service_accounts/service_account.json",
+      "service_account": "service_account.json"
+    },
+    "infrastructure": {
+      "dns_provider": "GoDaddy",
+      "internet_provider": "Starlink",
+      "networking": "Google Nest Wi-Fi"
+    },
+    "storage": {
+      "icloud": "integrated",
+      "onedrive": "active_sync",
+      "local_databases": {
+        "deduplication": "/Volumes/Akron/bear_data/deduplication.db",
+        "email_sovereignty": "/Volumes/Akron/bear_data/berjack_communications/email_sovereignty.db",
+        "sovereignty_registry": "/Volumes/Akron/bear_data/sovereignty_registry.db",
+        "email_ingestion": "/Volumes/Akron/bear_data/email_ingestion.db"
+      }
+    },
+    "development": {
+      "terminal": "WarpTerminal",
+      "pieces_os": "integrated",
+      "mcp_servers": [
+        "filesystem",
+        "git", 
+        "github",
+        "memory",
+        "google-drive",
+        "puppeteer",
+        "pieces-os-monitor",
+        "brave-search"
+      ]
+    },
+    "api_keys": {
+      "openai": {
+        "configured": true,
+        "prefix": "sk-proj-",
+        "length": 164
+      },
+      "gemini": {
+        "configured": true,
+        "prefix": "AIzaSyB7",
+        "length": 39
+      },
+      "google_cloud": {
+        "configured": true,
+        "type": "service_account_file"
+      }
+    }
+  },
+  "resonance_thresholds": {
+    "minimum": 0.85,
+    "api_weight": 0.6,
+    "critical_services_weight": 0.4
+  },
+  "monitoring": {
+    "enabled": true,
+    "frequency": "hourly",
+    "log_path": "/tmp/breath_monitor.log"
+  },
+  "last_updated": "2025-07-25T05:16:17Z"
+}

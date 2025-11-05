@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# obi_wan_observe - OBI-WAN observation and monitoring script
+# This is a stub implementation that needs to be developed
+
+show_help() {
+    cat << EOF
+obi_wan_observe - OBI-WAN system observation tool
+
+USAGE:
+    obi_wan_observe [OPTIONS]
+
+OPTIONS:
+    --target=TARGET     Observation target (current, all, specific-path)
+    --mode=MODE         Observation mode (passive, active, deep)
+    --output=FORMAT     Output format (json, text, compact)
+    --help, -h          Show this help message
+
+DESCRIPTION:
+    Observes and monitors OBI-WAN system state, processes, and patterns.
+    This is currently a stub implementation.
+
+STATUS: STUB - Needs implementation
+EOF
+}
+
+# Parse arguments
+TARGET="current"
+MODE="passive"
+OUTPUT="text"
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --target=*)
+            TARGET="${1#*=}"
+            shift
+            ;;
+        --mode=*)
+            MODE="${1#*=}"
+            shift
+            ;;
+        --output=*)
+            OUTPUT="${1#*=}"
+            shift
+            ;;
+        --help|-h)
+            show_help
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1"
+            show_help
+            exit 1
+            ;;
+    esac
+done
+
+# Stub implementation
+echo "👁️  OBI-WAN Observer (STUB)"
+echo "========================="
+echo "Target: $TARGET"
+echo "Mode: $MODE"
+echo "Output: $OUTPUT"
+
+# Basic observations
+echo ""
+echo "Current Observations:"
+echo "- Working Directory: $(pwd)"
+echo "- OBI-WAN Path: $FIELD_ROOT/●OBI-WAN"
+echo "- Observer Core: $([ -d "$FIELD_ROOT/●OBI-WAN/◎_observer_core" ] && echo "✅ Active" || echo "❌ Not Found")"
+echo "- Memory Patterns: $([ -d "$FIELD_ROOT/●OBI-WAN/⬡_memory_patterns" ] && echo "✅ Present" || echo "❌ Missing")"
+
+if [ -f "$FIELD_ROOT/●OBI-WAN/OBI-WAN.txt" ]; then
+    echo "- Main Log Size: $(wc -l < "$FIELD_ROOT/●OBI-WAN/OBI-WAN.txt" 2>/dev/null || echo "0") lines"
+fi
+
+echo ""
+echo "⚠️  This is a STUB implementation - full observation logic needs to be implemented"
+echo "   Location: /Users/jbear/FIELD/bin/obi_wan_observe"

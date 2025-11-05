@@ -1,0 +1,147 @@
+# FIELD Live Data Sources Watchlist
+# ISO-Compliant Intelligence Feeds for AU/VIC
+# Version 1.0
+
+sources:
+  
+  # Victoria Police - Primary Law Enforcement
+  vicpol_media:
+    source_id: "vicpol:media_releases"
+    base_url: "https://www.police.vic.gov.au/news"
+    scrape_interval: "15min"  # High frequency for breaking news
+    location: "AU-VIC"
+    timestamp_regex: '(\d{1,2}\s+\w+\s+\d{4})'  # "16 September 2025"
+    content_selector: ".news-item"
+    priority: "HIGH"
+    notes: "Primary source for police media releases and incidents"
+    
+  vicpol_live_media:
+    source_id: "vicpol:live_pressers"
+    base_url: "https://www.police.vic.gov.au/news-and-media"  
+    scrape_interval: "5min"  # Live events
+    location: "AU-VIC"
+    stream_indicator: ".live-indicator"
+    priority: "CRITICAL"
+    notes: "Live media conferences and breaking statements"
+
+  # Crime Statistics Agency - Official Crime Data
+  csa_victoria:
+    source_id: "csa:crime_statistics"
+    base_url: "https://www.crimestatistics.vic.gov.au"
+    api_endpoint: "https://www.crimestatistics.vic.gov.au/explore-crime-by-location"
+    scrape_interval: "6h"  # Updated on fixed cycles
+    location: "AU-VIC"
+    data_format: "csv/xlsx"
+    priority: "HIGH"
+    notes: "Independent crime statistics, separate from VicPol reporting"
+
+  # IBAC - Anti-Corruption Commission
+  ibac_media:
+    source_id: "ibac:media_releases"
+    base_url: "https://www.ibac.vic.gov.au/media-releases"
+    scrape_interval: "1h"
+    location: "AU-VIC"
+    timestamp_regex: '(\d{1,2}\s+\w+\s+\d{4})'
+    priority: "HIGH"
+    notes: "Anti-corruption oversight and police accountability"
+    
+  ibac_dashboard:
+    source_id: "ibac:allegations_dashboard"
+    base_url: "https://www.ibac.vic.gov.au/reporting-corruption/how-to-report/reporting-statistics"
+    scrape_interval: "24h"  # Dashboard updates daily
+    location: "AU-VIC"
+    data_format: "structured"
+    priority: "MEDIUM"
+    notes: "Corruption allegations by agency and date"
+
+  # Coroners Court - Authoritative Event Records  
+  coroners_hearings:
+    source_id: "coroners:hearing_list"
+    base_url: "https://www.coronerscourt.vic.gov.au/about-coroners-court/hearing-lists"
+    scrape_interval: "24h"  # Posted ~3 weeks in advance
+    location: "AU-VIC"
+    file_format: "pdf"
+    priority: "HIGH"
+    notes: "Forward schedule of coroner hearings - critical incident pipeline"
+    
+  coroners_findings:
+    source_id: "coroners:published_findings"
+    base_url: "https://www.coronerscourt.vic.gov.au/coroners-findings"
+    scrape_interval: "6h"
+    location: "AU-VIC" 
+    file_format: "pdf"
+    timestamp_regex: '(\d{1,2}/\d{1,2}/\d{4})'
+    priority: "HIGH"
+    notes: "Published findings - ground truth for incident sequences"
+
+  # Bureau of Meteorology - Environmental Context
+  bom_observations:
+    source_id: "bom:vic_observations"
+    base_url: "http://www.bom.gov.au/vic/observations/"
+    api_endpoint: "http://reg.bom.gov.au/fwo/IDV60901/IDV60901.94868.json"
+    scrape_interval: "30min"
+    location: "AU-VIC"
+    iso_standard: "ISO 8601"  # Already compliant timestamps
+    priority: "MEDIUM"
+    notes: "Weather context for incidents, XML/JSON feeds available"
+    
+  bom_warnings:
+    source_id: "bom:vic_warnings" 
+    base_url: "http://www.bom.gov.au/products/IDV21033.shtml"
+    scrape_interval: "15min"  # Severe weather alerts
+    location: "AU-VIC"
+    priority: "HIGH"
+    notes: "Severe weather warnings affecting operations"
+
+  # DataVic - Whole-of-Government Open Data
+  datavic_ckan:
+    source_id: "datavic:ckan_api"
+    base_url: "https://data.vic.gov.au"
+    api_endpoint: "https://data.vic.gov.au/api/3"
+    scrape_interval: "12h"  # New datasets daily
+    location: "AU-VIC"
+    api_format: "CKAN"
+    iso_standard: "DCAT"  # CKAN/DCAT metadata standard
+    priority: "MEDIUM"
+    notes: "Victoria's central open data portal with CKAN API"
+
+  # Geoscience Australia - Spatial Context
+  ga_geospatial:
+    source_id: "ga:geospatial_catalog"
+    base_url: "https://ecat.ga.gov.au/geonetwork"
+    scrape_interval: "24h"
+    location: "AU"
+    iso_standard: "ISO 19115-1"  # Geospatial metadata standard
+    priority: "LOW"
+    notes: "Authoritative geospatial metadata for map context"
+
+# Ingestion Pipeline Configuration
+pipeline:
+  batch_size: 50
+  max_retries: 3
+  timeout_seconds: 30
+  integrity_check: "sha256"
+  
+  # Quality thresholds
+  quality_gates:
+    timestamp_required: true
+    source_id_required: true
+    location_required: true
+    min_completeness_score: 0.7
+    
+  # Error handling
+  on_validation_failure: "queue_for_review"
+  on_hash_mismatch: "reject_and_alert"
+  on_timeout: "retry_with_backoff"
+
+# Monitoring and Alerts  
+monitoring:
+  success_rate_threshold: 0.95  # Alert if below 95%
+  freshness_alert_hours: 24     # Alert if no data for 24h
+  integrity_sample_rate: 0.1    # Random sampling for hash verification
+  
+# Archive and Retention
+retention:
+  raw_data_days: 365           # Keep raw payloads for 1 year
+  processed_data_years: 7      # Keep processed intelligence for 7 years
+  metadata_permanent: true     # Never delete source metadata

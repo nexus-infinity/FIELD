@@ -1,0 +1,45 @@
+# 🔷 Traefik API Gateway Configuration
+# Resonant Location: ⬡_integration/●traefik_gateway
+# Purpose: Unified gateway for FREE ↔ Homefield integration
+# Field Frequency: 741Hz (Insight & Integration)
+
+# Global Configuration
+global:
+  checkNewVersion: false
+  sendAnonymousUsage: false
+
+# Entry Points - The gateways to your field
+entryPoints:
+  web:
+    address: ":8080"
+  web-secure:
+    address: ":8443"
+  dashboard:
+    address: ":9090"
+  
+# API & Dashboard
+api:
+  dashboard: true
+  debug: true
+  insecure: true  # For local development only
+
+# Logging
+log:
+  level: INFO
+  format: common
+
+accessLog:
+  format: common
+
+# Providers - Service Discovery
+providers:
+  # File-based configuration for dynamic routes
+  file:
+    directory: /Users/jbear/FIELD/⬡_integration/●traefik_gateway/dynamic
+    watch: true
+
+# Metrics (optional)
+metrics:
+  prometheus:
+    addEntryPointsLabels: true
+    addServicesLabels: true

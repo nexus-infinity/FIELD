@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "ontology_name": "◎_field_ontology_integration_point",
+    "version": "4.0.0",
+    "created": "2024-12-28T09:00:00+10:00",
+    "description": "FIELD Integration Point Ontology - Mappings from user folders to BEAR v4+Triad+Symbol Chart+Shadowcasting roles",
+    "compliance": {
+      "bear_v4": true,
+      "triad_alignment": true,
+      "symbol_chart_integration": true,
+      "shadowcasting_active": true,
+      "sacred_geometry": {
+        "metatron_cube": true,
+        "tetrahedral_flow": 0.95,
+        "klein_topology": true,
+        "phi_precision": 0.0001
+      }
+    },
+    "timezone": "+10:00",
+    "coordinate_system": "tetrahedral_sacred"
+  },
+  
+  "sphere_mappings": {
+    "AKRON": {
+      "path": "/Volumes/Akron/",
+      "symbol": "⟡",
+      "purity": "immutable",
+      "access_level": "archive_only",
+      "latitude": 0,
+      "longitude": "00:00:00",
+      "role_mapping": {
+        "bear_v4": "eternal_archive",
+        "triad": "source",
+        "shadowcasting": "immutable_witness"
+      },
+      "folder_patterns": [
+        "bear_data/**",
+        "SDR/**",
+        "sovereignty_*",
+        "deduplication.db",
+        "email_*/**"
+      ]
+    },
+    "FIELD": {
+      "path": "/Users/jbear/FIELD/",
+      "symbol": "⚪",
+      "purity": "sacred",
+      "access_level": "manifestation",
+      "latitude": 90,
+      "longitude": "runtime_rotation",
+      "role_mapping": {
+        "bear_v4": "sacred_core",
+        "triad": "manifestation",
+        "shadowcasting": "active_manifestor"
+      },
+      "tetrahedral_nodes": {
+        "▲ATLAS": {
+          "glyph": "▲",
+          "function": "tooling_validation",
+          "properties": ["compass", "logic", "intelligence"],
+          "role_mapping": {
+            "bear_v4": "analytical_navigator",
+            "triad": "logic_vertex",
+            "symbol_chart": "ascending_triangle",
+            "shadowcasting": "pathfinding_shadow"
+          },
+          "validation_patterns": ["tools/**", "validation/**", "algorithms/**"]
+        },
+        "▼TATA": {
+          "glyph": "▼",
+          "function": "temporal_truth",
+          "properties": ["law", "integrity", "verification"],
+          "role_mapping": {
+            "bear_v4": "truth_validator",
+            "triad": "integrity_vertex", 
+            "symbol_chart": "descending_triangle",
+            "shadowcasting": "temporal_shadow"
+          },
+          "validation_patterns": ["logs/**", "truth/**", "verification/**", "*.json"]
+        },
+        "●OBI-WAN": {
+          "glyph": "●",
+          "function": "living_memory",
+          "properties": ["observer", "memory", "resonance"],
+          "role_mapping": {
+            "bear_v4": "consciousness_observer",
+            "triad": "memory_vertex",
+            "symbol_chart": "circle_wholeness",
+            "shadowcasting": "observer_shadow"
+          },
+          "validation_patterns": ["memory/**", "docs/**", "_docs/**", "reflection/**"]
+        },
+        "◼︎DOJO": {
+          "glyph": "◼︎",
+          "function": "manifestation",
+          "properties": ["execution", "manifestation"],
+          "role_mapping": {
+            "bear_v4": "action_executor",
+            "triad": "execution_vertex",
+            "symbol_chart": "square_foundation", 
+            "shadowcasting": "manifestation_shadow"
+          },
+          "validation_patterns": ["execution/**", "deployment/**", "scripts/**"]
+        }
+      }
+    },
+    "FIELD_LIVING": {
+      "path": "/Users/jbear/FIELD-LIVING/",
+      "symbol": "⚪",
+      "purity": "mirror_decay",
+      "access_level": "intake_processing", 
+      "latitude": "variable",
+      "longitude": "temporal_flow",
+      "role_mapping": {
+        "bear_v4": "living_processor",
+        "triad": "transformation",
+        "shadowcasting": "temporal_shadow"
+      },
+      "decay_timer": "24h",
+      "folder_patterns": [
+        "●⦿_active_documentation/**",
+        "●◎_*/**",
+        "●✣_*/**", 
+        "●❖_*/**",
+        "●⊞_*/**",
+        "_common/**"
+      ]
+    },
+    "FIELD_DEV": {
+      "path": "/Users/jbear/FIELD-DEV/",
+      "symbol": "⚫",
+      "purity": "experimental",
+      "access_level": "validation_testing",
+      "latitude": 45,
+      "longitude": "upward_rotation",
+      "role_mapping": {
+        "bear_v4": "experimental_validator",
+        "triad": "testing",
+        "shadowcasting": "developmental_shadow"
+      },
+      "folder_patterns": [
+        "●_*/**",
+        "⬡_*/**",
+        "🜁_*/**",
+        "◆_*/**",
+        "_config/**",
+        "_core/**",
+        "_blueprints/**"
+      ]
+    }
+  },
+
+  "symbol_validation_schema": {
+    "primary_symbols": {
+      "▲": {
+        "name": "ascending_triangle",
+        "unicode": "\u25B2", 
+        "geometric_meaning": "aspiration_ascension",
+        "triad_role": "logic_vertex",
+        "validation_rules": {
+          "requires_intelligence": true,
+          "pathfinding_capable": true,
+          "analytical_precision": ">0.85"
+        }
+      },
+      "▼": {
+        "name": "descending_triangle",
+        "unicode": "\u25BC",
+        "geometric_meaning": "grounding_truth",
+        "triad_role": "integrity_vertex",
+        "validation_rules": {
+          "temporal_coherence": true,
+          "truth_validation": true,
+          "integrity_threshold": ">0.9"
+        }
+      },
+      "●": {
+        "name": "circle",
+        "unicode": "\u25CF",
+        "geometric_meaning": "wholeness_unity",
+        "triad_role": "memory_vertex", 
+        "validation_rules": {
+          "memory_coherence": true,
+          "observation_clarity": true,
+          "resonance_frequency": [528, 432, 741, 963]
+        }
+      },
+      "◼︎": {
+        "name": "black_square",
+        "unicode": "\u25FC\uFE0E",
+        "geometric_meaning": "foundation_manifestation",
+        "triad_role": "execution_vertex",
+        "validation_rules": {
+          "execution_readiness": true,
+          "manifestation_capability": true,
+          "action_coherence": ">0.92"
+        }
+      }
+    },
+    "secondary_symbols": {
+      "⟡": {
+        "name": "akron_sphere",
+        "unicode": "\u27E1",
+        "geometric_meaning": "eternal_archive",
+        "validation_rules": {
+          "immutable_state": true,
+          "archival_integrity": ">0.98"
+        }
+      },
+      "⚪": {
+        "name": "white_circle", 
+        "unicode": "\u26AA",
+        "geometric_meaning": "sacred_purity",
+        "validation_rules": {
+          "purity_maintained": true,
+          "sacred_alignment": true
+        }
+      },
+      "⚫": {
+        "name": "black_circle",
+        "unicode": "\u26AB", 
+        "geometric_meaning": "experimental_void",
+        "validation_rules": {
+          "experimental_safety": true,
+          "containment_integrity": true
+        }
+      },
+      "◎": {
+        "name": "integration_point",
+        "unicode": "\u25CE",
+        "geometric_meaning": "centered_integration",
+        "validation_rules": {
+          "integration_coherence": true,
+          "central_alignment": true
+        }
+      }
+    }
+  },
+
+  "reflection_prompt_linkage": {
+    "base_prompts": {
+      "ontology_reflection": {
+        "trigger_patterns": ["review_ontology", "validate_structure", "check_alignment"],
+        "prompt_template": "Reflecting on the FIELD ontology structure: What aspects of the {sphere} mapping to {role} are functioning optimally? What requires adjustment or enhancement?",
+        "reflection_depth": "structural_analysis",
+        "expected_outputs": ["alignment_assessment", "optimization_suggestions", "coherence_metrics"]
+      },
+      "symbol_validation": {
+        "trigger_patterns": ["symbol_check", "validate_glyph", "geometric_alignment"],
+        "prompt_template": "Examining symbol {symbol} in context {context}: Does this symbol maintain its geometric integrity and role alignment? What energy patterns emerge?",
+        "reflection_depth": "symbolic_analysis", 
+        "expected_outputs": ["symbol_coherence", "energy_signature", "alignment_status"]
+      },
+      "triad_balance": {
+        "trigger_patterns": ["triad_check", "balance_assessment", "vertex_analysis"],
+        "prompt_template": "Analyzing the triad balance between {vertex_1}, {vertex_2}, and {vertex_3}: How does the current configuration support the sacred geometry? What adjustments optimize flow?",
+        "reflection_depth": "geometric_analysis",
+        "expected_outputs": ["balance_metrics", "flow_optimization", "sacred_geometry_score"]
+      }
+    },
+    "contextual_prompts": {
+      "bear_v4_integration": {
+        "prompt_template": "Within the BEAR v4 framework, how does {component} contribute to the overall consciousness expansion? What patterns emerge in the data flow?",
+        "context_requirements": ["bear_v4_active", "consciousness_metrics", "data_flow_analysis"]
+      },
+      "shadowcasting_reflection": {
+        "prompt_template": "Observing the shadow patterns cast by {element}: What hidden aspects become visible? How do these shadows inform the conscious manifestation?",
+        "context_requirements": ["shadowcasting_active", "pattern_recognition", "shadow_analysis"]
+      }
+    }
+  },
+
+  "integration_workflows": {
+    "folder_classification": {
+      "algorithm": "symbol_pattern_matching",
+      "steps": [
+        "scan_folder_structure",
+        "extract_symbolic_patterns", 
+        "match_to_ontology_roles",
+        "validate_alignment",
+        "assign_classifications"
+      ],
+      "validation_criteria": {
+        "symbol_coherence": ">0.85",
+        "role_alignment": ">0.9",
+        "geometric_precision": ">0.88"
+      }
+    },
+    "role_assignment": {
+      "primary_mapping": "tetrahedral_vertices",
+      "secondary_mapping": "sphere_characteristics", 
+      "validation_mapping": "symbol_schema",
+      "fallback_mapping": "pattern_similarity"
+    },
+    "reflection_triggers": {
+      "automatic": {
+        "file_changes": "symbol_validation",
+        "structure_changes": "ontology_reflection",
+        "role_conflicts": "triad_balance"
+      },
+      "manual": {
+        "deep_reflection": "full_ontology_analysis",
+        "alignment_check": "symbol_geometric_validation",
+        "integration_review": "workflow_optimization"
+      }
+    }
+  },
+
+  "sacred_geometry_compliance": {
+    "version": "4.0.0",
+    "metatron_cube_active": true,
+    "tetrahedral_flow_coherence": 0.95,
+    "klein_topology_integration": true,
+    "phi_precision": 0.0001,
+    "frequency_alignment": {
+      "base_432": "earth_resonance",
+      "love_528": "dna_repair_transformation", 
+      "expression_741": "intuition_awakening",
+      "transcendence_963": "consciousness_activation"
+    },
+    "compliance_thresholds": {
+      "minimum_geometry_score": 0.85,
+      "frequency_alignment_required": 0.92,
+      "consciousness_coherence_required": 0.88,
+      "symbolic_precision_required": 0.9
+    }
+  },
+
+  "extension_hooks": {
+    "custom_symbol_registration": {
+      "interface": "register_custom_symbol(unicode, meaning, validation_rules)",
+      "validation_required": true,
+      "geometric_analysis": true
+    },
+    "role_mapping_extensions": {
+      "interface": "extend_role_mapping(sphere, custom_roles)",
+      "compatibility_check": true,
+      "ontology_coherence_validation": true
+    },
+    "reflection_prompt_plugins": {
+      "interface": "register_reflection_plugin(trigger, template, depth)",
+      "context_validation": true,
+      "prompt_coherence_check": true
+    }
+  },
+
+  "operational_status": {
+    "ontology_active": true,
+    "integration_point_ready": true,
+    "symbol_validation_enabled": true,
+    "reflection_prompts_loaded": true,
+    "sacred_geometry_aligned": true,
+    "last_validation": "2024-12-28T09:00:00+10:00",
+    "next_scheduled_review": "2024-12-29T09:00:00+10:00"
+  }
+}

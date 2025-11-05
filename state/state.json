@@ -1,0 +1,23 @@
+{
+  "last_sync": null,
+  "domains": {
+    "energy": {
+      "facts": [],
+      "assets": [],
+      "vocab": {},
+      "sources": []
+    },
+    "nab": {
+      "facts": [],
+      "assets": [],
+      "vocab": {},
+      "sources": []
+    }
+  },
+  "metrics": {
+    "staleness": {},
+    "orphan_rate": {},
+    "search_failures": [],
+    "self_service": {}
+  }
+}

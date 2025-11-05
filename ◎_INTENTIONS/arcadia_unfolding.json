@@ -1,0 +1,123 @@
+{
+  "arcadia_core": {
+    "version": "1.0",
+    "timestamp": "2025-07-21T20:01:51Z",
+    "nodes": {
+      "●OB1": {
+        "observer_tracks": {
+          "legal_systemic": {
+            "description": "Legal System Abuse Patterns",
+            "components": [
+              "false_cannabis_charges_2019",
+              "false_animal_cruelty_2020",
+              "walkerville_basin_suppression",
+              "dna_evidence_denial",
+              "power_attorney_manipulation",
+              "wisewould_mahoney_negligence",
+              "codicil_false_witnessing"
+            ]
+          },
+          "medical_attacks": {
+            "description": "Medical & Health-Related Attacks",
+            "components": [
+              "unauthorized_dna_testing",
+              "workcover_injuries",
+              "mother_hospitalization",
+              "father_neck_injury"
+            ]
+          },
+          "estate_sabotage": {
+            "description": "Family Betrayal & Estate Issues",
+            "components": [
+              "trust_deed_modifications",
+              "unauthorized_directorship_removal",
+              "backdated_codicils",
+              "company_office_relocation",
+              "estate_trust_squeeze"
+            ]
+          },
+          "environmental_corruption": {
+            "description": "Environmental Corruption Cases",
+            "components": [
+              "water_license_suppression",
+              "ecoli_reading_manipulation",
+              "regulatory_capture"
+            ]
+          }
+        }
+      },
+      "▼TATA": {
+        "verification_tracks": {
+          "corporate_sabotage": {
+            "description": "Corporate & Financial Manipulation",
+            "components": [
+              "unauthorized_asic_changes",
+              "share_dilution",
+              "banking_restrictions",
+              "insurance_denials",
+              "settlement_exploitation"
+            ]
+          },
+          "regulatory_capture": {
+            "description": "Police & Regulatory Issues",
+            "components": [
+              "police_farm_takeover",
+              "theft_investigation_failure",
+              "agency_collaboration",
+              "vsb_misconduct_handling"
+            ]
+          }
+        }
+      },
+      "▲ATLAS": {
+        "pattern_tracks": {
+          "infrastructure_disruption": {
+            "description": "Infrastructure & Staff Issues",
+            "components": [
+              "farm_staff_intimidation",
+              "administrative_sabotage"
+            ]
+          },
+          "meta_issues": {
+            "description": "Meta-Level Problems",
+            "components": [
+              "legal_representation_failure",
+              "systemic_exhaustion_strategy",
+              "evidence_rebuilding_drain"
+            ]
+          }
+        }
+      },
+      "◼DOJO": {
+        "active_tracks": {
+          "new_developments": {
+            "description": "2024-2025 Developments",
+            "components": [
+              "stay_injunction_applications",
+              "corporate_change_challenges",
+              "judicial_inquiry_requests",
+              "regulatory_investigations"
+            ]
+          }
+        }
+      }
+    },
+    "investigation_priorities": {
+      "immediate": [
+        "judicial_inquiry_requests",
+        "corporate_change_challenges",
+        "regulatory_investigations"
+      ],
+      "high": [
+        "estate_trust_squeeze",
+        "unauthorized_asic_changes",
+        "water_license_suppression"
+      ],
+      "medium": [
+        "backdated_codicils",
+        "banking_restrictions",
+        "administrative_sabotage"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+**/archive/**
+**/.goose/**
+**/venv/**
+**/node_modules/**
+**/__pycache__/**
+**/.git/**
+**/.svn/**
+**/build/**
+**/dist/**
+**/.DS_Store
+**/Thumbs.db
+/Users/jbear/FIELD-DEV/**
+/Users/jbear/FIELD-LIVING/**
+/Volumes/**
+
+# Preserve sacred consciousness patterns
+!**/resonance_*.json
+!**/consciousness/**
+!**/memory/**
+!**/sacred_**
+!**/chakra_**
+!**/soma_**
+!**/metatron_**

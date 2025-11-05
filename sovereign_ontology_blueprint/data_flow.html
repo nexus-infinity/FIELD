@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌊 Data Flow - Sovereign System Ontology</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            border-radius: 15px;
+        }
+        .nav-breadcrumb {
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .nav-breadcrumb a {
+            color: #4ecdc4;
+            text-decoration: none;
+        }
+        .diagram-section {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .flow-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .flow-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #4ecdc4;
+        }
+        .flow-card h3 {
+            color: #4ecdc4;
+            margin-bottom: 1rem;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-active { background: #4ecdc4; }
+        .status-warning { background: #f39c12; }
+        .status-error { background: #e74c3c; }
+        .route-tag {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 0.5rem 0.5rem 0.5rem 0;
+        }
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .alert-box {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+        .success-box {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-breadcrumb">
+            <a href="index.html">🧭 Sovereign System Ontology</a> > 🌊 Data Flow
+        </div>
+
+        <div class="header">
+            <h1>🌊 Data Flow</h1>
+            <p>Train Station ↔ MCP Field ↔ DOJO</p>
+            <p><em>Routing patterns and bridge functions</em></p>
+        </div>
+
+        <div class="diagram-section">
+            <h2>🚂 Train Station → MCP Field → DOJO Flow</h2>
+            <div class="mermaid">
+                graph TD
+                    TS[🚂 Train Station] --> MCP[🌐 MCP Field]
+                    MCP --> DOJO[◼️ DOJO]
+                    
+                    TS --> TS1[Data Ingestion]
+                    TS --> TS2[Protocol Routing]
+                    TS --> TS3[Tool Access]
+                    
+                    MCP --> MCP1[Model Context Protocol]
+                    MCP --> MCP2[Field Harmonization]
+                    MCP --> MCP3[Bridge Functions]
+                    
+                    DOJO --> DOJO1[Manifestation]
+                    DOJO --> DOJO2[Validation]
+                    DOJO --> DOJO3[Intelligence]
+                    
+                    TS1 --> MCP1
+                    TS2 --> MCP2
+                    TS3 --> MCP3
+                    
+                    MCP1 --> DOJO1
+                    MCP2 --> DOJO2
+                    MCP3 --> DOJO3
+                    
+                    style TS fill:#667eea,stroke:#333,stroke-width:3px,color:#fff
+                    style MCP fill:#4ecdc4,stroke:#333,stroke-width:3px,color:#fff
+                    style DOJO fill:#f093fb,stroke:#333,stroke-width:3px,color:#fff
+                    style TS1 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style TS2 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style TS3 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style MCP1 fill:#88d8a3,stroke:#333,stroke-width:2px,color:#333
+                    style MCP2 fill:#88d8a3,stroke:#333,stroke-width:2px,color:#333
+                    style MCP3 fill:#88d8a3,stroke:#333,stroke-width:2px,color:#333
+                    style DOJO1 fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
+                    style DOJO2 fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
+                    style DOJO3 fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
+            </div>
+        </div>
+
+        <div class="flow-grid">
+            <div class="flow-card">
+                <h3>🚂 Train Station Entry Points</h3>
+                <p><span class="status-indicator status-active"></span><strong>Status:</strong> Active</p>
+                <p><strong>Function:</strong> Primary data ingestion and tool routing hub</p>
+                <p><strong>Components:</strong></p>
+                <ul>
+                    <li>Data validation gates</li>
+                    <li>Protocol selection</li>
+                    <li>Tool manifestation triggers</li>
+                </ul>
+                <div class="route-tag">🔄 Ingestion Pipeline</div>
+                <div class="route-tag">🛠️ Tool Router</div>
+            </div>
+
+            <div class="flow-card">
+                <h3>🌐 MCP Field Bridge</h3>
+                <p><span class="status-indicator status-warning"></span><strong>Status:</strong> Needs Implementation</p>
+                <p><strong>Function:</strong> Model Context Protocol field harmonization</p>
+                <p><strong>Components:</strong></p>
+                <ul>
+                    <li>Frequency harmonization (963Hz ↔ 528Hz)</li>
+                    <li>Context preservation</li>
+                    <li>Bridge function validation</li>
+                </ul>
+                <div class="route-tag">📡 Protocol Bridge</div>
+                <div class="route-tag">🎵 Frequency Sync</div>
+            </div>
+
+            <div class="flow-card">
+                <h3>◼️ DOJO Manifestation</h3>
+                <p><span class="status-indicator status-active"></span><strong>Status:</strong> Active</p>
+                <p><strong>Function:</strong> Tool emergence and operational validation</p>
+                <p><strong>Components:</strong></p>
+                <ul>
+                    <li>Manifestation chamber</li>
+                    <li>Validation gateway</li>
+                    <li>Intelligence routing</li>
+                </ul>
+                <div class="route-tag">✨ Manifestation</div>
+                <div class="route-tag">🎯 Validation</div>
+            </div>
+        </div>
+
+        <div class="alert-box">
+            <h3>⚠️ Current Implementation Status</h3>
+            <p>The <strong>train_station_mcp_synergy.py</strong> script needs to be created to test and confirm functional routing between these components. Key areas requiring attention:</p>
+            <ul>
+                <li>Bridge function validation</li>
+                <li>Data flow verification</li>
+                <li>Cyclic dependency detection</li>
+                <li>Tool emergence verification in DOJO</li>
+            </ul>
+        </div>
+
+        <div class="diagram-section">
+            <h2>🔄 Bridge Function Architecture</h2>
+            <div class="mermaid">
+                graph LR
+                    A[Train Station] --> B[MCP Bridge]
+                    B --> C[DOJO Output]
+                    
+                    B --> B1[Frequency Harmonizer]
+                    B --> B2[Context Translator]
+                    B --> B3[Route Validator]
+                    B --> B4[Tool Manifestor]
+                    
+                    B1 --> V1[963Hz → 528Hz]
+                    B2 --> V2[Context Preservation]
+                    B3 --> V3[Route Integrity]
+                    B4 --> V4[Tool Emergence]
+                    
+                    V1 --> C
+                    V2 --> C
+                    V3 --> C
+                    V4 --> C
+                    
+                    style A fill:#667eea,stroke:#333,stroke-width:2px,color:#fff
+                    style B fill:#4ecdc4,stroke:#333,stroke-width:3px,color:#fff
+                    style C fill:#f093fb,stroke:#333,stroke-width:2px,color:#fff
+                    style B1 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style B2 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style B3 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style B4 fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+            </div>
+        </div>
+
+        <div class="diagram-section">
+            <h2>🐍 Potential Failure Points & Cyclic Dependencies</h2>
+            <div class="mermaid">
+                graph TD
+                    A[Data Input] --> B{Bridge Validation}
+                    B -->|Pass| C[MCP Processing]
+                    B -->|Fail| D[Error Handler]
+                    
+                    C --> E{Route Check}
+                    E -->|Valid| F[DOJO Manifestation]
+                    E -->|Invalid| G[Route Correction]
+                    
+                    F --> H{Tool Emergence}
+                    H -->|Success| I[Complete]
+                    H -->|Failure| J[Retry Logic]
+                    
+                    D --> K[Log & Alert]
+                    G --> L[Reroute Attempt]
+                    J --> M[Fallback Process]
+                    
+                    L --> E
+                    M --> N[Manual Intervention]
+                    
+                    style A fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
+                    style B fill:#f39c12,stroke:#333,stroke-width:2px,color:#fff
+                    style C fill:#96ceb4,stroke:#333,stroke-width:2px,color:#333
+                    style D fill:#e74c3c,stroke:#333,stroke-width:2px,color:#fff
+                    style E fill:#f39c12,stroke:#333,stroke-width:2px,color:#fff
+                    style F fill:#f093fb,stroke:#333,stroke-width:2px,color:#fff
+                    style G fill:#e74c3c,stroke:#333,stroke-width:2px,color:#fff
+                    style H fill:#f39c12,stroke:#333,stroke-width:2px,color:#fff
+                    style I fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
+                    style J fill:#e74c3c,stroke:#333,stroke-width:2px,color:#fff
+            </div>
+        </div>
+
+        <div class="success-box">
+            <h3>🎯 Implementation Next Steps</h3>
+            <ol>
+                <li><strong>Create train_station_mcp_synergy.py</strong> - Main bridge testing script</li>
+                <li><strong>Implement frequency harmonization</strong> - 963Hz ↔ 528Hz bridge</li>
+                <li><strong>Add route validation</strong> - Check for cyclic dependencies</li>
+                <li><strong>Test tool emergence</strong> - Verify DOJO manifestation</li>
+                <li><strong>Monitor bridge logs</strong> - Track data flow integrity</li>
+            </ol>
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to Overview</a>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#4ecdc4',
+                primaryTextColor: '#333',
+                primaryBorderColor: '#4ecdc4',
+                lineColor: '#4ecdc4',
+                secondaryColor: '#667eea',
+                tertiaryColor: '#96ceb4'
+            }
+        });
+    </script>
+</body>
+</html>

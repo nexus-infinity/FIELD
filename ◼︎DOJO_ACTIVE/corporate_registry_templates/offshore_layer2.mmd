@@ -1,0 +1,55 @@
+graph TD;
+
+%% Style definitions
+classDef EmailPrimary fill:#fff2e6,stroke:#994d00,stroke-width:2px
+classDef EmailResponse fill:#f2ffe6,stroke:#4d9900,stroke-width:2px
+classDef EmailAttachment fill:#e6f2ff,stroke:#004d99,stroke-width:2px
+classDef TimelineEvent fill:#ffe6f2,stroke:#990066,stroke-width:1px
+
+%% July 2023 Email Thread
+email_july12["July 12, 2023 10:15 GMT<br/>From: Panamanian Law Firm<br/>Subject: Trustee Appointment<br/>Key Points: Initial Structure"]:::EmailPrimary
+email_july12_resp["July 12, 2023 15:30 GMT<br/>Response: Acknowledgment<br/>Action: Document Request"]:::EmailResponse
+email_july12_attach["Attachment: Draft Agreement<br/>Status: Preliminary<br/>Format: PDF"]:::EmailAttachment
+
+email_july15["July 15, 2023 09:20 GMT<br/>From: Panamanian Law Firm<br/>Subject: Protector Role<br/>Key Points: Freler Nomination"]:::EmailPrimary
+email_july15_resp["July 15, 2023 14:45 GMT<br/>Response: Acceptance<br/>Action: Role Confirmation"]:::EmailResponse
+email_july15_attach["Attachment: Protector Docs<br/>Status: Final<br/>Format: PDF"]:::EmailAttachment
+
+email_july20["July 20, 2023 11:00 GMT<br/>From: Panamanian Law Firm<br/>Subject: Final Structure<br/>Key Points: Setup Complete"]:::EmailPrimary
+email_july20_resp["July 20, 2023 16:15 GMT<br/>Response: Confirmation<br/>Action: Implementation"]:::EmailResponse
+email_july20_attach["Attachment: Final Structure<br/>Status: Executed<br/>Format: PDF"]:::EmailAttachment
+
+%% Timeline Events
+timeline1["Phase 1: Initial Contact<br/>Structure Proposal"]:::TimelineEvent
+timeline2["Phase 2: Role Definition<br/>Protector Assignment"]:::TimelineEvent
+timeline3["Phase 3: Implementation<br/>Final Setup"]:::TimelineEvent
+
+%% Email Thread Connections
+email_july12 -->|"generates"| email_july12_resp
+email_july12_resp -->|"includes"| email_july12_attach
+email_july15 -->|"generates"| email_july15_resp
+email_july15_resp -->|"includes"| email_july15_attach
+email_july20 -->|"generates"| email_july20_resp
+email_july20_resp -->|"includes"| email_july20_attach
+
+%% Timeline Progression
+timeline1 -->|"leads to"| timeline2
+timeline2 -->|"leads to"| timeline3
+
+%% Connect Emails to Timeline
+email_july12 -.->|"part of"| timeline1
+email_july15 -.->|"part of"| timeline2
+email_july20 -.->|"part of"| timeline3
+
+%% Notion Database Links
+click email_july12 "https://www.notion.so/emails/july-12-initial" "View full email thread" _blank
+click email_july15 "https://www.notion.so/emails/july-15-protector" "View full email thread" _blank
+click email_july20 "https://www.notion.so/emails/july-20-final" "View full email thread" _blank
+
+%% Document Links
+click email_july12_attach "https://www.notion.so/documents/draft-agreement" "View draft agreement" _blank
+click email_july15_attach "https://www.notion.so/documents/protector-docs" "View protector documents" _blank
+click email_july20_attach "https://www.notion.so/documents/final-structure" "View final structure" _blank
+
+%% Navigation Notes
+note["Click any email or document to view full content<br/>Lines show communication flow<br/>Dotted lines show timeline placement"]

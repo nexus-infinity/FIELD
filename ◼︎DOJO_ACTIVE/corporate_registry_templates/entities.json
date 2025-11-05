@@ -1,0 +1,16 @@
+[
+  {"EntityID":"trust-at2","EntityType":"Trust","LegalName":"Ansevata Trust No. 2","ABN":"44 013 158 909","Jurisdiction":"AU-VIC","Status":"UnderReview","NotionURL":"https://www.notion.so/18704c15e4f180639c63c35750615488","verification_level":1},
+  {"EntityID":"co-an","EntityType":"Company","LegalName":"Ansevata Nominees Pty Ltd","ACN":"004 686 131","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/18704c15e4f180639c63c35750615488","verification_level":1},
+  {"EntityID":"co-ai","EntityType":"Company","LegalName":"Ansevata Investments Pty Ltd","ACN":"004 414 144","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/18704c15e4f180639c63c35750615488","verification_level":1},
+  {"EntityID":"co-berjak-vic","EntityType":"Company","LegalName":"Berjak Nominees (VIC) Pty Ltd","ACN":"005 829 863","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/aa3829258cb6459187459793b3fff2e9","verification_level":1},
+  {"EntityID":"co-berjak-nt","EntityType":"Company","LegalName":"Berjak Nominees (N.T.) Pty Ltd","ACN":"009 617 476","Jurisdiction":"AU-NT","Status":"Active","NotionURL":"https://www.notion.so/c9a3d4e06ba342759f0b5d46fa5f0197","verification_level":1},
+  {"EntityID":"co-berjak-pty","EntityType":"Company","LegalName":"Berjak Nominees Pty Ltd","ACN":"005 195 657","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/c9a3d4e06ba342759f0b5d46fa5f0197","verification_level":1},
+  {"EntityID":"ut-bput","EntityType":"UnitTrust","LegalName":"Berjak & Partners Unit Trust","ABN":"61 373 856 797","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/08e08645b1834958ba6f793b7fb713f6","verification_level":1},
+  {"EntityID":"p-sjr","EntityType":"Person","LegalName":"Susan Janet Rich","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/20304c15e4f180698721cfb4180c73ea","verification_level":1},
+  {"EntityID":"p-jbr","EntityType":"Person","LegalName":"Jeremy Benjamin Rich","Jurisdiction":"AU-VIC","Status":"Active","verification_level":1},
+  {"EntityID":"p-ajr","EntityType":"Person","LegalName":"Adam Joshua Rich","Jurisdiction":"AU-VIC","Status":"Active","NotionURL":"https://www.notion.so/6d8ff12aa7ff4c72a0793a219bd2ee68","verification_level":1},
+  {"EntityID":"p-scr","EntityType":"Person","LegalName":"Simon Charles Rich","Jurisdiction":"AU-VIC","Status":"Active","verification_level":1},
+  {"EntityID":"off-cent","EntityType":"OffshoreEntity","LegalName":"Centosa S.A.","Jurisdiction":"CH","Status":"UnderReview","NotionURL":"https://www.notion.so/387d71add4e644dfb9a2e8dcc2115103","verification_level":0},
+  {"EntityID":"off-freler","EntityType":"OffshoreEntity","LegalName":"Freler S.A.","Jurisdiction":"CH","Status":"UnderReview","NotionURL":"https://www.notion.so/387d71add4e644dfb9a2e8dcc2115103","verification_level":0},
+  {"EntityID":"bank-nab","EntityType":"BankRelationship","LegalName":"NAB Banking Relationship","Jurisdiction":"AU","Status":"Active","NotionURL":"https://www.notion.so/ec72994ce2b14de59608816f96fbc8a4","verification_level":1}
+]

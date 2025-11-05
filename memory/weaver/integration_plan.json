@@ -1,0 +1,76 @@
+{
+  "weaver_analysis": {
+    "timestamp": "2025-07-22 21:54:01.498957",
+    "connection_density": 5,
+    "resonance_stability": 5
+  },
+  "integration_phases": [
+    {
+      "phase": 1,
+      "title": "High-Resonance Symbolic Integration",
+      "description": "Connect strongly resonant symbolic elements",
+      "targets": [
+        "\u25cf",
+        "\u25b2",
+        "\u25ce",
+        "\u25fc",
+        "\u2b21"
+      ],
+      "priority": "high"
+    },
+    {
+      "phase": 2,
+      "title": "Structural Optimization",
+      "description": "Optimize high-content directory structures",
+      "targets": [
+        "\u25cfSomaLink",
+        "\u25b2ATLAS",
+        "\u25cfOBI-WAN",
+        "\u25bcTATA",
+        "memory",
+        "\u25fc\ufe0eDOJO",
+        "\u25cf\u25c7_port_migration_backup_20250629_002053",
+        "\u25cf\u25ce_sandbox",
+        "\u25cf\u25bcTATA",
+        "Dojo",
+        "THROAT",
+        "\u25cf\u25c7_port_migration_backup_20250629_011356",
+        "\u25cf\u25c7_port_migration_backup_20250629_023241",
+        "logs",
+        "\u25cf\u2b63_registry",
+        ".venv",
+        "\u25cfconfigs",
+        ".git",
+        ".direnv"
+      ],
+      "priority": "medium"
+    },
+    {
+      "phase": 3,
+      "title": "Boundary Integration",
+      "description": "Integrate external connection points",
+      "targets": [
+        ".warpconfig.yaml"
+      ],
+      "priority": "low"
+    }
+  ],
+  "priority_connections": [
+    {
+      "phase": 1,
+      "recommendation": "Connect High-Resonance Symbolic Integration elements",
+      "impact": "High"
+    },
+    {
+      "phase": 2,
+      "recommendation": "Connect Structural Optimization elements",
+      "impact": "Medium"
+    },
+    {
+      "phase": 3,
+      "recommendation": "Connect Boundary Integration elements",
+      "impact": "Medium"
+    }
+  ],
+  "implementation_recommendations": []
+}

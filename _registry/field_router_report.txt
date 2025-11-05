@@ -1,0 +1,212 @@
+=== FIELD Router Movement Report ===
+
+
+▼ ●sacred_alignment_report_20250628_141143.json.bak
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.18
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ canonical_ingestion.db
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ ◇_metatron_influence.db
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ ●storage_optimization.db
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ nixos-latest-aarch64.iso
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ Dojo_FINAL_SNAPSHOT_20250719_163927.tar.gz
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ ●duplicate_cleanup_summary.txt
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.18
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.18
+
+◼ pyproject.toml
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/DOJO
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.36
+    ● OBI-WAN: 0.00
+
+▼ ●remove_duplicates.sh
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.18
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.18
+    ● OBI-WAN: 0.18
+
+◼ README.md
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/DOJO
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.18
+    ◼ DOJO: 0.36
+    ● OBI-WAN: 0.18
+
+▼ ●sacred_field_validation_report.json.bak
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.73
+    ▲ ATLAS: 0.55
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.55
+
+▼ Dojo_FINAL_SNAPSHOT_20250719_163748.tar.gz
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▲ ●reorganization_plan.json.bak
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/ATLAS
+
+  Resonance Scores:
+    ▼ TATA: 0.36
+    ▲ ATLAS: 0.73
+    ◼ DOJO: 0.36
+    ● OBI-WAN: 0.73
+
+● ●execution_report.json.bak
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/OBI-WAN
+
+  Resonance Scores:
+    ▼ TATA: 0.36
+    ▲ ATLAS: 0.18
+    ◼ DOJO: 0.18
+    ● OBI-WAN: 0.55
+
+▼ ●cleanup_completion_report.txt
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.55
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.18
+    ● OBI-WAN: 0.18
+
+▼ symbolic_lacing.sh
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.36
+    ▲ ATLAS: 0.18
+    ◼ DOJO: 0.36
+    ● OBI-WAN: 0.18
+
+▼ requirements_dashboard.txt
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ nixos-latest-aarch64.iso.sha256
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+▼ ●migration_log_20250629_002028.json.bak
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/TATA
+
+  Resonance Scores:
+    ▼ TATA: 0.18
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.00
+
+● test_field_awareness.sh
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/OBI-WAN
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.00
+    ◼ DOJO: 0.00
+    ● OBI-WAN: 0.18
+
+▲ notion_sdr_mapping_manifest.json
+  From: /Users/jbear/FIELD
+  To:   /Users/jbear/FIELD/ATLAS
+
+  Resonance Scores:
+    ▼ TATA: 0.00
+    ▲ ATLAS: 0.36
+    ◼ DOJO: 0.18
+    ● OBI-WAN: 0.00

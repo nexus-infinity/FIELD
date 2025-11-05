@@ -1,0 +1,164 @@
+{
+  "timestamp": "2025-07-31T17:52:32.540886",
+  "directory_sizes": [
+    {
+      "path": "/Users/jbear/FIELD",
+      "size_str": "134G",
+      "size_bytes": 143881404416,
+      "timestamp": "2025-07-31T17:53:36.259452"
+    },
+    {
+      "path": "/Users/jbear/Library",
+      "size_str": "60G",
+      "size_bytes": 64424509440,
+      "timestamp": "2025-07-31T17:54:00.481638"
+    },
+    {
+      "path": "/Applications",
+      "size_str": "52G",
+      "size_bytes": 55834574848,
+      "timestamp": "2025-07-31T17:54:11.230671"
+    },
+    {
+      "path": "/usr/local",
+      "size_str": "3.9G",
+      "size_bytes": 4187593113,
+      "timestamp": "2025-07-31T17:54:01.321617"
+    },
+    {
+      "path": "/Users/jbear/Downloads",
+      "size_str": "91M",
+      "size_bytes": 95420416,
+      "timestamp": "2025-07-31T17:54:00.628394"
+    },
+    {
+      "path": "/Users/jbear/Documents",
+      "size_str": "22M",
+      "size_bytes": 23068672,
+      "timestamp": "2025-07-31T17:54:00.577807"
+    }
+  ],
+  "large_files": [
+    {
+      "file": "/Users/jbear/FIELD/\u25b2ATLAS/\u2b22_models_backup_20250629_1211/\u2605_eddad3ba/\u2b20_openllama3b_model/pytorch_model.bin",
+      "size": "4.7G",
+      "size_bytes": 5046586572,
+      "timestamp": "2025-07-31T17:55:19.059348"
+    },
+    {
+      "file": "/Users/jbear/.ollama/models/blobs/sha256-6a0746a1ec1aef3e7ec53868f220ff6e389f6f8ef87a01d77c96807de94ca2aa",
+      "size": "4.3G",
+      "size_bytes": 4617089843,
+      "timestamp": "2025-07-31T17:55:19.058758"
+    },
+    {
+      "file": "/Users/jbear/Library/Application Support/dev.warp.Warp-Stable/warp.sqlite",
+      "size": "2.6G",
+      "size_bytes": 2791728742,
+      "timestamp": "2025-07-31T17:55:19.059403"
+    },
+    {
+      "file": "/Users/jbear/FIELD/\u25b2ATLAS/\u2b22_models/ollama/models/blobs/sha256-633fc5be925f9a484b61d6f9b9a78021eeb462100bd557309f01ba84cac26adf",
+      "size": "2.0G",
+      "size_bytes": 2147483648,
+      "timestamp": "2025-07-31T17:55:19.059350"
+    },
+    {
+      "file": "/Users/jbear/FIELD/\u25b2ATLAS/\u2b22_models/ollama/models/blobs/sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff",
+      "size": "1.9G",
+      "size_bytes": 2040109465,
+      "timestamp": "2025-07-31T17:55:19.059354"
+    },
+    {
+      "file": "/Users/jbear/Library/com.pieces.os/production/Pieces/couchbase.cblite2/db.sqlite3",
+      "size": "1.9G",
+      "size_bytes": 2040109465,
+      "timestamp": "2025-07-31T17:55:19.059429"
+    },
+    {
+      "file": "/Users/jbear/FIELD-DEV/\u25cf_archive_/scattered_tools_archive_20250712_065024/old_backups/.field_backup_20250612/SomaLink/.git/objects/pack/pack-73dd632f7d82567362047366d0a3a9bcfff5c7af.pack",
+      "size": "1.6G",
+      "size_bytes": 1717986918,
+      "timestamp": "2025-07-31T17:55:19.058844"
+    },
+    {
+      "file": "/Users/jbear/FIELD-LIVING/\u25cfOBI-WAN/OB1-SOMA/.git/objects/pack/pack-407be32cdd49945bb27606710200f9adeac975c8.pack",
+      "size": "1.5G",
+      "size_bytes": 1610612736,
+      "timestamp": "2025-07-31T17:55:19.058954"
+    },
+    {
+      "file": "/Users/jbear/FIELD/\u25b2ATLAS/\u2b22_models/ollama/models/blobs/sha256-7462734796d67c40ecec2ca98eddf970e171dbb6b370e43fd633ee75b69abe1b",
+      "size": "1.5G",
+      "size_bytes": 1610612736,
+      "timestamp": "2025-07-31T17:55:19.059352"
+    },
+    {
+      "file": "/Users/jbear/FIELD-DEV/\u25cf_models/language_models/Medium.bin",
+      "size": "1.4G",
+      "size_bytes": 1503238553,
+      "timestamp": "2025-07-31T17:55:19.058863"
+    },
+    {
+      "file": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/.git/objects/83/850cba72a4ba21aaff2ad7494f8482b4a70100",
+      "size": "1.3G",
+      "size_bytes": 1395864371,
+      "timestamp": "2025-07-31T17:55:19.059356"
+    },
+    {
+      "file": "/Users/jbear/FIELD/\u25fc\ufe0eDOJO/SystemArchive/system_snapshot_20250720_164030.tar.gz",
+      "size": "1.3G",
+      "size_bytes": 1395864371,
+      "timestamp": "2025-07-31T17:55:19.059360"
+    },
+    {
+      "file": "/Users/jbear/Library/CloudStorage/Dropbox/Jeremy Rich/DJPR Response to Rich Disclosure Request 25.11.21-05 Apr 2022-DJPR Response to Rich Disclosure Request 25.11.21.pdf",
+      "size": "1.3G",
+      "size_bytes": 1395864371,
+      "timestamp": "2025-07-31T17:55:19.059418"
+    },
+    {
+      "file": "/Users/jbear/.minikube/machines/minikube/disk.qcow2",
+      "size": "1.1G",
+      "size_bytes": 1181116006,
+      "timestamp": "2025-07-31T17:55:19.058756"
+    },
+    {
+      "file": "/Users/jbear/Library/Application Support/dev.warp.Warp-Preview/warp.sqlite",
+      "size": "1.1G",
+      "size_bytes": 1181116006,
+      "timestamp": "2025-07-31T17:55:19.059401"
+    },
+    {
+      "file": "/Users/jbear/Library/Elephas/SoundFiles/output-CA3F2078-734B-4979-B5B4-F682D71B35F3.wav",
+      "size": "1.1G",
+      "size_bytes": 1181116006,
+      "timestamp": "2025-07-31T17:55:19.059500"
+    },
+    {
+      "file": "/Users/jbear/FIELD-LIVING/\u25cffield_tool_index_validation.json",
+      "size": "1.0G",
+      "size_bytes": 1073741824,
+      "timestamp": "2025-07-31T17:55:19.058951"
+    },
+    {
+      "file": "/Users/jbear/FIELD/.git/objects/pack/tmp_pack_1vwHJo",
+      "size": "872M",
+      "size_bytes": 914358272,
+      "timestamp": "2025-07-31T17:55:19.058961"
+    },
+    {
+      "file": "/Users/jbear/FIELD/.git/objects/pack/tmp_pack_2EqIHB",
+      "size": "872M",
+      "size_bytes": 914358272,
+      "timestamp": "2025-07-31T17:55:19.058963"
+    },
+    {
+      "file": "/Users/jbear/FIELD/.git/objects/pack/tmp_pack_2fsq6N",
+      "size": "872M",
+      "size_bytes": 914358272,
+      "timestamp": "2025-07-31T17:55:19.058964"
+    }
+  ],
+  "git_repositories": []
+}

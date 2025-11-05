@@ -1,0 +1,53 @@
+{
+  "sync_metadata": {
+    "timestamp": "2025-09-20T14:02:53.572700",
+    "sync_type": "notion_to_field_comprehensive",
+    "field_geometry": "tetrahedral_flow",
+    "symbolic_glyph": "\u27c1RE"
+  },
+  "sync_summary": {
+    "total_databases": 18,
+    "synced_successfully": 6,
+    "errors": [],
+    "trust_structures": {},
+    "beneficiaries": [],
+    "corporate_entities": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "investigation_hooks": [
+      "Resonance cross-analysis enabled"
+    ]
+  },
+  "database_analysis": {
+    "trust_deed_coverage": "0/7 trust deeds",
+    "beneficiary_completeness": "0 beneficiaries mapped",
+    "corporate_entity_count": "12 entities synced",
+    "investigation_hooks": "1 hooks created"
+  },
+  "investigation_readiness": {
+    "local_databases": [
+      "field_entities.db",
+      "trust_structures.db",
+      "investigation_data.db"
+    ],
+    "resonance_integration": "enabled",
+    "hook_priorities": [
+      {
+        "type": "resonance_analysis",
+        "count": 1,
+        "priority": 9.0
+      }
+    ]
+  }
+}

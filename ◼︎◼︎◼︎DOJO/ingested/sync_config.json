@@ -1,0 +1,128 @@
+{
+  "sdr_config": {
+    "version": "1.0",
+    "last_updated": "2025-01-11T21:16:01Z",
+    "description": "Unified configuration for Sovereign Data Repository sync operations",
+    
+    "sync_sources": {
+      "root_path": "/Volumes/Akron/SDR/◎_glyph_library/",
+      "pattern_matching": "*.meta.json",
+      "recursive_scan": true,
+      "unicode_compliant": true,
+      "symbolic_structure": true
+    },
+    
+    "registry": {
+      "central_ledger": "/Volumes/Akron/SDR/_registry/sovereignty_registry.json",
+      "format": "JSON",
+      "mutable": true,
+      "machine_readable": true
+    },
+    
+    "execution": {
+      "sync_interval": 300,
+      "optimization": {
+        "concurrency": true,
+        "batch_mutation": true
+      },
+      "logging": {
+        "passive_rotation": true,
+        "active_console_feedback": true
+      }
+    },
+    
+    "documentation": {
+      "config_path": "/Volumes/Akron/SDR/_registry/sync_config.json",
+      "docs_path": "/Volumes/Akron/SDR/_registry/SYNC_DOCUMENTATION.md"
+    },
+    
+    "api_integrations": {
+      "notion": {
+        "api_key": "${NOTION_API_KEY}",
+        "scopes": ["read_content", "update_properties"],
+        "description": "Requires internal integration token shared with glyph database",
+        "glyph_sync": true,
+        "meta_json_mapping": {
+          "notion_id": "notion_page_id",
+          "glyph_symbol": "notion_icon",
+          "properties": "notion_properties"
+        }
+      },
+      
+      "google_drive": {
+        "credentials_file": "${GOOGLE_APPLICATION_CREDENTIALS}",
+        "scopes": ["https://www.googleapis.com/auth/drive"],
+        "description": "Service account authentication with shared Drive access",
+        "glyph_sync": true,
+        "meta_json_mapping": {
+          "drive_id": "google_drive_file_id",
+          "glyph_symbol": "file_description",
+          "sync_timestamp": "modifiedTime"
+        }
+      },
+      
+      "github": {
+        "api_token": "${GITHUB_API_TOKEN}",
+        "scopes": ["repo", "user"],
+        "description": "Access to private repos containing glyph-linked code (BEARv4)",
+        "glyph_sync": true,
+        "meta_json_mapping": {
+          "repo_path": "github_repo_url",
+          "glyph_symbol": "commit_message_prefix",
+          "commit_hash": "latest_commit"
+        }
+      },
+      
+      "figma": {
+        "api_key": "${FIGMA_API_KEY}",
+        "scopes": ["file_read", "file_write"],
+        "description": "Read/write access to design documents, banners, glyph schematics",
+        "glyph_sync": true,
+        "meta_json_mapping": {
+          "figma_id": "figma_file_key",
+          "glyph_symbol": "component_name",
+          "design_version": "version"
+        }
+      }
+    },
+    
+    "glyph_library": {
+      "symbolic_nodes": {
+        "OB1": {
+          "glyph": "●",
+          "properties": ["observer", "memory", "resonance"],
+          "api_channels": ["notion", "google_drive"]
+        },
+        "TATA": {
+          "glyph": "▼",
+          "properties": ["law", "integrity", "verification"],
+          "api_channels": ["github"]
+        },
+        "ATLAS": {
+          "glyph": "▲",
+          "properties": ["compass", "logic", "intelligence"],
+          "api_channels": ["github", "figma"]
+        },
+        "DOJO": {
+          "glyph": "◼",
+          "properties": ["execution", "manifestation"],
+          "api_channels": ["all"]
+        }
+      }
+    },
+    
+    "validation": {
+      "resonance_threshold": 0.85,
+      "integrity_checks": ["timestamp", "harmonic_signature", "glyph_coherence"],
+      "cross_platform_validation": true,
+      "registry_locking": true
+    },
+    
+    "operational_sovereignty": {
+      "symbolic_coherence": true,
+      "recursive_structure": true,
+      "live_integration": true,
+      "multi_dimensional": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "entity_mappings": {
+        "Berjak": ["Bircheck"],
+        "Centosa": ["Sentosa"],
+        "Wisewould Mahony": ["Wisewould Mahoney"]
+    },
+    "match_threshold": 0.92,
+    "roles_vocabulary": [
+        "Company",
+        "Trustee",
+        "Beneficiary",
+        "Appointor",
+        "Protector",
+        "Settlor",
+        "Director",
+        "Shareholder",
+        "Power of Attorney",
+        "Bank Customer",
+        "Law Firm"
+    ]
+}

@@ -1,0 +1,15 @@
+services:
+  atlas_service:
+    environment:
+      CHAKRA_MAPPING: Root Chakra
+      FIELD_FREQUENCY: 256
+      FIELD_NAME: ATLAS
+      PORT: '2560'
+    image: field/atlas:latest
+    labels:
+      field.chakra: Root Chakra
+      field.frequency: '256'
+      field.name: ATLAS
+    ports:
+    - 2560:2560
+version: '3.8'

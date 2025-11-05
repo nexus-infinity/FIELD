@@ -1,0 +1,15 @@
+services:
+  alliance_service:
+    environment:
+      CHAKRA_MAPPING: Sacral Chakra
+      FIELD_FREQUENCY: 288
+      FIELD_NAME: ALLIANCE
+      PORT: '3001'
+    image: field/alliance:latest
+    labels:
+      field.chakra: Sacral Chakra
+      field.frequency: '288'
+      field.name: ALLIANCE
+    ports:
+    - 3001:3001
+version: '3.8'

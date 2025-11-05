@@ -1,0 +1,12 @@
+{
+  "receipt_id": "rename_1757854328",
+  "item_id": "\u25fc\ufe0e_warp_intent_gateway__2025-09-14T22-52-08Z__-37.8136,144.9631__938718a8.py",
+  "operation": "rename_receipt",
+  "status": "created",
+  "details": {
+    "original_path": "/Users/jbear/FIELD/\u25cf\u25ce_FIELD_TRAIN_STATION/warp_intent_gateway.py",
+    "canonical_name": "\u25fc\ufe0e_warp_intent_gateway__2025-09-14T22-52-08Z__-37.8136,144.9631__938718a8.py",
+    "ttl_expires": "2025-09-16T22:52:08.702313"
+  },
+  "timestamp": "2025-09-14T22:52:08.702321"
+}

@@ -1,0 +1,12 @@
+{
+  "receipt_id": "action_1757854389",
+  "item_id": "\u25fc\ufe0e_warp_intent_gateway_2025-09-14t22-52-08z_-37_8136_144_9631_938718a8__2025-09-14T22-53-09Z__-37.8136,144.9631__b3de15e4.py",
+  "operation": "dojo_executed",
+  "status": "completed",
+  "details": {
+    "manifest_signed": true,
+    "quorum_met": true,
+    "capacity_ok": true
+  },
+  "timestamp": "2025-09-14T22:53:09.330077"
+}

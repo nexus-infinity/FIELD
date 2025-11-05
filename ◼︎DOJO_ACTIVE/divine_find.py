@@ -154,8 +154,8 @@ class DivineFinder:
                 continue
                 
             try:
-                # Use find for pattern matching
-                cmd = ["find", str(root), "-iname", f"*{query}*", "-type", "f"]
+                # Use find for pattern matching (use real binary, not alias)
+                cmd = ["/usr/bin/find", str(root), "-iname", f"*{query}*", "-type", "f"]
                 if search_type == "folders":
                     cmd[-1] = "d"
                 

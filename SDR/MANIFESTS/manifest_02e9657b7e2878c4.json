@@ -1,0 +1,15 @@
+{
+  "manifest_id": "02e9657b7e2878c4",
+  "canonical_name": "\u25fc\ufe0e_warp_intent_gateway_2025-09-14t22-52-08z_-37_8136_144_9631_938718a8__2025-09-14T22-53-09Z__-37.8136,144.9631__b3de15e4.py",
+  "hash_chain": "b3de15e43ff8f396e093d2cee90b48eb555c1a4e1a78669e9f9f6fa891ae8607:1757854389",
+  "policy_version": "warp_intent_1.0",
+  "routing": {
+    "from": "tata_lock",
+    "to": "dojo_execution",
+    "staging_path": "/Users/jbear/FIELD/SDR/STAGING/\u25fc\ufe0e_warp_intent_gateway_2025-09-14t22-52-08z_-37_8136_144_9631_938718a8__2025-09-14T22-53-09Z__-37.8136,144.9631__b3de15e4.py"
+  },
+  "capacity_check": true,
+  "timestamp": "2025-09-14T22:53:09.329833",
+  "ttl": "2025-09-14T23:53:09.329835",
+  "do_re_mi_cue": null
+}

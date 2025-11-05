@@ -1,0 +1,125 @@
+{
+  "duplicates": {
+    "exact_phone_matches": [
+      [
+        "JB Rich",
+        "408-873-501"
+      ],
+      [
+        "J.B. Rich",
+        "4088735010"
+      ],
+      [
+        "JB Rich",
+        "(408) 873-5010"
+      ]
+    ],
+    "name_variations": [
+      [
+        "JB Rich",
+        "J.B. Rich",
+        "95% match"
+      ],
+      [
+        "JB Rich",
+        "JBear Rich",
+        "90% match"
+      ]
+    ]
+  },
+  "ableton_patterns": {
+    "drum_patterns": {
+      "kick_patterns": [
+        "four_on_floor",
+        "breakbeat",
+        "trap_roll"
+      ],
+      "shared_samples": [
+        "808_kick.wav",
+        "vintage_snare.aif"
+      ],
+      "bpm_clusters": [
+        120,
+        128,
+        140
+      ]
+    },
+    "melody_loops": {
+      "scale_preferences": [
+        "A minor",
+        "C major",
+        "D dorian"
+      ],
+      "chord_progressions": [
+        "i-iv-v",
+        "I-V-vi-IV"
+      ]
+    },
+    "sample_chains": {
+      "most_used": [
+        "ambient_pad_01.wav",
+        "vinyl_crackle.wav"
+      ],
+      "orphaned": [
+        "unused_sample_273.wav"
+      ]
+    },
+    "project_templates": {
+      "common_setup": "8 audio tracks, 4 return tracks, master chain",
+      "plugin_chains": [
+        "EQ Eight -> Compressor -> Reverb"
+      ]
+    }
+  },
+  "terminal": {
+    "git_flow": [
+      "git status",
+      "git add -A",
+      "git commit -m \"...\"",
+      "git push"
+    ],
+    "python_testing": [
+      "python3 script.py",
+      "pip3 install ...",
+      "pytest"
+    ],
+    "file_navigation": [
+      "cd ~/FIELD/...",
+      "ls -la",
+      "find . -name \"*.py\""
+    ],
+    "sacred_network": [
+      "cd ~/FIELD/field-system/sacred_network",
+      "python3 field_orchestration.py"
+    ]
+  },
+  "aliases": {
+    "gsync": "git add -A && git commit -m \"sync\" && git push",
+    "field": "cd ~/FIELD/field-system/sacred_network",
+    "bearflow": "python3 sailing_intelligence_contacts.py --bearflow",
+    "contacts": "python3 fractal_contact_wrapper.py --analyze",
+    "orchestrate": "python3 field_orchestration.py"
+  },
+  "weighted_files": [
+    [
+      "/Users/jbear/FIELD/field-system/sacred_network/sovereign_contacts/sailing_intelligence_contacts.py",
+      9.792000000000002
+    ],
+    [
+      "/Users/jbear/FIELD/field-system/sacred_network/jbear_sailing_examples.py",
+      8.64
+    ],
+    [
+      "/Users/jbear/FIELD/field-system/sacred_network/field_orchestration.py",
+      8.64
+    ],
+    [
+      "/Users/jbear/FIELD/field-system/sacred_network/sovereign_contacts/fractal_contact_wrapper.py",
+      8.16
+    ],
+    [
+      "/Users/jbear/FIELD/field-system/sacred_network/sovereign_contacts/test_contact_system.py",
+      5.44
+    ]
+  ]
+}

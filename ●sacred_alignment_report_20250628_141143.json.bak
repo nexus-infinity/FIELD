@@ -1,0 +1,106 @@
+{
+  "timestamp": "2025-06-28T14:11:43.016548",
+  "analysis_type": "sacred_geometry_alignment",
+  "databases_analyzed": 0,
+  "patterns_verified": 0,
+  "issues_found": 0,
+  "alignment_score": 0.0,
+  "recommendations": [
+    "\ud83c\udf89 Perfect alignment detected! Your sacred geometry patterns are harmoniously integrated with Notion.",
+    "\ud83c\udf00 Consider implementing automated breath cycle tracking in your Notion databases.",
+    "\ud83d\udd04 Set up periodic alignment verification to maintain cosmic harmony.",
+    "\ud83d\udcc8 Create dashboard views grouped by sacred geometry patterns for enhanced visibility."
+  ],
+  "config_analysis": {
+    "files_found": 2,
+    "patterns_detected": {
+      "\ud83d\udf03": {
+        "element": "earth",
+        "frequency": 396.0,
+        "soil": "crystalline",
+        "carrier": "\u25cf"
+      },
+      "\ud83d\udf01": {
+        "element": "air",
+        "frequency": 417.0,
+        "soil": "etheric",
+        "carrier": "\u25ce"
+      },
+      "\ud83d\udf04": {
+        "element": "water",
+        "frequency": 528.0,
+        "soil": "fluid",
+        "carrier": "\u2b21"
+      },
+      "\ud83d\udf02": {
+        "element": "fire",
+        "frequency": 639.0,
+        "soil": "plasma",
+        "carrier": "\u25b2"
+      },
+      "\ud83d\udf1a": {
+        "element": "spirit",
+        "frequency": 741.0,
+        "soil": "ethereal",
+        "carrier": "\u2b63"
+      }
+    },
+    "database_configs": {
+      "api_config.yaml": "found",
+      "trust_database_schema.yaml": "found"
+    },
+    "issues": []
+  },
+  "pattern_analysis": {
+    "total_patterns": 5,
+    "frequency_mapping": {
+      "\ud83d\udf03": {
+        "frequency": 396.0,
+        "valid": true
+      },
+      "\ud83d\udf01": {
+        "frequency": 417.0,
+        "valid": true
+      },
+      "\ud83d\udf04": {
+        "frequency": 528.0,
+        "valid": true
+      },
+      "\ud83d\udf02": {
+        "frequency": 639.0,
+        "valid": true
+      },
+      "\ud83d\udf1a": {
+        "frequency": 741.0,
+        "valid": true
+      }
+    },
+    "carrier_alignment": {
+      "\ud83d\udf03": {
+        "carrier": "\u25cf",
+        "aligned": true
+      },
+      "\ud83d\udf01": {
+        "carrier": "\u25ce",
+        "aligned": true
+      },
+      "\ud83d\udf04": {
+        "carrier": "\u2b21",
+        "aligned": true
+      },
+      "\ud83d\udf02": {
+        "carrier": "\u25b2",
+        "aligned": true
+      },
+      "\ud83d\udf1a": {
+        "carrier": "\u2b63",
+        "aligned": true
+      }
+    },
+    "consistency_issues": []
+  },
+  "notion_analysis": {
+    "status": "offline",
+    "reason": "no_api_token"
+  }
+}

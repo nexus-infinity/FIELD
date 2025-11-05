@@ -1,0 +1,73 @@
+#!/usr/bin/expect -f
+
+# Automated NixOS configuration script
+set timeout 30
+
+puts "Attempting to configure NixOS iMac automatically..."
+
+# Try to connect with keyboard-interactive auth
+spawn ssh -o PreferredAuthentications=keyboard-interactive jb@192.168.86.20
+
+expect {
+    "Password:" {
+        send "Niama@1974\r"
+        expect {
+            "jb@nixos" {
+                puts "\nConnected successfully!"
+            }
+            "$" {
+                puts "\nConnected!"
+            }
+        }
+    }
+    "password:" {
+        send "Niama@1974\r"
+        expect "$"
+    }
+    timeout {
+        puts "\nConnection timed out. Password auth might be disabled."
+        puts "You need to enable it on NixOS first:"
+        puts "  1. Go to the NixOS machine"
+        puts "  2. Edit: sudo nano /etc/nixos/configuration.nix"
+        puts "  3. Under services.openssh.settings, add:"
+        puts "     PasswordAuthentication = true;"
+        puts "  4. Run: sudo nixos-rebuild switch"
+        exit 1
+    }
+}
+
+# Now we're connected, let's check the hardware
+send "echo '=== Checking WiFi Hardware ==='\r"
+expect "$"
+send "lspci -nn | grep -i network\r"
+expect "$"
+send "lspci -nn | grep -i broadcom\r"
+expect "$"
+send "ip link show\r"
+expect "$"
+
+# Check current modules
+send "echo '=== Current Modules ==='\r"
+expect "$"
+send "lsmod | grep -E 'brcm|b43|wl|broadcom'\r"
+expect "$"
+
+# Create backup of current config
+send "sudo cp /etc/nixos/configuration.nix /etc/nixos/configuration.nix.backup\r"
+expect {
+    "password" {
+        send "Niama@1974\r"
+        expect "$"
+    }
+    "$" {}
+}
+
+puts "\n=== Configuration backed up ==="
+puts "Once connected, the configuration file has been created at:"
+puts "/Users/jbear/FIELD/nixos-imac-2019-complete.nix"
+puts ""
+puts "Copy it to NixOS and apply with:"
+puts "sudo nixos-rebuild switch"
+
+send "exit\r"
+expect eof

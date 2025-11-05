@@ -1,0 +1,93 @@
+{
+  "auto_process": true,
+  "quarantine_unknown": true,
+  "duplicate_handling": "link",
+  "metadata_extraction": true,
+  "content_analysis": true,
+  "classification_threshold": 0.7,
+  "auto_categorization": true,
+  "backup_originals": true,
+  
+  "scanner_integration": {
+    "czur_scanner": {
+      "enabled": true,
+      "watch_path": "/Users/jbear/CZURImages",
+      "auto_ocr": true,
+      "output_format": "pdf",
+      "archive_originals": true
+    },
+    "genius_scanner": {
+      "enabled": true,
+      "phone_sync_path": "/Users/jbear/Downloads",
+      "auto_detect_patterns": ["Genius", "CamScanner", "Adobe Scan"],
+      "process_immediately": true
+    }
+  },
+  
+  "business_hub_integration": {
+    "printer_monitoring": {
+      "enabled": true,
+      "network_printers": [],
+      "local_printer_spool": "/private/var/spool/cups",
+      "capture_jobs": true
+    },
+    "fax_integration": {
+      "enabled": false,
+      "fax_inbox": "/Users/jbear/Documents/Fax"
+    }
+  },
+  
+  "cloud_sync": {
+    "icloud": {
+      "enabled": true,
+      "sync_path": "/Users/jbear/Library/CloudStorage",
+      "auto_import": false,
+      "selective_sync": ["Documents", "Desktop"]
+    },
+    "google_drive": {
+      "enabled": false,
+      "credentials_path": "/Users/jbear/FIELD/◎_source_core/credentials/google_drive.json"
+    },
+    "onedrive": {
+      "enabled": true,
+      "sync_path": "/Users/jbear/Library/CloudStorage/OneDrive-Personal"
+    }
+  },
+  
+  "processing_workflows": {
+    "documents": {
+      "auto_ocr": true,
+      "extract_metadata": true,
+      "categorize_content": true,
+      "archive_after_days": 90
+    },
+    "images": {
+      "generate_thumbnails": true,
+      "extract_exif": true,
+      "detect_faces": false,
+      "compress_large_files": true
+    },
+    "data": {
+      "validate_formats": true,
+      "create_backups": true,
+      "index_contents": true,
+      "detect_pii": true
+    }
+  },
+  
+  "field_routing": {
+    "dev_keywords": ["dev", "test", "proto", "experiment", "draft", "wip"],
+    "living_keywords": ["prod", "live", "deploy", "release", "final", "published"],
+    "core_keywords": ["core", "system", "config", "atlas", "docs", "reference"],
+    "quarantine_extensions": [".exe", ".bat", ".scr", ".vbs", ".js", ".jar"],
+    "immediate_process": [".pdf", ".docx", ".png", ".jpg"]
+  },
+  
+  "monitoring": {
+    "log_level": "INFO",
+    "max_log_size_mb": 100,
+    "retention_days": 30,
+    "alert_on_errors": true,
+    "performance_tracking": true
+  }
+}

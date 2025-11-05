@@ -1,0 +1,29 @@
+{
+  "motto": "May the best of your past be the worst of your future.",
+  "tools": [
+    {
+      "id": "mermaid",
+      "name": "Mermaid",
+      "type": "PHYSICAL",
+      "description": "A library for rendering diagrams; anchors your structure in visible form."
+    },
+    {
+      "id": "sailing",
+      "name": "Sailing",
+      "type": "PHYSICAL",
+      "description": "Navigator for runtime flows—charts your course through code."
+    },
+    {
+      "id": "bearflow",
+      "name": "Bearflow",
+      "type": "METAPHYSICAL",
+      "description": "Data-flow orchestrator; patterns and recursion made manifest."
+    },
+    {
+      "id": "assyrian_water_dynamics",
+      "name": "Assyrian Water Dynamics",
+      "type": "MAGICAL",
+      "description": "Resonance-based hydraulic model; animates the invisible currents."
+    }
+  ]
+}

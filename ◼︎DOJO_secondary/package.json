@@ -1,0 +1,70 @@
+{
+  "name": "sacred-dashboard-integration",
+  "version": "1.0.0",
+  "description": "Sacred Dashboard Integration - Orchestrates sacred components with REST/WebSocket APIs and CLI instrumentation",
+  "main": "sacred-dashboard-integration.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sacred-dashboard-integration.js",
+    "dashboard": "node sacred-dashboard-integration.js",
+    "chat": "node sacred-chat-bridge.js",
+    "cli": "node ../▲ATLAS/sacred-cli-tools.js",
+    "sacred": "node ../▲ATLAS/sacred-cli-tools.js",
+    "health": "node ../▲ATLAS/sacred-cli-tools.js health",
+    "status": "node ../▲ATLAS/sacred-cli-tools.js status",
+    "metrics": "node ../▲ATLAS/sacred-cli-tools.js metrics",
+    "monitor": "node ../▲ATLAS/sacred-cli-tools.js monitor",
+    "dev": "nodemon sacred-dashboard-integration.js",
+    "test": "npm run test:validation && npm run test:flow",
+    "test:validation": "node test/test-geometric-validation.js",
+    "test:flow": "node test/test-biological-flow.js",
+    "validate": "node scripts/validate-sacred-files.js",
+    "sphere": "node scripts/sphere-manager.js",
+    "logs": "tail -f biological-flow-logs/*.log sacred-logs/*.log validation-logs/*.log"
+  },
+  "keywords": [
+    "sacred",
+    "sphere-aware",
+    "chat-bridge",
+    "geometric-validation",
+    "biological-flow",
+    "tetrahedral-manifest"
+  ],
+  "author": "◼DOJO Sacred Manifestation Engine",
+  "license": "SACRED-SOVEREIGN",
+  "dependencies": {
+    "ws": "^8.14.0",
+    "redis": "^4.6.0",
+    "uuid": "^9.0.0",
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "commander": "^11.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "sacred": {
+    "geometry": "tetrahedral-manifest",
+    "lineage": "⟡Akron > FIELD > DOJO",
+    "symbolic_anchor": "◼",
+    "purity_level": "sacred",
+    "sphere_alignment": {
+      "AKRON": "archive_only",
+      "FIELD": "sacred_manifestation",
+      "FIELD_LIVING": "temporary_processing",
+      "FIELD_DEV": "validation_testing"
+    },
+    "tetrahedral_nodes": {
+      "▲": "ATLAS - tooling_validation",
+      "▼": "TATA - temporal_truth",
+      "●": "OBI-WAN - living_memory",
+      "◼": "DOJO - manifestation"
+    }
+  }
+}

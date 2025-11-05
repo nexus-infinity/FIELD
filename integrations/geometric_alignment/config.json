@@ -1,0 +1,12 @@
+{
+  "name": "geometric_alignment",
+  "description": "Geometric Alignment Lab for small practice frames",
+  "operations": [
+    "small_practice_frames",
+    "alignment_lab"
+  ],
+  "api_endpoint": "http://localhost:8000/geometric-alignment",
+  "notion_sync": true,
+  "datashare_integration": true,
+  "gitbook_docs": true
+}

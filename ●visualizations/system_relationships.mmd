@@ -1,0 +1,129 @@
+
+graph LR
+    %% System Relationship and Data Flow Map
+    
+    %% External Data Sources
+    subgraph EXT[" 🌐 External Data Sources"]
+        GMAIL[📧 Gmail]
+        APIS[🔌 APIs]
+        LOGS[📋 System Logs]
+        MCP[🔗 MCP Servers]
+    end
+    
+    %% Ingestion Layer
+    subgraph ING[" 📥 Ingestion Layer"]
+        INTAKE[◐ INTAKE<br/>Buffer & Triage]
+        VALIDATORS[🔍 Validators]
+    end
+    
+    %% Sacred Processing Core
+    subgraph CORE[" 🔺 Sacred Processing Core"]
+        FIELD[△ FIELD<br/>Sacred Heart<br/>432 Hz]
+        
+        subgraph TETRA[" 🎯 Tetrahedral Processors"]
+            OBI[● OBI-WAN<br/>Observer<br/>528 Hz]
+            TATA[▼ TATA<br/>Law Keeper<br/>741 Hz]
+            ATLAS[▲ ATLAS<br/>Intelligence<br/>256 Hz]
+            DOJO[◼︎ DOJO<br/>Manifestation<br/>963 Hz]
+        end
+    end
+    
+    %% Support Infrastructure
+    subgraph INFRA[" ⚙️ Infrastructure"]
+        LIVING[◎ FIELD-LIVING<br/>Services & MCPs]
+        DEV[● FIELD-DEV<br/>Development]
+        SCRIPTS[📜 Scripts & Tools]
+    end
+    
+    %% Storage & Archive
+    subgraph STORE[" 💾 Storage & Archive"]
+        SDR[◉ SDR<br/>Canonical Truth]
+        BACKUPS[💽 Backups]
+        CACHE[🗃️ Cache Systems]
+    end
+    
+    %% Output & Interface
+    subgraph OUT[" 🌍 Output & Interface"]
+        WEB[🌐 berjak.com.au]
+        DOMAINS[🏠 berjak.co]
+        SERVICES[🔧 External Services]
+    end
+    
+    %% Data Flow Connections
+    GMAIL --> INTAKE
+    APIS --> INTAKE
+    LOGS --> INTAKE
+    MCP --> LIVING
+    
+    INTAKE --> VALIDATORS
+    VALIDATORS --> FIELD
+    
+    FIELD --> OBI
+    FIELD --> TATA
+    FIELD --> ATLAS
+    FIELD --> DOJO
+    
+    %% Tetrahedral Processing Flow
+    OBI --> TATA
+    TATA --> ATLAS
+    ATLAS --> DOJO
+    DOJO --> OBI
+    
+    %% Infrastructure Support
+    FIELD --> LIVING
+    LIVING --> DEV
+    DEV --> SCRIPTS
+    
+    %% Storage Operations
+    FIELD --> SDR
+    FIELD --> BACKUPS
+    LIVING --> CACHE
+    
+    %% Output Generation
+    DOJO --> WEB
+    DOJO --> DOMAINS
+    DOJO --> SERVICES
+    
+    %% Frequency Resonance Indicators
+    subgraph FREQ[" 🎵 Frequency Resonance"]
+        F256[256 Hz - Root]
+        F341[341.3 Hz - Solar]
+        F384[384 Hz - Heart]
+        F432[432 Hz - Universal]
+        F528[528 Hz - Love]
+        F741[741 Hz - Awakening]
+        F963[963 Hz - Crown]
+    end
+    
+    %% Port Mapping Indicators
+    subgraph PORTS[" 🔗 Port Mapping"]
+        P2K[2000-2999<br/>ATLAS]
+        P3K[3000-3999<br/>FIELD]
+        P4K[4000-4999<br/>CHAKRA]
+        P5K[5000-5999<br/>GEOMETRY]
+        P6K[6000-6999<br/>OBI-WAN]
+        P7K[7000-7999<br/>TATA]
+        P8K[8000-8999<br/>DOJO]
+        P9K[9000-9999<br/>LIVING]
+    end
+    
+    %% Styling
+    classDef external fill:#FFB3BA,stroke:#333,stroke-width:2px,color:#000
+    classDef ingestion fill:#BAFFC9,stroke:#333,stroke-width:2px,color:#000
+    classDef sacred fill:#FFD700,stroke:#333,stroke-width:3px,color:#000
+    classDef tetra fill:#9370DB,stroke:#333,stroke-width:2px,color:#fff
+    classDef infra fill:#87CEEB,stroke:#333,stroke-width:2px,color:#000
+    classDef storage fill:#DDA0DD,stroke:#333,stroke-width:2px,color:#000
+    classDef output fill:#20B2AA,stroke:#333,stroke-width:2px,color:#fff
+    classDef freq fill:#FFFACD,stroke:#333,stroke-width:1px,color:#000
+    classDef port fill:#F0E68C,stroke:#333,stroke-width:1px,color:#000
+    
+    class GMAIL,APIS,LOGS,MCP external
+    class INTAKE,VALIDATORS ingestion
+    class FIELD sacred
+    class OBI,TATA,ATLAS,DOJO tetra
+    class LIVING,DEV,SCRIPTS infra
+    class SDR,BACKUPS,CACHE storage
+    class WEB,DOMAINS,SERVICES output
+    class F256,F341,F384,F432,F528,F741,F963 freq
+    class P2K,P3K,P4K,P5K,P6K,P7K,P8K,P9K port

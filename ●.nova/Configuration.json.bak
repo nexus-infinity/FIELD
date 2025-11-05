@@ -1,0 +1,58 @@
+{
+  "workspace.color": 9,
+  "workspace.preview_root": ".",
+  "workspace.preview_server_allow_external": true,
+  
+  // Editor appearance and behavior
+  "editor.antialiased": true,
+  "editor.autoClosingBrackets": true,
+  "editor.autoIndent": true,
+  "editor.default-syntax": "python",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.showInvisibles": false,
+  "editor.showIndentGuides": true,
+  "editor.softWrap": true,
+  "editor.tabLength": 4,
+  "editor.useSpaces": true,
+  
+  // Minimap and navigation
+  "editor.showMinimap": true,
+  "editor.minimapWidth": 80,
+  "editor.scrollPastEnd": true,
+  
+  // Code assistance
+  "editor.autoCompleteBrackets": true,
+  "editor.autoComplete": true,
+  "editor.showCompletionsAsYouType": true,
+  "editor.completionDelay": 250,
+  "editor.showHover": true,
+  "editor.hoverDelay": 250,
+  
+  // Interface layout
+  "workspace.showPathBar": true,
+  "workspace.showSidebar": true,
+  "workspace.sidebar.width": 240,
+  
+  // Syntax highlighting and visual cues
+  "editor.highlightCurrentLine": true,
+  "editor.highlightCurrentLineNumber": true,
+  "editor.matchingBrackets": true,
+  "editor.showLineNumbers": true,
+  
+  // Focus enhancement
+  "workspace.sidebar.position": "left",
+  "workspace.showBottomPanel": false,
+  "workspace.disableNotifications": ["update"],
+  "workspace.hideTopPanel": false,
+  
+  // Git integration
+  "git.showGutter": true,
+  "git.showChanges": true,
+  
+  // Terminal settings
+  "terminal.font.family": "JetBrains Mono",
+  "terminal.font.size": 13
+}
+

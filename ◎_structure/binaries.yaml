@@ -1,0 +1,14 @@
+# Binaries Configuration
+
+- name: binary1
+  type: executable
+  path: /path/to/binary1
+
+- name: binary2
+  type: library
+  path: /path/to/binary2
+
+- name: binary3
+  type: script
+  path: /path/to/binary3
+

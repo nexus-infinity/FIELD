@@ -1,0 +1,530 @@
+{
+	"info": {
+		"_postman_id": "field-integration-741hz",
+		"name": "🔷 Field Integration Gateway - 741Hz",
+		"description": "Comprehensive API testing for DOJO ↔ Walkerville integration through Traefik Gateway\n\nResonant Location: ⬡_integration/●traefik_gateway\nFrequency: 741Hz (Insight & Integration)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "🚪 Gateway Health & Status",
+			"description": "Test gateway health, dashboard access, and monitoring endpoints",
+			"item": [
+				{
+					"name": "Dashboard Access",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/dashboard/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"dashboard",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Gateway API Health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/api/rawdata",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"api",
+								"rawdata"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Field Health Monitor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.local:8080/health",
+							"protocol": "http",
+							"host": [
+								"gateway.local"
+							],
+							"port": "8080",
+							"path": [
+								"health"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "🌐 Walkerville Integration",
+			"description": "Test routes to Walkerville website and API endpoints",
+			"item": [
+				{
+					"name": "Walkerville Home",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://walkerville.local:8080/",
+							"protocol": "http",
+							"host": [
+								"walkerville.local"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Walkerville API Root",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://walkerville.local:8080/api/",
+							"protocol": "http",
+							"host": [
+								"walkerville.local"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Walkerville Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://walkerville.local:8080/api/health",
+							"protocol": "http",
+							"host": [
+								"walkerville.local"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"health"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "🧘 DOJO Chakra System",
+			"description": "Test all DOJO chakra service endpoints through gateway",
+			"item": [
+				{
+					"name": "DOJO Main Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://dojo.local:8080/",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Root Chakra (Muladhara)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/root",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"root"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sacral Chakra (Svadhisthana)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/sacral",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"sacral"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Solar Plexus Chakra (Manipura)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/solar",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"solar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Heart Chakra (Anahata)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/heart",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"heart"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Throat Chakra (Vishuddha)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/throat",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"throat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Third Eye Chakra (Ajna)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/eye",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"eye"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crown Chakra (Sahasrara)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://dojo.local:8080/chakra/crown",
+							"protocol": "http",
+							"host": [
+								"dojo.local"
+							],
+							"port": "8080",
+							"path": [
+								"chakra",
+								"crown"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "🔗 Unified API Endpoints",
+			"description": "Test unified API access through single endpoint",
+			"item": [
+				{
+					"name": "Unified API Root",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://api.local:8080/",
+							"protocol": "http",
+							"host": [
+								"api.local"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://api.local:8080/health",
+							"protocol": "http",
+							"host": [
+								"api.local"
+							],
+							"port": "8080",
+							"path": [
+								"health"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "🧪 Middleware Testing",
+			"description": "Test CORS, rate limiting, and other middleware functionality",
+			"item": [
+				{
+					"name": "CORS Preflight Test",
+					"request": {
+						"method": "OPTIONS",
+						"header": [
+							{
+								"key": "Origin",
+								"value": "http://localhost:3000"
+							},
+							{
+								"key": "Access-Control-Request-Method",
+								"value": "POST"
+							},
+							{
+								"key": "Access-Control-Request-Headers",
+								"value": "Content-Type, Authorization"
+							}
+						],
+						"url": {
+							"raw": "http://walkerville.local:8080/api/",
+							"protocol": "http",
+							"host": [
+								"walkerville.local"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rate Limit Test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://api.local:8080/",
+							"protocol": "http",
+							"host": [
+								"api.local"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Custom Headers Verification",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.local:8080/health",
+							"protocol": "http",
+							"host": [
+								"gateway.local"
+							],
+							"port": "8080",
+							"path": [
+								"health"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set field frequency header for all requests",
+					"pm.request.headers.add({",
+					"    key: 'X-Field-Frequency', ",
+					"    value: '741Hz'",
+					"});",
+					"",
+					"// Log request details for debugging",
+					"console.log('🔷 Field Integration Gateway Request:', pm.request.url.toString());"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Common tests for all requests",
+					"pm.test('Response time is acceptable', function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(5000);",
+					"});",
+					"",
+					"pm.test('Field frequency header present', function () {",
+					"    pm.expect(pm.response.headers.get('X-Field-Frequency')).to.exist;",
+					"});",
+					"",
+					"// Log response for debugging",
+					"console.log('🔷 Gateway Response Status:', pm.response.status);"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "gateway_url",
+			"value": "http://localhost:9090"
+		},
+		{
+			"key": "walkerville_url", 
+			"value": "http://walkerville.local:8080"
+		},
+		{
+			"key": "dojo_url",
+			"value": "http://dojo.local:8080"
+		},
+		{
+			"key": "api_url",
+			"value": "http://api.local:8080"
+		},
+		{
+			"key": "field_frequency",
+			"value": "741Hz"
+		}
+	]
+}

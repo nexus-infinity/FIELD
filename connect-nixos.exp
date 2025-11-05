@@ -1,0 +1,49 @@
+#!/usr/bin/expect -f
+
+set timeout 10
+spawn ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password,keyboard-interactive -o PubkeyAuthentication=no jb@192.168.86.20
+
+expect {
+    "password:" {
+        send "Niama@1974\r"
+        expect {
+            "Permission denied" {
+                puts "\nAuthentication failed. Password might be incorrect or password auth is disabled."
+                exit 1
+            }
+            "Last login" {
+                puts "\nSuccessfully connected!"
+            }
+            -re ".*\\\$.*" {
+                puts "\nSuccessfully connected!"
+            }
+            -re ".*@.*" {
+                puts "\nSuccessfully connected!"
+            }
+        }
+    }
+    "(yes/no" {
+        send "yes\r"
+        expect "password:"
+        send "Niama@1974\r"
+        expect -re ".*\\\$.*"
+    }
+    timeout {
+        puts "\nConnection timed out"
+        exit 1
+    }
+    eof {
+        puts "\nConnection closed unexpectedly"
+        exit 1
+    }
+}
+
+# Run some commands to verify connection
+send "echo 'Testing NixOS connection'\r"
+expect -re ".*\\\$.*"
+send "hostname\r"
+expect -re ".*\\\$.*"
+send "ip addr show | grep 'inet ' | grep -v '127.0.0.1'\r"
+expect -re ".*\\\$.*"
+send "exit\r"
+expect eof

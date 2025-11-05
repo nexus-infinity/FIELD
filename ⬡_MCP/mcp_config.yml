@@ -1,0 +1,14 @@
+redis:
+  host: localhost
+  port: 6379
+  stream: unified-memory-bus
+
+directories:
+  intake: ~/FIELD/OBI-WAN/INTAKE
+  verified: ~/FIELD/TATA/VERIFIED
+  modeled: ~/FIELD/ATLAS/MODELED
+  ready: ~/FIELD/DOJO/READY
+
+credentials:
+  google: /Users/jbear/FIELD-DEV/auth/service_accounts/service_account.json
+  notion: ${NOTION_TOKEN}

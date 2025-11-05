@@ -1,0 +1,79 @@
+{
+  "harmony_score": 1.0,
+  "design_harmony": {
+    "harmonic_layout": [
+      {
+        "description": "High-Resonance Symbolic Integration",
+        "priority": "high",
+        "targets": [
+          "\u25cf",
+          "\u25b2",
+          "\u25ce",
+          "\u25fc",
+          "\u2b21"
+        ],
+        "harmonic_factors": [
+          432.0,
+          528.0,
+          963.0,
+          396.0,
+          639.0
+        ],
+        "harmonic_coherence": "Balanced"
+      },
+      {
+        "description": "Structural Optimization",
+        "priority": "medium",
+        "targets": [
+          "\u25cfSomaLink",
+          "\u25b2ATLAS",
+          "\u25cfOBI-WAN",
+          "\u25bcTATA",
+          "memory",
+          "\u25fc\ufe0eDOJO",
+          "\u25cf\u25c7_port_migration_backup_20250629_002053",
+          "\u25cf\u25ce_sandbox",
+          "\u25cf\u25bcTATA",
+          "Dojo",
+          "THROAT",
+          "\u25cf\u25c7_port_migration_backup_20250629_011356",
+          "\u25cf\u25c7_port_migration_backup_20250629_023241",
+          "logs",
+          "\u25cf\u2b63_registry",
+          ".venv",
+          "\u25cfconfigs",
+          ".git",
+          ".direnv"
+        ],
+        "harmonic_factors": [],
+        "harmonic_coherence": "Balanced"
+      },
+      {
+        "description": "Boundary Integration",
+        "priority": "low",
+        "targets": [
+          ".warpconfig.yaml"
+        ],
+        "harmonic_factors": [],
+        "harmonic_coherence": "Balanced"
+      }
+    ],
+    "connection_balancing": [],
+    "design_integrity": [],
+    "resonance_optimization": []
+  },
+  "harmonic_summary": [
+    {
+      "design": "High-Resonance Symbolic Integration",
+      "coherence": "Balanced"
+    },
+    {
+      "design": "Structural Optimization",
+      "coherence": "Balanced"
+    },
+    {
+      "design": "Boundary Integration",
+      "coherence": "Balanced"
+    }
+  ]
+}

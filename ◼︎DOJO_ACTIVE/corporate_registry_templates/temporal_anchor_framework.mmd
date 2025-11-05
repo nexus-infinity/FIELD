@@ -1,0 +1,86 @@
+graph TD;
+
+%% Style definitions
+classDef Temporal fill:#e6f9ff,stroke:#006680,stroke-width:3px
+classDef Anchor fill:#ffe6cc,stroke:#804000,stroke-width:2px
+classDef TimePoint fill:#e6ffe6,stroke:#008040,stroke-width:2px
+classDef Shift fill:#ffe6e6,stroke:#800040,stroke-width:2px
+
+%% Temporal Anchor Structure
+subgraph anchor ["Jacques Rich - Temporal Anchor"]
+    ta-core["Temporal Anchor Point<br/>Jacques Rich<br/>Core Business Timeline"]:::Temporal
+    ta-start["Origin Point<br/>1959-1982<br/>Initial Structure"]:::Anchor
+    ta-peak["Peak Authority<br/>1982-2020<br/>Full Control"]:::Anchor
+    ta-shift["Transition Period<br/>2020-2022<br/>Authority Shifts"]:::Anchor
+end
+
+%% Time Points
+subgraph timepoints ["Key Temporal Points"]
+    time1["1959: Business Start<br/>First Companies"]:::TimePoint
+    time2["1982: Trust Formation<br/>Family Structure"]:::TimePoint
+    time3["2020: Health Impact<br/>Control Changes"]:::TimePoint
+    time4["2022: Authority Transfer<br/>Structure Shift"]:::TimePoint
+end
+
+%% Shift Patterns
+subgraph shifts ["Authority Shifts"]
+    shift1["Pre-2020<br/>Direct Authority<br/>Clear Decisions"]:::Shift
+    shift2["2020-2021<br/>Initial Changes<br/>Subtle Moves"]:::Shift
+    shift3["2021-2022<br/>Major Shifts<br/>Authority Transfer"]:::Shift
+    shift4["Post-2022<br/>New Structure<br/>Changed Control"]:::Shift
+end
+
+%% Entity Analysis
+subgraph entities ["Entity Timeline"]
+    e1["Companies<br/>Original Formation"]:::TimePoint
+    e2["Trusts<br/>Asset Protection"]:::TimePoint
+    e3["International<br/>Structure Expansion"]:::TimePoint
+    e4["Current<br/>Modified Control"]:::TimePoint
+end
+
+%% Temporal Connections
+ta-core -->|"anchors"| ta-start
+ta-start -->|"develops into"| ta-peak
+ta-peak -->|"transitions to"| ta-shift
+
+%% Time Point Mapping
+time1 -->|"establishes"| e1
+time2 -->|"creates"| e2
+time3 -->|"impacts"| e3
+time4 -->|"modifies"| e4
+
+%% Shift Analysis
+shift1 -.->|"baseline"| ta-peak
+shift2 -.->|"initiates change"| ta-shift
+shift3 -.->|"completes transfer"| ta-shift
+shift4 -.->|"new structure"| e4
+
+%% Critical Analysis Points
+analysis1["Communication<br/>Style & Authority"]:::Temporal
+analysis2["Decision Making<br/>Process Changes"]:::Temporal
+analysis3["Document Trail<br/>Authority Shifts"]:::Temporal
+
+%% Analysis Connections
+ta-peak -->|"baseline patterns"| analysis1
+ta-shift -->|"change indicators"| analysis2
+shift3 -->|"verification points"| analysis3
+
+%% Click Actions for Analysis
+click analysis1 "https://www.notion.so/temporal/communication-patterns" "View communication analysis" _blank
+click analysis2 "https://www.notion.so/temporal/decision-changes" "View decision pattern changes" _blank
+click analysis3 "https://www.notion.so/temporal/document-trail" "View document analysis" _blank
+
+%% Time Period Notes
+note1["Note: Pre-2020 establishes baseline temporal patterns"]
+note2["Note: 2020-2022 shows authority shift patterns"]
+note3["Note: Post-2022 reflects new temporal structure"]
+
+%% Verification Framework
+verify1["Verify: Original Authority<br/>Clear Documentation"]:::TimePoint
+verify2["Verify: Transition Period<br/>Change Patterns"]:::TimePoint
+verify3["Verify: Current Structure<br/>New Authority"]:::TimePoint
+
+%% Map to Current Analysis
+map1["Map: Original Documents<br/>to Timeline"]:::Anchor
+map2["Map: Communication Changes<br/>to Health Timeline"]:::Anchor
+map3["Map: Authority Transfers<br/>to Structure Changes"]:::Anchor

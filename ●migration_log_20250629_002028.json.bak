@@ -1,0 +1,97 @@
+[
+  {
+    "timestamp": "2025-06-29T00:20:16.590165",
+    "action": "BACKUP",
+    "details": "Saved /opt/homebrew/etc/redis.conf to /Users/jbear/FIELD/migration_backups/20250629_002016/redis_config_backup"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:16.594993",
+    "action": "DRY_RUN",
+    "details": "Would update redis-ser to port 2560"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:16.595003",
+    "action": "DRY_RUN",
+    "details": "Would restart redis-ser"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:18.640689",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service redis-ser not responding on port 2560"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:18.641754",
+    "action": "DRY_RUN",
+    "details": "Would update ollama to port 4000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:18.641774",
+    "action": "DRY_RUN",
+    "details": "Would restart ollama"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:20.670882",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service ollama not responding on port 4000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:20.671456",
+    "action": "DRY_RUN",
+    "details": "Would update Pieces to port 6000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:20.671470",
+    "action": "DRY_RUN",
+    "details": "Would restart Pieces"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:22.735558",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service Pieces not responding on port 6000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:22.736416",
+    "action": "DRY_RUN",
+    "details": "Would update Pieces to port 6000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:22.736437",
+    "action": "DRY_RUN",
+    "details": "Would restart Pieces"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:24.776030",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service Pieces not responding on port 6000"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:24.776597",
+    "action": "DRY_RUN",
+    "details": "Would update mysqld to port 2560"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:24.776610",
+    "action": "DRY_RUN",
+    "details": "Would restart mysqld"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:26.824582",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service mysqld not responding on port 2560"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:26.825627",
+    "action": "DRY_RUN",
+    "details": "Would update adb to port 5001"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:26.825647",
+    "action": "DRY_RUN",
+    "details": "Would restart adb"
+  },
+  {
+    "timestamp": "2025-06-29T00:20:28.868936",
+    "action": "VERIFICATION_FAILED",
+    "details": "Service adb not responding on port 5001"
+  }
+]

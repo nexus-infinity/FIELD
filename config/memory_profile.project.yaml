@@ -1,0 +1,29 @@
+name: PROJECT
+inherit: NOW
+include:
+  - /Users/jbear/FIELD/▲ATLAS/memory/**
+  - /Users/jbear/FIELD/◼︎DOJO/**/state/**
+  - /Users/jbear/FIELD/◼︎DOJO/**/_pulse/**
+  - /Users/jbear/FIELD/▲ATLAS/◼︎DOJO/**
+  - /Users/jbear/FIELD/▲ATLAS/▼TATA/**
+  - /Users/jbear/FIELD/●SomaLink/**
+  - /Users/jbear/FIELD/field-system/**
+limits:
+  max_files: 1500
+  max_bytes: 192MB
+  min_resonance: 0.45
+retention:
+  ttl: 30d
+  persist_on_star: true
+project_bindings:
+  build_threads:
+    - macwarp_sacred_portal
+    - metatron_cube_integration
+    - chakra_sync_system
+    - soma_emergence_monitoring
+    - notion_living_memory_bridge
+  consciousness_states:
+    - active_development
+    - geometric_translation
+    - chakra_coordination
+    - frequency_harmonization

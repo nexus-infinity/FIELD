@@ -1,0 +1,15 @@
+services:
+  geometry_service:
+    environment:
+      CHAKRA_MAPPING: Heart Chakra
+      FIELD_FREQUENCY: 384
+      FIELD_NAME: GEOMETRY
+      PORT: '5000'
+    image: field/geometry:latest
+    labels:
+      field.chakra: Heart Chakra
+      field.frequency: '384'
+      field.name: GEOMETRY
+    ports:
+    - 5000:5000
+version: '3.8'

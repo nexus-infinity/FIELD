@@ -1,0 +1,12 @@
+{
+  "name": "evidence_principles",
+  "description": "Evidence principles and export bundles",
+  "operations": [
+    "export_bundles",
+    "chain_of_custody"
+  ],
+  "api_endpoint": "http://localhost:8000/evidence-principles",
+  "notion_sync": true,
+  "datashare_integration": true,
+  "gitbook_docs": true
+}

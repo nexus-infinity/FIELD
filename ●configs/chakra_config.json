@@ -1,0 +1,41 @@
+{
+  "field_name": "CHAKRA",
+  "description": "Chakra field - Energy and consciousness",
+  "frequency_hz": 341.3,
+  "chakra": "Solar Plexus Chakra",
+  "port_range": "4000-4999",
+  "reserved_ports": {
+    "4000": "Chakra Energy Monitor",
+    "4001": "Chakra Web Interface",
+    "4002": "Chakra Frequency Analyzer",
+    "4003": "Chakra Sacred Geometry Engine"
+  },
+  "environment_variables": {
+    "CHAKRA_FIELD_FREQUENCY": 341.3,
+    "CHAKRA_FIELD_CHAKRA": "Solar Plexus Chakra",
+    "CHAKRA_PORT_RANGE": "4000-4999"
+  },
+  "docker_compose_template": {
+    "version": "3.8",
+    "services": {
+      "chakra_service": {
+        "image": "field/chakra:latest",
+        "ports": [
+          "4000:4000"
+        ],
+        "environment": {
+          "FIELD_NAME": "CHAKRA",
+          "FIELD_FREQUENCY": 341.3,
+          "CHAKRA_MAPPING": "Solar Plexus Chakra",
+          "PORT": "4000"
+        },
+        "labels": {
+          "field.frequency": "341.3",
+          "field.chakra": "Solar Plexus Chakra",
+          "field.name": "CHAKRA"
+        }
+      }
+    }
+  },
+  "systemd_template": "[Unit]\nDescription=CHAKRA Field Service (341.3Hz - Solar Plexus Chakra)\nAfter=network.target\n\n[Service]\nType=simple\nUser=jbear\nWorkingDirectory=/Users/jbear/FIELD-LIVING\nEnvironment=FIELD_NAME=CHAKRA\nEnvironment=FIELD_FREQUENCY=341.3\nEnvironment=CHAKRA_MAPPING=Solar Plexus Chakra\nEnvironment=PORT=4000\nExecStart=/usr/bin/python3 /Users/jbear/FIELD-LIVING/chakra_service.py\nRestart=always\nRestartSec=10\n\n[Install]\nWantedBy=multi-user.target\n"
+}

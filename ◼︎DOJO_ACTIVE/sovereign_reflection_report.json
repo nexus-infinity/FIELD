@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-09-22T23:31:49.428335+00:00",
+  "system": "FIELD_SOVEREIGN_REFLECTION",
+  "operation": "DATA_LAKE_REFLECTION",
+  "status": "ACTIVE",
+  "sovereign_metrics": {
+    "total_documents": 4,
+    "priority_distribution": {
+      "Critical": 2,
+      "High": 2
+    },
+    "resonance_distribution": {
+      "HIGH_RESONANCE": 3,
+      "PERFECT_HARMONY": 1
+    },
+    "investigation_links": 8,
+    "average_frequency": 590.39
+  },
+  "top_entities": [
+    [
+      "Rich Family",
+      3
+    ],
+    [
+      "Government Authority",
+      2
+    ],
+    [
+      "Trust Structure",
+      1
+    ]
+  ],
+  "top_topics": [
+    [
+      "Law Enforcement",
+      2
+    ],
+    [
+      "Tax Documents",
+      1
+    ],
+    [
+      "Legal Documents",
+      1
+    ],
+    [
+      "Digital Security",
+      1
+    ]
+  ],
+  "field_integration": {
+    "resonance_analysis_connected": true,
+    "trust_analysis_connected": true,
+    "fraud_detection_connected": true,
+    "investigation_interface_connected": true
+  },
+  "harmonic_analysis": {
+    "dominant_frequency": 590.39,
+    "harmonic_state": "HARMONIC_SOVEREIGNTY",
+    "resonance_quality": "SOVEREIGN_ALIGNED"
+  }
+}

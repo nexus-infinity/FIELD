@@ -1,0 +1,9 @@
+[
+  {
+    "canonical": "/Users/jbear/FIELD/.venv/lib/python3.11/site-packages/pandas/__init__.py",
+    "duplicates": [
+      "/Users/jbear/FIELD-DEV/\u25cfvenv/lib/python3.11/site-packages/pandas/__init__.py",
+      "/Users/jbear/FIELD-LIVING/\u25cfOBI-WAN/OB1-SOMA/resonance_analysis/.venv/lib/python3.11/site-packages/pandas/__init__.py"
+    ]
+  }
+]

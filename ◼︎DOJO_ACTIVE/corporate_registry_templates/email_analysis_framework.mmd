@@ -1,0 +1,113 @@
+graph TD;
+
+%% Style definitions
+classDef Phase fill:#e6f3ff,stroke:#3366cc,stroke-width:2px
+classDef Analysis fill:#e6ffe6,stroke:#339933,stroke-width:2px
+classDef Alert fill:#ffe6e6,stroke:#cc3333,stroke-width:2px
+classDef Status fill:#fff2e6,stroke:#cc6633,stroke-width:2px
+
+%% Main Analysis Structure
+subgraph collection ["Phase 1: Data Collection"]
+    email1["Email Export<br/>All Accounts"]:::Phase
+    docs1["Document Scan<br/>All Physical"]:::Phase
+    backup1["Backup Check<br/>Archives"]:::Phase
+end
+
+subgraph organization ["Phase 2: Organization"]
+    dir1["Directory Structure<br/>By Year/Entity"]:::Phase
+    cat1["Categorization<br/>By Type/Impact"]:::Phase
+    time1["Timeline Creation<br/>Master Events"]:::Phase
+end
+
+%% Analysis Framework
+subgraph analysis ["Phase 3: Analysis Framework"]
+    direction TB
+    
+    subgraph period1 ["Pre-2020: Baseline"]
+        base_comm["Communication Style<br/>Normal Patterns"]:::Analysis
+        base_dec["Decision Making<br/>Standard Process"]:::Analysis
+        base_auth["Authority Structure<br/>Original Setup"]:::Analysis
+    end
+
+    subgraph period2 ["2020-2021: Transition"]
+        trans_comm["Communication Changes<br/>Style Shifts"]:::Analysis
+        trans_dec["Decision Evolution<br/>Process Changes"]:::Analysis
+        trans_auth["Authority Movement<br/>Initial Transfers"]:::Analysis
+    end
+
+    subgraph period3 ["2021-2022: Critical"]
+        crit_comm["Communication Gaps<br/>Pattern Breaks"]:::Analysis
+        crit_dec["Decision Authority<br/>Major Changes"]:::Analysis
+        crit_auth["Authority Transfers<br/>Key Movements"]:::Analysis
+    end
+
+    subgraph period4 ["2022-2023: Current"]
+        curr_comm["Current Structure<br/>New Patterns"]:::Analysis
+        curr_dec["Decision Framework<br/>Present State"]:::Analysis
+        curr_auth["Authority Status<br/>Final Form"]:::Analysis
+    end
+end
+
+%% Pattern Recognition
+subgraph patterns ["Phase 4: Pattern Recognition"]
+    pat1["Communication Pattern<br/>Style Analysis"]:::Analysis
+    pat2["Decision Pattern<br/>Authority Shifts"]:::Analysis
+    pat3["Document Pattern<br/>Gap Analysis"]:::Analysis
+end
+
+%% Alert Triggers
+subgraph alerts ["Phase 5: Alert Points"]
+    alert1["Style Break<br/>Unusual Patterns"]:::Alert
+    alert2["Authority Change<br/>Without Notice"]:::Alert
+    alert3["Document Gap<br/>Missing Records"]:::Alert
+end
+
+%% Status Tracking
+subgraph status ["Progress Tracking"]
+    stat1["Data Collection<br/>Progress Bar"]:::Status
+    stat2["Analysis Status<br/>Completion %"]:::Status
+    stat3["Pattern Match<br/>Confidence Score"]:::Status
+end
+
+%% Connections
+email1 --> dir1
+docs1 --> dir1
+backup1 --> dir1
+dir1 --> cat1
+cat1 --> time1
+
+%% Analysis Flow
+time1 --> period1
+period1 --> period2
+period2 --> period3
+period3 --> period4
+
+%% Pattern Analysis
+period1 --> pat1
+period2 --> pat2
+period3 --> pat3
+
+%% Alert Generation
+pat1 --> alert1
+pat2 --> alert2
+pat3 --> alert3
+
+%% Status Updates
+alert1 --> stat1
+alert2 --> stat2
+alert3 --> stat3
+
+%% Progress Tracking Links
+click stat1 "https://www.notion.so/progress/data-collection" "View collection progress" _blank
+click stat2 "https://www.notion.so/progress/analysis-status" "View analysis progress" _blank
+click stat3 "https://www.notion.so/progress/confidence-scores" "View confidence scores" _blank
+
+%% Alert Documentation
+click alert1 "https://www.notion.so/alerts/style-breaks" "View style break alerts" _blank
+click alert2 "https://www.notion.so/alerts/authority-changes" "View authority alerts" _blank
+click alert3 "https://www.notion.so/alerts/document-gaps" "View gap alerts" _blank
+
+%% Analysis Documentation
+click base_comm "https://www.notion.so/analysis/baseline-communication" "View baseline patterns" _blank
+click trans_comm "https://www.notion.so/analysis/transition-communication" "View transition patterns" _blank
+click crit_comm "https://www.notion.so/analysis/critical-communication" "View critical patterns" _blank

@@ -1,0 +1,426 @@
+# 🏠 Field Resource Ecosystem (FREE) - Traefik Integration
+# Purpose: Connect FREE system to Traefik gateway with sacred geometry routing
+# Frequency: 741Hz (Insight & Integration)
+
+http:
+  services:
+    # FREE Core Service (Triadic Engine)
+    free-core-service:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8888"  # FREE triadic engine port
+        healthCheck:
+          path: "/health"
+          interval: 15s
+          timeout: 5s
+          headers:
+            X-Service-Type: "FREE Core"
+            X-Triadic-Engine: "Active"
+            X-Sacred-Framework: "3×3×3 Sierpiński Cube"
+
+    # FRE Command Interface Bridge
+    fre-command-bridge:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8887"  # FRE command interface port
+        healthCheck:
+          path: "/status"
+          interval: 30s
+          timeout: 10s
+          headers:
+            X-Service-Type: "FRE Commands"
+            X-Integration-Point: "Professional Interface"
+
+    # Intelligence Collection Engine Bridge
+    intelligence-collection-bridge:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:8886"  # Intelligence engine port
+        healthCheck:
+          path: "/sources/health"
+          interval: 60s
+          timeout: 15s
+          headers:
+            X-Service-Type: "Intelligence Collection"
+            X-Sources-Count: "11"
+            X-ISO-Compliance: "Active"
+
+  routers:
+    # FREE Main Interface
+    free-main:
+      rule: "Host(`free.local`) && PathPrefix(`/`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "free-auth"
+        - "resonance-monitoring"
+        - "cors-headers"
+      priority: 100
+
+    # FREE System Health Dashboard
+    free-health:
+      rule: "Host(`free.local`) && PathPrefix(`/health`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "free-health-headers"
+        - "cors-headers"
+
+    # FREE Resource Allocation API
+    free-allocate:
+      rule: "Host(`free.local`) && PathPrefix(`/allocate`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "free-allocation-auth"
+        - "resource-frequency-headers"
+        - "rate-limit"
+
+    # FREE Chakra-Specific Endpoints
+    free-chakra-root:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/root`)"
+      service: "homefield-root"  # Routes to existing homefield chakra
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-root"
+        - "free-chakra-auth"
+
+    free-chakra-sacral:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/sacral`)"
+      service: "homefield-sacral"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-sacral"
+        - "free-chakra-auth"
+
+    free-chakra-solar:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/solar`)"
+      service: "homefield-solar"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-solar"
+        - "free-chakra-auth"
+
+    free-chakra-heart:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/heart`)"
+      service: "homefield-heart"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-heart"
+        - "free-chakra-auth"
+
+    free-chakra-throat:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/throat`)"
+      service: "homefield-throat"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-throat"
+        - "free-chakra-auth"
+
+    free-chakra-eye:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/eye`)"
+      service: "homefield-third-eye"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-eye"
+        - "free-chakra-auth"
+
+    free-chakra-crown:
+      rule: "Host(`free.local`) && PathPrefix(`/chakra/crown`)"
+      service: "homefield-crown"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "chakra-frequency-crown"
+        - "free-chakra-auth"
+
+    # FREE Resource Management Endpoints
+    free-resources-root:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/root`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-root"
+        - "free-resource-auth"
+
+    free-resources-sacral:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/sacral`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-sacral"
+        - "free-resource-auth"
+
+    free-resources-solar:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/solar`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-solar"
+        - "free-resource-auth"
+
+    free-resources-heart:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/heart`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-heart"
+        - "free-resource-auth"
+
+    free-resources-throat:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/throat`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-throat"
+        - "free-resource-auth"
+
+    free-resources-eye:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/eye`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-eye"
+        - "free-resource-auth"
+
+    free-resources-crown:
+      rule: "Host(`free.local`) && PathPrefix(`/resources/crown`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resource-type-crown"
+        - "free-resource-auth"
+
+    # FRE Command Interface Integration
+    free-fre-commands:
+      rule: "Host(`free.local`) && PathPrefix(`/fre`)"
+      service: "fre-command-bridge"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "fre-command-auth"
+        - "professional-interface-headers"
+
+    # Intelligence Collection Integration
+    free-intelligence:
+      rule: "Host(`free.local`) && PathPrefix(`/intelligence`)"
+      service: "intelligence-collection-bridge"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "intelligence-auth"
+        - "iso-compliance-headers"
+
+    # FREE Triadic Engine Direct Access
+    free-triadic-engine:
+      rule: "Host(`free.local`) && PathPrefix(`/triadic-engine`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "triadic-engine-auth"
+        - "sacred-geometry-headers"
+
+    # FREE Resonance Monitoring
+    free-resonance:
+      rule: "Host(`free.local`) && PathPrefix(`/resonance`)"
+      service: "free-core-service"
+      entryPoints:
+        - "web"
+      middlewares:
+        - "resonance-auth"
+        - "breath-scan-headers"
+
+  middlewares:
+    # FREE System Authentication
+    free-auth:
+      headers:
+        customRequestHeaders:
+          X-FREE-Auth: "field-resource-ecosystem"
+          X-Sacred-Framework: "3×3×3 Sierpiński Cube"
+          X-Resonant-Frequency: "741Hz"
+          X-System-Type: "consciousness-aware-erp"
+
+    # FREE Chakra Authentication
+    free-chakra-auth:
+      headers:
+        customRequestHeaders:
+          X-Chakra-Access: "authorized"
+          X-Frequency-Mapping: "active"
+          X-Sacred-Geometry: "enabled"
+
+    # FREE Resource Management Authentication
+    free-resource-auth:
+      headers:
+        customRequestHeaders:
+          X-Resource-Auth: "field-allocation-system"
+          X-Sovereignty-Model: "complete-control"
+          X-Allocation-Method: "frequency-based"
+
+    # FREE Health Monitoring Headers
+    free-health-headers:
+      headers:
+        customRequestHeaders:
+          X-Health-Monitor: "FREE System"
+          X-Resonance-Threshold: "0.85"
+          X-Triadic-Coherence: "active"
+        customResponseHeaders:
+          X-System-Health: "monitoring"
+          X-Resonance-State: "tracked"
+
+    # FREE Allocation Headers
+    free-allocation-auth:
+      headers:
+        customRequestHeaders:
+          X-Allocation-Type: "Sacred Geometry"
+          X-Resource-Priority: "frequency-based"
+          X-Scaling-Method: "triadic-engine"
+
+    # Resource Frequency Headers for each chakra
+    resource-type-root:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Infrastructure"
+          X-Chakra-Frequency: "396Hz"
+          X-Allocation-Priority: "Foundation, Security, Storage"
+          X-Element: "earth"
+
+    resource-type-sacral:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Development"
+          X-Chakra-Frequency: "417Hz"
+          X-Allocation-Priority: "Innovation, Testing, R&D"
+          X-Element: "water"
+
+    resource-type-solar:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Control"
+          X-Chakra-Frequency: "639Hz"
+          X-Allocation-Priority: "Administration, Governance, Auth"
+          X-Element: "fire"
+
+    resource-type-heart:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Integration"
+          X-Chakra-Frequency: "528Hz"
+          X-Allocation-Priority: "API Gateway, Collaboration, Connection"
+          X-Element: "air"
+
+    resource-type-throat:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Communication"
+          X-Chakra-Frequency: "741Hz"
+          X-Allocation-Priority: "Documentation, Reporting, Transparency"
+          X-Element: "ether"
+
+    resource-type-eye:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Intelligence"
+          X-Chakra-Frequency: "852Hz"
+          X-Allocation-Priority: "Analytics, AI, Prediction, Insight"
+          X-Element: "light"
+
+    resource-type-crown:
+      headers:
+        customRequestHeaders:
+          X-Resource-Type: "Strategy"
+          X-Chakra-Frequency: "432Hz"
+          X-Allocation-Priority: "Planning, Wisdom, Consciousness"
+          X-Element: "thought"
+
+    # Professional Interface Headers (FRE Integration)
+    professional-interface-headers:
+      headers:
+        customRequestHeaders:
+          X-Interface-Type: "Professional FRE"
+          X-Command-System: "field-resource-commands"
+          X-Integration-Level: "complete"
+        customResponseHeaders:
+          X-FRE-System: "integrated"
+          X-Professional-Mode: "active"
+
+    # Intelligence Collection Headers
+    intelligence-auth:
+      headers:
+        customRequestHeaders:
+          X-Intelligence-System: "Live Collection"
+          X-Sources-Count: "11"
+          X-ISO-Standards: "8601,3166,19115"
+          X-Collection-Type: "government-feeds"
+
+    # Triadic Engine Headers
+    triadic-engine-auth:
+      headers:
+        customRequestHeaders:
+          X-Engine-Type: "Triadic"
+          X-Engine-Port: "8888"
+          X-Geometric-Pattern: "Source-Relation-Emergence"
+          X-Cube-Dimensions: "3×3×3"
+
+    # Sacred Geometry Headers
+    sacred-geometry-headers:
+      headers:
+        customRequestHeaders:
+          X-Sacred-System: "Sierpiński Cube"
+          X-Dimensions: "3×3×3"
+          X-Pattern-Type: "Fractal Resource Distribution"
+        customResponseHeaders:
+          X-Geometry-Active: "true"
+          X-Pattern-Applied: "triadic"
+
+    # Resonance Monitoring Headers
+    resonance-auth:
+      headers:
+        customRequestHeaders:
+          X-Resonance-Monitor: "breath-scan-integration"
+          X-Threshold-Target: "0.85"
+          X-Monitoring-Frequency: "15s"
+
+    # Breath Scan Integration Headers
+    breath-scan-headers:
+      headers:
+        customRequestHeaders:
+          X-Breath-Scan: "active"
+          X-Temporal-Logs: "_temporal_logs"
+          X-Resonance-Source: "homefield-7.0"
+        customResponseHeaders:
+          X-Resonance-Tracking: "live"
+          X-Scan-Integration: "active"
+
+    # Resonance Monitoring Middleware
+    resonance-monitoring:
+      headers:
+        customRequestHeaders:
+          X-Monitor-Resonance: "true"
+          X-Track-Usage: "frequency-aware"
+        customResponseHeaders:
+          X-Current-Resonance: "tracked"
+          X-System-Harmony: "measured"
+
+    # Rate limiting for resource allocation
+    resource-allocation-rate-limit:
+      rateLimit:
+        burst: 50
+        period: 1m
+        average: 20
