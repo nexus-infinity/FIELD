@@ -1,0 +1,99 @@
+# ============================================================
+# FIELD_COGNITIVE_STANDARD.yaml
+# ============================================================
+# Version: 0.1.0
+# Created: 2025-11-05
+# Developed collaboratively between Jeremy B. Rich and FIELD System
+# Purpose: Establish foundational standard for managing cognitive load,
+# maintaining optimal focus, and embedding rhythm into system operations.
+# Status: ACTIVE – under live trial
+# Reflection Protocol: Review at each iteration checkpoint to note what works,
+# what fatigues, and what rhythms are emerging naturally.
+# ============================================================
+
+cognitive_standard:
+  title: "FIELD Cognitive Operating Standard"
+  version: 0.1.0
+  author: "Jeremy Benjamin Rich + FIELD Trident System"
+  date_initiated: "2025-11-05"
+  review_interval: "weekly"
+  purpose: >
+    To maintain mental clarity and systemic coherence by enforcing
+    rhythmic alternation between focus, reflection, and rest phases
+    across all FIELD activities. This ensures cognitive sustainability
+    and prevents overload while allowing creative emergence.
+
+core_principles:
+  - "Thought follows rhythm, not volume."
+  - "Every process includes inhale (input), hold (integration), exhale (expression)."
+  - "Overload equals dissonance; rhythm equals coherence."
+  - "Record less often, but more completely."
+
+rhythm_protocol:
+  inhale: "Perception, ingestion, synthesis – duration variable, 1–2 hours max."
+  hold: "Pause, integration, cross-linking, summarization – 20–30 minutes."
+  exhale: "Expression, creation, communication – 45–90 minutes."
+  cycle_repeat: "3–4 times per day maximum"
+  drift_phase: "Open movement or SomaLink reflection – no input logging."
+
+cognitive_modes:
+  - name: "Focused Flow"
+    description: "Single domain task with OBI-WAN muting external watchers."
+    triggers: ["manual activation", "task initiation"]
+    system_response:
+      - "SomaLink quiet mode ON"
+      - "TATA validation deferred"
+  - name: "Diffuse Reflection"
+    description: "Associative drift or Soma movement, body-led insight."
+    triggers: ["end of focus window", "detected stillness >20min"]
+    system_response:
+      - "OBI-WAN records contextual observations only"
+      - "No new task intake"
+  - name: "Integration Sync"
+    description: "After-expression linking, truth anchoring, summarization."
+    triggers: ["NotionScribe summary", "task close"]
+    system_response:
+      - "TATA verification active"
+      - "ATLAS ontology update"
+
+overload_detection:
+  indicators:
+    - "Active domains > 3 in MASTER_INTEGRATION_POINTS.json"
+    - "Resonance voids > 10 in NotionScribe queue"
+    - "Error frequency > 5/min in DOJO runtime"
+    - "Arkadaş reports irregular heart or motion patterns"
+  automatic_responses:
+    - "Pause non-critical cronjobs"
+    - "Play SomaLink Band-6 (639 Hz) alignment track"
+    - "Prompt: 'You’ve done enough. Review before adding.'"
+
+maintenance_schedule:
+  every_6_hours: "field_validate --recursive"
+  daily_6am: "full system validation + cleanup"
+  weekly_monday_8am: "ontology validation + reflection summary"
+  review_notes: "Log adjustments to rhythm or fatigue markers"
+
+maxims:
+  - "Flow isn’t achieved by doing more, but by doing in rhythm with what is already understood."
+  - "Pause is part of progress."
+
+reflection_protocol:
+  description: >
+    Each review cycle, NotionScribe generates a reflection summary:
+    what worked, what fatigued, and which phase felt most coherent.
+    These are tagged as reflection_entries within Notion and synced
+    to TATA for temporal pattern mapping.
+  metrics:
+    - "Time spent per mode"
+    - "Cognitive satisfaction score (self-reported)"
+    - "System load correlation"
+    - "Emergent clarity or fatigue notes"
+  next_review: "2025-11-12"
+
+file_location_suggestion:
+  preferred_path: "~/FIELD/◼︎DOJO/config/FIELD_COGNITIVE_STANDARD.yaml"
+  fallback_path: "~/FIELD-LIVING/system/FIELD_COGNITIVE_STANDARD.yaml"
+
+# ============================================================
+# End of Cognitive Standard v0.1.0
+# ============================================================
