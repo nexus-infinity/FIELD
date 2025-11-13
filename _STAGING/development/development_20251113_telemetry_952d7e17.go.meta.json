@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/telemetry.go",
+  "original_name": "telemetry.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2868,
+  "content_hash": "952d7e1749504884f1b818189eb1e20c895a978e44010893ff153b8b955877e7",
+  "semantic_fingerprint": "telemetry",
+  "detected_at": "2025-11-13T05:18:46.541157",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_telemetry_952d7e17.go",
+  "original_metadata": {
+    "size": 2868,
+    "modified": "2025-01-12T09:30:44.714557",
+    "created": "2025-11-11T03:39:11.683477"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_nested_ptr.go",
+  "original_name": "callgraph_nested_ptr.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 847,
+  "content_hash": "7784d1e9eebab7aff57b85d2f4a9e91e6c8ea3ce05fb5bff6e57f0a9c9346f55",
+  "semantic_fingerprint": "callgraph_nested_ptr",
+  "detected_at": "2025-11-13T05:18:47.355536",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_nested_ptr_7784d1e9.go",
+  "original_metadata": {
+    "size": 847,
+    "modified": "2025-01-12T09:30:47.802711",
+    "created": "2025-11-11T03:39:11.698219"
+  },
+  "stripped_metadata": {}
+}

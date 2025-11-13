@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/everything_test.go",
+  "original_name": "everything_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6811,
+  "content_hash": "8012b3b33a3ec03ef3cf370d8e7459729672b90909f88d542ce865e1cbe08e12",
+  "semantic_fingerprint": "everything_test",
+  "detected_at": "2025-11-13T05:18:46.455780",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_everything_test_8012b3b3.go",
+  "original_metadata": {
+    "size": 6811,
+    "modified": "2025-01-12T09:30:47.894097",
+    "created": "2025-11-11T03:39:11.682033"
+  },
+  "stripped_metadata": {}
+}

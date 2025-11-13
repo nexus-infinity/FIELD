@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/iframe.go",
+  "original_name": "iframe.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1078,
+  "content_hash": "0f1a7400c9cb1a6418de048d44158567123826919f45c19b68f23bc01ea56108",
+  "semantic_fingerprint": "iframe",
+  "detected_at": "2025-11-13T05:18:46.551436",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_iframe_0f1a7400.go",
+  "original_metadata": {
+    "size": 1078,
+    "modified": "2025-01-12T09:30:47.909233",
+    "created": "2025-11-11T03:39:11.683786"
+  },
+  "stripped_metadata": {}
+}

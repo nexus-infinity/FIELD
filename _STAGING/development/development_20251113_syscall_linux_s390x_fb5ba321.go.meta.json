@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_linux_s390x.go",
+  "original_name": "syscall_linux_s390x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8090,
+  "content_hash": "fb5ba32159fec3f889ce497e823e02375e4f4c1a09b5b73d4b98b9460a76f08d",
+  "semantic_fingerprint": "syscall_linux_s390x",
+  "detected_at": "2025-11-13T05:18:47.236376",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_linux_s390x_fb5ba321.go",
+  "original_metadata": {
+    "size": 8090,
+    "modified": "2025-01-12T09:30:45.716125",
+    "created": "2025-11-11T03:39:11.696023"
+  },
+  "stripped_metadata": {}
+}

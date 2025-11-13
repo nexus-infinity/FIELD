@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/drv_test.go",
+  "original_name": "drv_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1943,
+  "content_hash": "38a3ba129f38d1b78c9633759af631a11d8cff927006e910b38ddac44193183d",
+  "semantic_fingerprint": "drv_test",
+  "detected_at": "2025-11-13T05:18:47.901274",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_drv_test_38a3ba12.go",
+  "original_metadata": {
+    "size": 1943,
+    "modified": "2025-01-12T09:30:47.719569",
+    "created": "2025-11-11T03:39:11.708668"
+  },
+  "stripped_metadata": {}
+}

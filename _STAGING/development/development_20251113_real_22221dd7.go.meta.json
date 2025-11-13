@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/real.go",
+  "original_name": "real.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 36,
+  "content_hash": "22221dd72b373e7ce4e4c75a8ec7155603dc75340b95fe9ed38adb3d4e5db22b",
+  "semantic_fingerprint": "real",
+  "detected_at": "2025-11-13T05:18:46.563765",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_real_22221dd7.go",
+  "original_metadata": {
+    "size": 36,
+    "modified": "2025-01-12T09:30:44.520317",
+    "created": "2025-11-11T03:39:11.684103"
+  },
+  "stripped_metadata": {}
+}

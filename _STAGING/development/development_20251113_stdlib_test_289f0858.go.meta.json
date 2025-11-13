@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stdlib_test.go",
+  "original_name": "stdlib_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13587,
+  "content_hash": "289f0858152dd2cedb2a9778e0522e837ed18b836a0e19ce519bc3cf99f027b8",
+  "semantic_fingerprint": "stdlib_test",
+  "detected_at": "2025-11-13T05:18:46.268193",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stdlib_test_289f0858.go",
+  "original_metadata": {
+    "size": 13587,
+    "modified": "2025-01-12T09:30:44.504761",
+    "created": "2025-11-11T03:39:11.677994"
+  },
+  "stripped_metadata": {}
+}

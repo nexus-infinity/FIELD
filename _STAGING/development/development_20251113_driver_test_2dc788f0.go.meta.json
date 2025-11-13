@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/driver_test.go",
+  "original_name": "driver_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3474,
+  "content_hash": "2dc788f0bd68c61c48cce0c815af821c4d1705052fe1aa70aa748e093f24ff1b",
+  "semantic_fingerprint": "driver_test",
+  "detected_at": "2025-11-13T05:18:47.983266",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_driver_test_2dc788f0.go",
+  "original_metadata": {
+    "size": 3474,
+    "modified": "2025-01-12T09:30:47.867283",
+    "created": "2025-11-11T03:39:11.710083"
+  },
+  "stripped_metadata": {}
+}

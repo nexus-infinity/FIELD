@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/p_amd64.go",
+  "original_name": "p_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 64,
+  "content_hash": "d6a9b39a2f4b0f66defb89ad66c5de7ed388b1a10cf07b14ad10b3605f229751",
+  "semantic_fingerprint": "p_amd64",
+  "detected_at": "2025-11-13T05:18:47.789066",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_p_amd64_d6a9b39a.go",
+  "original_metadata": {
+    "size": 64,
+    "modified": "2025-01-12T09:30:44.320751",
+    "created": "2025-11-11T03:39:11.706359"
+  },
+  "stripped_metadata": {}
+}

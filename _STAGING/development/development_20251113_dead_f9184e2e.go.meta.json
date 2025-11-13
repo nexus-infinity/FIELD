@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dead.go",
+  "original_name": "dead.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2249,
+  "content_hash": "f9184e2ed184b2e8dceaaf884bd962025076fe1c1ef3348dc3e1ad5bd6852de6",
+  "semantic_fingerprint": "dead",
+  "detected_at": "2025-11-13T05:18:46.824378",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dead_f9184e2e.go",
+  "original_metadata": {
+    "size": 2249,
+    "modified": "2025-01-12T09:30:35.427201",
+    "created": "2025-11-11T03:39:11.687442"
+  },
+  "stripped_metadata": {}
+}

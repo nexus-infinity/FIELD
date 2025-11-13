@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/deprecated_test.go",
+  "original_name": "deprecated_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 362,
+  "content_hash": "ff36b271b17c219fed4cd3b00688a9ee2b30351cb4126b294ad0e26e3617e009",
+  "semantic_fingerprint": "deprecated_test",
+  "detected_at": "2025-11-13T05:18:47.702672",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_deprecated_test_ff36b271.go",
+  "original_metadata": {
+    "size": 362,
+    "modified": "2025-01-12T09:30:35.175231",
+    "created": "2025-11-11T03:39:11.704342"
+  },
+  "stripped_metadata": {}
+}

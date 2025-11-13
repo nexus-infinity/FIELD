@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/span.go",
+  "original_name": "span.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3708,
+  "content_hash": "8db231ece936f027187e25a2aa77e5d051753144f318821b84d6b2bbc2ca77e3",
+  "semantic_fingerprint": "span",
+  "detected_at": "2025-11-13T05:18:47.741116",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_span_8db231ec.go",
+  "original_metadata": {
+    "size": 3708,
+    "modified": "2025-01-12T09:30:35.223629",
+    "created": "2025-11-11T03:39:11.705264"
+  },
+  "stripped_metadata": {}
+}

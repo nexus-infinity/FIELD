@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sanity.go",
+  "original_name": "sanity.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 18586,
+  "content_hash": "ee64f421ddc1bb85fb6677d7c318666787ceedb2f244b374e44827a719b12963",
+  "semantic_fingerprint": "sanity",
+  "detected_at": "2025-11-13T05:18:46.148931",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sanity_ee64f421.go",
+  "original_metadata": {
+    "size": 18586,
+    "modified": "2025-01-12T09:30:35.514156",
+    "created": "2025-11-11T03:39:11.675486"
+  },
+  "stripped_metadata": {}
+}

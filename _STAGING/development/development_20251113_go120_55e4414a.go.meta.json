@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/go120.go",
+  "original_name": "go120.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 335,
+  "content_hash": "55e4414a328b990e04a502c967416cfa90bc1a8f015936c730e9eb4fc908b178",
+  "semantic_fingerprint": "go120",
+  "detected_at": "2025-11-13T05:18:46.459064",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_go120_55e4414a.go",
+  "original_metadata": {
+    "size": 335,
+    "modified": "2025-01-12T09:30:44.775262",
+    "created": "2025-11-11T03:39:11.682065"
+  },
+  "stripped_metadata": {}
+}

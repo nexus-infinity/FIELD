@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_linux_s390x.go",
+  "original_name": "ztypes_linux_s390x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10693,
+  "content_hash": "516834a1b6e77dd24d3d24bcb673aeac02d834b153e751b1820ad83918f7c809",
+  "semantic_fingerprint": "ztypes_linux_s390x",
+  "detected_at": "2025-11-13T05:18:46.459994",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_linux_s390x_516834a1.go",
+  "original_metadata": {
+    "size": 10693,
+    "modified": "2025-01-12T09:30:45.754382",
+    "created": "2025-11-11T03:39:11.682082"
+  },
+  "stripped_metadata": {}
+}

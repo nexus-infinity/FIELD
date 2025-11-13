@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/encoding.go",
+  "original_name": "encoding.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2285,
+  "content_hash": "059391ed814719210c5dc1a7672c657814ec6c16c250150682003bd922325a40",
+  "semantic_fingerprint": "encoding",
+  "detected_at": "2025-11-13T05:18:46.022883",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_encoding_059391ed.go",
+  "original_metadata": {
+    "size": 2285,
+    "modified": "2025-01-12T09:30:45.085552",
+    "created": "2025-11-11T03:39:11.672331"
+  },
+  "stripped_metadata": {}
+}

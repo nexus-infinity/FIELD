@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/slice2arrayptr.go",
+  "original_name": "slice2arrayptr.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1301,
+  "content_hash": "93561f09027209bb28e03cf9a3d562e08f76fd7310140c1dc52b86e1e9df40dd",
+  "semantic_fingerprint": "slice2arrayptr",
+  "detected_at": "2025-11-13T05:18:47.820656",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_slice2arrayptr_93561f09.go",
+  "original_metadata": {
+    "size": 1301,
+    "modified": "2025-01-12T09:30:47.828049",
+    "created": "2025-11-11T03:39:11.707004"
+  },
+  "stripped_metadata": {}
+}

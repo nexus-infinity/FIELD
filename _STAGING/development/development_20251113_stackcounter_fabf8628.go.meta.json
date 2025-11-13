@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stackcounter.go",
+  "original_name": "stackcounter.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4895,
+  "content_hash": "fabf862892eb4b0cc7e9f5a0d04d1fe0881b6bca6d4804c6439e525a374f4f9d",
+  "semantic_fingerprint": "stackcounter",
+  "detected_at": "2025-11-13T05:18:47.774880",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stackcounter_fabf8628.go",
+  "original_metadata": {
+    "size": 4895,
+    "modified": "2025-01-12T09:30:47.665074",
+    "created": "2025-11-11T03:39:11.706134"
+  },
+  "stripped_metadata": {}
+}

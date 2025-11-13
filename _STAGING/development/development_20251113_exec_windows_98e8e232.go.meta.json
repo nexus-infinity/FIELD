@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/exec_windows.go",
+  "original_name": "exec_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5083,
+  "content_hash": "98e8e232d0138fbd16075548a49db9df9403f857deeea19dd3a46dc02141ba84",
+  "semantic_fingerprint": "exec_windows",
+  "detected_at": "2025-11-13T05:18:47.334528",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_exec_windows_98e8e232.go",
+  "original_metadata": {
+    "size": 5083,
+    "modified": "2025-01-12T09:30:45.473497",
+    "created": "2025-11-11T03:39:11.697733"
+  },
+  "stripped_metadata": {}
+}

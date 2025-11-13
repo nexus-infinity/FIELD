@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/toolchain_go121.go",
+  "original_name": "toolchain_go121.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 291,
+  "content_hash": "45ada44d9c3f0b0ad8dbb524ecfbcdcd4bbc4fb45b4e20202167867e37cbdcc1",
+  "semantic_fingerprint": "toolchain_go121",
+  "detected_at": "2025-11-13T05:18:47.034398",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_toolchain_go121_45ada44d.go",
+  "original_metadata": {
+    "size": 291,
+    "modified": "2025-01-12T09:31:05.734413",
+    "created": "2025-11-11T03:39:11.691920"
+  },
+  "stripped_metadata": {}
+}

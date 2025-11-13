@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lift.go",
+  "original_name": "lift.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 19610,
+  "content_hash": "aa7e98644af80e2514243612d13a2f7a4bcbc09a41fb882c84b692a8fef3830a",
+  "semantic_fingerprint": "lift",
+  "detected_at": "2025-11-13T05:18:45.973987",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lift_aa7e9864.go",
+  "original_metadata": {
+    "size": 19610,
+    "modified": "2025-01-12T09:30:35.513498",
+    "created": "2025-11-11T03:39:11.668903"
+  },
+  "stripped_metadata": {}
+}

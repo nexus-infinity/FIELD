@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/prune.go",
+  "original_name": "prune.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2477,
+  "content_hash": "742b53af1f75c7aef134794be2b3050c86714f253f663114737942f7338c2bf9",
+  "semantic_fingerprint": "prune",
+  "detected_at": "2025-11-13T05:18:47.098503",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_prune_742b53af.go",
+  "original_metadata": {
+    "size": 2477,
+    "modified": "2025-01-12T09:30:45.255325",
+    "created": "2025-11-11T03:39:11.693403"
+  },
+  "stripped_metadata": {}
+}

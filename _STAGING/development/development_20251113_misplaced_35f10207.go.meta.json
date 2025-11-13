@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/misplaced.go",
+  "original_name": "misplaced.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 287,
+  "content_hash": "35f1020782d5c4e2f427f55c1c095068c118e579161a973285e1ff7cca54d6fd",
+  "semantic_fingerprint": "misplaced",
+  "detected_at": "2025-11-13T05:18:45.959144",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_misplaced_35f10207.go",
+  "original_metadata": {
+    "size": 287,
+    "modified": "2025-01-12T09:30:47.746028",
+    "created": "2025-11-11T03:39:11.668576"
+  },
+  "stripped_metadata": {}
+}

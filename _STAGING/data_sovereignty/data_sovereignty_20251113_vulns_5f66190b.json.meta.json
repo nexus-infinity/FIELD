@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/vulns.json",
+  "original_name": "vulns.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 1053,
+  "content_hash": "5f66190b029a7ee5cc011719c89169768e5aac288eea917f96e81cb68ec5a9b6",
+  "semantic_fingerprint": "vulns",
+  "detected_at": "2025-11-13T05:18:47.881051",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_vulns_5f66190b.json",
+  "original_metadata": {
+    "size": 1053,
+    "modified": "2025-01-12T09:30:49.138577",
+    "created": "2025-11-11T03:39:11.708276"
+  },
+  "stripped_metadata": {}
+}

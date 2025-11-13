@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_dragonfly.go",
+  "original_name": "syscall_dragonfly.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8755,
+  "content_hash": "133d5770f3319f40985c5fdfbcda95a61f26907469d0182fd0a8c8be6a4cc3e3",
+  "semantic_fingerprint": "syscall_dragonfly",
+  "detected_at": "2025-11-13T05:18:47.474477",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_dragonfly_133d5770.go",
+  "original_metadata": {
+    "size": 8755,
+    "modified": "2025-01-12T09:30:45.713851",
+    "created": "2025-11-11T03:39:11.700518"
+  },
+  "stripped_metadata": {}
+}

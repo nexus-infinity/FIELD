@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fallback_test.go",
+  "original_name": "fallback_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 894,
+  "content_hash": "bcaeb5bbe4571c8a4ddfb8c94efe361361ca8904833b8ee677b372b7698bb319",
+  "semantic_fingerprint": "fallback_test",
+  "detected_at": "2025-11-13T05:18:45.904185",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fallback_test_bcaeb5bb.go",
+  "original_metadata": {
+    "size": 894,
+    "modified": "2025-01-12T09:30:45.010484",
+    "created": "2025-11-11T03:39:11.667960"
+  },
+  "stripped_metadata": {}
+}

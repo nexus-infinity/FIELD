@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stmt.go",
+  "original_name": "stmt.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5045,
+  "content_hash": "af7ba6565b146965f1e39542f7b6ef8c97f7efc89241a5dd97e7a90302f318d4",
+  "semantic_fingerprint": "stmt",
+  "detected_at": "2025-11-13T05:18:46.850573",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stmt_af7ba656.go",
+  "original_metadata": {
+    "size": 5045,
+    "modified": "2025-01-12T09:30:44.402661",
+    "created": "2025-11-11T03:39:11.687851"
+  },
+  "stripped_metadata": {}
+}

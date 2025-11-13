@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/diagnostics.go",
+  "original_name": "diagnostics.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3874,
+  "content_hash": "ca821357cc21d3a1a51670a23dde7698ada7d749f373fede157200f074774a63",
+  "semantic_fingerprint": "diagnostics",
+  "detected_at": "2025-11-13T05:18:46.888539",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_diagnostics_ca821357.go",
+  "original_metadata": {
+    "size": 3874,
+    "modified": "2025-01-12T09:30:35.210429",
+    "created": "2025-11-11T03:39:11.688773"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/slicing.go",
+  "original_name": "slicing.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1293,
+  "content_hash": "969c514870180f70f1d60e975dab5e7712480e3a5ac123b0bbe6f70adeaa0a26",
+  "semantic_fingerprint": "slicing",
+  "detected_at": "2025-11-13T05:18:46.530915",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_slicing_969c5148.go",
+  "original_metadata": {
+    "size": 1293,
+    "modified": "2025-01-12T09:30:49.151925",
+    "created": "2025-11-11T03:39:11.683199"
+  },
+  "stripped_metadata": {}
+}

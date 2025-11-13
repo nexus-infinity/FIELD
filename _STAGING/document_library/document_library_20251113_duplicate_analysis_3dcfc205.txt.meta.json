@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/duplicate_analysis.txt",
+  "original_name": "duplicate_analysis.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 19106,
+  "content_hash": "3dcfc205b28f14bc436bce739a819451ded6e4e329dedb4d113fddf35f269153",
+  "semantic_fingerprint": "duplicate_analysis",
+  "detected_at": "2025-11-13T05:18:45.870431",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_duplicate_analysis_3dcfc205.txt",
+  "original_metadata": {
+    "size": 19106,
+    "modified": "2025-08-04T22:07:16.261199",
+    "created": "2025-11-11T03:39:11.511204"
+  },
+  "stripped_metadata": {}
+}

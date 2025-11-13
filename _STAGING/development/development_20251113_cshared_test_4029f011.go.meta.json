@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cshared_test.go",
+  "original_name": "cshared_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2197,
+  "content_hash": "4029f0118e8af92981e3841d3572314c8bf92546db3140887cad0fa314ebf875",
+  "semantic_fingerprint": "cshared_test",
+  "detected_at": "2025-11-13T05:18:46.150626",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cshared_test_4029f011.go",
+  "original_metadata": {
+    "size": 2197,
+    "modified": "2025-01-12T09:30:44.379718",
+    "created": "2025-11-11T03:39:11.675538"
+  },
+  "stripped_metadata": {}
+}

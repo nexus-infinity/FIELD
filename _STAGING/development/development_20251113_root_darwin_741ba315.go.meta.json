@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/root_darwin.go",
+  "original_name": "root_darwin.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4832,
+  "content_hash": "741ba31551401e099956d03da05fb12a51fee2014eb9cb9b9a8606019716ebc5",
+  "semantic_fingerprint": "root_darwin",
+  "detected_at": "2025-11-13T05:18:46.971373",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_root_darwin_741ba315.go",
+  "original_metadata": {
+    "size": 4832,
+    "modified": "2025-01-12T09:31:05.578490",
+    "created": "2025-11-11T03:39:11.690647"
+  },
+  "stripped_metadata": {}
+}

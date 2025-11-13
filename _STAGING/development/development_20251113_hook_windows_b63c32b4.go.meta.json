@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/hook_windows.go",
+  "original_name": "hook_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 668,
+  "content_hash": "b63c32b4a5f03051f4bd78bb4440232fd929ba90be8e66cb404aa2f31dc12c5b",
+  "semantic_fingerprint": "hook_windows",
+  "detected_at": "2025-11-13T05:18:46.236774",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_hook_windows_b63c32b4.go",
+  "original_metadata": {
+    "size": 668,
+    "modified": "2025-01-12T09:30:45.252597",
+    "created": "2025-11-11T03:39:11.677310"
+  },
+  "stripped_metadata": {}
+}

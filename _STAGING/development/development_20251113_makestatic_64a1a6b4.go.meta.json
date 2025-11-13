@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/makestatic.go",
+  "original_name": "makestatic.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 805,
+  "content_hash": "64a1a6b4d2d52bf4120d4f92ba55637c9b5c11dad1c2d7830adeec85ab44ad52",
+  "semantic_fingerprint": "makestatic",
+  "detected_at": "2025-11-13T05:18:46.721784",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_makestatic_64a1a6b4.go",
+  "original_metadata": {
+    "size": 805,
+    "modified": "2025-01-12T09:30:47.849453",
+    "created": "2025-11-11T03:39:11.685056"
+  },
+  "stripped_metadata": {}
+}

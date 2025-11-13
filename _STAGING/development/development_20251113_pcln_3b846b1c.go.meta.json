@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pcln.go",
+  "original_name": "pcln.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 30333,
+  "content_hash": "3b846b1ce74f727cb4842b71ac5e4829cd566e1067076965f5c919a98f77d138",
+  "semantic_fingerprint": "pcln",
+  "detected_at": "2025-11-13T05:18:46.310205",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pcln_3b846b1c.go",
+  "original_metadata": {
+    "size": 30333,
+    "modified": "2025-01-12T09:30:44.728603",
+    "created": "2025-11-11T03:39:11.678741"
+  },
+  "stripped_metadata": {}
+}

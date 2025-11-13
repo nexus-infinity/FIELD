@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_linux_loong64.go",
+  "original_name": "defs_linux_loong64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 485,
+  "content_hash": "75ba5d991a27f6553a5dd5a10f4c00f4c62c4ed16a45cd3bb44bca7239884a18",
+  "semantic_fingerprint": "defs_linux_loong64",
+  "detected_at": "2025-11-13T05:18:47.425049",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_linux_loong64_75ba5d99.go",
+  "original_metadata": {
+    "size": 485,
+    "modified": "2025-01-12T09:30:45.261590",
+    "created": "2025-11-11T03:39:11.699747"
+  },
+  "stripped_metadata": {}
+}

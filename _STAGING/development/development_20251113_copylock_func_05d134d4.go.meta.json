@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/copylock_func.go",
+  "original_name": "copylock_func.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3697,
+  "content_hash": "05d134d4bef8cac0cf4cc52efc08d74adc6fff87db1052ce54054190bbb1de36",
+  "semantic_fingerprint": "copylock_func",
+  "detected_at": "2025-11-13T05:18:45.974650",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_copylock_func_05d134d4.go",
+  "original_metadata": {
+    "size": 3697,
+    "modified": "2025-01-12T09:30:47.742345",
+    "created": "2025-11-11T03:39:11.668928"
+  },
+  "stripped_metadata": {}
+}

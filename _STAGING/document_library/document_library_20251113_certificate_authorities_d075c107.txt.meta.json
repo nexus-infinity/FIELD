@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/certificate_authorities.txt",
+  "original_name": "certificate_authorities.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 212,
+  "content_hash": "d075c1078b63346e6ead6c2b234ada3513543ee6f58a0531de2f285a2b7d2880",
+  "semantic_fingerprint": "certificate_authorities",
+  "detected_at": "2025-11-13T05:18:45.874358",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_certificate_authorities_d075c107.txt",
+  "original_metadata": {
+    "size": 212,
+    "modified": "2025-08-04T22:07:16.203477",
+    "created": "2025-11-11T03:39:11.511298"
+  },
+  "stripped_metadata": {}
+}

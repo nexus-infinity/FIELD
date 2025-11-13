@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/func.go",
+  "original_name": "func.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 21772,
+  "content_hash": "29807bfdaafb953746688ea74e33bdc73f1659e2e66ffb9810ef01567bcb465e",
+  "semantic_fingerprint": "func",
+  "detected_at": "2025-11-13T05:18:47.583434",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_func_29807bfd.go",
+  "original_metadata": {
+    "size": 21772,
+    "modified": "2025-01-12T09:30:44.411985",
+    "created": "2025-11-11T03:39:11.701885"
+  },
+  "stripped_metadata": {}
+}

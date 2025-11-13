@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/validity_check.txt",
+  "original_name": "validity_check.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 198,
+  "content_hash": "91983c881c191eb91d8cc0144ec6b69ad75c8c37534ae28e28601a0a0edb4ef6",
+  "semantic_fingerprint": "validity_check",
+  "detected_at": "2025-11-13T05:18:45.873688",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_validity_check_91983c88.txt",
+  "original_metadata": {
+    "size": 198,
+    "modified": "2025-08-04T22:07:16.270155",
+    "created": "2025-11-11T03:39:11.511278"
+  },
+  "stripped_metadata": {}
+}

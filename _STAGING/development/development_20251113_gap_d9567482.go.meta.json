@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/gap.go",
+  "original_name": "gap.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 713,
+  "content_hash": "d956748244cd31f90a193b09d50feb8784663a8ff4148c9d303993699195ecf2",
+  "semantic_fingerprint": "gap",
+  "detected_at": "2025-11-13T05:18:47.989969",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_gap_d9567482.go",
+  "original_metadata": {
+    "size": 713,
+    "modified": "2025-01-12T09:30:47.726407",
+    "created": "2025-11-11T03:39:11.710186"
+  },
+  "stripped_metadata": {}
+}

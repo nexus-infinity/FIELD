@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sockcmsg_linux.go",
+  "original_name": "sockcmsg_linux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1146,
+  "content_hash": "5a8ebab526ca05814dd14aa8970b6f177e484cd666ce36ef6be8eb4c502fa93d",
+  "semantic_fingerprint": "sockcmsg_linux",
+  "detected_at": "2025-11-13T05:18:47.860523",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sockcmsg_linux_5a8ebab5.go",
+  "original_metadata": {
+    "size": 1146,
+    "modified": "2025-01-12T09:30:45.712572",
+    "created": "2025-11-11T03:39:11.707767"
+  },
+  "stripped_metadata": {}
+}

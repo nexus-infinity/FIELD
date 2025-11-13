@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_darwin_amd64.go",
+  "original_name": "defs_darwin_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 609,
+  "content_hash": "c518107c4fe84c9396614275e5710a67ee631b80c60b22ccbfd28fd995687e06",
+  "semantic_fingerprint": "defs_darwin_amd64",
+  "detected_at": "2025-11-13T05:18:47.408255",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_darwin_amd64_c518107c.go",
+  "original_metadata": {
+    "size": 609,
+    "modified": "2025-01-12T09:30:45.562749",
+    "created": "2025-11-11T03:39:11.699335"
+  },
+  "stripped_metadata": {}
+}

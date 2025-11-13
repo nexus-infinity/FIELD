@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/govulncheck.go",
+  "original_name": "govulncheck.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7449,
+  "content_hash": "772326d3b3894d51002dacb4753ed2f28a2e9c4ddf8d900cca04d6c42bf4f7bb",
+  "semantic_fingerprint": "govulncheck",
+  "detected_at": "2025-11-13T05:18:47.111807",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_govulncheck_772326d3.go",
+  "original_metadata": {
+    "size": 7449,
+    "modified": "2025-01-12T09:30:49.141981",
+    "created": "2025-11-11T03:39:11.693646"
+  },
+  "stripped_metadata": {}
+}

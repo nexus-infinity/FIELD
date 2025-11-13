@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_linux_ppc64le.go",
+  "original_name": "ztypes_linux_ppc64le.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10629,
+  "content_hash": "8bb72cfe0ae00034fea00046698e6a8afdac95161c1d183155cc1f34890836dd",
+  "semantic_fingerprint": "ztypes_linux_ppc64le",
+  "detected_at": "2025-11-13T05:18:47.535438",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_linux_ppc64le_8bb72cfe.go",
+  "original_metadata": {
+    "size": 10629,
+    "modified": "2025-01-12T09:30:45.753991",
+    "created": "2025-11-11T03:39:11.701591"
+  },
+  "stripped_metadata": {}
+}

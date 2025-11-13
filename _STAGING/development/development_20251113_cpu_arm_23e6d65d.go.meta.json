@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu_arm.go",
+  "original_name": "cpu_arm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2163,
+  "content_hash": "23e6d65d2ba6bf988f6413643cb336b49b438b2b15659c0b22c2d0c63a25e3c0",
+  "semantic_fingerprint": "cpu_arm",
+  "detected_at": "2025-11-13T05:18:47.279874",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_arm_23e6d65d.go",
+  "original_metadata": {
+    "size": 2163,
+    "modified": "2025-01-12T09:30:45.806649",
+    "created": "2025-11-11T03:39:11.696866"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/loopclosure_test.go",
+  "original_name": "loopclosure_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 596,
+  "content_hash": "65416c053fb4022f55ac89e75c13d6cea9d8cee9bf2c59f535c63a65c5504f20",
+  "semantic_fingerprint": "loopclosure_test",
+  "detected_at": "2025-11-13T05:18:47.720907",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_loopclosure_test_65416c05.go",
+  "original_metadata": {
+    "size": 596,
+    "modified": "2025-01-12T09:30:47.752303",
+    "created": "2025-11-11T03:39:11.704775"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unicode_test.go",
+  "original_name": "unicode_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 19239,
+  "content_hash": "79831ac2c30eae2a4b7525defd5ac7eab3342c8dc4086321575438c342719e53",
+  "semantic_fingerprint": "unicode_test",
+  "detected_at": "2025-11-13T05:18:47.508227",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unicode_test_79831ac2.go",
+  "original_metadata": {
+    "size": 19239,
+    "modified": "2025-01-12T09:30:49.521452",
+    "created": "2025-11-11T03:39:11.701075"
+  },
+  "stripped_metadata": {}
+}

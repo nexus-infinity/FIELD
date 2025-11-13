@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/iface.go",
+  "original_name": "iface.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 895,
+  "content_hash": "d8905d54cb0d002f0544523cbc2aefbb90d0a6d888767a41b4590fbca728b9a2",
+  "semantic_fingerprint": "iface",
+  "detected_at": "2025-11-13T05:18:46.762638",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_iface_d8905d54.go",
+  "original_metadata": {
+    "size": 895,
+    "modified": "2025-01-12T09:30:45.213625",
+    "created": "2025-11-11T03:39:11.686021"
+  },
+  "stripped_metadata": {}
+}

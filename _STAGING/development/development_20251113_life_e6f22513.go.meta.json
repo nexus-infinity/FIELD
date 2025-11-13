@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/life.go",
+  "original_name": "life.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 892,
+  "content_hash": "e6f2251344e155e605ded6979de04861b4026f15b02bb78aa32b670b5844b041",
+  "semantic_fingerprint": "life",
+  "detected_at": "2025-11-13T05:18:47.257668",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_life_e6f22513.go",
+  "original_metadata": {
+    "size": 892,
+    "modified": "2025-01-12T09:30:44.372463",
+    "created": "2025-11-11T03:39:11.696471"
+  },
+  "stripped_metadata": {}
+}

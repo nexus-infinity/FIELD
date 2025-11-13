@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cookieauth.go",
+  "original_name": "cookieauth.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3667,
+  "content_hash": "5523d5de7192d108713c382c2816d2cec044d947f5d39262e51b2df8c188163c",
+  "semantic_fingerprint": "cookieauth",
+  "detected_at": "2025-11-13T05:18:47.955067",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cookieauth_5523d5de.go",
+  "original_metadata": {
+    "size": 3667,
+    "modified": "2025-01-12T09:30:47.703027",
+    "created": "2025-11-11T03:39:11.709660"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/xml.go",
+  "original_name": "xml.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 48462,
+  "content_hash": "e596a9813e5be49769ec16f1d2d6b78100d853e591a21bae2b8ce19eaf1860c2",
+  "semantic_fingerprint": "xml",
+  "detected_at": "2025-11-13T05:18:46.724052",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_xml_e596a981.go",
+  "original_metadata": {
+    "size": 48462,
+    "modified": "2025-01-12T09:30:45.095909",
+    "created": "2025-11-11T03:39:11.685079"
+  },
+  "stripped_metadata": {}
+}

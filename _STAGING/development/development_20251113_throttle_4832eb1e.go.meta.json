@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/throttle.go",
+  "original_name": "throttle.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2415,
+  "content_hash": "4832eb1ec46676edc0bebf8f8d52a0de17f9674f92287c8cc80f1eae69d5d43b",
+  "semantic_fingerprint": "throttle",
+  "detected_at": "2025-11-13T05:18:47.682426",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_throttle_4832eb1e.go",
+  "original_metadata": {
+    "size": 2415,
+    "modified": "2025-01-12T09:30:47.858467",
+    "created": "2025-11-11T03:39:11.703974"
+  },
+  "stripped_metadata": {}
+}

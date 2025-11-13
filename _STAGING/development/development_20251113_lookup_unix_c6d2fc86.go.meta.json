@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lookup_unix.go",
+  "original_name": "lookup_unix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6181,
+  "content_hash": "c6d2fc86202541bcf2e9ce470f92bcd6b1e49cc5cf4c0346e01bc313062b1f38",
+  "semantic_fingerprint": "lookup_unix",
+  "detected_at": "2025-11-13T05:18:46.392274",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lookup_unix_c6d2fc86.go",
+  "original_metadata": {
+    "size": 6181,
+    "modified": "2025-01-12T09:30:45.485546",
+    "created": "2025-11-11T03:39:11.680474"
+  },
+  "stripped_metadata": {}
+}

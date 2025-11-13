@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_freebsd_riscv64.go",
+  "original_name": "ztypes_freebsd_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8220,
+  "content_hash": "0fe04fede6b4495f42b4639b534636a71c229fc7e9604cbf19c3dc854ab4945e",
+  "semantic_fingerprint": "ztypes_freebsd_riscv64",
+  "detected_at": "2025-11-13T05:18:47.283941",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_freebsd_riscv64_0fe04fed.go",
+  "original_metadata": {
+    "size": 8220,
+    "modified": "2025-01-12T09:30:45.751833",
+    "created": "2025-11-11T03:39:11.696943"
+  },
+  "stripped_metadata": {}
+}

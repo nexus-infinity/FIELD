@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/infer.go",
+  "original_name": "infer.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 27119,
+  "content_hash": "4523f146839f8ebb34822655a4e306c663294ca91232f5ec46d3d16b04d05d51",
+  "semantic_fingerprint": "infer",
+  "detected_at": "2025-11-13T05:18:47.008478",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_infer_4523f146.go",
+  "original_metadata": {
+    "size": 27119,
+    "modified": "2025-01-12T09:30:45.150390",
+    "created": "2025-11-11T03:39:11.691437"
+  },
+  "stripped_metadata": {}
+}

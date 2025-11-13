@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/nointerface.go",
+  "original_name": "nointerface.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 289,
+  "content_hash": "5662f9e251e2bf35b95fda368256c405ed0a29ef7585ce3ce69992f315a3c138",
+  "semantic_fingerprint": "nointerface",
+  "detected_at": "2025-11-13T05:18:47.315609",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_nointerface_5662f9e2.go",
+  "original_metadata": {
+    "size": 289,
+    "modified": "2025-01-12T09:30:35.495632",
+    "created": "2025-11-11T03:39:11.697415"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/coverage.go",
+  "original_name": "coverage.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 730,
+  "content_hash": "8c8238012deb1b3c42820c755343db1bc326dc5cbddfcc24f97abbb7e0c6cee1",
+  "semantic_fingerprint": "coverage",
+  "detected_at": "2025-11-13T05:18:46.552791",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_coverage_8c823801.go",
+  "original_metadata": {
+    "size": 730,
+    "modified": "2025-01-12T09:30:44.876647",
+    "created": "2025-11-11T03:39:11.683832"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/float.go",
+  "original_name": "float.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 45636,
+  "content_hash": "d60425e698c56ad312dc52b721719d1339ac972c1b62a69f28275107ce670150",
+  "semantic_fingerprint": "float",
+  "detected_at": "2025-11-13T05:18:46.931385",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_float_d60425e6.go",
+  "original_metadata": {
+    "size": 45636,
+    "modified": "2025-01-12T09:30:45.390572",
+    "created": "2025-11-11T03:39:11.689739"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/shallow_test.go",
+  "original_name": "shallow_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6902,
+  "content_hash": "2fc7631b5cc0ea535cd4ab9d8e991a6b3a080ffd1a590d2e531703c9f67635ec",
+  "semantic_fingerprint": "shallow_test",
+  "detected_at": "2025-11-13T05:18:47.082943",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_shallow_test_2fc7631b.go",
+  "original_metadata": {
+    "size": 6902,
+    "modified": "2025-01-12T09:30:47.875727",
+    "created": "2025-11-11T03:39:11.693126"
+  },
+  "stripped_metadata": {}
+}

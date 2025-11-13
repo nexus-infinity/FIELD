@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/file_windows.go",
+  "original_name": "file_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13683,
+  "content_hash": "08544be2b8b03e7df884b6060f9e1e0f07301aa4aa778bb973a8b2042f3c284c",
+  "semantic_fingerprint": "file_windows",
+  "detected_at": "2025-11-13T05:18:47.867164",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_file_windows_08544be2.go",
+  "original_metadata": {
+    "size": 13683,
+    "modified": "2025-01-12T09:30:45.475882",
+    "created": "2025-11-11T03:39:11.707889"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cmd.go",
+  "original_name": "cmd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 29114,
+  "content_hash": "4609be0d553fdb2ac917f28ecb37bba28e1042c1566e582093036abc00d3c3bc",
+  "semantic_fingerprint": "cmd",
+  "detected_at": "2025-11-13T05:18:46.108606",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cmd_4609be0d.go",
+  "original_metadata": {
+    "size": 29114,
+    "modified": "2025-01-12T09:30:35.196866",
+    "created": "2025-11-11T03:39:11.674348"
+  },
+  "stripped_metadata": {}
+}

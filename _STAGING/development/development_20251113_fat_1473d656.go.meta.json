@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fat.go",
+  "original_name": "fat.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3894,
+  "content_hash": "1473d6565c42b63d8725998ceaea1ae92a59364e3e8e92eb7dc348e35276db8e",
+  "semantic_fingerprint": "fat",
+  "detected_at": "2025-11-13T05:18:47.650113",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fat_1473d656.go",
+  "original_metadata": {
+    "size": 3894,
+    "modified": "2025-01-12T09:30:35.385766",
+    "created": "2025-11-11T03:39:11.703321"
+  },
+  "stripped_metadata": {}
+}

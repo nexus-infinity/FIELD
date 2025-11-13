@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/download.go",
+  "original_name": "download.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2690,
+  "content_hash": "623f426ab83d07be133face39693b0363ef2550281804806baa9557c0940325a",
+  "semantic_fingerprint": "download",
+  "detected_at": "2025-11-13T05:18:46.856492",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_download_623f426a.go",
+  "original_metadata": {
+    "size": 2690,
+    "modified": "2025-01-12T09:30:44.866204",
+    "created": "2025-11-11T03:39:11.687948"
+  },
+  "stripped_metadata": {}
+}

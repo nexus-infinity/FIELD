@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/proginfo.go",
+  "original_name": "proginfo.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2041,
+  "content_hash": "800ede389f1e88e1f6af6799849cde1c1fb548066c034591724a947c8f83f033",
+  "semantic_fingerprint": "proginfo",
+  "detected_at": "2025-11-13T05:18:47.066879",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_proginfo_800ede38.go",
+  "original_metadata": {
+    "size": 2041,
+    "modified": "2025-01-12T09:30:47.667513",
+    "created": "2025-11-11T03:39:11.692802"
+  },
+  "stripped_metadata": {}
+}

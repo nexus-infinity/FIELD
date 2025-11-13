@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stress.go",
+  "original_name": "stress.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5164,
+  "content_hash": "5f281a5c15345175bd0ba6ea47b806f1e1551740bf70b25179e6afb5d342c3a5",
+  "semantic_fingerprint": "stress",
+  "detected_at": "2025-11-13T05:18:47.420414",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stress_5f281a5c.go",
+  "original_metadata": {
+    "size": 5164,
+    "modified": "2025-01-12T09:30:35.388000",
+    "created": "2025-11-11T03:39:11.699651"
+  },
+  "stripped_metadata": {}
+}

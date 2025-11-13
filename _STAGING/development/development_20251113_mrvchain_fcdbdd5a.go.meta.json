@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mrvchain.go",
+  "original_name": "mrvchain.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1280,
+  "content_hash": "fcdbdd5acc5e6674645ca46ef289586dfe268c9b43fed98e9a0674992f9a9e61",
+  "semantic_fingerprint": "mrvchain",
+  "detected_at": "2025-11-13T05:18:47.149903",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mrvchain_fcdbdd5a.go",
+  "original_metadata": {
+    "size": 1280,
+    "modified": "2025-01-12T09:30:47.827081",
+    "created": "2025-11-11T03:39:11.694491"
+  },
+  "stripped_metadata": {}
+}

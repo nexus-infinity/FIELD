@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/analysistest.go",
+  "original_name": "analysistest.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 25351,
+  "content_hash": "80b0cf98048006d18b8653f71393c63ffb031ccd4041ff431c23454d0d724d27",
+  "semantic_fingerprint": "analysistest",
+  "detected_at": "2025-11-13T05:18:45.980088",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_analysistest_80b0cf98.go",
+  "original_metadata": {
+    "size": 25351,
+    "modified": "2025-01-12T09:30:47.729692",
+    "created": "2025-11-11T03:39:11.668990"
+  },
+  "stripped_metadata": {}
+}

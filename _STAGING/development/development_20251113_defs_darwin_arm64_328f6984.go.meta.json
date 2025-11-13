@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_darwin_arm64.go",
+  "original_name": "defs_darwin_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 607,
+  "content_hash": "328f69849574ddbce4959bef48ee7ce8237fc6939869a688af428ddd82e02b9f",
+  "semantic_fingerprint": "defs_darwin_arm64",
+  "detected_at": "2025-11-13T05:18:46.386974",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_darwin_arm64_328f6984.go",
+  "original_metadata": {
+    "size": 607,
+    "modified": "2025-01-12T09:30:45.562819",
+    "created": "2025-11-11T03:39:11.680341"
+  },
+  "stripped_metadata": {}
+}

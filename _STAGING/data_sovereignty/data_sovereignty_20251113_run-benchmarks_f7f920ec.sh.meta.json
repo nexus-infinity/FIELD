@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/run-benchmarks.sh",
+  "original_name": "run-benchmarks.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 929,
+  "content_hash": "f7f920eca79b383089e0b5c1f3317c44916eebcdeb3b9b9e88b2eaeb615ce6e9",
+  "semantic_fingerprint": "run-benchmarks",
+  "detected_at": "2025-11-13T05:18:46.046053",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_run-benchmarks_f7f920ec.sh",
+  "original_metadata": {
+    "size": 929,
+    "modified": "2025-02-02T16:32:20.675174",
+    "created": "2025-11-11T03:39:11.672832"
+  },
+  "stripped_metadata": {}
+}

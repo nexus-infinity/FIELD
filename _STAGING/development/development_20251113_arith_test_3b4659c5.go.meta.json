@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/arith_test.go",
+  "original_name": "arith_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 20360,
+  "content_hash": "3b4659c514489caa74f90f96efc023cd8a92e604af1a410c766997a6eef7dbd6",
+  "semantic_fingerprint": "arith_test",
+  "detected_at": "2025-11-13T05:18:47.499243",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_arith_test_3b4659c5.go",
+  "original_metadata": {
+    "size": 20360,
+    "modified": "2025-01-12T09:30:45.389103",
+    "created": "2025-11-11T03:39:11.700943"
+  },
+  "stripped_metadata": {}
+}

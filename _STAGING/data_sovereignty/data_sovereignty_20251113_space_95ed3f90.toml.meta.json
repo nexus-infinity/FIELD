@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/space.toml",
+  "original_name": "space.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8,
+  "content_hash": "95ed3f90794dbea64d07f3886af596c4307d849c148cb5df7abe170c4c0e782c",
+  "semantic_fingerprint": "space",
+  "detected_at": "2025-11-13T05:18:47.127882",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_space_95ed3f90.toml",
+  "original_metadata": {
+    "size": 8,
+    "modified": "2025-01-12T09:30:51.621669",
+    "created": "2025-11-11T03:39:11.694076"
+  },
+  "stripped_metadata": {}
+}

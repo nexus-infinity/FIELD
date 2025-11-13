@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/browser.go",
+  "original_name": "browser.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1735,
+  "content_hash": "708888fdfc3cfb0aa4b479b5231853cfeffccf7231473818554f7e2530754b90",
+  "semantic_fingerprint": "browser",
+  "detected_at": "2025-11-13T05:18:47.456658",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_browser_708888fd.go",
+  "original_metadata": {
+    "size": 1735,
+    "modified": "2025-01-12T09:30:35.272990",
+    "created": "2025-11-11T03:39:11.700258"
+  },
+  "stripped_metadata": {}
+}

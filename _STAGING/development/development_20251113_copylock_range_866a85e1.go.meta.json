@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/copylock_range.go",
+  "original_name": "copylock_range.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1579,
+  "content_hash": "866a85e19d065d2a408f71389fe2e841f21673c3854240065b2286babbcb2b87",
+  "semantic_fingerprint": "copylock_range",
+  "detected_at": "2025-11-13T05:18:47.382628",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_copylock_range_866a85e1.go",
+  "original_metadata": {
+    "size": 1579,
+    "modified": "2025-01-12T09:30:47.742423",
+    "created": "2025-11-11T03:39:11.698715"
+  },
+  "stripped_metadata": {}
+}

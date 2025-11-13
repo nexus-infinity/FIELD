@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/deadcode.go",
+  "original_name": "deadcode.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9470,
+  "content_hash": "889a23e646f120b35c7007a1941e94b6d894a35c40bbb072f1bea4a1bb0869c0",
+  "semantic_fingerprint": "deadcode",
+  "detected_at": "2025-11-13T05:18:47.476369",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_deadcode_889a23e6.go",
+  "original_metadata": {
+    "size": 9470,
+    "modified": "2025-01-12T09:30:44.439124",
+    "created": "2025-11-11T03:39:11.700552"
+  },
+  "stripped_metadata": {}
+}

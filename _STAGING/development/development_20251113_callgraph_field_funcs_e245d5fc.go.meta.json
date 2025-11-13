@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_field_funcs.go",
+  "original_name": "callgraph_field_funcs.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1271,
+  "content_hash": "e245d5fc962d525c1329659a859b4fdb502efddaa1c78c6cd814825a32c6f51b",
+  "semantic_fingerprint": "callgraph_field_funcs",
+  "detected_at": "2025-11-13T05:18:47.324886",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_field_funcs_e245d5fc.go",
+  "original_metadata": {
+    "size": 1271,
+    "modified": "2025-01-12T09:30:47.802291",
+    "created": "2025-11-11T03:39:11.697564"
+  },
+  "stripped_metadata": {}
+}

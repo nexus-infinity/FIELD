@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_netbsd_amd64.go",
+  "original_name": "zsyscall_netbsd_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 30685,
+  "content_hash": "be0011db91d78354f1578401b6b030b8d354b60bcd64d80b2fd0b5532a620ac8",
+  "semantic_fingerprint": "zsyscall_netbsd_amd64",
+  "detected_at": "2025-11-13T05:18:46.940242",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_netbsd_amd64_be0011db.go",
+  "original_metadata": {
+    "size": 30685,
+    "modified": "2025-01-12T09:30:45.741068",
+    "created": "2025-11-11T03:39:11.689938"
+  },
+  "stripped_metadata": {}
+}

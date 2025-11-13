@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/histogram.go",
+  "original_name": "histogram.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1365,
+  "content_hash": "1bd00aa442b577266e511722eda47a9cbc9734e6e58131d4d6400e130804de4d",
+  "semantic_fingerprint": "histogram",
+  "detected_at": "2025-11-13T05:18:46.942764",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_histogram_1bd00aa4.go",
+  "original_metadata": {
+    "size": 1365,
+    "modified": "2025-01-12T09:30:45.545610",
+    "created": "2025-11-11T03:39:11.689994"
+  },
+  "stripped_metadata": {}
+}

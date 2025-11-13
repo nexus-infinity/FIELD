@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/trie_test.go",
+  "original_name": "trie_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14043,
+  "content_hash": "e7a477584ae7418116d4a4729aced5d1f17304b0d964994eab0881bfedb2708f",
+  "semantic_fingerprint": "trie_test",
+  "detected_at": "2025-11-13T05:18:47.722702",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_trie_test_e7a47758.go",
+  "original_metadata": {
+    "size": 14043,
+    "modified": "2025-01-12T09:30:47.801698",
+    "created": "2025-11-11T03:39:11.704820"
+  },
+  "stripped_metadata": {}
+}

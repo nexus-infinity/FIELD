@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unreachable_test.go",
+  "original_name": "unreachable_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 451,
+  "content_hash": "1825e9cc8a84227e9ae478f220afc599b7dbc86174d8ae79934264eb0730085d",
+  "semantic_fingerprint": "unreachable_test",
+  "detected_at": "2025-11-13T05:18:47.225183",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unreachable_test_1825e9cc.go",
+  "original_metadata": {
+    "size": 451,
+    "modified": "2025-01-12T09:30:47.770499",
+    "created": "2025-11-11T03:39:11.695895"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_aix.go",
+  "original_name": "syscall_aix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6484,
+  "content_hash": "6b499e51af3354f326a46f62a9ea0cdbdbd26b768c44bce35e525838ece028f1",
+  "semantic_fingerprint": "syscall_aix",
+  "detected_at": "2025-11-13T05:18:46.549270",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_aix_6b499e51.go",
+  "original_metadata": {
+    "size": 6484,
+    "modified": "2025-01-12T09:30:45.647070",
+    "created": "2025-11-11T03:39:11.683741"
+  },
+  "stripped_metadata": {}
+}

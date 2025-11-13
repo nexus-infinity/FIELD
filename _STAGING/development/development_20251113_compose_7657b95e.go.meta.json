@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/compose.go",
+  "original_name": "compose.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3881,
+  "content_hash": "7657b95eac8448d5d2273c048d316dde3ac0e49ac058487a69b2b990ebc7f8ef",
+  "semantic_fingerprint": "compose",
+  "detected_at": "2025-11-13T05:18:45.895229",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_compose_7657b95e.go",
+  "original_metadata": {
+    "size": 3881,
+    "modified": "2025-01-12T09:30:49.542808",
+    "created": "2025-11-11T03:39:11.667759"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/regexp.go",
+  "original_name": "regexp.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 11852,
+  "content_hash": "bccc8fe5bf53c9e34aee2df851c05052f9b0d447310d151501dfbca7a8ee7fcb",
+  "semantic_fingerprint": "regexp",
+  "detected_at": "2025-11-13T05:18:47.343815",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_regexp_bccc8fe5.go",
+  "original_metadata": {
+    "size": 11852,
+    "modified": "2025-01-12T09:30:45.499918",
+    "created": "2025-11-11T03:39:11.697901"
+  },
+  "stripped_metadata": {}
+}

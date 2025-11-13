@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/gopls_windows.go",
+  "original_name": "gopls_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 540,
+  "content_hash": "dfd7186626a624758b989e8a9a4d918ec7b64dadf3109a6f6dab10b360abe3e4",
+  "semantic_fingerprint": "gopls_windows",
+  "detected_at": "2025-11-13T05:18:47.774142",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_gopls_windows_dfd71866.go",
+  "original_metadata": {
+    "size": 540,
+    "modified": "2025-01-12T09:30:47.898714",
+    "created": "2025-11-11T03:39:11.706114"
+  },
+  "stripped_metadata": {}
+}

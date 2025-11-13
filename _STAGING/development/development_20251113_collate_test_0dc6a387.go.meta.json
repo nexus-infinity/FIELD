@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/collate_test.go",
+  "original_name": "collate_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14181,
+  "content_hash": "0dc6a3871f5c551c53b6178426460db77fa6b0f6811fbdaa7798263fe6bc2cfc",
+  "semantic_fingerprint": "collate_test",
+  "detected_at": "2025-11-13T05:18:47.103363",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_collate_test_0dc6a387.go",
+  "original_metadata": {
+    "size": 14181,
+    "modified": "2025-01-12T09:30:49.410424",
+    "created": "2025-11-11T03:39:11.693524"
+  },
+  "stripped_metadata": {}
+}

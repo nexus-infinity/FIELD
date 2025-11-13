@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/godebug.go",
+  "original_name": "godebug.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9615,
+  "content_hash": "617c491be3f119672c81e7aeecd0b27b7262b00d364e8544ec7b0e46c1a30c14",
+  "semantic_fingerprint": "godebug",
+  "detected_at": "2025-11-13T05:18:46.121028",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_godebug_617c491b.go",
+  "original_metadata": {
+    "size": 9615,
+    "modified": "2025-01-12T09:30:45.241438",
+    "created": "2025-11-11T03:39:11.674717"
+  },
+  "stripped_metadata": {}
+}

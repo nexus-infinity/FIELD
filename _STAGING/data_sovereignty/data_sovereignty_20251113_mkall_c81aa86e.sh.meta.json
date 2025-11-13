@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mkall.sh",
+  "original_name": "mkall.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 8304,
+  "content_hash": "c81aa86e5c8f168f0281b9d0db94ed9e4f1a8e1b6ea1267f1c356d0e594d5537",
+  "semantic_fingerprint": "mkall",
+  "detected_at": "2025-11-13T05:18:46.516885",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_mkall_c81aa86e.sh",
+  "original_metadata": {
+    "size": 8304,
+    "modified": "2025-01-12T09:30:44.782406",
+    "created": "2025-11-11T03:39:11.682935"
+  },
+  "stripped_metadata": {}
+}

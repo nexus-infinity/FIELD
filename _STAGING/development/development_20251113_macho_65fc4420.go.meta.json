@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/macho.go",
+  "original_name": "macho.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 45567,
+  "content_hash": "65fc44208a7006e74060dcdf3fe21451031cbebf1bfb0639ea2c76df5a56d5fd",
+  "semantic_fingerprint": "macho",
+  "detected_at": "2025-11-13T05:18:46.197571",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_macho_65fc4420.go",
+  "original_metadata": {
+    "size": 45567,
+    "modified": "2025-01-12T09:30:44.726955",
+    "created": "2025-11-11T03:39:11.676529"
+  },
+  "stripped_metadata": {}
+}

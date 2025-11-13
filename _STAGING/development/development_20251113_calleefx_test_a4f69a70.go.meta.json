@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/calleefx_test.go",
+  "original_name": "calleefx_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4130,
+  "content_hash": "a4f69a706f6da819f4bc6372d42c37e99ad3dd66d002213f2ba3f9daec9889df",
+  "semantic_fingerprint": "calleefx_test",
+  "detected_at": "2025-11-13T05:18:47.475361",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_calleefx_test_a4f69a70.go",
+  "original_metadata": {
+    "size": 4130,
+    "modified": "2025-01-12T09:30:47.893644",
+    "created": "2025-11-11T03:39:11.700535"
+  },
+  "stripped_metadata": {}
+}

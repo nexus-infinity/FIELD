@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sigaction.go",
+  "original_name": "sigaction.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 877,
+  "content_hash": "7849b3167f2bdd2260ed48f34c6b56e0714fd29b5d92fd00f21489347deafd5e",
+  "semantic_fingerprint": "sigaction",
+  "detected_at": "2025-11-13T05:18:46.920406",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sigaction_7849b316.go",
+  "original_metadata": {
+    "size": 877,
+    "modified": "2025-01-12T09:30:45.517561",
+    "created": "2025-11-11T03:39:11.689533"
+  },
+  "stripped_metadata": {}
+}

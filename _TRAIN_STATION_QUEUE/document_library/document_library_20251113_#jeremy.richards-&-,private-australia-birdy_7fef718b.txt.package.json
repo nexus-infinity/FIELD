@@ -1,0 +1,21 @@
+{
+  "file_id": "document_library-7fef718b0eec",
+  "field_name": "document_library",
+  "content_hash": "7fef718b0eec3248827df3c34dec56f7f5603f6862b8097737ca61a7485f4b0b",
+  "semantic_fingerprint": "#jeremy.richards-&-,private-australia-birdy",
+  "file_path": "/Users/jbear/FIELD/_TRAIN_STATION_QUEUE/document_library/document_library_20251113_#jeremy.richards-&-,private-australia-birdy_7fef718b.txt",
+  "observer_score": 1.0,
+  "is_duplicate": false,
+  "linked_to_thread": null,
+  "geometric_anchor": "Metatron origin [0,0,0]",
+  "semantic_anchor": "document_library data",
+  "temporal_anchor": {
+    "past": "Collected from Akron",
+    "present": "Staged for refinement",
+    "future": "Irrefutable at Jnana"
+  },
+  "collected_at": "2025-11-13T05:20:21.804053",
+  "queued_at": "2025-11-13T05:20:21.804239",
+  "destination": "NixOS Willowie Chakra System",
+  "entry_chakra": "Muladhara (Root - 2/108Hz)"
+}

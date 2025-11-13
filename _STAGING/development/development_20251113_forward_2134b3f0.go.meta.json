@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/forward.go",
+  "original_name": "forward.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2509,
+  "content_hash": "2134b3f07f236440123b82fde4f5acb6e4c037936e8ee063fbbf6ff99b25f6a3",
+  "semantic_fingerprint": "forward",
+  "detected_at": "2025-11-13T05:18:47.090937",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_forward_2134b3f0.go",
+  "original_metadata": {
+    "size": 2509,
+    "modified": "2025-01-12T09:30:47.860614",
+    "created": "2025-11-11T03:39:11.693256"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pcg.go",
+  "original_name": "pcg.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2947,
+  "content_hash": "a97c0f0fdb6a2a6f93bf3f60b2ff15b7030113baa204b98537d34b0dd574d12c",
+  "semantic_fingerprint": "pcg",
+  "detected_at": "2025-11-13T05:18:46.449983",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pcg_a97c0f0f.go",
+  "original_metadata": {
+    "size": 2947,
+    "modified": "2025-01-12T09:30:45.409245",
+    "created": "2025-11-11T03:39:11.681897"
+  },
+  "stripped_metadata": {}
+}

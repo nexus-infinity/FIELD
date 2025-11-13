@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/malloc.go",
+  "original_name": "malloc.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 61013,
+  "content_hash": "0545e73c3e84cb266d223ae912679265982b4abe2bbc0e148f90a5a0db05f3b5",
+  "semantic_fingerprint": "malloc",
+  "detected_at": "2025-11-13T05:18:47.497040",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_malloc_0545e73c.go",
+  "original_metadata": {
+    "size": 61013,
+    "modified": "2025-01-12T09:30:45.538949",
+    "created": "2025-11-11T03:39:11.700904"
+  },
+  "stripped_metadata": {}
+}

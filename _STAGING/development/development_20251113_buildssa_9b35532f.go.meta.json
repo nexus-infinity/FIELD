@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/buildssa.go",
+  "original_name": "buildssa.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2787,
+  "content_hash": "9b35532f50a54339be637e4ffa6c8fcdf4f72e1ec5b733eea1b76192d1021d05",
+  "semantic_fingerprint": "buildssa",
+  "detected_at": "2025-11-13T05:18:47.013300",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_buildssa_9b35532f.go",
+  "original_metadata": {
+    "size": 2787,
+    "modified": "2025-01-12T09:30:47.737829",
+    "created": "2025-11-11T03:39:11.691573"
+  },
+  "stripped_metadata": {}
+}

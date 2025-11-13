@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/math.go",
+  "original_name": "math.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 205,
+  "content_hash": "9028b568526ad266d313545b9171a60f1be09bb21183f75643fffcee5be910f5",
+  "semantic_fingerprint": "math",
+  "detected_at": "2025-11-13T05:18:47.975620",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_math_9028b568.go",
+  "original_metadata": {
+    "size": 205,
+    "modified": "2025-01-12T09:30:35.517603",
+    "created": "2025-11-11T03:39:11.709964"
+  },
+  "stripped_metadata": {}
+}

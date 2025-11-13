@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/authtest.go",
+  "original_name": "authtest.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5326,
+  "content_hash": "eec01c037658e82862feb756f46264591c4f249530017d044693cf7282d702bd",
+  "semantic_fingerprint": "authtest",
+  "detected_at": "2025-11-13T05:18:47.608114",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_authtest_eec01c03.go",
+  "original_metadata": {
+    "size": 5326,
+    "modified": "2025-01-12T09:30:47.702883",
+    "created": "2025-11-11T03:39:11.702362"
+  },
+  "stripped_metadata": {}
+}

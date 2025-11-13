@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_dragonfly_amd64.go",
+  "original_name": "zerrors_dragonfly_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 61051,
+  "content_hash": "1f1e911d99fab62a1020c085fa0678659a6c28d63ddfd9bc217d88cf79d37a43",
+  "semantic_fingerprint": "zerrors_dragonfly_amd64",
+  "detected_at": "2025-11-13T05:18:47.932502",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_dragonfly_amd64_1f1e911d.go",
+  "original_metadata": {
+    "size": 61051,
+    "modified": "2025-01-12T09:30:45.723700",
+    "created": "2025-11-11T03:39:11.709280"
+  },
+  "stripped_metadata": {}
+}

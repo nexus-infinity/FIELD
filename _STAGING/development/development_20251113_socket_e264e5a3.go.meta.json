@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/socket.go",
+  "original_name": "socket.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13446,
+  "content_hash": "e264e5a34420b4ba5eea240a0cceebec3df545e4a35da7282eb31dd9ed077394",
+  "semantic_fingerprint": "socket",
+  "detected_at": "2025-11-13T05:18:47.784871",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_socket_e264e5a3.go",
+  "original_metadata": {
+    "size": 13446,
+    "modified": "2025-01-12T09:30:47.908357",
+    "created": "2025-11-11T03:39:11.706300"
+  },
+  "stripped_metadata": {}
+}

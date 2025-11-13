@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/CheckTestMainExit-1.go",
+  "original_name": "CheckTestMainExit-1.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 72,
+  "content_hash": "a99e309663b774fe82dda7145061cfb78939d259fa02531f98cda33c37b8b01e",
+  "semantic_fingerprint": "checktestmainexit-1",
+  "detected_at": "2025-11-13T05:18:45.972601",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checktestmainexit-1_a99e3096.go",
+  "original_metadata": {
+    "size": 72,
+    "modified": "2025-01-12T09:30:50.018196",
+    "created": "2025-11-11T03:39:11.668882"
+  },
+  "stripped_metadata": {}
+}

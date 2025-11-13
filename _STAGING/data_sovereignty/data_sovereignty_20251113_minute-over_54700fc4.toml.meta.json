@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/minute-over.toml",
+  "original_name": "minute-over.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 60,
+  "content_hash": "54700fc49df759d23efa573126c2e5b85080315072c61d93906cdd3d19d9f7b1",
+  "semantic_fingerprint": "minute-over",
+  "detected_at": "2025-11-13T05:18:46.869737",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_minute-over_54700fc4.toml",
+  "original_metadata": {
+    "size": 60,
+    "modified": "2025-01-12T09:30:51.624933",
+    "created": "2025-11-11T03:39:11.688276"
+  },
+  "stripped_metadata": {}
+}

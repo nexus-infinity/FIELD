@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/security.go",
+  "original_name": "security.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9322,
+  "content_hash": "90adf514f7af9b9c6a775cc3211e6608649533807908e401fe81b75afdb24f88",
+  "semantic_fingerprint": "security",
+  "detected_at": "2025-11-13T05:18:46.777906",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_security_90adf514.go",
+  "original_metadata": {
+    "size": 9322,
+    "modified": "2025-01-12T09:30:45.046572",
+    "created": "2025-11-11T03:39:11.686409"
+  },
+  "stripped_metadata": {}
+}

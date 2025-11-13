@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fakecontext.go",
+  "original_name": "fakecontext.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3405,
+  "content_hash": "ec6ee7f3a7ec862c2c6af6000c91664a0cea3ad371a70d279445a81b1802c79a",
+  "semantic_fingerprint": "fakecontext",
+  "detected_at": "2025-11-13T05:18:46.410403",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fakecontext_ec6ee7f3.go",
+  "original_metadata": {
+    "size": 3405,
+    "modified": "2025-01-12T09:30:47.796626",
+    "created": "2025-11-11T03:39:11.681096"
+  },
+  "stripped_metadata": {}
+}

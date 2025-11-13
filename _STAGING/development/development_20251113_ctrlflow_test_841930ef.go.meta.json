@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ctrlflow_test.go",
+  "original_name": "ctrlflow_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 908,
+  "content_hash": "841930efb7a913fc9f7183c24c46909d70566e9bd291c04f854808bf66471c67",
+  "semantic_fingerprint": "ctrlflow_test",
+  "detected_at": "2025-11-13T05:18:47.301215",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ctrlflow_test_841930ef.go",
+  "original_metadata": {
+    "size": 908,
+    "modified": "2025-01-12T09:30:47.743456",
+    "created": "2025-11-11T03:39:11.697279"
+  },
+  "stripped_metadata": {}
+}

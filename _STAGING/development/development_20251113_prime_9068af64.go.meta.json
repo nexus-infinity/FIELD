@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/prime.go",
+  "original_name": "prime.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1024,
+  "content_hash": "9068af64258a33bf3165bf353735bf83dcd11cba36207bee41a785e4de717ba4",
+  "semantic_fingerprint": "prime",
+  "detected_at": "2025-11-13T05:18:46.166435",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_prime_9068af64.go",
+  "original_metadata": {
+    "size": 1024,
+    "modified": "2025-01-12T09:30:35.389784",
+    "created": "2025-11-11T03:39:11.675901"
+  },
+  "stripped_metadata": {}
+}

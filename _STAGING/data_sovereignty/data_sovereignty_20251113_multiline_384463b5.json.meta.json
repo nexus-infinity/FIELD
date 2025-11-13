@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/multiline.json",
+  "original_name": "multiline.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 788,
+  "content_hash": "384463b5d906b91f3d5a39da4ae8306d5b457a1c814ec911ccf6d23f0713eddb",
+  "semantic_fingerprint": "multiline",
+  "detected_at": "2025-11-13T05:18:47.118715",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_multiline_384463b5.json",
+  "original_metadata": {
+    "size": 788,
+    "modified": "2025-01-12T09:30:51.664023",
+    "created": "2025-11-11T03:39:11.693831"
+  },
+  "stripped_metadata": {}
+}

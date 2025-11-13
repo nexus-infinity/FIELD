@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_solaris_amd64.go",
+  "original_name": "zerrors_solaris_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 51978,
+  "content_hash": "a090588c0ebaa305164fb6ca958080d3680b19f6175b1f30f470d41c667dbfa1",
+  "semantic_fingerprint": "zerrors_solaris_amd64",
+  "detected_at": "2025-11-13T05:18:46.357555",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_solaris_amd64_a090588c.go",
+  "original_metadata": {
+    "size": 51978,
+    "modified": "2025-01-12T09:30:45.735253",
+    "created": "2025-11-11T03:39:11.679705"
+  },
+  "stripped_metadata": {}
+}

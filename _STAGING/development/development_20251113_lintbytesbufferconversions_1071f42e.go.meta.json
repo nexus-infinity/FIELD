@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/LintBytesBufferConversions.go",
+  "original_name": "LintBytesBufferConversions.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 561,
+  "content_hash": "1071f42e1bf67fb85ca9a2c94e993155025fc5fdac2d4e8ea5416814d8e7c282",
+  "semantic_fingerprint": "lintbytesbufferconversions",
+  "detected_at": "2025-11-13T05:18:46.276245",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lintbytesbufferconversions_1071f42e.go",
+  "original_metadata": {
+    "size": 561,
+    "modified": "2025-01-12T09:30:49.991641",
+    "created": "2025-11-11T03:39:11.678160"
+  },
+  "stripped_metadata": {}
+}

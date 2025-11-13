@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/plan9obj.go",
+  "original_name": "plan9obj.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 863,
+  "content_hash": "25ea7130ee5f415504ddcc7c30285b0e5f9adcc673c91f6415a2b6acc520f107",
+  "semantic_fingerprint": "plan9obj",
+  "detected_at": "2025-11-13T05:18:46.586821",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_plan9obj_25ea7130.go",
+  "original_metadata": {
+    "size": 863,
+    "modified": "2025-01-12T09:30:45.078909",
+    "created": "2025-11-11T03:39:11.684552"
+  },
+  "stripped_metadata": {}
+}

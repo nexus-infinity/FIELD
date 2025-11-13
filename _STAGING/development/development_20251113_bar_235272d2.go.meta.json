@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bar.go",
+  "original_name": "bar.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 78,
+  "content_hash": "235272d2c4871de8a33e8c10da5f67338763ed732606b7300944aae8eaab3e82",
+  "semantic_fingerprint": "bar",
+  "detected_at": "2025-11-13T05:18:47.099898",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bar_235272d2.go",
+  "original_metadata": {
+    "size": 78,
+    "modified": "2025-01-12T09:30:47.711313",
+    "created": "2025-11-11T03:39:11.693444"
+  },
+  "stripped_metadata": {}
+}

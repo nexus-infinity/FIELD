@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/proxydir_test.go",
+  "original_name": "proxydir_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2921,
+  "content_hash": "2b58d93ef9c20707d273678719299789c38727fe196e90a13d78ee37a9ad1f61",
+  "semantic_fingerprint": "proxydir_test",
+  "detected_at": "2025-11-13T05:18:46.949016",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_proxydir_test_2b58d93e.go",
+  "original_metadata": {
+    "size": 2921,
+    "modified": "2025-01-12T09:30:47.891767",
+    "created": "2025-11-11T03:39:11.690131"
+  },
+  "stripped_metadata": {}
+}

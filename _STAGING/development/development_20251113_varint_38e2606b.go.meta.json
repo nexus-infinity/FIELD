@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/varint.go",
+  "original_name": "varint.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1493,
+  "content_hash": "38e2606b6d44edc7685e1bd7784c750d1ec3e38f9db336ed79e70de750b8ed2a",
+  "semantic_fingerprint": "varint",
+  "detected_at": "2025-11-13T05:18:47.788377",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_varint_38e2606b.go",
+  "original_metadata": {
+    "size": 1493,
+    "modified": "2025-01-12T09:30:49.524931",
+    "created": "2025-11-11T03:39:11.706342"
+  },
+  "stripped_metadata": {}
+}

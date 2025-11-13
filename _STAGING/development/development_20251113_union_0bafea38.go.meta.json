@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/union.go",
+  "original_name": "union.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6374,
+  "content_hash": "0bafea386192fc2d16d5e1d4af38d79f890e6d8030312920987a304354006767",
+  "semantic_fingerprint": "union",
+  "detected_at": "2025-11-13T05:18:47.592707",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_union_0bafea38.go",
+  "original_metadata": {
+    "size": 6374,
+    "modified": "2025-01-12T09:30:45.158367",
+    "created": "2025-11-11T03:39:11.702072"
+  },
+  "stripped_metadata": {}
+}

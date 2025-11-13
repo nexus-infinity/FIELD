@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ftoa.go",
+  "original_name": "ftoa.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13819,
+  "content_hash": "014527f7eaceb3e481d0cd5cf7ef154586ea45e6a82ad3b514d7a0b2c88f5097",
+  "semantic_fingerprint": "ftoa",
+  "detected_at": "2025-11-13T05:18:46.217741",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ftoa_014527f7.go",
+  "original_metadata": {
+    "size": 13819,
+    "modified": "2025-01-12T09:30:45.391675",
+    "created": "2025-11-11T03:39:11.676942"
+  },
+  "stripped_metadata": {}
+}

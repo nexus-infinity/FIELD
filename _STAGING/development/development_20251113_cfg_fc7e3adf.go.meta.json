@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cfg.go",
+  "original_name": "cfg.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1206,
+  "content_hash": "fc7e3adf4f5ff8fae16f1ed3f8aecf45d20553990b68a6f48b78b6436f76cf57",
+  "semantic_fingerprint": "cfg",
+  "detected_at": "2025-11-13T05:18:46.173690",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cfg_fc7e3adf.go",
+  "original_metadata": {
+    "size": 1206,
+    "modified": "2025-01-12T09:30:44.410582",
+    "created": "2025-11-11T03:39:11.676056"
+  },
+  "stripped_metadata": {}
+}

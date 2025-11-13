@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/wraprand.go",
+  "original_name": "wraprand.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2845,
+  "content_hash": "f17848e039192cc8b1eee5da0150f9ff87cb1c85784ffd2afdf3f1ae7dd5ff37",
+  "semantic_fingerprint": "wraprand",
+  "detected_at": "2025-11-13T05:18:47.129469",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_wraprand_f17848e0.go",
+  "original_metadata": {
+    "size": 2845,
+    "modified": "2025-01-12T09:30:47.721932",
+    "created": "2025-11-11T03:39:11.694115"
+  },
+  "stripped_metadata": {}
+}

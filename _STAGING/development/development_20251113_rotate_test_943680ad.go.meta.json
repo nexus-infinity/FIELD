@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rotate_test.go",
+  "original_name": "rotate_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6146,
+  "content_hash": "943680ad9bc430eefcd5be8c8e2d9b4cc9a04984119428fe1232179ac61b9ee0",
+  "semantic_fingerprint": "rotate_test",
+  "detected_at": "2025-11-13T05:18:46.866916",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rotate_test_943680ad.go",
+  "original_metadata": {
+    "size": 6146,
+    "modified": "2025-01-12T09:30:47.664934",
+    "created": "2025-11-11T03:39:11.688194"
+  },
+  "stripped_metadata": {}
+}

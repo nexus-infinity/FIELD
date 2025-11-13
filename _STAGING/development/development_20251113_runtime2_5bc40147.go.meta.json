@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/runtime2.go",
+  "original_name": "runtime2.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 465,
+  "content_hash": "5bc4014718a892af6591e26e6c87105a001b7d1d1f93c3ec4c289128c80f6ba4",
+  "semantic_fingerprint": "runtime2",
+  "detected_at": "2025-11-13T05:18:46.295377",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_runtime2_5bc40147.go",
+  "original_metadata": {
+    "size": 465,
+    "modified": "2025-01-12T09:30:45.682243",
+    "created": "2025-11-11T03:39:11.678433"
+  },
+  "stripped_metadata": {}
+}

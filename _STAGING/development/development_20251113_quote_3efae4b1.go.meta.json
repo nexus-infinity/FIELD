@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/quote.go",
+  "original_name": "quote.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 16926,
+  "content_hash": "3efae4b133372b015530c5e27662a31411323682f5ca4c7fedefb6a256561208",
+  "semantic_fingerprint": "quote",
+  "detected_at": "2025-11-13T05:18:46.923268",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_quote_3efae4b1.go",
+  "original_metadata": {
+    "size": 16926,
+    "modified": "2025-01-12T09:30:45.676076",
+    "created": "2025-11-11T03:39:11.689586"
+  },
+  "stripped_metadata": {}
+}

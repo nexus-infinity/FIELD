@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ggen.go",
+  "original_name": "ggen.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1836,
+  "content_hash": "1bb0f2e9df44a182faadf6f099847ffe59b30f49cd0fc4c3e06aac890caac2e6",
+  "semantic_fingerprint": "ggen",
+  "detected_at": "2025-11-13T05:18:47.162467",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ggen_1bb0f2e9.go",
+  "original_metadata": {
+    "size": 1836,
+    "modified": "2025-01-12T09:30:44.424717",
+    "created": "2025-11-11T03:39:11.694712"
+  },
+  "stripped_metadata": {}
+}

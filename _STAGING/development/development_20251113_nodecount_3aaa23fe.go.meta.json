@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/nodecount.go",
+  "original_name": "nodecount.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1654,
+  "content_hash": "3aaa23fe9c9bfb64d6549ef005f4b63933bb8e7ae9fe866c1c2497cf275ff9c9",
+  "semantic_fingerprint": "nodecount",
+  "detected_at": "2025-11-13T05:18:47.337972",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_nodecount_3aaa23fe.go",
+  "original_metadata": {
+    "size": 1654,
+    "modified": "2025-01-12T09:30:47.815301",
+    "created": "2025-11-11T03:39:11.697816"
+  },
+  "stripped_metadata": {}
+}

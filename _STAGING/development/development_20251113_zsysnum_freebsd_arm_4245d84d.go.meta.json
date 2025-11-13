@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsysnum_freebsd_arm.go",
+  "original_name": "zsysnum_freebsd_arm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 26070,
+  "content_hash": "4245d84d4e4fc96504b25679728bf4211dc6577b0344fe3a35e64656c2191d7d",
+  "semantic_fingerprint": "zsysnum_freebsd_arm",
+  "detected_at": "2025-11-13T05:18:47.298746",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsysnum_freebsd_arm_4245d84d.go",
+  "original_metadata": {
+    "size": 26070,
+    "modified": "2025-01-12T09:30:45.745707",
+    "created": "2025-11-11T03:39:11.697220"
+  },
+  "stripped_metadata": {}
+}

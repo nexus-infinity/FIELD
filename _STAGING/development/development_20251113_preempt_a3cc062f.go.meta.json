@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/preempt.go",
+  "original_name": "preempt.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1653,
+  "content_hash": "a3cc062fac5712a2b4b4b65df78cb7b21987b7e7330ea8e2cda8f93c1a3b1d5d",
+  "semantic_fingerprint": "preempt",
+  "detected_at": "2025-11-13T05:18:47.139065",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_preempt_a3cc062f.go",
+  "original_metadata": {
+    "size": 1653,
+    "modified": "2025-01-12T09:30:45.650521",
+    "created": "2025-11-11T03:39:11.694306"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/switch.go",
+  "original_name": "switch.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7164,
+  "content_hash": "4f219dc2251fecfccc155ca3b8ac66a0ed46c56d07ff50627a6d7d2df25f074d",
+  "semantic_fingerprint": "switch",
+  "detected_at": "2025-11-13T05:18:46.446751",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_switch_4f219dc2.go",
+  "original_metadata": {
+    "size": 7164,
+    "modified": "2025-01-12T09:30:44.558327",
+    "created": "2025-11-11T03:39:11.681822"
+  },
+  "stripped_metadata": {}
+}

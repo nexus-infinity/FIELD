@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/CheckTypedNilInterface.go",
+  "original_name": "CheckTypedNilInterface.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 135,
+  "content_hash": "519fc85adbab08afb951b400b5fc294025f3b39dcccc8dee575c2c3ec9fc8a1f",
+  "semantic_fingerprint": "checktypednilinterface",
+  "detected_at": "2025-11-13T05:18:47.037892",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checktypednilinterface_519fc85a.go",
+  "original_metadata": {
+    "size": 135,
+    "modified": "2025-01-12T09:30:50.031221",
+    "created": "2025-11-11T03:39:11.692046"
+  },
+  "stripped_metadata": {}
+}

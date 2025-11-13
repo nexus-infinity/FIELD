@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unicode.json",
+  "original_name": "unicode.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 684,
+  "content_hash": "bf8d0eafd8696c0d053bed12de01e57b23b32ae9f7af4d4d9efcef897448d722",
+  "semantic_fingerprint": "unicode",
+  "detected_at": "2025-11-13T05:18:46.951144",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_unicode_bf8d0eaf.json",
+  "original_metadata": {
+    "size": 684,
+    "modified": "2025-01-12T09:30:51.652147",
+    "created": "2025-11-11T03:39:11.690187"
+  },
+  "stripped_metadata": {}
+}

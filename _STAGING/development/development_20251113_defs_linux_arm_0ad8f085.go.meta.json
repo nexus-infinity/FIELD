@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_linux_arm.go",
+  "original_name": "defs_linux_arm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 476,
+  "content_hash": "0ad8f085ce1cc5d034837101717fbd5a2bd8bd327083f28b4ed1da3fbbd37c16",
+  "semantic_fingerprint": "defs_linux_arm",
+  "detected_at": "2025-11-13T05:18:47.165767",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_linux_arm_0ad8f085.go",
+  "original_metadata": {
+    "size": 476,
+    "modified": "2025-01-12T09:30:45.261445",
+    "created": "2025-11-11T03:39:11.694788"
+  },
+  "stripped_metadata": {}
+}

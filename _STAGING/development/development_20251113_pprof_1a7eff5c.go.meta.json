@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pprof.go",
+  "original_name": "pprof.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9770,
+  "content_hash": "1a7eff5c1226f3b3e4159b289653eccbfc750e7dabc63788fdf21d70cbf9b7e0",
+  "semantic_fingerprint": "pprof",
+  "detected_at": "2025-11-13T05:18:46.038653",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pprof_1a7eff5c.go",
+  "original_metadata": {
+    "size": 9770,
+    "modified": "2025-01-12T09:30:44.745859",
+    "created": "2025-11-11T03:39:11.672682"
+  },
+  "stripped_metadata": {}
+}

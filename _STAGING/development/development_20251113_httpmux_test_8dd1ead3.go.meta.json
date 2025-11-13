@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/httpmux_test.go",
+  "original_name": "httpmux_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 756,
+  "content_hash": "8dd1ead34d3322b6d3f5e7b78cfebe3a4b88ab6dd3a2c6112fc9491f45bf07e6",
+  "semantic_fingerprint": "httpmux_test",
+  "detected_at": "2025-11-13T05:18:45.969308",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_httpmux_test_8dd1ead3.go",
+  "original_metadata": {
+    "size": 756,
+    "modified": "2025-01-12T09:30:47.750175",
+    "created": "2025-11-11T03:39:11.668766"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_illumos.go",
+  "original_name": "syscall_illumos.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 613,
+  "content_hash": "4f67e3d8448244c4b0d4af4a21c1599716c4c32793712c3212e5df6883631a26",
+  "semantic_fingerprint": "syscall_illumos",
+  "detected_at": "2025-11-13T05:18:46.861269",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_illumos_4f67e3d8.go",
+  "original_metadata": {
+    "size": 613,
+    "modified": "2025-01-12T09:30:45.714643",
+    "created": "2025-11-11T03:39:11.688049"
+  },
+  "stripped_metadata": {}
+}

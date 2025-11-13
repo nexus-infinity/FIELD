@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/hour-over.toml",
+  "original_name": "hour-over.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 60,
+  "content_hash": "cd73160777ec10837aa0cca47febbbeb0d69d01fde2c6801fb5068effa6c4870",
+  "semantic_fingerprint": "hour-over",
+  "detected_at": "2025-11-13T05:18:47.384061",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_hour-over_cd731607.toml",
+  "original_metadata": {
+    "size": 60,
+    "modified": "2025-01-12T09:30:51.624524",
+    "created": "2025-11-11T03:39:11.698750"
+  },
+  "stripped_metadata": {}
+}

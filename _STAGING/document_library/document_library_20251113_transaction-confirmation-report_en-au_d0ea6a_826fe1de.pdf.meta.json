@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/DOJO/transaction-confirmation-report_en-au_d0ea6a.pdf",
+  "original_name": "transaction-confirmation-report_en-au_d0ea6a.pdf",
+  "file_type": ".pdf",
+  "mime_type": "application/pdf",
+  "size_bytes": 25982,
+  "content_hash": "826fe1de1492007444bddfff8db5512062e9431ddf9abbf3ddec02687de4f203",
+  "semantic_fingerprint": "transaction-confirmation-report_en-au_d0ea6a",
+  "detected_at": "2025-11-13T05:18:45.823795",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_transaction-confirmation-report_en-au_d0ea6a_826fe1de.pdf",
+  "original_metadata": {
+    "size": 25982,
+    "modified": "2025-08-17T22:49:39",
+    "created": "2025-11-11T03:39:11.508933"
+  },
+  "stripped_metadata": {}
+}

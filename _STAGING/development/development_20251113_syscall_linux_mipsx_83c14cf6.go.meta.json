@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_linux_mipsx.go",
+  "original_name": "syscall_linux_mipsx.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7014,
+  "content_hash": "83c14cf6a4f55638ec191f28e323433bff2185ac3cf9e871278555e28cab3b27",
+  "semantic_fingerprint": "syscall_linux_mipsx",
+  "detected_at": "2025-11-13T05:18:47.739563",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_linux_mipsx_83c14cf6.go",
+  "original_metadata": {
+    "size": 7014,
+    "modified": "2025-01-12T09:30:45.715837",
+    "created": "2025-11-11T03:39:11.705214"
+  },
+  "stripped_metadata": {}
+}

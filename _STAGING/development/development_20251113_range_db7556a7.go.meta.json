@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/range.go",
+  "original_name": "range.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 361,
+  "content_hash": "db7556a707e7864514a2a370af0dd3f3acf8a2150c94e5f1a2cf1fd565f94ac1",
+  "semantic_fingerprint": "range",
+  "detected_at": "2025-11-13T05:18:46.862625",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_range_db7556a7.go",
+  "original_metadata": {
+    "size": 361,
+    "modified": "2025-01-12T09:30:49.978124",
+    "created": "2025-11-11T03:39:11.688087"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/SUMMARY.txt",
+  "original_name": "SUMMARY.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 936,
+  "content_hash": "7abeae8e4b5d303757e73bbfaf9f4f19f0a9c602b3b732ec2fd5d17f3c5484de",
+  "semantic_fingerprint": "summary",
+  "detected_at": "2025-11-13T05:18:45.871319",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_summary_7abeae8e.txt",
+  "original_metadata": {
+    "size": 936,
+    "modified": "2025-08-04T22:07:16.288740",
+    "created": "2025-11-11T03:39:11.511222"
+  },
+  "stripped_metadata": {}
+}

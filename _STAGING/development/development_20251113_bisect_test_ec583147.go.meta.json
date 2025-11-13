@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bisect_test.go",
+  "original_name": "bisect_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 833,
+  "content_hash": "ec5831471bbfcbc0e7e877fc39b281b32b04133389fa676253df402bb505083d",
+  "semantic_fingerprint": "bisect_test",
+  "detected_at": "2025-11-13T05:18:46.159344",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bisect_test_ec583147.go",
+  "original_metadata": {
+    "size": 833,
+    "modified": "2025-01-12T09:30:47.863572",
+    "created": "2025-11-11T03:39:11.675742"
+  },
+  "stripped_metadata": {}
+}

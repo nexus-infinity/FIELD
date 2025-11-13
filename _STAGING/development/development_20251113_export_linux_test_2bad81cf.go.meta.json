@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/export_linux_test.go",
+  "original_name": "export_linux_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 527,
+  "content_hash": "2bad81cf9ba190a25b5234371b982c471c13ff44b65dc4185ed1f153fd41ceec",
+  "semantic_fingerprint": "export_linux_test",
+  "detected_at": "2025-11-13T05:18:47.432820",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_export_linux_test_2bad81cf.go",
+  "original_metadata": {
+    "size": 527,
+    "modified": "2025-01-12T09:30:45.249907",
+    "created": "2025-11-11T03:39:11.699912"
+  },
+  "stripped_metadata": {}
+}

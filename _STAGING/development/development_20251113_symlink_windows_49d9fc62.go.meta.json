@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/symlink_windows.go",
+  "original_name": "symlink_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1702,
+  "content_hash": "49d9fc62ff5b5057ec38a3d7e063db7f70efef320e1fe72f96c47755f3fe3b2a",
+  "semantic_fingerprint": "symlink_windows",
+  "detected_at": "2025-11-13T05:18:46.739929",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_symlink_windows_49d9fc62.go",
+  "original_metadata": {
+    "size": 1702,
+    "modified": "2025-01-12T09:30:45.273331",
+    "created": "2025-11-11T03:39:11.685429"
+  },
+  "stripped_metadata": {}
+}

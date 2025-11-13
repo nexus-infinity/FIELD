@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sync.go",
+  "original_name": "sync.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4669,
+  "content_hash": "e8300b6589f7ebccc755c07110b241d5e805240692df4bb92b6c6829c422127d",
+  "semantic_fingerprint": "sync",
+  "detected_at": "2025-11-13T05:18:46.338781",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sync_e8300b65.go",
+  "original_metadata": {
+    "size": 4669,
+    "modified": "2025-01-12T09:30:44.567002",
+    "created": "2025-11-11T03:39:11.679348"
+  },
+  "stripped_metadata": {}
+}

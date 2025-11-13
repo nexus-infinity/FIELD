@@ -1,0 +1,28 @@
+=== Certificate Cleanup Recommendations ===
+
+SAFE TO REMOVE:
+1. Certificates expired before 2024
+2. Duplicate GlobalSign certificates (keep only latest)
+3. Unused development certificates
+4. Certificates from unknown/suspicious CAs
+
+INVESTIGATE FURTHER:
+1. Multiple certificates from same CA with different dates
+2. Certificates added during system corruption period
+3. Unusual certificate authorities not commonly used
+
+KEEP:
+1. Current Apple certificates
+2. Valid certificates for services you use
+3. Current root CA certificates
+
+CLEANUP COMMANDS:
+# Remove expired certificates (run in Keychain Access)
+# 1. Sort by 'Expires' column
+# 2. Select all expired certificates
+# 3. Right-click -> Delete
+
+# Reset certificate cache:
+sudo rm -rf /var/db/crls/*
+sudo rm -rf /var/db/SystemPolicyConfiguration/KextPolicy
+

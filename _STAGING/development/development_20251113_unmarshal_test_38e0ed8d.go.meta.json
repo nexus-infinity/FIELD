@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unmarshal_test.go",
+  "original_name": "unmarshal_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 441,
+  "content_hash": "38e0ed8dd6b47233f9bb35ee029a6e6c917f2a1dcc75bf3bb09869e26823b82a",
+  "semantic_fingerprint": "unmarshal_test",
+  "detected_at": "2025-11-13T05:18:47.616771",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unmarshal_test_38e0ed8d.go",
+  "original_metadata": {
+    "size": 441,
+    "modified": "2025-01-12T09:30:47.769797",
+    "created": "2025-11-11T03:39:11.702543"
+  },
+  "stripped_metadata": {}
+}

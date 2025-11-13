@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lookup_windows.go",
+  "original_name": "lookup_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 12082,
+  "content_hash": "ee9b6f07ca743a0c05942ef7c2ee69906b334d4815cf1ded2dda33fb3bf01ee2",
+  "semantic_fingerprint": "lookup_windows",
+  "detected_at": "2025-11-13T05:18:46.465375",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lookup_windows_ee9b6f07.go",
+  "original_metadata": {
+    "size": 12082,
+    "modified": "2025-01-12T09:30:45.485840",
+    "created": "2025-11-11T03:39:11.682173"
+  },
+  "stripped_metadata": {}
+}

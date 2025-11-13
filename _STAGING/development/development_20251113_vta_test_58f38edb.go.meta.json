@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/vta_test.go",
+  "original_name": "vta_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6189,
+  "content_hash": "58f38edba2b5980da083a4f055424d78ecc3f7a39d8bc6e83463d29fba89a9c8",
+  "semantic_fingerprint": "vta_test",
+  "detected_at": "2025-11-13T05:18:47.140766",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_vta_test_58f38edb.go",
+  "original_metadata": {
+    "size": 6189,
+    "modified": "2025-01-12T09:30:47.805533",
+    "created": "2025-11-11T03:39:11.694345"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mod_cache_test.go",
+  "original_name": "mod_cache_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3013,
+  "content_hash": "b3fcdc8eba09a1ec4fc7c8d8156483229154f7f00ae1ff97d9fc1b4ca59dfd92",
+  "semantic_fingerprint": "mod_cache_test",
+  "detected_at": "2025-11-13T05:18:46.155998",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mod_cache_test_b3fcdc8e.go",
+  "original_metadata": {
+    "size": 3013,
+    "modified": "2025-01-12T09:30:47.881068",
+    "created": "2025-11-11T03:39:11.675677"
+  },
+  "stripped_metadata": {}
+}

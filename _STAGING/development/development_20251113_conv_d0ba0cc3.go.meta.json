@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/conv.go",
+  "original_name": "conv.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6834,
+  "content_hash": "d0ba0cc37c0b75b9038d40031fd5faea4a999233bf4ebda8dd9abb4cedb9313f",
+  "semantic_fingerprint": "conv",
+  "detected_at": "2025-11-13T05:18:47.876953",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_conv_d0ba0cc3.go",
+  "original_metadata": {
+    "size": 6834,
+    "modified": "2025-01-12T09:30:35.379764",
+    "created": "2025-11-11T03:39:11.708142"
+  },
+  "stripped_metadata": {}
+}

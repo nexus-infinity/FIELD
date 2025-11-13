@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mksyscall.go",
+  "original_name": "mksyscall.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 379,
+  "content_hash": "fc26572f0112b4e45300bdb1eabdd323227fc5ba6b33f7e82af850c16494f579",
+  "semantic_fingerprint": "mksyscall",
+  "detected_at": "2025-11-13T05:18:47.646607",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mksyscall_fc26572f.go",
+  "original_metadata": {
+    "size": 379,
+    "modified": "2025-01-12T09:30:45.272123",
+    "created": "2025-11-11T03:39:11.703241"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/tokeninternal_test.go",
+  "original_name": "tokeninternal_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1419,
+  "content_hash": "640ee6fede47d3bd4a1a07b1087683842545f39ffc5cf05d92359688a0550c65",
+  "semantic_fingerprint": "tokeninternal_test",
+  "detected_at": "2025-11-13T05:18:47.434655",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_tokeninternal_test_640ee6fe.go",
+  "original_metadata": {
+    "size": 1419,
+    "modified": "2025-01-12T09:30:47.903893",
+    "created": "2025-11-11T03:39:11.699946"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/apidiff_test.go",
+  "original_name": "apidiff_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4232,
+  "content_hash": "00cf1b6f2d2769863402582245662abd46e014093c20cb0988df3bd83cb038f4",
+  "semantic_fingerprint": "apidiff_test",
+  "detected_at": "2025-11-13T05:18:47.453962",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_apidiff_test_00cf1b6f.go",
+  "original_metadata": {
+    "size": 4232,
+    "modified": "2025-01-12T09:30:47.862340",
+    "created": "2025-11-11T03:39:11.700208"
+  },
+  "stripped_metadata": {}
+}

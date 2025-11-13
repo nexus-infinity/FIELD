@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/punycode_test.go",
+  "original_name": "punycode_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5999,
+  "content_hash": "fce04b5b9b1722c35c06047aa76b2dacc85c11ee5a9330bc4117db7cd0be5578",
+  "semantic_fingerprint": "punycode_test",
+  "detected_at": "2025-11-13T05:18:46.752570",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_punycode_test_fce04b5b.go",
+  "original_metadata": {
+    "size": 5999,
+    "modified": "2025-01-12T09:30:49.532166",
+    "created": "2025-11-11T03:39:11.685768"
+  },
+  "stripped_metadata": {}
+}

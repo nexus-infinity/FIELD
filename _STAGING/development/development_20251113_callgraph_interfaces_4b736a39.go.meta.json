@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_interfaces.go",
+  "original_name": "callgraph_interfaces.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 809,
+  "content_hash": "4b736a397d2745bf47f91ff4fa73f6246599c092cdf36a65cdb858a521cbd8cf",
+  "semantic_fingerprint": "callgraph_interfaces",
+  "detected_at": "2025-11-13T05:18:46.845180",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_interfaces_4b736a39.go",
+  "original_metadata": {
+    "size": 809,
+    "modified": "2025-01-12T09:30:47.802564",
+    "created": "2025-11-11T03:39:11.687732"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/prometheus.go",
+  "original_name": "prometheus.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3681,
+  "content_hash": "1cecaf1924ce8db7389f6c95d5e6c615b30378c52b894705abc6f9d3e9da1ec6",
+  "semantic_fingerprint": "prometheus",
+  "detected_at": "2025-11-13T05:18:47.202977",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_prometheus_1cecaf19.go",
+  "original_metadata": {
+    "size": 3681,
+    "modified": "2025-01-12T09:30:47.870651",
+    "created": "2025-11-11T03:39:11.695465"
+  },
+  "stripped_metadata": {}
+}

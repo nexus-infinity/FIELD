@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/suspicious_certs.txt",
+  "original_name": "suspicious_certs.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 1883,
+  "content_hash": "d7efc22df4e53a3cba2b63be9fa48c58d54b779d52b0a8250d226e18d52e3258",
+  "semantic_fingerprint": "suspicious_certs",
+  "detected_at": "2025-11-13T05:18:45.872947",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_suspicious_certs_d7efc22d.txt",
+  "original_metadata": {
+    "size": 1883,
+    "modified": "2025-08-04T22:07:16.188054",
+    "created": "2025-11-11T03:39:11.511260"
+  },
+  "stripped_metadata": {}
+}

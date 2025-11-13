@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pseudo.go",
+  "original_name": "pseudo.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8630,
+  "content_hash": "55f36593e394a3595a52f636028442f6be9ed010a6a7e0403dac980b545a374d",
+  "semantic_fingerprint": "pseudo",
+  "detected_at": "2025-11-13T05:18:46.771669",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pseudo_55f36593.go",
+  "original_metadata": {
+    "size": 8630,
+    "modified": "2025-01-12T09:30:47.637761",
+    "created": "2025-11-11T03:39:11.686208"
+  },
+  "stripped_metadata": {}
+}

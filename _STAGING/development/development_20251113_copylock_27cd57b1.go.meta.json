@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/copylock.go",
+  "original_name": "copylock.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10107,
+  "content_hash": "27cd57b1b2a9ab313473618e895d585bd16d7551c9e09f6561b4e1b1ba8e4a47",
+  "semantic_fingerprint": "copylock",
+  "detected_at": "2025-11-13T05:18:46.403284",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_copylock_27cd57b1.go",
+  "original_metadata": {
+    "size": 10107,
+    "modified": "2025-01-12T09:30:44.899207",
+    "created": "2025-11-11T03:39:11.680808"
+  },
+  "stripped_metadata": {}
+}

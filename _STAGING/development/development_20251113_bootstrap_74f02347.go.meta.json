@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bootstrap.go",
+  "original_name": "bootstrap.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 691,
+  "content_hash": "74f02347ab562d8f7f22a240ed49ea31b799eadc806ea5d501ad18b842babf45",
+  "semantic_fingerprint": "bootstrap",
+  "detected_at": "2025-11-13T05:18:46.345256",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bootstrap_74f02347.go",
+  "original_metadata": {
+    "size": 691,
+    "modified": "2025-01-12T09:30:44.561670",
+    "created": "2025-11-11T03:39:11.679540"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_linux_riscv64.go",
+  "original_name": "syscall_linux_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5892,
+  "content_hash": "046da88c85bc7e2bc9c278a829265ca3ca095afc6cbcd2247c11015402fd1218",
+  "semantic_fingerprint": "syscall_linux_riscv64",
+  "detected_at": "2025-11-13T05:18:47.984194",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_linux_riscv64_046da88c.go",
+  "original_metadata": {
+    "size": 5892,
+    "modified": "2025-01-12T09:30:45.716024",
+    "created": "2025-11-11T03:39:11.710104"
+  },
+  "stripped_metadata": {}
+}

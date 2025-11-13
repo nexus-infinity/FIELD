@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/test_random.py",
+  "original_name": "test_random.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 70150,
+  "content_hash": "8b8e035c21c406d2ad3b3c1205f00387f9014a330f81a0896077457eceac7c24",
+  "semantic_fingerprint": "test_random",
+  "detected_at": "2025-11-13T05:18:47.951763",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_test_random_8b8e035c.py",
+  "original_metadata": {
+    "size": 70150,
+    "modified": "2025-06-13T00:41:11.281070",
+    "created": "2025-11-11T03:39:11.709594"
+  },
+  "stripped_metadata": {}
+}

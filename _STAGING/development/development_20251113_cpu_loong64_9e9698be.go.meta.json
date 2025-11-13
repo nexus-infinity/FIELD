@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu_loong64.go",
+  "original_name": "cpu_loong64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 242,
+  "content_hash": "9e9698be08b0bd12c6f33f9e470c8214b0c597d339e211f4432292a8fcaad76a",
+  "semantic_fingerprint": "cpu_loong64",
+  "detected_at": "2025-11-13T05:18:46.523678",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_loong64_9e9698be.go",
+  "original_metadata": {
+    "size": 242,
+    "modified": "2025-01-12T09:30:45.808619",
+    "created": "2025-11-11T03:39:11.683018"
+  },
+  "stripped_metadata": {}
+}

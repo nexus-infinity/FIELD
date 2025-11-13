@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/wire_test.go",
+  "original_name": "wire_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2895,
+  "content_hash": "80a6943ebc4570247edc516f46cdf1b2f37200e834e2898575ca319d5acab2cc",
+  "semantic_fingerprint": "wire_test",
+  "detected_at": "2025-11-13T05:18:45.993205",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_wire_test_80a6943e.go",
+  "original_metadata": {
+    "size": 2895,
+    "modified": "2025-01-12T09:30:35.564640",
+    "created": "2025-11-11T03:39:11.669336"
+  },
+  "stripped_metadata": {}
+}

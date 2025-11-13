@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/jsonhandler.go",
+  "original_name": "jsonhandler.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1181,
+  "content_hash": "87026133f92a55f0399008df2483038e988332a146929a82675738298568e725",
+  "semantic_fingerprint": "jsonhandler",
+  "detected_at": "2025-11-13T05:18:47.250023",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_jsonhandler_87026133.go",
+  "original_metadata": {
+    "size": 1181,
+    "modified": "2025-01-12T09:30:49.142455",
+    "created": "2025-11-11T03:39:11.696283"
+  },
+  "stripped_metadata": {}
+}

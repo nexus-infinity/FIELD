@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/Priority_Merge_Actions.txt",
+  "original_name": "Priority_Merge_Actions.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 335,
+  "content_hash": "e313e888c661079f16e8a806be78cbf63994a84e7ba05862d23ca850bae0ad1e",
+  "semantic_fingerprint": "priority_merge_actions",
+  "detected_at": "2025-11-13T05:18:45.861071",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_priority_merge_actions_e313e888.txt",
+  "original_metadata": {
+    "size": 335,
+    "modified": "2025-08-19T02:21:31.609986",
+    "created": "2025-11-11T03:39:11.511039"
+  },
+  "stripped_metadata": {}
+}

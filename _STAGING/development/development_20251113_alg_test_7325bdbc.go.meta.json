@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/alg_test.go",
+  "original_name": "alg_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1102,
+  "content_hash": "7325bdbc5a64364e877bbf1c5a314877e7a255d4ba2d7f26b720604245573046",
+  "semantic_fingerprint": "alg_test",
+  "detected_at": "2025-11-13T05:18:47.795692",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_alg_test_7325bdbc.go",
+  "original_metadata": {
+    "size": 1102,
+    "modified": "2025-01-12T09:30:45.232666",
+    "created": "2025-11-11T03:39:11.706516"
+  },
+  "stripped_metadata": {}
+}

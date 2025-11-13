@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/recv.go",
+  "original_name": "recv.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 413,
+  "content_hash": "2249d8ea30d3c6f0aefccd82b422ebc9eaa4bc806df16fb88cc654707ed341c5",
+  "semantic_fingerprint": "recv",
+  "detected_at": "2025-11-13T05:18:47.171728",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_recv_2249d8ea.go",
+  "original_metadata": {
+    "size": 413,
+    "modified": "2025-01-12T09:30:35.481956",
+    "created": "2025-11-11T03:39:11.694904"
+  },
+  "stripped_metadata": {}
+}

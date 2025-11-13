@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_openbsd_amd64.go",
+  "original_name": "ztypes_openbsd_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7053,
+  "content_hash": "c6f3857697cfaf750fd51fcaa4a0a316cf37c186e47ddc9396b577b716d7fa31",
+  "semantic_fingerprint": "ztypes_openbsd_amd64",
+  "detected_at": "2025-11-13T05:18:47.680473",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_openbsd_amd64_c6f38576.go",
+  "original_metadata": {
+    "size": 7053,
+    "modified": "2025-01-12T09:30:45.755353",
+    "created": "2025-11-11T03:39:11.703931"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_aix_ppc64.go",
+  "original_name": "syscall_aix_ppc64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 405,
+  "content_hash": "ad85be83ec0cd56a29df40bbacf7fd5a03f5cbb066ef0f8e253fe1bf89bc2a6b",
+  "semantic_fingerprint": "syscall_aix_ppc64",
+  "detected_at": "2025-11-13T05:18:46.959187",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_aix_ppc64_ad85be83.go",
+  "original_metadata": {
+    "size": 405,
+    "modified": "2025-01-12T09:30:45.713154",
+    "created": "2025-11-11T03:39:11.690388"
+  },
+  "stripped_metadata": {}
+}

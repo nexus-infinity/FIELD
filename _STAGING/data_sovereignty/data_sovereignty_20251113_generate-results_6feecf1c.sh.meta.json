@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/generate-results.sh",
+  "original_name": "generate-results.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 745,
+  "content_hash": "6feecf1c82bbcb06d2d75387e141fc6a8e7e2dd4f91f6f416ffee36ebf735cb3",
+  "semantic_fingerprint": "generate-results",
+  "detected_at": "2025-11-13T05:18:46.109371",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_generate-results_6feecf1c.sh",
+  "original_metadata": {
+    "size": 745,
+    "modified": "2025-02-02T16:32:20.600373",
+    "created": "2025-11-11T03:39:11.674373"
+  },
+  "stripped_metadata": {}
+}

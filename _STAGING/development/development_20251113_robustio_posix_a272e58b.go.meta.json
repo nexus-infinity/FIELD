@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/robustio_posix.go",
+  "original_name": "robustio_posix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 581,
+  "content_hash": "a272e58b630c9230933d14a6883547d13dc9837e3fb217db3dea44bdb4575acc",
+  "semantic_fingerprint": "robustio_posix",
+  "detected_at": "2025-11-13T05:18:46.567181",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_robustio_posix_a272e58b.go",
+  "original_metadata": {
+    "size": 581,
+    "modified": "2025-01-12T09:30:47.899169",
+    "created": "2025-11-11T03:39:11.684216"
+  },
+  "stripped_metadata": {}
+}

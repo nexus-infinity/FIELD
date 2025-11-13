@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bug.go",
+  "original_name": "bug.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3785,
+  "content_hash": "5cb59c44cfbef5ab6fe820106d536c1595b462e5196a5e80eabcb19536b56d03",
+  "semantic_fingerprint": "bug",
+  "detected_at": "2025-11-13T05:18:46.169329",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bug_5cb59c44.go",
+  "original_metadata": {
+    "size": 3785,
+    "modified": "2025-01-12T09:30:35.273108",
+    "created": "2025-11-11T03:39:11.675970"
+  },
+  "stripped_metadata": {}
+}

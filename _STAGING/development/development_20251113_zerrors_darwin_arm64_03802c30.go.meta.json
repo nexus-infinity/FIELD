@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_darwin_arm64.go",
+  "original_name": "zerrors_darwin_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 57125,
+  "content_hash": "03802c3031beb1aca5919747d3779f51a33902077659e949d10a3ffe9feabf2b",
+  "semantic_fingerprint": "zerrors_darwin_arm64",
+  "detected_at": "2025-11-13T05:18:46.348492",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_darwin_arm64_03802c30.go",
+  "original_metadata": {
+    "size": 57125,
+    "modified": "2025-01-12T09:30:45.723290",
+    "created": "2025-11-11T03:39:11.679583"
+  },
+  "stripped_metadata": {}
+}

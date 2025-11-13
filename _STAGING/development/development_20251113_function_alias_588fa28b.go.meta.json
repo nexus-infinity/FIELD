@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/function_alias.go",
+  "original_name": "function_alias.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2314,
+  "content_hash": "588fa28be2941211a393387bb4d149bedcba71da325cade63b7bcb4b353085cb",
+  "semantic_fingerprint": "function_alias",
+  "detected_at": "2025-11-13T05:18:46.372963",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_function_alias_588fa28b.go",
+  "original_metadata": {
+    "size": 2314,
+    "modified": "2025-01-12T09:30:47.803652",
+    "created": "2025-11-11T03:39:11.680017"
+  },
+  "stripped_metadata": {}
+}

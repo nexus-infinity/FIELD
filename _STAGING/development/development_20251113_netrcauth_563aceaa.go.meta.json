@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/netrcauth.go",
+  "original_name": "netrcauth.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3129,
+  "content_hash": "563aceaa7f52126db08ad8d870fe5f56599358cb5d9100564f20a1e9a2ddf25e",
+  "semantic_fingerprint": "netrcauth",
+  "detected_at": "2025-11-13T05:18:46.450683",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_netrcauth_563aceaa.go",
+  "original_metadata": {
+    "size": 3129,
+    "modified": "2025-01-12T09:30:47.703409",
+    "created": "2025-11-11T03:39:11.681916"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sendfile_linux.go",
+  "original_name": "sendfile_linux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1520,
+  "content_hash": "e625f160538fae9c52441032d5893043478a39bbd78c8ef789228f7137bd33b4",
+  "semantic_fingerprint": "sendfile_linux",
+  "detected_at": "2025-11-13T05:18:46.194567",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sendfile_linux_e625f160.go",
+  "original_metadata": {
+    "size": 1520,
+    "modified": "2025-01-12T09:30:45.253139",
+    "created": "2025-11-11T03:39:11.676491"
+  },
+  "stripped_metadata": {}
+}

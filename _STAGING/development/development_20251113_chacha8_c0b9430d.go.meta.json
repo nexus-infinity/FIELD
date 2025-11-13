@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/chacha8.go",
+  "original_name": "chacha8.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2847,
+  "content_hash": "c0b9430d5eb1a446bbc8e2d1ce0388060039e47ef4e30b91062efe9beff72664",
+  "semantic_fingerprint": "chacha8",
+  "detected_at": "2025-11-13T05:18:46.525038",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_chacha8_c0b9430d.go",
+  "original_metadata": {
+    "size": 2847,
+    "modified": "2025-01-12T09:30:45.408403",
+    "created": "2025-11-11T03:39:11.683059"
+  },
+  "stripped_metadata": {}
+}

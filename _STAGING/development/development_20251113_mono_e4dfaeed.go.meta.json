@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mono.go",
+  "original_name": "mono.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9415,
+  "content_hash": "e4dfaeed9fb5e31d8e2881d574885d579ef03f4dc6bd64b5cff5d7e0005f4d04",
+  "semantic_fingerprint": "mono",
+  "detected_at": "2025-11-13T05:18:46.233699",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mono_e4dfaeed.go",
+  "original_metadata": {
+    "size": 9415,
+    "modified": "2025-01-12T09:30:45.152537",
+    "created": "2025-11-11T03:39:11.677242"
+  },
+  "stripped_metadata": {}
+}

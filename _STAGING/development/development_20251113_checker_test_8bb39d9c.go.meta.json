@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/checker_test.go",
+  "original_name": "checker_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10351,
+  "content_hash": "8bb39d9cda203fce2e6335e4d055840d4448f242f7c8777da2a65b4c4de7fb12",
+  "semantic_fingerprint": "checker_test",
+  "detected_at": "2025-11-13T05:18:46.161745",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checker_test_8bb39d9c.go",
+  "original_metadata": {
+    "size": 10351,
+    "modified": "2025-01-12T09:30:47.731571",
+    "created": "2025-11-11T03:39:11.675789"
+  },
+  "stripped_metadata": {}
+}

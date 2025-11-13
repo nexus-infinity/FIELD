@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bool.toml",
+  "original_name": "bool.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 26,
+  "content_hash": "04b037d68eda7e159f304a1c3a10979ce7983b3a3dcfd9aedd9d89f6587b1f04",
+  "semantic_fingerprint": "bool",
+  "detected_at": "2025-11-13T05:18:47.383372",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_bool_04b037d6.toml",
+  "original_metadata": {
+    "size": 26,
+    "modified": "2025-01-12T09:30:51.645893",
+    "created": "2025-11-11T03:39:11.698732"
+  },
+  "stripped_metadata": {}
+}

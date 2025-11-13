@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/heap.go",
+  "original_name": "heap.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3390,
+  "content_hash": "5a04882f60417c2535138f37daeaeb254a77487d0abd0bc1958290d50b8043ec",
+  "semantic_fingerprint": "heap",
+  "detected_at": "2025-11-13T05:18:46.127867",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_heap_5a04882f.go",
+  "original_metadata": {
+    "size": 3390,
+    "modified": "2025-01-12T09:30:44.936536",
+    "created": "2025-11-11T03:39:11.674954"
+  },
+  "stripped_metadata": {}
+}

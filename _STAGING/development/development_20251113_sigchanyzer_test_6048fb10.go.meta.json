@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sigchanyzer_test.go",
+  "original_name": "sigchanyzer_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 451,
+  "content_hash": "6048fb10a70f4cf05636305ba748f85672e7394b6ca8543c96ab3545630a1bf5",
+  "semantic_fingerprint": "sigchanyzer_test",
+  "detected_at": "2025-11-13T05:18:47.607361",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sigchanyzer_test_6048fb10.go",
+  "original_metadata": {
+    "size": 451,
+    "modified": "2025-01-12T09:30:47.761288",
+    "created": "2025-11-11T03:39:11.702341"
+  },
+  "stripped_metadata": {}
+}

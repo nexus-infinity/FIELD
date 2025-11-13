@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/deepequalerrors_test.go",
+  "original_name": "deepequalerrors_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 459,
+  "content_hash": "dc1f8460139c3d5d0e919d92a2df8c853b5b2fac493a2943dfb1966d7f5e6672",
+  "semantic_fingerprint": "deepequalerrors_test",
+  "detected_at": "2025-11-13T05:18:47.652427",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_deepequalerrors_test_dc1f8460.go",
+  "original_metadata": {
+    "size": 459,
+    "modified": "2025-01-12T09:30:47.744152",
+    "created": "2025-11-11T03:39:11.703383"
+  },
+  "stripped_metadata": {}
+}

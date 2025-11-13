@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pow.go",
+  "original_name": "pow.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2332,
+  "content_hash": "a64cf1d1955098bfec0b2da0cf0122ca5777e33c9f623fcc03f49d950e90e3ca",
+  "semantic_fingerprint": "pow",
+  "detected_at": "2025-11-13T05:18:46.146650",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pow_a64cf1d1.go",
+  "original_metadata": {
+    "size": 2332,
+    "modified": "2025-01-12T09:30:45.398539",
+    "created": "2025-11-11T03:39:11.675433"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/equal_test.go",
+  "original_name": "equal_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1313,
+  "content_hash": "e0e22d7217074a8d1e880c51d1fcc4c6af5799764b1c6db71023d6cb4fe37088",
+  "semantic_fingerprint": "equal_test",
+  "detected_at": "2025-11-13T05:18:47.924135",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_equal_test_e0e22d72.go",
+  "original_metadata": {
+    "size": 1313,
+    "modified": "2025-01-12T09:30:44.990596",
+    "created": "2025-11-11T03:39:11.709138"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zipf.go",
+  "original_name": "zipf.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1845,
+  "content_hash": "ee4616e17c8b1d7ff33229b075f2e73c369307be02258f173393508cb2db0357",
+  "semantic_fingerprint": "zipf",
+  "detected_at": "2025-11-13T05:18:47.806788",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zipf_ee4616e1.go",
+  "original_metadata": {
+    "size": 1845,
+    "modified": "2025-01-12T09:30:45.409847",
+    "created": "2025-11-11T03:39:11.706715"
+  },
+  "stripped_metadata": {}
+}

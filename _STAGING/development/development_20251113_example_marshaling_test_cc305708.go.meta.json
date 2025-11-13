@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/example_marshaling_test.go",
+  "original_name": "example_marshaling_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1255,
+  "content_hash": "cc30570852ed5b2c49e249281eb5bccaec01c1a4a63e3cd0223cf8e99603c616",
+  "semantic_fingerprint": "example_marshaling_test",
+  "detected_at": "2025-11-13T05:18:47.484020",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_example_marshaling_test_cc305708.go",
+  "original_metadata": {
+    "size": 1255,
+    "modified": "2025-01-12T09:30:45.091121",
+    "created": "2025-11-11T03:39:11.700692"
+  },
+  "stripped_metadata": {}
+}

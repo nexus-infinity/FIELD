@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/Theme.json",
+  "original_name": "Theme.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 1745,
+  "content_hash": "b8da509a33483bf9b06592a995cae4dea8d25fe2c2bc29e1c6913fc276689636",
+  "semantic_fingerprint": "theme",
+  "detected_at": "2025-11-13T05:18:46.193115",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_theme_b8da509a.json",
+  "original_metadata": {
+    "size": 1745,
+    "modified": "2025-02-02T16:32:20.600281",
+    "created": "2025-11-11T03:39:11.676446"
+  },
+  "stripped_metadata": {}
+}

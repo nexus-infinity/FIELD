@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/strconv.go",
+  "original_name": "strconv.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 124,
+  "content_hash": "ead48c22aa0de68ae362b21b8ece60c89e687655dd9609ee79dfc8c782522648",
+  "semantic_fingerprint": "strconv",
+  "detected_at": "2025-11-13T05:18:47.651688",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_strconv_ead48c22.go",
+  "original_metadata": {
+    "size": 124,
+    "modified": "2025-01-12T09:30:35.518296",
+    "created": "2025-11-11T03:39:11.703363"
+  },
+  "stripped_metadata": {}
+}

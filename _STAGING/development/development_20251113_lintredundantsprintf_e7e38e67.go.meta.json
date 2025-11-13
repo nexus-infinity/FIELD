@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/LintRedundantSprintf.go",
+  "original_name": "LintRedundantSprintf.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 114,
+  "content_hash": "e7e38e67e7e8f7942e05a0b1a1b8c579b37ffc27613268c1d6118f67ba2760a3",
+  "semantic_fingerprint": "lintredundantsprintf",
+  "detected_at": "2025-11-13T05:18:47.139956",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lintredundantsprintf_e7e38e67.go",
+  "original_metadata": {
+    "size": 114,
+    "modified": "2025-01-12T09:30:49.988720",
+    "created": "2025-11-11T03:39:11.694327"
+  },
+  "stripped_metadata": {}
+}

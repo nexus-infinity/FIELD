@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/closure_test.go",
+  "original_name": "closure_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 937,
+  "content_hash": "3b5c3f56d9c98ad5b2969820772cd217834fe1a41bdb55be17aba67bd8f4dd67",
+  "semantic_fingerprint": "closure_test",
+  "detected_at": "2025-11-13T05:18:47.431365",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_closure_test_3b5c3f56.go",
+  "original_metadata": {
+    "size": 937,
+    "modified": "2025-01-12T09:30:45.519195",
+    "created": "2025-11-11T03:39:11.699876"
+  },
+  "stripped_metadata": {}
+}

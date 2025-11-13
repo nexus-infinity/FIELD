@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/snippet.go",
+  "original_name": "snippet.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3285,
+  "content_hash": "15fbb8a38b6597cb30167fcd6a590d2e9d3a8dd7fc0377e1780c30feab47dac2",
+  "semantic_fingerprint": "snippet",
+  "detected_at": "2025-11-13T05:18:46.463563",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_snippet_15fbb8a3.go",
+  "original_metadata": {
+    "size": 3285,
+    "modified": "2025-01-12T09:30:35.525145",
+    "created": "2025-11-11T03:39:11.682135"
+  },
+  "stripped_metadata": {}
+}

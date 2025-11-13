@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ecdsa.go",
+  "original_name": "ecdsa.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4854,
+  "content_hash": "454ff1929ea9ad08d5f75ca914363b84b212d5fd8c9e49a5fcab9bd531be8c42",
+  "semantic_fingerprint": "ecdsa",
+  "detected_at": "2025-11-13T05:18:47.164111",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ecdsa_454ff192.go",
+  "original_metadata": {
+    "size": 4854,
+    "modified": "2025-01-12T09:30:44.951296",
+    "created": "2025-11-11T03:39:11.694752"
+  },
+  "stripped_metadata": {}
+}

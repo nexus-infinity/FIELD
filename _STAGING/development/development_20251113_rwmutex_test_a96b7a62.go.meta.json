@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rwmutex_test.go",
+  "original_name": "rwmutex_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2131,
+  "content_hash": "a96b7a6220c10307ea7a714b8395815c240e8beec17116b810b74d0aa65dd0f3",
+  "semantic_fingerprint": "rwmutex_test",
+  "detected_at": "2025-11-13T05:18:47.168762",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rwmutex_test_a96b7a62.go",
+  "original_metadata": {
+    "size": 2131,
+    "modified": "2025-01-12T09:30:45.620101",
+    "created": "2025-11-11T03:39:11.694854"
+  },
+  "stripped_metadata": {}
+}

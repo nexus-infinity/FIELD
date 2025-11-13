@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/repro.go",
+  "original_name": "repro.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13349,
+  "content_hash": "2194f08f5319b283d57082b64b91a044573124f4d68da2050b16b14bdb0d6db0",
+  "semantic_fingerprint": "repro",
+  "detected_at": "2025-11-13T05:18:46.961162",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_repro_2194f08f.go",
+  "original_metadata": {
+    "size": 13349,
+    "modified": "2025-01-12T09:30:45.224650",
+    "created": "2025-11-11T03:39:11.690430"
+  },
+  "stripped_metadata": {}
+}

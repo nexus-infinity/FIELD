@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sha256block_decl.go",
+  "original_name": "sha256block_decl.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 291,
+  "content_hash": "a736a14c9916aa06b0a45734e483cf302e1390a81a41caa6a9b1f2dfbcd4f5bc",
+  "semantic_fingerprint": "sha256block_decl",
+  "detected_at": "2025-11-13T05:18:45.990012",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sha256block_decl_a736a14c.go",
+  "original_metadata": {
+    "size": 291,
+    "modified": "2025-01-12T09:30:45.015350",
+    "created": "2025-11-11T03:39:11.669253"
+  },
+  "stripped_metadata": {}
+}

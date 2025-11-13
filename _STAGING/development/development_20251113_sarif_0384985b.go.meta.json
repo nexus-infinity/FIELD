@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sarif.go",
+  "original_name": "sarif.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10370,
+  "content_hash": "0384985b67c9783f4d37566164c14432f0db7bfc3e9f30317c4b8a8aa01810ad",
+  "semantic_fingerprint": "sarif",
+  "detected_at": "2025-11-13T05:18:46.435157",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sarif_0384985b.go",
+  "original_metadata": {
+    "size": 10370,
+    "modified": "2025-01-12T09:30:49.949797",
+    "created": "2025-11-11T03:39:11.681589"
+  },
+  "stripped_metadata": {}
+}

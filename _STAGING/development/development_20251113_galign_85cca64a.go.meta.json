@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/galign.go",
+  "original_name": "galign.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 592,
+  "content_hash": "85cca64a33f4fa591a346d1f278a1133d81939a7aca9e7f7ce7c4a0933f38cd9",
+  "semantic_fingerprint": "galign",
+  "detected_at": "2025-11-13T05:18:46.733127",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_galign_85cca64a.go",
+  "original_metadata": {
+    "size": 592,
+    "modified": "2025-01-12T09:30:44.424637",
+    "created": "2025-11-11T03:39:11.685260"
+  },
+  "stripped_metadata": {}
+}

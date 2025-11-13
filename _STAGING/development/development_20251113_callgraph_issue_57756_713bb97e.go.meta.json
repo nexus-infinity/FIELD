@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_issue_57756.go",
+  "original_name": "callgraph_issue_57756.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1073,
+  "content_hash": "713bb97ee0cb005f0f026ead0e2c4f37c9bd7458c03475f0043a2ce77c559911",
+  "semantic_fingerprint": "callgraph_issue_57756",
+  "detected_at": "2025-11-13T05:18:46.561317",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_issue_57756_713bb97e.go",
+  "original_metadata": {
+    "size": 1073,
+    "modified": "2025-01-12T09:30:47.802638",
+    "created": "2025-11-11T03:39:11.684031"
+  },
+  "stripped_metadata": {}
+}

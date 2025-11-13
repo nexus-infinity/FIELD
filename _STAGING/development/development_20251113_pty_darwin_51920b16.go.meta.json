@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pty_darwin.go",
+  "original_name": "pty_darwin.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1612,
+  "content_hash": "51920b16a870dd6fe60be1e2a1db99295dfc04892dc0f3d2fae4af65f14d887a",
+  "semantic_fingerprint": "pty_darwin",
+  "detected_at": "2025-11-13T05:18:47.817242",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pty_darwin_51920b16.go",
+  "original_metadata": {
+    "size": 1612,
+    "modified": "2025-01-12T09:30:45.269907",
+    "created": "2025-11-11T03:39:11.706925"
+  },
+  "stripped_metadata": {}
+}

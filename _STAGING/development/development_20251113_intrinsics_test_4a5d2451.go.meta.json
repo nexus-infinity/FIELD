@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/intrinsics_test.go",
+  "original_name": "intrinsics_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 984,
+  "content_hash": "4a5d2451db337851b8bd3e8e1aadcd6c97f23a8bd86a0572088fbdd510f80f7b",
+  "semantic_fingerprint": "intrinsics_test",
+  "detected_at": "2025-11-13T05:18:46.257121",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_intrinsics_test_4a5d2451.go",
+  "original_metadata": {
+    "size": 984,
+    "modified": "2025-01-12T09:30:45.536006",
+    "created": "2025-11-11T03:39:11.677731"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/endtoend_test.go",
+  "original_name": "endtoend_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9939,
+  "content_hash": "90b2657b0e31b11ea1f288efbb05f442a337e0ce440b965556fc1789d7b06896",
+  "semantic_fingerprint": "endtoend_test",
+  "detected_at": "2025-11-13T05:18:47.625233",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_endtoend_test_90b2657b.go",
+  "original_metadata": {
+    "size": 9939,
+    "modified": "2025-01-12T09:30:35.388245",
+    "created": "2025-11-11T03:39:11.702739"
+  },
+  "stripped_metadata": {}
+}

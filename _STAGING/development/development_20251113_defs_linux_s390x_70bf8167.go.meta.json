@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_linux_s390x.go",
+  "original_name": "defs_linux_s390x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 489,
+  "content_hash": "70bf8167bba3c0b40479942ccc17e2651564c35c93bd28974eb6352d82d02298",
+  "semantic_fingerprint": "defs_linux_s390x",
+  "detected_at": "2025-11-13T05:18:47.532326",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_linux_s390x_70bf8167.go",
+  "original_metadata": {
+    "size": 489,
+    "modified": "2025-01-12T09:30:45.261986",
+    "created": "2025-11-11T03:39:11.701526"
+  },
+  "stripped_metadata": {}
+}

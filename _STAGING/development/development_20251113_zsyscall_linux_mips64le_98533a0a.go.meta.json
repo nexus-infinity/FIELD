@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_linux_mips64le.go",
+  "original_name": "zsyscall_linux_mips64le.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 41317,
+  "content_hash": "98533a0ac052a21d350e56f11edd1d3273c185212b2332fa2897ad22c821ac48",
+  "semantic_fingerprint": "zsyscall_linux_mips64le",
+  "detected_at": "2025-11-13T05:18:47.913939",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_linux_mips64le_98533a0a.go",
+  "original_metadata": {
+    "size": 41317,
+    "modified": "2025-01-12T09:30:45.739387",
+    "created": "2025-11-11T03:39:11.708993"
+  },
+  "stripped_metadata": {}
+}

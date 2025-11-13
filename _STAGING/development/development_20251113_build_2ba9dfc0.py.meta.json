@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/build.py",
+  "original_name": "build.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 5617,
+  "content_hash": "2ba9dfc0fd53605eb6011c897f992eae1a5ce9a17239ff07706cab6dd7233d7f",
+  "semantic_fingerprint": "build",
+  "detected_at": "2025-11-13T05:18:45.953003",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_build_2ba9dfc0.py",
+  "original_metadata": {
+    "size": 5617,
+    "modified": "2025-06-13T00:41:17.288970",
+    "created": "2025-11-11T03:39:11.668480"
+  },
+  "stripped_metadata": {}
+}

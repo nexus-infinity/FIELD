@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/const_test.go",
+  "original_name": "const_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3084,
+  "content_hash": "2b7d545317dedb2e9320da94e730fea1ce9b4791d880ceb1b1a2c03d8a1d4e1e",
+  "semantic_fingerprint": "const_test",
+  "detected_at": "2025-11-13T05:18:47.972557",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_const_test_2b7d5453.go",
+  "original_metadata": {
+    "size": 3084,
+    "modified": "2025-01-12T09:30:35.505222",
+    "created": "2025-11-11T03:39:11.709899"
+  },
+  "stripped_metadata": {}
+}

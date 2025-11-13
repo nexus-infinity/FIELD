@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerovalue.go",
+  "original_name": "zerovalue.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8007,
+  "content_hash": "52bedc5d78be8489a795e81d55f3139ac0f2d9966f3239fd37f26f647a8ffadc",
+  "semantic_fingerprint": "zerovalue",
+  "detected_at": "2025-11-13T05:18:46.600397",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerovalue_52bedc5d.go",
+  "original_metadata": {
+    "size": 8007,
+    "modified": "2025-01-12T09:30:47.906950",
+    "created": "2025-11-11T03:39:11.684857"
+  },
+  "stripped_metadata": {}
+}

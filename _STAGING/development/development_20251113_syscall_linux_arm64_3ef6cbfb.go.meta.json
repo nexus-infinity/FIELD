@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_linux_arm64.go",
+  "original_name": "syscall_linux_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6356,
+  "content_hash": "3ef6cbfb644a07767559432f7c5697847d643739fad9f202fd75b412752f0199",
+  "semantic_fingerprint": "syscall_linux_arm64",
+  "detected_at": "2025-11-13T05:18:47.006140",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_linux_arm64_3ef6cbfb.go",
+  "original_metadata": {
+    "size": 6356,
+    "modified": "2025-01-12T09:30:45.715552",
+    "created": "2025-11-11T03:39:11.691391"
+  },
+  "stripped_metadata": {}
+}

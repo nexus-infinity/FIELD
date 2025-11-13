@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/spot.go",
+  "original_name": "spot.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1933,
+  "content_hash": "67f50d91de4b823695438168c9c7dc4dec65283fc74b9daefae133a5cd04ef1f",
+  "semantic_fingerprint": "spot",
+  "detected_at": "2025-11-13T05:18:47.844268",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_spot_67f50d91.go",
+  "original_metadata": {
+    "size": 1933,
+    "modified": "2025-01-12T09:30:47.842927",
+    "created": "2025-11-11T03:39:11.707536"
+  },
+  "stripped_metadata": {}
+}

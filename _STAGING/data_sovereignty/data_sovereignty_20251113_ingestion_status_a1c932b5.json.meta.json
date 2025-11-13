@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/logs/ingestion_status.json",
+  "original_name": "ingestion_status.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 557,
+  "content_hash": "a1c932b5a371aec4cf98dcd680cf1dec17ce43cc52439fb7257344e56eb3098f",
+  "semantic_fingerprint": "ingestion_status",
+  "detected_at": "2025-11-13T05:18:45.876741",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_ingestion_status_a1c932b5.json",
+  "original_metadata": {
+    "size": 557,
+    "modified": "2025-06-30T21:48:47.929467",
+    "created": "2025-11-11T03:39:11.511703"
+  },
+  "stripped_metadata": {}
+}

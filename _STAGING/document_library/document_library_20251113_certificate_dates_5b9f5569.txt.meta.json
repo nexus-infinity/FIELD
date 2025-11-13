@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/certificate_dates.txt",
+  "original_name": "certificate_dates.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 10120,
+  "content_hash": "5b9f55696d5c691d7d5c1b775729c92ece6b1e7f4faa02133e08bde9e5b12475",
+  "semantic_fingerprint": "certificate_dates",
+  "detected_at": "2025-11-13T05:18:45.867087",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_certificate_dates_5b9f5569.txt",
+  "original_metadata": {
+    "size": 10120,
+    "modified": "2025-08-04T22:07:16.220184",
+    "created": "2025-11-11T03:39:11.511147"
+  },
+  "stripped_metadata": {}
+}

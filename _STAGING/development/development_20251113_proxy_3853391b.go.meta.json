@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/proxy.go",
+  "original_name": "proxy.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10209,
+  "content_hash": "3853391bbc12df387c5ce5c9b02e06fc46e6f00135718763097e9f8710eeee70",
+  "semantic_fingerprint": "proxy",
+  "detected_at": "2025-11-13T05:18:46.889640",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_proxy_3853391b.go",
+  "original_metadata": {
+    "size": 10209,
+    "modified": "2025-01-12T09:30:45.789330",
+    "created": "2025-11-11T03:39:11.688794"
+  },
+  "stripped_metadata": {}
+}

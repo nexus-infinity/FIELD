@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stat_windows.go",
+  "original_name": "stat_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5364,
+  "content_hash": "2bc5c18ae5f337c7b4e8188f95e2371455b3751bc7c40115e03059fd8d89f952",
+  "semantic_fingerprint": "stat_windows",
+  "detected_at": "2025-11-13T05:18:47.674565",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stat_windows_2bc5c18a.go",
+  "original_metadata": {
+    "size": 5364,
+    "modified": "2025-01-12T09:30:45.481736",
+    "created": "2025-11-11T03:39:11.703824"
+  },
+  "stripped_metadata": {}
+}

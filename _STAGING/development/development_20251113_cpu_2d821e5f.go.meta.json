@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu.go",
+  "original_name": "cpu.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13390,
+  "content_hash": "2d821e5f496dcb6ee0455e0f07e32614f853ac90e9f33a3d90503a22120da4a5",
+  "semantic_fingerprint": "cpu",
+  "detected_at": "2025-11-13T05:18:46.779754",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_2d821e5f.go",
+  "original_metadata": {
+    "size": 13390,
+    "modified": "2025-01-12T09:30:44.700700",
+    "created": "2025-11-11T03:39:11.686455"
+  },
+  "stripped_metadata": {}
+}

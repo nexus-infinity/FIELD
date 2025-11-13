@@ -1,0 +1,5 @@
+=== Certificate Validity Check ===
+
+Expired certificates (safe to remove):
+Note: Detailed expiry checking requires parsing individual certificates
+Manually check certificates with dates before 2024

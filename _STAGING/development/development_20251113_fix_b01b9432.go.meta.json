@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fix.go",
+  "original_name": "fix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14908,
+  "content_hash": "b01b9432b1ec118a16b2152f8e03694be6065f011f5e9fa650914b4c4bd500ba",
+  "semantic_fingerprint": "fix",
+  "detected_at": "2025-11-13T05:18:47.204147",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fix_b01b9432.go",
+  "original_metadata": {
+    "size": 14908,
+    "modified": "2025-01-12T09:30:44.521508",
+    "created": "2025-11-11T03:39:11.695481"
+  },
+  "stripped_metadata": {}
+}

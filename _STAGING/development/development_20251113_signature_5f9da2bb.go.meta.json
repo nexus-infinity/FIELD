@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/signature.go",
+  "original_name": "signature.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13326,
+  "content_hash": "5f9da2bb7137760a447024cb50f55711dea8cbdc42002d5cbde009325e08b4f8",
+  "semantic_fingerprint": "signature",
+  "detected_at": "2025-11-13T05:18:47.765280",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_signature_5f9da2bb.go",
+  "original_metadata": {
+    "size": 13326,
+    "modified": "2025-01-12T09:30:45.154778",
+    "created": "2025-11-11T03:39:11.705905"
+  },
+  "stripped_metadata": {}
+}

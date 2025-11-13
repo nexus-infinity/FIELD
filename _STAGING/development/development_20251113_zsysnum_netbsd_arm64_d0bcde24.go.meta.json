@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsysnum_netbsd_arm64.go",
+  "original_name": "zsysnum_netbsd_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 26309,
+  "content_hash": "d0bcde249182f617b0d8f850081cae012b576324695be45d5b421472c3c8d5ea",
+  "semantic_fingerprint": "zsysnum_netbsd_arm64",
+  "detected_at": "2025-11-13T05:18:47.762068",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsysnum_netbsd_arm64_d0bcde24.go",
+  "original_metadata": {
+    "size": 26309,
+    "modified": "2025-01-12T09:30:45.748941",
+    "created": "2025-11-11T03:39:11.705813"
+  },
+  "stripped_metadata": {}
+}

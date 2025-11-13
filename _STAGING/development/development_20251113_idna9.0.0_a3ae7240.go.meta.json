@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/idna9.0.0.go",
+  "original_name": "idna9.0.0.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 19909,
+  "content_hash": "a3ae724047b545fe06eb3c14beea736f5292c4f92c249ae1c222c33d2a90a31f",
+  "semantic_fingerprint": "idna9.0.0",
+  "detected_at": "2025-11-13T05:18:46.170661",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_idna9.0.0_a3ae7240.go",
+  "original_metadata": {
+    "size": 19909,
+    "modified": "2025-01-12T09:30:49.531664",
+    "created": "2025-11-11T03:39:11.675991"
+  },
+  "stripped_metadata": {}
+}

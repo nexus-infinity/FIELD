@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_openbsd_riscv64.go",
+  "original_name": "ztypes_openbsd_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6853,
+  "content_hash": "4c158316ad45dd4fac61e57570eb07cb8496bc2f9c48767b90c895344f8332dc",
+  "semantic_fingerprint": "ztypes_openbsd_riscv64",
+  "detected_at": "2025-11-13T05:18:46.886801",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_openbsd_riscv64_4c158316.go",
+  "original_metadata": {
+    "size": 6853,
+    "modified": "2025-01-12T09:30:45.755989",
+    "created": "2025-11-11T03:39:11.688728"
+  },
+  "stripped_metadata": {}
+}

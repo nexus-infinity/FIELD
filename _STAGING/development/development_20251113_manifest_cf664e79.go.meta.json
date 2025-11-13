@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/manifest.go",
+  "original_name": "manifest.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 558328,
+  "content_hash": "cf664e79c71f846bec2c3dd8b757af4662591bce31bcc16dfc25d37f282343cf",
+  "semantic_fingerprint": "manifest",
+  "detected_at": "2025-11-13T05:18:45.921461",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_manifest_cf664e79.go",
+  "original_metadata": {
+    "size": 558328,
+    "modified": "2025-01-12T09:30:35.579798",
+    "created": "2025-11-11T03:39:11.667999"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/time.go",
+  "original_name": "time.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 51953,
+  "content_hash": "7f8da41273219f2f44137fe09f27c9e19b729b1c2ce3af2d8e0e89b186b31965",
+  "semantic_fingerprint": "time",
+  "detected_at": "2025-11-13T05:18:46.317502",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_time_7f8da412.go",
+  "original_metadata": {
+    "size": 51953,
+    "modified": "2025-01-12T09:30:45.772461",
+    "created": "2025-11-11T03:39:11.678882"
+  },
+  "stripped_metadata": {}
+}

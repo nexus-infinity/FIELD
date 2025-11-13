@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pgo.go",
+  "original_name": "pgo.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 25145,
+  "content_hash": "c2ded9fae848a87d0482636c7e7618a3f33dbf8d613b2ed86c4566ce58834cf1",
+  "semantic_fingerprint": "pgo",
+  "detected_at": "2025-11-13T05:18:47.781370",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pgo_c2ded9fa.go",
+  "original_metadata": {
+    "size": 25145,
+    "modified": "2025-01-12T09:30:44.400856",
+    "created": "2025-11-11T03:39:11.706234"
+  },
+  "stripped_metadata": {}
+}

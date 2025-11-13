@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/route_openbsd.go",
+  "original_name": "route_openbsd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1751,
+  "content_hash": "248add15391e4e007b29e4e94776346b9879d279c8aa6e9ee1d3ceb8feeb6491",
+  "semantic_fingerprint": "route_openbsd",
+  "detected_at": "2025-11-13T05:18:47.615261",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_route_openbsd_248add15.go",
+  "original_metadata": {
+    "size": 1751,
+    "modified": "2025-01-12T09:30:45.804724",
+    "created": "2025-11-11T03:39:11.702508"
+  },
+  "stripped_metadata": {}
+}

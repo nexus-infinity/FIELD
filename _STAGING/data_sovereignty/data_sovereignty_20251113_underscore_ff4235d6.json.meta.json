@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/underscore.json",
+  "original_name": "underscore.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 120,
+  "content_hash": "ff4235d6c9e00c6755ca7a899a62894428c3f0c5eafad63c34723bf45dba699f",
+  "semantic_fingerprint": "underscore",
+  "detected_at": "2025-11-13T05:18:47.877576",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_underscore_ff4235d6.json",
+  "original_metadata": {
+    "size": 120,
+    "modified": "2025-01-12T09:30:51.648691",
+    "created": "2025-11-11T03:39:11.708160"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_recursive_types.go",
+  "original_name": "callgraph_recursive_types.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 775,
+  "content_hash": "27b6455d071c011361fe7b3a3cb7da0bcc3c1fbec07239baa2ecef0b3b225278",
+  "semantic_fingerprint": "callgraph_recursive_types",
+  "detected_at": "2025-11-13T05:18:46.379184",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_recursive_types_27b6455d.go",
+  "original_metadata": {
+    "size": 775,
+    "modified": "2025-01-12T09:30:47.802984",
+    "created": "2025-11-11T03:39:11.680172"
+  },
+  "stripped_metadata": {}
+}

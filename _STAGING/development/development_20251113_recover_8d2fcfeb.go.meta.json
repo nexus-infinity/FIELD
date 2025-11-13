@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/recover.go",
+  "original_name": "recover.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 506,
+  "content_hash": "8d2fcfeb214dbe36844ae98bf3c5b8d42e5f89810a85ddc80de900751350c823",
+  "semantic_fingerprint": "recover",
+  "detected_at": "2025-11-13T05:18:47.603525",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_recover_8d2fcfeb.go",
+  "original_metadata": {
+    "size": 506,
+    "modified": "2025-01-12T09:30:47.827843",
+    "created": "2025-11-11T03:39:11.702232"
+  },
+  "stripped_metadata": {}
+}

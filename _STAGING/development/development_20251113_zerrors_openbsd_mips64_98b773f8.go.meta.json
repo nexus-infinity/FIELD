@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_openbsd_mips64.go",
+  "original_name": "zerrors_openbsd_mips64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 68260,
+  "content_hash": "98b773f8836d4d28ca1b70aadc10eef0a51e40310a7f4b641b4b1534a9b653e4",
+  "semantic_fingerprint": "zerrors_openbsd_mips64",
+  "detected_at": "2025-11-13T05:18:47.849820",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_openbsd_mips64_98b773f8.go",
+  "original_metadata": {
+    "size": 68260,
+    "modified": "2025-01-12T09:30:45.734305",
+    "created": "2025-11-11T03:39:11.707589"
+  },
+  "stripped_metadata": {}
+}

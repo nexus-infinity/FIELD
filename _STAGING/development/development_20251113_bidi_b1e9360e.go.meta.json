@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bidi.go",
+  "original_name": "bidi.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10565,
+  "content_hash": "b1e9360e9a026006f56914a5716b18780346418bb0b64bce23a4ff92d8147b13",
+  "semantic_fingerprint": "bidi",
+  "detected_at": "2025-11-13T05:18:47.703589",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bidi_b1e9360e.go",
+  "original_metadata": {
+    "size": 10565,
+    "modified": "2025-01-12T09:30:49.605422",
+    "created": "2025-11-11T03:39:11.704362"
+  },
+  "stripped_metadata": {}
+}

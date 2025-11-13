@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_darwin_amd64.go",
+  "original_name": "zsyscall_darwin_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 52957,
+  "content_hash": "59dc2afc3d0b6c07308d8ead727455523b626ac4885f5a850c7f5fe601241319",
+  "semantic_fingerprint": "zsyscall_darwin_amd64",
+  "detected_at": "2025-11-13T05:18:47.472751",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_darwin_amd64_59dc2afc.go",
+  "original_metadata": {
+    "size": 52957,
+    "modified": "2025-01-12T09:30:45.735848",
+    "created": "2025-11-11T03:39:11.700485"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fold_test.go",
+  "original_name": "fold_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1349,
+  "content_hash": "dce2811886c94bd36bfdd463a861b9ecaffbbfe7b0911a735f91b9f70295194e",
+  "semantic_fingerprint": "fold_test",
+  "detected_at": "2025-11-13T05:18:46.976686",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fold_test_dce28118.go",
+  "original_metadata": {
+    "size": 1349,
+    "modified": "2025-01-12T09:30:49.397479",
+    "created": "2025-11-11T03:39:11.690766"
+  },
+  "stripped_metadata": {}
+}

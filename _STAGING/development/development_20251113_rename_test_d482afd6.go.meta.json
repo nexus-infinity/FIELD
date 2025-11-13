@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rename_test.go",
+  "original_name": "rename_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1540,
+  "content_hash": "d482afd640ee90d758dc4a35299dadc731e46fd04d1e623e003a3b824e7e141d",
+  "semantic_fingerprint": "rename_test",
+  "detected_at": "2025-11-13T05:18:47.521427",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rename_test_d482afd6.go",
+  "original_metadata": {
+    "size": 1540,
+    "modified": "2025-01-12T09:30:35.233915",
+    "created": "2025-11-11T03:39:11.701322"
+  },
+  "stripped_metadata": {}
+}

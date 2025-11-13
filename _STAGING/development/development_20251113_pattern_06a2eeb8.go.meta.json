@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pattern.go",
+  "original_name": "pattern.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 15661,
+  "content_hash": "06a2eeb823da8ae41109df118644cbddde8a48f1b2a4692fbe26b4aa6e767c29",
+  "semantic_fingerprint": "pattern",
+  "detected_at": "2025-11-13T05:18:46.529953",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pattern_06a2eeb8.go",
+  "original_metadata": {
+    "size": 15661,
+    "modified": "2025-01-12T09:30:45.433261",
+    "created": "2025-11-11T03:39:11.683175"
+  },
+  "stripped_metadata": {}
+}

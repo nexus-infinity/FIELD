@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/embedding.py",
+  "original_name": "embedding.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 1413,
+  "content_hash": "9e6bc6620e29153c6d9e66b275f0b99b56426b976a2939c377f86ec6bd9e5352",
+  "semantic_fingerprint": "embedding",
+  "detected_at": "2025-11-13T05:18:46.375116",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_embedding_9e6bc662.py",
+  "original_metadata": {
+    "size": 1413,
+    "modified": "2025-04-10T00:07:58",
+    "created": "2025-11-11T03:39:11.680079"
+  },
+  "stripped_metadata": {}
+}

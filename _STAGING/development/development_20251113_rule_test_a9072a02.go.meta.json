@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rule_test.go",
+  "original_name": "rule_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 31615,
+  "content_hash": "a9072a02d2bcfad60617c7d21ced1455e6a4c8d5ba7a3b491c71ddfe3f062c64",
+  "semantic_fingerprint": "rule_test",
+  "detected_at": "2025-11-13T05:18:47.417114",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rule_test_a9072a02.go",
+  "original_metadata": {
+    "size": 31615,
+    "modified": "2025-01-12T09:31:07.394433",
+    "created": "2025-11-11T03:39:11.699576"
+  },
+  "stripped_metadata": {}
+}

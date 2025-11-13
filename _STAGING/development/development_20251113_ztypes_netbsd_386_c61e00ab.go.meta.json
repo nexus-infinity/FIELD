@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_netbsd_386.go",
+  "original_name": "ztypes_netbsd_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6132,
+  "content_hash": "c61e00ab93a0464013dac85f31f3c5c59b6354ac3ebd3216b34eee9de727eaa8",
+  "semantic_fingerprint": "ztypes_netbsd_386",
+  "detected_at": "2025-11-13T05:18:47.893462",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_netbsd_386_c61e00ab.go",
+  "original_metadata": {
+    "size": 6132,
+    "modified": "2025-01-12T09:30:45.754505",
+    "created": "2025-11-11T03:39:11.708492"
+  },
+  "stripped_metadata": {}
+}

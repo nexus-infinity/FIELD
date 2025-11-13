@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_freebsd_arm.go",
+  "original_name": "zerrors_freebsd_arm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 68961,
+  "content_hash": "8ed84ba99a91512e443cb7548b047be73a67105404f6f86e9fd2896127a0edf2",
+  "semantic_fingerprint": "zerrors_freebsd_arm",
+  "detected_at": "2025-11-13T05:18:46.303957",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_freebsd_arm_8ed84ba9.go",
+  "original_metadata": {
+    "size": 68961,
+    "modified": "2025-01-12T09:30:45.725059",
+    "created": "2025-11-11T03:39:11.678599"
+  },
+  "stripped_metadata": {}
+}

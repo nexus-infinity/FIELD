@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/CheckByteSlicePrinting.go",
+  "original_name": "CheckByteSlicePrinting.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 384,
+  "content_hash": "a1003a60e59c99bcc0d5582b0d921537a9ef8a23971345dbf59bef108585bc97",
+  "semantic_fingerprint": "checkbytesliceprinting",
+  "detected_at": "2025-11-13T05:18:46.297489",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checkbytesliceprinting_a1003a60.go",
+  "original_metadata": {
+    "size": 384,
+    "modified": "2025-01-12T09:30:49.971258",
+    "created": "2025-11-11T03:39:11.678490"
+  },
+  "stripped_metadata": {}
+}

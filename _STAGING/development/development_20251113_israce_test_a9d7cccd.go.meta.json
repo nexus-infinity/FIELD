@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/israce_test.go",
+  "original_name": "israce_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 248,
+  "content_hash": "a9d7cccdc608dfc36521db0cc71f6e9f871c0347052bba27db52dce3451522d7",
+  "semantic_fingerprint": "israce_test",
+  "detected_at": "2025-11-13T05:18:47.032853",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_israce_test_a9d7cccd.go",
+  "original_metadata": {
+    "size": 248,
+    "modified": "2025-01-12T09:30:47.875436",
+    "created": "2025-11-11T03:39:11.691872"
+  },
+  "stripped_metadata": {}
+}

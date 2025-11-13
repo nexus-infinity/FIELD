@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/decode_test.go",
+  "original_name": "decode_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3797,
+  "content_hash": "25ac129b3908234a52c19d0db45330b1fe6e6b1886cd3e12c734b63458e23438",
+  "semantic_fingerprint": "decode_test",
+  "detected_at": "2025-11-13T05:18:45.986284",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_decode_test_25ac129b.go",
+  "original_metadata": {
+    "size": 3797,
+    "modified": "2025-01-12T09:30:45.172062",
+    "created": "2025-11-11T03:39:11.669150"
+  },
+  "stripped_metadata": {}
+}

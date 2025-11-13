@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/errgroup_test.go",
+  "original_name": "errgroup_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5747,
+  "content_hash": "d4e6ce4211188c18e948148f261745606aa7423f3c4215a7712d0d2c081b59e3",
+  "semantic_fingerprint": "errgroup_test",
+  "detected_at": "2025-11-13T05:18:46.528790",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_errgroup_test_d4e6ce42.go",
+  "original_metadata": {
+    "size": 5747,
+    "modified": "2025-01-12T09:31:07.390876",
+    "created": "2025-11-11T03:39:11.683153"
+  },
+  "stripped_metadata": {}
+}

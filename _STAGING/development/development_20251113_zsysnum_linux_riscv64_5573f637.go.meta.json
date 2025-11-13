@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsysnum_linux_riscv64.go",
+  "original_name": "zsysnum_linux_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9097,
+  "content_hash": "5573f637b6565bcdd688074efd044ad63814e58d36eb66e18b3bf9d17b23c91f",
+  "semantic_fingerprint": "zsysnum_linux_riscv64",
+  "detected_at": "2025-11-13T05:18:46.145137",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsysnum_linux_riscv64_5573f637.go",
+  "original_metadata": {
+    "size": 9097,
+    "modified": "2025-01-12T09:30:45.748100",
+    "created": "2025-11-11T03:39:11.675384"
+  },
+  "stripped_metadata": {}
+}

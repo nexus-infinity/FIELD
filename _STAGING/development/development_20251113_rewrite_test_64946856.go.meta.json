@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rewrite_test.go",
+  "original_name": "rewrite_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5242,
+  "content_hash": "649468567ecfe94cd0d88e4855756e4409bccc362db98a6bfe3a33f3e695b6aa",
+  "semantic_fingerprint": "rewrite_test",
+  "detected_at": "2025-11-13T05:18:47.186530",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rewrite_test_64946856.go",
+  "original_metadata": {
+    "size": 5242,
+    "modified": "2025-01-12T09:30:35.479155",
+    "created": "2025-11-11T03:39:11.695173"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mapfs_test.go",
+  "original_name": "mapfs_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2309,
+  "content_hash": "ea2663202af9928f1d783f152441ef08bafb93008051573c9c36b0b47903ff87",
+  "semantic_fingerprint": "mapfs_test",
+  "detected_at": "2025-11-13T05:18:46.800771",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mapfs_test_ea266320.go",
+  "original_metadata": {
+    "size": 2309,
+    "modified": "2025-01-12T09:30:35.540568",
+    "created": "2025-11-11T03:39:11.686964"
+  },
+  "stripped_metadata": {}
+}

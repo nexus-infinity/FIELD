@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/p224.go",
+  "original_name": "p224.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3703,
+  "content_hash": "66445d9624520a60b7ef5d202d992b6885cd8dee4db12895b8364e7440975caa",
+  "semantic_fingerprint": "p224",
+  "detected_at": "2025-11-13T05:18:45.948111",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_p224_66445d96.go",
+  "original_metadata": {
+    "size": 3703,
+    "modified": "2025-01-12T09:30:44.982165",
+    "created": "2025-11-11T03:39:11.668378"
+  },
+  "stripped_metadata": {}
+}

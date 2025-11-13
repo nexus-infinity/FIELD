@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/symtab.go",
+  "original_name": "symtab.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 29873,
+  "content_hash": "e8393e8f96a40dac7c0d5bc0f099a4f781ae6b2bb550db14eb98b76eb3b5479c",
+  "semantic_fingerprint": "symtab",
+  "detected_at": "2025-11-13T05:18:46.075870",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_symtab_e8393e8f.go",
+  "original_metadata": {
+    "size": 29873,
+    "modified": "2025-01-12T09:30:44.729505",
+    "created": "2025-11-11T03:39:11.673496"
+  },
+  "stripped_metadata": {}
+}

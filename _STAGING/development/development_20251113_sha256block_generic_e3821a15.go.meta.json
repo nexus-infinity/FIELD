@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sha256block_generic.go",
+  "original_name": "sha256block_generic.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 317,
+  "content_hash": "e3821a15c77ef2f7c89339bd9b55f4726ef7dfb685bddacc84deb19c5e4e62d2",
+  "semantic_fingerprint": "sha256block_generic",
+  "detected_at": "2025-11-13T05:18:45.958429",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sha256block_generic_e3821a15.go",
+  "original_metadata": {
+    "size": 317,
+    "modified": "2025-01-12T09:30:45.015415",
+    "created": "2025-11-11T03:39:11.668559"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/robustio_windows.go",
+  "original_name": "robustio_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 615,
+  "content_hash": "899e8ab0cacfe96fa462c3f41be939cdfe8ee2cefafe138d8724f78839637b34",
+  "semantic_fingerprint": "robustio_windows",
+  "detected_at": "2025-11-13T05:18:47.235558",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_robustio_windows_899e8ab0.go",
+  "original_metadata": {
+    "size": 615,
+    "modified": "2025-01-12T09:30:44.553676",
+    "created": "2025-11-11T03:39:11.696003"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_solaris.go",
+  "original_name": "syscall_solaris.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8584,
+  "content_hash": "13cddceb408f0244b00edc5305ba40afde4fbabe751ee35e0517a01690378eb3",
+  "semantic_fingerprint": "syscall_solaris",
+  "detected_at": "2025-11-13T05:18:45.982023",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_solaris_13cddceb.go",
+  "original_metadata": {
+    "size": 8584,
+    "modified": "2025-01-12T09:30:45.647199",
+    "created": "2025-11-11T03:39:11.669037"
+  },
+  "stripped_metadata": {}
+}

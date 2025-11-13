@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/expect.go",
+  "original_name": "expect.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4591,
+  "content_hash": "535e6c4d291585235774928cde8b3bf29baff881f3c6eea4df770c74614bcbc4",
+  "semantic_fingerprint": "expect",
+  "detected_at": "2025-11-13T05:18:46.234521",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_expect_535e6c4d.go",
+  "original_metadata": {
+    "size": 4591,
+    "modified": "2025-01-12T09:30:35.490188",
+    "created": "2025-11-11T03:39:11.677258"
+  },
+  "stripped_metadata": {}
+}

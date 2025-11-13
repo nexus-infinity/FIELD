@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pclntab_test.go",
+  "original_name": "pclntab_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9392,
+  "content_hash": "544a5e333476eee3d1321157168832fdc436a77b2ddd2bba78bf4edbb05adb50",
+  "semantic_fingerprint": "pclntab_test",
+  "detected_at": "2025-11-13T05:18:47.771006",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pclntab_test_544a5e33.go",
+  "original_metadata": {
+    "size": 9392,
+    "modified": "2025-01-12T09:30:49.139849",
+    "created": "2025-11-11T03:39:11.706064"
+  },
+  "stripped_metadata": {}
+}

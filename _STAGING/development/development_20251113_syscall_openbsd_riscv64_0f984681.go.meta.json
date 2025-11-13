@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_openbsd_riscv64.go",
+  "original_name": "syscall_openbsd_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 906,
+  "content_hash": "0f9846818bdd738a2dec87f643470139e463b040c845d0d7a1243945b4e5196b",
+  "semantic_fingerprint": "syscall_openbsd_riscv64",
+  "detected_at": "2025-11-13T05:18:47.807512",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_openbsd_riscv64_0f984681.go",
+  "original_metadata": {
+    "size": 906,
+    "modified": "2025-01-12T09:30:45.717845",
+    "created": "2025-11-11T03:39:11.706734"
+  },
+  "stripped_metadata": {}
+}

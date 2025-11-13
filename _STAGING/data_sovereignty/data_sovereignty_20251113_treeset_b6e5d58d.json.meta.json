@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/TreeSet.json",
+  "original_name": "TreeSet.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 37431,
+  "content_hash": "b6e5d58ded29e76f783565c7ca3a88260e0d11b8b56d6d58e30cebe3a100cacb",
+  "semantic_fingerprint": "treeset",
+  "detected_at": "2025-11-13T05:18:46.102811",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_treeset_b6e5d58d.json",
+  "original_metadata": {
+    "size": 37431,
+    "modified": "2025-02-02T16:32:20.579394",
+    "created": "2025-11-11T03:39:11.674213"
+  },
+  "stripped_metadata": {}
+}

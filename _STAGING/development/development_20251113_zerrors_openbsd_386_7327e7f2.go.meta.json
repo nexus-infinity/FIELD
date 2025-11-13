@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_openbsd_386.go",
+  "original_name": "zerrors_openbsd_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 64254,
+  "content_hash": "7327e7f2cc0286c9411b8832fb7bf951ceae000ef88b8b33630760a09f294c33",
+  "semantic_fingerprint": "zerrors_openbsd_386",
+  "detected_at": "2025-11-13T05:18:47.249034",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_openbsd_386_7327e7f2.go",
+  "original_metadata": {
+    "size": 64254,
+    "modified": "2025-01-12T09:30:45.732726",
+    "created": "2025-11-11T03:39:11.696261"
+  },
+  "stripped_metadata": {}
+}

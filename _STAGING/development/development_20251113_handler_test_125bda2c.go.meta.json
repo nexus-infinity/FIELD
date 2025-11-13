@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/handler_test.go",
+  "original_name": "handler_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13956,
+  "content_hash": "125bda2c355d3ebe16d4c6412a44e220c56aae209166360a8317ab5d1559df75",
+  "semantic_fingerprint": "handler_test",
+  "detected_at": "2025-11-13T05:18:47.512071",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_handler_test_125bda2c.go",
+  "original_metadata": {
+    "size": 13956,
+    "modified": "2025-01-12T09:31:05.598795",
+    "created": "2025-11-11T03:39:11.701158"
+  },
+  "stripped_metadata": {}
+}

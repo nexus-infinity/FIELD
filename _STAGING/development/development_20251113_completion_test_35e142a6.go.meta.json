@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/completion_test.go",
+  "original_name": "completion_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 36965,
+  "content_hash": "35e142a600a9f2d18aef1e8f0d4dcb7563bc4b459175c2c7d1fc6f3dddff1d9c",
+  "semantic_fingerprint": "completion_test",
+  "detected_at": "2025-11-13T05:18:46.547624",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_completion_test_35e142a6.go",
+  "original_metadata": {
+    "size": 36965,
+    "modified": "2025-01-12T09:30:35.235005",
+    "created": "2025-11-11T03:39:11.683690"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/falcon_test.go",
+  "original_name": "falcon_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8571,
+  "content_hash": "f1ca911c7dccb758828e860b5b070062c4dcd493b54e10bf44231fb7d94ea38d",
+  "semantic_fingerprint": "falcon_test",
+  "detected_at": "2025-11-13T05:18:45.998605",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_falcon_test_f1ca911c.go",
+  "original_metadata": {
+    "size": 8571,
+    "modified": "2025-01-12T09:30:47.894553",
+    "created": "2025-11-11T03:39:11.671774"
+  },
+  "stripped_metadata": {}
+}

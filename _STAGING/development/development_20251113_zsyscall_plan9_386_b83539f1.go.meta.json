@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_plan9_386.go",
+  "original_name": "zsyscall_plan9_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6320,
+  "content_hash": "b83539f128bdb41b0b993a9640c2e018b1c2f7274754ba2037afa31ad2a527ab",
+  "semantic_fingerprint": "zsyscall_plan9_386",
+  "detected_at": "2025-11-13T05:18:46.431390",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_plan9_386_b83539f1.go",
+  "original_metadata": {
+    "size": 6320,
+    "modified": "2025-01-12T09:30:45.743983",
+    "created": "2025-11-11T03:39:11.681513"
+  },
+  "stripped_metadata": {}
+}

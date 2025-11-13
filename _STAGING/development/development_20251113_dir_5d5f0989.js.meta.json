@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dir.js",
+  "original_name": "dir.js",
+  "file_type": ".js",
+  "mime_type": "text/javascript",
+  "size_bytes": 1049,
+  "content_hash": "5d5f09896ffbe88ba2e17de213ead0b57e7540fb11e2ba4477cf362b92e6974b",
+  "semantic_fingerprint": "dir",
+  "detected_at": "2025-11-13T05:18:46.886000",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dir_5d5f0989.js",
+  "original_metadata": {
+    "size": 1049,
+    "modified": "2025-01-12T09:30:47.716469",
+    "created": "2025-11-11T03:39:11.688705"
+  },
+  "stripped_metadata": {}
+}

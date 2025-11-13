@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unitchecker.go",
+  "original_name": "unitchecker.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13610,
+  "content_hash": "b126adcfd3250eaa413c30c8095f87c5029d01b192e7c04f8d71560d18749901",
+  "semantic_fingerprint": "unitchecker",
+  "detected_at": "2025-11-13T05:18:47.691071",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unitchecker_b126adcf.go",
+  "original_metadata": {
+    "size": 13610,
+    "modified": "2025-01-12T09:30:35.477732",
+    "created": "2025-11-11T03:39:11.704145"
+  },
+  "stripped_metadata": {}
+}

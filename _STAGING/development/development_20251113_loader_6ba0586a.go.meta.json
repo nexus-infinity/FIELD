@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/loader.go",
+  "original_name": "loader.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 83496,
+  "content_hash": "6ba0586a26918545d231a4d56d893f0dd88ccfc9d89a935976cdfaf305ddb10a",
+  "semantic_fingerprint": "loader",
+  "detected_at": "2025-11-13T05:18:47.197871",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_loader_6ba0586a.go",
+  "original_metadata": {
+    "size": 83496,
+    "modified": "2025-01-12T09:30:44.734419",
+    "created": "2025-11-11T03:39:11.695368"
+  },
+  "stripped_metadata": {}
+}

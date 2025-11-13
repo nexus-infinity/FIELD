@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/sailing_report_20250819_024455.txt",
+  "original_name": "sailing_report_20250819_024455.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 847,
+  "content_hash": "0e1e977610362e337e6b8d3bd598ec68bdd78306202eb68c356cb34b09851018",
+  "semantic_fingerprint": "sailing_report_20250819_024455",
+  "detected_at": "2025-11-13T05:18:45.866094",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_sailing_report_20250819_024455_0e1e9776.txt",
+  "original_metadata": {
+    "size": 847,
+    "modified": "2025-08-19T02:44:55.141762",
+    "created": "2025-11-11T03:39:11.511128"
+  },
+  "stripped_metadata": {}
+}

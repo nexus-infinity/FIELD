@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/asn1.go",
+  "original_name": "asn1.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 21968,
+  "content_hash": "362446580adfd9fe477c43117eff186de2e334147105eea749e0f3f1f49786c1",
+  "semantic_fingerprint": "asn1",
+  "detected_at": "2025-11-13T05:18:47.480409",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_asn1_36244658.go",
+  "original_metadata": {
+    "size": 21968,
+    "modified": "2025-01-12T09:30:45.784426",
+    "created": "2025-11-11T03:39:11.700613"
+  },
+  "stripped_metadata": {}
+}

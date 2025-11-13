@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/hover_test.go",
+  "original_name": "hover_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1302,
+  "content_hash": "5b71133d0954aa475a6926b8675c186a25152746618974fa1ecac5c73e8c30cb",
+  "semantic_fingerprint": "hover_test",
+  "detected_at": "2025-11-13T05:18:45.889736",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_hover_test_5b71133d.go",
+  "original_metadata": {
+    "size": 1302,
+    "modified": "2025-01-12T09:30:35.233432",
+    "created": "2025-11-11T03:39:11.667648"
+  },
+  "stripped_metadata": {}
+}

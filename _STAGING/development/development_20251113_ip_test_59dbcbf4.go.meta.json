@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ip_test.go",
+  "original_name": "ip_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1733,
+  "content_hash": "59dbcbf473e9aa863c0dfd73af3e2cabe1f0e20f4aa175b5e4aead73f1382fb9",
+  "semantic_fingerprint": "ip_test",
+  "detected_at": "2025-11-13T05:18:47.350193",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ip_test_59dbcbf4.go",
+  "original_metadata": {
+    "size": 1733,
+    "modified": "2025-05-24T09:29:39.729100",
+    "created": "2025-11-11T03:39:11.698093"
+  },
+  "stripped_metadata": {}
+}

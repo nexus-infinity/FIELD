@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/errgroup_example_md5all_test.go",
+  "original_name": "errgroup_example_md5all_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2436,
+  "content_hash": "2640ab81cc3fde6995ab9d751fd8347b5a133e28934ddd65b81f1f1375f19093",
+  "semantic_fingerprint": "errgroup_example_md5all_test",
+  "detected_at": "2025-11-13T05:18:46.277657",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_errgroup_example_md5all_test_2640ab81.go",
+  "original_metadata": {
+    "size": 2436,
+    "modified": "2025-01-12T09:31:07.390620",
+    "created": "2025-11-11T03:39:11.678197"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mmap_other.go",
+  "original_name": "mmap_other.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 531,
+  "content_hash": "7ede37ed9183a586c20366095db2c80bbca08ffe050adf9c1e6711fc01ca62a2",
+  "semantic_fingerprint": "mmap_other",
+  "detected_at": "2025-11-13T05:18:45.995642",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mmap_other_7ede37ed.go",
+  "original_metadata": {
+    "size": 531,
+    "modified": "2025-01-12T09:30:44.867614",
+    "created": "2025-11-11T03:39:11.671712"
+  },
+  "stripped_metadata": {}
+}

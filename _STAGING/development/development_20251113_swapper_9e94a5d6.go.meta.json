@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/swapper.go",
+  "original_name": "swapper.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2026,
+  "content_hash": "9e94a5d672db8bf6e0b3a4dba575e0345e069a0d2fefafc7c98ac9a93e126f64",
+  "semantic_fingerprint": "swapper",
+  "detected_at": "2025-11-13T05:18:45.982744",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_swapper_9e94a5d6.go",
+  "original_metadata": {
+    "size": 2026,
+    "modified": "2025-01-12T09:30:45.256258",
+    "created": "2025-11-11T03:39:11.669060"
+  },
+  "stripped_metadata": {}
+}

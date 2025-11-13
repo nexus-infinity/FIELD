@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/gnu.go",
+  "original_name": "gnu.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 21910,
+  "content_hash": "09fbe3d654389cb2f0e2236497126d17091dcdf83159b2c4f05d3e2294b1aa89",
+  "semantic_fingerprint": "gnu",
+  "detected_at": "2025-11-13T05:18:46.377621",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_gnu_09fbe3d6.go",
+  "original_metadata": {
+    "size": 21910,
+    "modified": "2025-01-12T09:30:44.768497",
+    "created": "2025-11-11T03:39:11.680125"
+  },
+  "stripped_metadata": {}
+}

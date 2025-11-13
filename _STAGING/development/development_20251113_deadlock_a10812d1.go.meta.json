@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/deadlock.go",
+  "original_name": "deadlock.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6658,
+  "content_hash": "a10812d1f0bc5c8cfdff6402637da84961e10ad2a88f21727e614e3397bca7c3",
+  "semantic_fingerprint": "deadlock",
+  "detected_at": "2025-11-13T05:18:46.006472",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_deadlock_a10812d1.go",
+  "original_metadata": {
+    "size": 6658,
+    "modified": "2025-01-12T09:30:45.649226",
+    "created": "2025-11-11T03:39:11.671939"
+  },
+  "stripped_metadata": {}
+}

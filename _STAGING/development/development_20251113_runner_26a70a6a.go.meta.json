@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/runner.go",
+  "original_name": "runner.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13682,
+  "content_hash": "26a70a6adad14a10aaaacbfccb9b3d3ea7b0bbe82b4ea966e954630b9bdd9542",
+  "semantic_fingerprint": "runner",
+  "detected_at": "2025-11-13T05:18:46.164655",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_runner_26a70a6a.go",
+  "original_metadata": {
+    "size": 13682,
+    "modified": "2025-01-12T09:30:35.244176",
+    "created": "2025-11-11T03:39:11.675853"
+  },
+  "stripped_metadata": {}
+}

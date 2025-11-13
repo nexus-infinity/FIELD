@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/trailing-comma.toml",
+  "original_name": "trailing-comma.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 140,
+  "content_hash": "e5a0567df2f6650ae5944bb6bad9559a54eaeb9ac21c5e0298968b7535071e99",
+  "semantic_fingerprint": "trailing-comma",
+  "detected_at": "2025-11-13T05:18:47.673753",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_trailing-comma_e5a0567d.toml",
+  "original_metadata": {
+    "size": 140,
+    "modified": "2025-01-12T09:30:51.614631",
+    "created": "2025-11-11T03:39:11.703802"
+  },
+  "stripped_metadata": {}
+}

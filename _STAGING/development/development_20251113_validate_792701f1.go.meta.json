@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/validate.go",
+  "original_name": "validate.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3167,
+  "content_hash": "792701f16ee2093a10932a8d88aeb04e31523c3ae5613222c8f71218718736ee",
+  "semantic_fingerprint": "validate",
+  "detected_at": "2025-11-13T05:18:47.405367",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_validate_792701f1.go",
+  "original_metadata": {
+    "size": 3167,
+    "modified": "2025-01-12T09:30:35.478101",
+    "created": "2025-11-11T03:39:11.699242"
+  },
+  "stripped_metadata": {}
+}

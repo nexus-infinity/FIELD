@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/waitgroup.go",
+  "original_name": "waitgroup.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2913,
+  "content_hash": "aab342a14c3a720751b765f5caee931662cc4e462850078afc59921b9f703add",
+  "semantic_fingerprint": "waitgroup",
+  "detected_at": "2025-11-13T05:18:47.953599",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_waitgroup_aab342a1.go",
+  "original_metadata": {
+    "size": 2913,
+    "modified": "2025-01-12T09:30:35.476774",
+    "created": "2025-11-11T03:39:11.709626"
+  },
+  "stripped_metadata": {}
+}

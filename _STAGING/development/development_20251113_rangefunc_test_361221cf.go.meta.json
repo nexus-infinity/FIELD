@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rangefunc_test.go",
+  "original_name": "rangefunc_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1831,
+  "content_hash": "361221cf651ea9d65409884f419bccc82c8ca5d8a3903bccf4bc4bc2dd9d54c4",
+  "semantic_fingerprint": "rangefunc_test",
+  "detected_at": "2025-11-13T05:18:46.091633",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rangefunc_test_361221cf.go",
+  "original_metadata": {
+    "size": 1831,
+    "modified": "2025-01-12T09:30:45.619847",
+    "created": "2025-11-11T03:39:11.673923"
+  },
+  "stripped_metadata": {}
+}

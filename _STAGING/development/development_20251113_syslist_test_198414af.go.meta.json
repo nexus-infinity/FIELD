@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syslist_test.go",
+  "original_name": "syslist_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1412,
+  "content_hash": "198414af5ae75b9b39682c402310a441b15598ac348fd2f230dac7eead4d7faf",
+  "semantic_fingerprint": "syslist_test",
+  "detected_at": "2025-11-13T05:18:46.998154",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syslist_test_198414af.go",
+  "original_metadata": {
+    "size": 1412,
+    "modified": "2025-01-12T09:30:45.104505",
+    "created": "2025-11-11T03:39:11.691174"
+  },
+  "stripped_metadata": {}
+}

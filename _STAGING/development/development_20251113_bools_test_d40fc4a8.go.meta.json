@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bools_test.go",
+  "original_name": "bools_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 429,
+  "content_hash": "d40fc4a8d78d310282a4ec1fcc64fd21f1668420281f1ad8d202be9700116d84",
+  "semantic_fingerprint": "bools_test",
+  "detected_at": "2025-11-13T05:18:47.283062",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bools_test_d40fc4a8.go",
+  "original_metadata": {
+    "size": 429,
+    "modified": "2025-01-12T09:30:47.737253",
+    "created": "2025-11-11T03:39:11.696922"
+  },
+  "stripped_metadata": {}
+}

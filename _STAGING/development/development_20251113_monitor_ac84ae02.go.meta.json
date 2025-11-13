@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/monitor.go",
+  "original_name": "monitor.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7766,
+  "content_hash": "ac84ae02d6a35661ea7b40b1606ad57746644336b071d965890e8b2a29a76910",
+  "semantic_fingerprint": "monitor",
+  "detected_at": "2025-11-13T05:18:46.054315",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_monitor_ac84ae02.go",
+  "original_metadata": {
+    "size": 7766,
+    "modified": "2025-01-12T09:30:47.665341",
+    "created": "2025-11-11T03:39:11.673008"
+  },
+  "stripped_metadata": {}
+}

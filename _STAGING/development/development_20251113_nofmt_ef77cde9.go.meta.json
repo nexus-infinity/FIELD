@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/nofmt.go",
+  "original_name": "nofmt.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 113,
+  "content_hash": "ef77cde96f2a09b0c31d760c98d84acbc695ec64897f57da87f17f03bcb59e66",
+  "semantic_fingerprint": "nofmt",
+  "detected_at": "2025-11-13T05:18:46.104351",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_nofmt_ef77cde9.go",
+  "original_metadata": {
+    "size": 113,
+    "modified": "2025-01-12T09:30:47.758489",
+    "created": "2025-11-11T03:39:11.674261"
+  },
+  "stripped_metadata": {}
+}

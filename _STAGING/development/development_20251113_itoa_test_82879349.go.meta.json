@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/itoa_test.go",
+  "original_name": "itoa_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1167,
+  "content_hash": "8287934930d89ed33b03748cf30662569cd002caf2982e96356bc40f70dc7666",
+  "semantic_fingerprint": "itoa_test",
+  "detected_at": "2025-11-13T05:18:47.464867",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_itoa_test_82879349.go",
+  "original_metadata": {
+    "size": 1167,
+    "modified": "2025-01-12T09:30:45.247074",
+    "created": "2025-11-11T03:39:11.700387"
+  },
+  "stripped_metadata": {}
+}

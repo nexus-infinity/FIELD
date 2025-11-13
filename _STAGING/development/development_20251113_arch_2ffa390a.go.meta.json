@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/arch.go",
+  "original_name": "arch.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6391,
+  "content_hash": "2ffa390a665fcd3ddf11b02310b47f6fd991a7a6ac875a732a4fc85632912498",
+  "semantic_fingerprint": "arch",
+  "detected_at": "2025-11-13T05:18:46.746808",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_arch_2ffa390a.go",
+  "original_metadata": {
+    "size": 6391,
+    "modified": "2025-01-12T09:30:44.714122",
+    "created": "2025-11-11T03:39:11.685616"
+  },
+  "stripped_metadata": {}
+}

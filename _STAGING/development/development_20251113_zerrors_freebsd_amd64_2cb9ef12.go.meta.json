@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_freebsd_amd64.go",
+  "original_name": "zerrors_freebsd_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 69018,
+  "content_hash": "2cb9ef12c7d9126b7a34fd05c0be6f1f6fea2b111efecc3076196edcd18e01a3",
+  "semantic_fingerprint": "zerrors_freebsd_amd64",
+  "detected_at": "2025-11-13T05:18:47.109170",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_freebsd_amd64_2cb9ef12.go",
+  "original_metadata": {
+    "size": 69018,
+    "modified": "2025-01-12T09:30:45.724472",
+    "created": "2025-11-11T03:39:11.693586"
+  },
+  "stripped_metadata": {}
+}

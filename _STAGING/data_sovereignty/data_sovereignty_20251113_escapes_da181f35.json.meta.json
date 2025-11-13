@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/escapes.json",
+  "original_name": "escapes.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 849,
+  "content_hash": "da181f3554aee1eab3fe671736c900f65ad5031b93f2fafe03c56ef4a3872e0a",
+  "semantic_fingerprint": "escapes",
+  "detected_at": "2025-11-13T05:18:46.797609",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_escapes_da181f35.json",
+  "original_metadata": {
+    "size": 849,
+    "modified": "2025-01-12T09:30:51.663004",
+    "created": "2025-11-11T03:39:11.686868"
+  },
+  "stripped_metadata": {}
+}

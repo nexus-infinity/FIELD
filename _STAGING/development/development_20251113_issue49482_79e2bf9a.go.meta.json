@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/issue49482.go",
+  "original_name": "issue49482.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 906,
+  "content_hash": "79e2bf9a45c9b4d3ccdb6ad6356b1e5f9c3ab2b3b88c37714353966e0bbe0c1f",
+  "semantic_fingerprint": "issue49482",
+  "detected_at": "2025-11-13T05:18:47.645302",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_issue49482_79e2bf9a.go",
+  "original_metadata": {
+    "size": 906,
+    "modified": "2025-01-12T09:30:45.338875",
+    "created": "2025-11-11T03:39:11.703202"
+  },
+  "stripped_metadata": {}
+}

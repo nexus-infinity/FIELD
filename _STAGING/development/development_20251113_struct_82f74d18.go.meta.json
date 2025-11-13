@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/struct.go",
+  "original_name": "struct.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6297,
+  "content_hash": "82f74d1896eb197b8f3c98ae41cc9df7910351c721accc52d32a082cc4532c6c",
+  "semantic_fingerprint": "struct",
+  "detected_at": "2025-11-13T05:18:47.531617",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_struct_82f74d18.go",
+  "original_metadata": {
+    "size": 6297,
+    "modified": "2025-01-12T09:30:45.155875",
+    "created": "2025-11-11T03:39:11.701507"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/instantiate.go",
+  "original_name": "instantiate.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13156,
+  "content_hash": "77e9dc188edd98931772b18b9120525a8ff7f832d008ac1fa8dfef50edb2c1ee",
+  "semantic_fingerprint": "instantiate",
+  "detected_at": "2025-11-13T05:18:47.265209",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_instantiate_77e9dc18.go",
+  "original_metadata": {
+    "size": 13156,
+    "modified": "2025-01-12T09:30:45.150678",
+    "created": "2025-11-11T03:39:11.696594"
+  },
+  "stripped_metadata": {}
+}

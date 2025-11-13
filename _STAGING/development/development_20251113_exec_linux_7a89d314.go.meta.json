@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/exec_linux.go",
+  "original_name": "exec_linux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 25898,
+  "content_hash": "7a89d3147bf979fae1a383a79a693185d8a3a1b695761e20f986cca2d379c32f",
+  "semantic_fingerprint": "exec_linux",
+  "detected_at": "2025-11-13T05:18:46.361315",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_exec_linux_7a89d314.go",
+  "original_metadata": {
+    "size": 25898,
+    "modified": "2025-01-12T09:30:45.704753",
+    "created": "2025-11-11T03:39:11.679766"
+  },
+  "stripped_metadata": {}
+}

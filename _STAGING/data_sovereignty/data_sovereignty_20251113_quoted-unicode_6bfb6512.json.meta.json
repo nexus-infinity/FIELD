@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/quoted-unicode.json",
+  "original_name": "quoted-unicode.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 482,
+  "content_hash": "6bfb65124d72b18a9ee9f6dc6fa5d6ea664803dd89bcacc8acea12a1a82e59ae",
+  "semantic_fingerprint": "quoted-unicode",
+  "detected_at": "2025-11-13T05:18:47.361674",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_quoted-unicode_6bfb6512.json",
+  "original_metadata": {
+    "size": 482,
+    "modified": "2025-01-12T09:30:51.664338",
+    "created": "2025-11-11T03:39:11.698347"
+  },
+  "stripped_metadata": {}
+}

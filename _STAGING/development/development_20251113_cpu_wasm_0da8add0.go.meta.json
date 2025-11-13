@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu_wasm.go",
+  "original_name": "cpu_wasm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 439,
+  "content_hash": "0da8add0ce546dfed3a844f94ce693137b6833712c016561f598e6d8b08c474e",
+  "semantic_fingerprint": "cpu_wasm",
+  "detected_at": "2025-11-13T05:18:47.155567",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_wasm_0da8add0.go",
+  "original_metadata": {
+    "size": 439,
+    "modified": "2025-01-12T09:30:45.809888",
+    "created": "2025-11-11T03:39:11.694552"
+  },
+  "stripped_metadata": {}
+}

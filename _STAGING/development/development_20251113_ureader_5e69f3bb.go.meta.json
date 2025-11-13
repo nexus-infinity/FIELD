@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ureader.go",
+  "original_name": "ureader.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 16949,
+  "content_hash": "5e69f3bb9dbaff63f1816e7946bcc427aec6da9cd279964e899e81b1fd0d3b88",
+  "semantic_fingerprint": "ureader",
+  "detected_at": "2025-11-13T05:18:46.074182",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ureader_5e69f3bb.go",
+  "original_metadata": {
+    "size": 16949,
+    "modified": "2025-01-12T09:30:45.132311",
+    "created": "2025-11-11T03:39:11.673474"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/complex.go",
+  "original_name": "complex.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1629,
+  "content_hash": "acb03107a1de5df055c14f0fefe0a5c8e33ff6658445d10e1eb23e8e99e1d8ad",
+  "semantic_fingerprint": "complex",
+  "detected_at": "2025-11-13T05:18:47.658553",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_complex_acb03107.go",
+  "original_metadata": {
+    "size": 1629,
+    "modified": "2025-01-12T09:30:45.519344",
+    "created": "2025-11-11T03:39:11.703486"
+  },
+  "stripped_metadata": {}
+}

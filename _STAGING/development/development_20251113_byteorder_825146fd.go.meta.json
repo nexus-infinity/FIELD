@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/byteorder.go",
+  "original_name": "byteorder.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1868,
+  "content_hash": "825146fd4557b1cbd8161fa28bb4be8820089848d695316edeecb7fd5a551f8a",
+  "semantic_fingerprint": "byteorder",
+  "detected_at": "2025-11-13T05:18:47.097809",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_byteorder_825146fd.go",
+  "original_metadata": {
+    "size": 1868,
+    "modified": "2025-01-12T09:30:45.806336",
+    "created": "2025-11-11T03:39:11.693384"
+  },
+  "stripped_metadata": {}
+}

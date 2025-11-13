@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_netbsd.go",
+  "original_name": "syscall_netbsd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7970,
+  "content_hash": "894bc359f90077757648697bdc99aed884eec564b0f5c22450b3f48e5166d8ce",
+  "semantic_fingerprint": "syscall_netbsd",
+  "detected_at": "2025-11-13T05:18:47.486470",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_netbsd_894bc359.go",
+  "original_metadata": {
+    "size": 7970,
+    "modified": "2025-01-12T09:30:45.716401",
+    "created": "2025-11-11T03:39:11.700743"
+  },
+  "stripped_metadata": {}
+}

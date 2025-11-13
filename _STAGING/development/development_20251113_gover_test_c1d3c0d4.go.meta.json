@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/gover_test.go",
+  "original_name": "gover_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3501,
+  "content_hash": "c1d3c0d4e0c27b363b5b52a870f3e56b09ec7d5ccd4543463722987e9145a2b9",
+  "semantic_fingerprint": "gover_test",
+  "detected_at": "2025-11-13T05:18:46.591369",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_gover_test_c1d3c0d4.go",
+  "original_metadata": {
+    "size": 3501,
+    "modified": "2025-01-12T09:30:45.246704",
+    "created": "2025-11-11T03:39:11.684618"
+  },
+  "stripped_metadata": {}
+}

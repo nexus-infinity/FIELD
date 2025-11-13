@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/Fractal_Intelligence_Report.txt",
+  "original_name": "Fractal_Intelligence_Report.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 837,
+  "content_hash": "1467f34a4cde72c8d41a5617d239803a7e8cdc22606fb92037956d79a3e2cddc",
+  "semantic_fingerprint": "fractal_intelligence_report",
+  "detected_at": "2025-11-13T05:18:45.869123",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_fractal_intelligence_report_1467f34a.txt",
+  "original_metadata": {
+    "size": 837,
+    "modified": "2025-08-19T02:21:31.609331",
+    "created": "2025-11-11T03:39:11.511185"
+  },
+  "stripped_metadata": {}
+}

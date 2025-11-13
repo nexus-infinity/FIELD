@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_linux_loong64.go",
+  "original_name": "zsyscall_linux_loong64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 37973,
+  "content_hash": "8d879ef216df8242ffb312d27b276bfc3489b85425d11def11e3781bfe280ea8",
+  "semantic_fingerprint": "zsyscall_linux_loong64",
+  "detected_at": "2025-11-13T05:18:47.635001",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_linux_loong64_8d879ef2.go",
+  "original_metadata": {
+    "size": 37973,
+    "modified": "2025-01-12T09:30:45.738411",
+    "created": "2025-11-11T03:39:11.703012"
+  },
+  "stripped_metadata": {}
+}

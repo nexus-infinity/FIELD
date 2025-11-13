@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/glob.go",
+  "original_name": "glob.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8650,
+  "content_hash": "b5adbfabe66f17fbce42fac5dddd7edb51a6d36ca4d128d8158921b42cdefd99",
+  "semantic_fingerprint": "glob",
+  "detected_at": "2025-11-13T05:18:47.460970",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_glob_b5adbfab.go",
+  "original_metadata": {
+    "size": 8650,
+    "modified": "2025-01-12T09:30:35.238857",
+    "created": "2025-11-11T03:39:11.700321"
+  },
+  "stripped_metadata": {}
+}

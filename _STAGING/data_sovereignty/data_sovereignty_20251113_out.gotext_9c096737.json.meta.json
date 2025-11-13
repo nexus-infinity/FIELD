@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/out.gotext.json",
+  "original_name": "out.gotext.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 1297,
+  "content_hash": "9c09673714c918423049c22d9179329765b27166ae134e2936ed1e77c853d2b9",
+  "semantic_fingerprint": "out.gotext",
+  "detected_at": "2025-11-13T05:18:47.626673",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_out.gotext_9c096737.json",
+  "original_metadata": {
+    "size": 1297,
+    "modified": "2025-01-12T09:30:49.406374",
+    "created": "2025-11-11T03:39:11.702785"
+  },
+  "stripped_metadata": {}
+}

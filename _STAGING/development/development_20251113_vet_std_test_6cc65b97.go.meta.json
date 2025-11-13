@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/vet_std_test.go",
+  "original_name": "vet_std_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3487,
+  "content_hash": "6cc65b977045aa2c0497a1ff144a5d86668d7d18a9fa57453298ccf2fe2406f9",
+  "semantic_fingerprint": "vet_std_test",
+  "detected_at": "2025-11-13T05:18:45.940063",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_vet_std_test_6cc65b97.go",
+  "original_metadata": {
+    "size": 3487,
+    "modified": "2025-01-12T09:30:47.794095",
+    "created": "2025-11-11T03:39:11.668278"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/semantic.go",
+  "original_name": "semantic.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1862,
+  "content_hash": "ab862c29ff267c1a53999bd16b1999c34efbe23d6c4e7547ed43d917e954a6c8",
+  "semantic_fingerprint": "semantic",
+  "detected_at": "2025-11-13T05:18:46.125058",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_semantic_ab862c29.go",
+  "original_metadata": {
+    "size": 1862,
+    "modified": "2025-01-12T09:30:35.223308",
+    "created": "2025-11-11T03:39:11.674848"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/golden_test.go",
+  "original_name": "golden_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10549,
+  "content_hash": "29b24b73c04c6466c49372cea55db928b311f36e9acb34a1530d365b2fbb8f6c",
+  "semantic_fingerprint": "golden_test",
+  "detected_at": "2025-11-13T05:18:47.439689",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_golden_test_29b24b73.go",
+  "original_metadata": {
+    "size": 10549,
+    "modified": "2025-01-12T09:30:47.725392",
+    "created": "2025-11-11T03:39:11.700043"
+  },
+  "stripped_metadata": {}
+}

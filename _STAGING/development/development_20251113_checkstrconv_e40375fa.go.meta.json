@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/CheckStrconv.go",
+  "original_name": "CheckStrconv.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3556,
+  "content_hash": "e40375fa560721ddd1d85e94f5c7088fdd4d71276bb6cb068e3f1e8ede5c9a2c",
+  "semantic_fingerprint": "checkstrconv",
+  "detected_at": "2025-11-13T05:18:46.486188",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checkstrconv_e40375fa.go",
+  "original_metadata": {
+    "size": 3556,
+    "modified": "2025-01-12T09:30:50.014218",
+    "created": "2025-11-11T03:39:11.682584"
+  },
+  "stripped_metadata": {}
+}

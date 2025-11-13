@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_linux_amd64.go",
+  "original_name": "zerrors_linux_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 58772,
+  "content_hash": "2fcbe01c80232413bdd070b3a9a0978d9d65ec93ccb919e99a763d8120cdde40",
+  "semantic_fingerprint": "zerrors_linux_amd64",
+  "detected_at": "2025-11-13T05:18:47.262376",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_linux_amd64_2fcbe01c.go",
+  "original_metadata": {
+    "size": 58772,
+    "modified": "2025-01-12T09:30:45.726531",
+    "created": "2025-11-11T03:39:11.696530"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/copyfiles.go",
+  "original_name": "copyfiles.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3734,
+  "content_hash": "b39f2ce75ced6f35ba55cd2254bafa4b7ba41ebd7416ef497c521499c0bc72b2",
+  "semantic_fingerprint": "copyfiles",
+  "detected_at": "2025-11-13T05:18:46.775481",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_copyfiles_b39f2ce7.go",
+  "original_metadata": {
+    "size": 3734,
+    "modified": "2025-01-12T09:30:47.898644",
+    "created": "2025-11-11T03:39:11.686337"
+  },
+  "stripped_metadata": {}
+}

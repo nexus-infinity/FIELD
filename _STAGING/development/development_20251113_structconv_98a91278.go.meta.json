@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/structconv.go",
+  "original_name": "structconv.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 562,
+  "content_hash": "98a91278c096faa6865d93d556e2fa81da7d7601caa997d356af457cc6b6790a",
+  "semantic_fingerprint": "structconv",
+  "detected_at": "2025-11-13T05:18:46.200937",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_structconv_98a91278.go",
+  "original_metadata": {
+    "size": 562,
+    "modified": "2025-01-12T09:30:47.836556",
+    "created": "2025-11-11T03:39:11.676609"
+  },
+  "stripped_metadata": {}
+}

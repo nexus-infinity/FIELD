@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/asmdecl_test.go",
+  "original_name": "asmdecl_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1024,
+  "content_hash": "856776d0ef94c6a6f0646f7c13bd3ae2afd01409c8a594c6975cfc6422b8700e",
+  "semantic_fingerprint": "asmdecl_test",
+  "detected_at": "2025-11-13T05:18:46.330681",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_asmdecl_test_856776d0.go",
+  "original_metadata": {
+    "size": 1024,
+    "modified": "2025-01-12T09:30:47.733004",
+    "created": "2025-11-11T03:39:11.679129"
+  },
+  "stripped_metadata": {}
+}

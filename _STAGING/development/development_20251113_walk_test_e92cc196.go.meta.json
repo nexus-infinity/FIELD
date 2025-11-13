@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/walk_test.go",
+  "original_name": "walk_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3115,
+  "content_hash": "e92cc196e00c4dce4638d58fb9a4ef9f702be3570b373f367f5d7f2a09b205d2",
+  "semantic_fingerprint": "walk_test",
+  "detected_at": "2025-11-13T05:18:46.476006",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_walk_test_e92cc196.go",
+  "original_metadata": {
+    "size": 3115,
+    "modified": "2025-01-12T09:30:45.376312",
+    "created": "2025-11-11T03:39:11.682327"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/allocators.go",
+  "original_name": "allocators.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6876,
+  "content_hash": "9765de456988386a1c20e290ea2ee0c9d66aa6280f7892cf45cc1238b6baed18",
+  "semantic_fingerprint": "allocators",
+  "detected_at": "2025-11-13T05:18:46.163439",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_allocators_9765de45.go",
+  "original_metadata": {
+    "size": 6876,
+    "modified": "2025-01-12T09:30:44.434568",
+    "created": "2025-11-11T03:39:11.675832"
+  },
+  "stripped_metadata": {}
+}

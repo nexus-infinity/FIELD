@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/backdoor.go",
+  "original_name": "backdoor.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 794,
+  "content_hash": "d52b209718f65c6c334b8aa5c474333643315e16ad1272dff9510e7075f01d3d",
+  "semantic_fingerprint": "backdoor",
+  "detected_at": "2025-11-13T05:18:46.272632",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_backdoor_d52b2097.go",
+  "original_metadata": {
+    "size": 794,
+    "modified": "2025-01-12T09:30:35.492714",
+    "created": "2025-11-11T03:39:11.678080"
+  },
+  "stripped_metadata": {}
+}

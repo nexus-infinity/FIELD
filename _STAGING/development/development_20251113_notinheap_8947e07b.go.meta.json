@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/notinheap.go",
+  "original_name": "notinheap.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 50,
+  "content_hash": "8947e07b3bc6b24e4fe05ba980d486497edbb2be37979950bf0be6bfcb2b9217",
+  "semantic_fingerprint": "notinheap",
+  "detected_at": "2025-11-13T05:18:45.971195",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_notinheap_8947e07b.go",
+  "original_metadata": {
+    "size": 50,
+    "modified": "2025-01-12T09:30:35.495806",
+    "created": "2025-11-11T03:39:11.668834"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_linux_s390x.go",
+  "original_name": "zsyscall_linux_s390x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 36151,
+  "content_hash": "8fbbaed99c854b8ae887ecbe0eaf55ce7208962271c998445a52552ceda5480c",
+  "semantic_fingerprint": "zsyscall_linux_s390x",
+  "detected_at": "2025-11-13T05:18:46.804234",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_linux_s390x_8fbbaed9.go",
+  "original_metadata": {
+    "size": 36151,
+    "modified": "2025-01-12T09:30:45.740785",
+    "created": "2025-11-11T03:39:11.687030"
+  },
+  "stripped_metadata": {}
+}

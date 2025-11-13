@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_openbsd_amd64.go",
+  "original_name": "zerrors_openbsd_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 64210,
+  "content_hash": "62acaf62adb8f687b1ea868e38128efdc184eda1afa1d207b700dea6c77a7383",
+  "semantic_fingerprint": "zerrors_openbsd_amd64",
+  "detected_at": "2025-11-13T05:18:47.392884",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_openbsd_amd64_62acaf62.go",
+  "original_metadata": {
+    "size": 64210,
+    "modified": "2025-01-12T09:30:45.733237",
+    "created": "2025-11-11T03:39:11.698907"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/vulncheck.go",
+  "original_name": "vulncheck.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9061,
+  "content_hash": "06d5c5f0775b7cd2dde09bfde28b048b56275c1e054fc4476ab52909dd25e299",
+  "semantic_fingerprint": "vulncheck",
+  "detected_at": "2025-11-13T05:18:47.810687",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_vulncheck_06d5c5f0.go",
+  "original_metadata": {
+    "size": 9061,
+    "modified": "2025-01-12T09:30:49.152867",
+    "created": "2025-11-11T03:39:11.706769"
+  },
+  "stripped_metadata": {}
+}

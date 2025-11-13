@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/usesgenerics_test.go",
+  "original_name": "usesgenerics_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 451,
+  "content_hash": "f0eef1bba9d614af7d4cb66c1f777ec7a1be81bfe0a75aa48023304737509ecc",
+  "semantic_fingerprint": "usesgenerics_test",
+  "detected_at": "2025-11-13T05:18:47.757483",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_usesgenerics_test_f0eef1bb.go",
+  "original_metadata": {
+    "size": 451,
+    "modified": "2025-01-12T09:30:47.792316",
+    "created": "2025-11-11T03:39:11.705734"
+  },
+  "stripped_metadata": {}
+}

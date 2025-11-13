@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mutex.go",
+  "original_name": "mutex.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8555,
+  "content_hash": "507443584e79a36244c0c1800fe480632822be195f9f59f99fc3d2aef9c9b4a6",
+  "semantic_fingerprint": "mutex",
+  "detected_at": "2025-11-13T05:18:47.588254",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mutex_50744358.go",
+  "original_metadata": {
+    "size": 8555,
+    "modified": "2025-01-12T09:30:45.681069",
+    "created": "2025-11-11T03:39:11.701985"
+  },
+  "stripped_metadata": {}
+}

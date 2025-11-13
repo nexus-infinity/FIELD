@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/framepointer.go",
+  "original_name": "framepointer.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 839,
+  "content_hash": "66e5d9abc76d1bcd3798518af0f217304dbdbd97e43d37db5f943f1154fa4aa1",
+  "semantic_fingerprint": "framepointer",
+  "detected_at": "2025-11-13T05:18:47.704949",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_framepointer_66e5d9ab.go",
+  "original_metadata": {
+    "size": 839,
+    "modified": "2025-01-12T09:30:45.649307",
+    "created": "2025-11-11T03:39:11.704404"
+  },
+  "stripped_metadata": {}
+}

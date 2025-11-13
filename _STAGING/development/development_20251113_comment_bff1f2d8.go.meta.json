@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/comment.go",
+  "original_name": "comment.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3614,
+  "content_hash": "bff1f2d85859d0711215fdf6d095b4abfbcc2732ad54569ebb7e3d232ec7f9ac",
+  "semantic_fingerprint": "comment",
+  "detected_at": "2025-11-13T05:18:46.127202",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_comment_bff1f2d8.go",
+  "original_metadata": {
+    "size": 3614,
+    "modified": "2025-01-12T09:30:45.137206",
+    "created": "2025-11-11T03:39:11.674926"
+  },
+  "stripped_metadata": {}
+}

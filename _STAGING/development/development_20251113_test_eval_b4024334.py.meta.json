@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/test_eval.py",
+  "original_name": "test_eval.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 71739,
+  "content_hash": "b4024334bc2eafa049504a94cce71edc6af651cae925614713b7510e2e077dbe",
+  "semantic_fingerprint": "test_eval",
+  "detected_at": "2025-11-13T05:18:47.921414",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_test_eval_b4024334.py",
+  "original_metadata": {
+    "size": 71739,
+    "modified": "2025-06-13T00:41:14.890672",
+    "created": "2025-11-11T03:39:11.709084"
+  },
+  "stripped_metadata": {}
+}

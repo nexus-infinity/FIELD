@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/cleanup_recommendations.txt",
+  "original_name": "cleanup_recommendations.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 813,
+  "content_hash": "0718a868ab59a689f6eeb667681b3b8fa4160570b514261095aa0721857440cd",
+  "semantic_fingerprint": "cleanup_recommendations",
+  "detected_at": "2025-11-13T05:18:45.864533",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_cleanup_recommendations_0718a868.txt",
+  "original_metadata": {
+    "size": 813,
+    "modified": "2025-08-04T22:07:16.274918",
+    "created": "2025-11-11T03:39:11.511086"
+  },
+  "stripped_metadata": {}
+}

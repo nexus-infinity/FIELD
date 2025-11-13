@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/digraph_test.go",
+  "original_name": "digraph_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9086,
+  "content_hash": "f5347a7f62b34823955dba39845b80aeb55f0bc36da52d498b92d8a5f6c63a57",
+  "semantic_fingerprint": "digraph_test",
+  "detected_at": "2025-11-13T05:18:46.471205",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_digraph_test_f5347a7f.go",
+  "original_metadata": {
+    "size": 9086,
+    "modified": "2025-01-12T09:30:47.709550",
+    "created": "2025-11-11T03:39:11.682272"
+  },
+  "stripped_metadata": {}
+}

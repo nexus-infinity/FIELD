@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pre.go",
+  "original_name": "pre.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 60,
+  "content_hash": "b0a9469fddfd9ef2d1fbeddcfc06167db8336742a181e11a06f26335f5c749a5",
+  "semantic_fingerprint": "pre",
+  "detected_at": "2025-11-13T05:18:47.422808",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pre_b0a9469f.go",
+  "original_metadata": {
+    "size": 60,
+    "modified": "2025-01-12T09:30:47.903472",
+    "created": "2025-11-11T03:39:11.699700"
+  },
+  "stripped_metadata": {}
+}

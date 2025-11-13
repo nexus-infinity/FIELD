@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/overlay.go",
+  "original_name": "overlay.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2930,
+  "content_hash": "8f815669fe88022c66f2c300ae140720f09bc80100cd263b85b02c4f0159d760",
+  "semantic_fingerprint": "overlay",
+  "detected_at": "2025-11-13T05:18:46.318929",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_overlay_8f815669.go",
+  "original_metadata": {
+    "size": 2930,
+    "modified": "2025-01-12T09:30:47.796716",
+    "created": "2025-11-11T03:39:11.678921"
+  },
+  "stripped_metadata": {}
+}

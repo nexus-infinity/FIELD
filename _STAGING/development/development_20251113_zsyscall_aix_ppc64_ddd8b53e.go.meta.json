@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_aix_ppc64.go",
+  "original_name": "zsyscall_aix_ppc64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 42750,
+  "content_hash": "ddd8b53e206e7b9dffc140e0f7fff9b8a7e626f73ca117bb31a28f16734fdde2",
+  "semantic_fingerprint": "zsyscall_aix_ppc64",
+  "detected_at": "2025-11-13T05:18:47.610255",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_aix_ppc64_ddd8b53e.go",
+  "original_metadata": {
+    "size": 42750,
+    "modified": "2025-01-12T09:30:45.735664",
+    "created": "2025-11-11T03:39:11.702384"
+  },
+  "stripped_metadata": {}
+}

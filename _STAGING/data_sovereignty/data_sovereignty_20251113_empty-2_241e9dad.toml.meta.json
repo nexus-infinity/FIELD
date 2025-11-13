@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/empty-2.toml",
+  "original_name": "empty-2.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9,
+  "content_hash": "241e9dadb76e7560c8943604f405b77d9d34348a8e9ae92edcd5bcc83353d2d0",
+  "semantic_fingerprint": "empty-2",
+  "detected_at": "2025-11-13T05:18:46.933550",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_empty-2_241e9dad.toml",
+  "original_metadata": {
+    "size": 9,
+    "modified": "2025-01-12T09:30:51.612222",
+    "created": "2025-11-11T03:39:11.689803"
+  },
+  "stripped_metadata": {}
+}

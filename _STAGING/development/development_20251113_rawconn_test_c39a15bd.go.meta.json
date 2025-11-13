@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rawconn_test.go",
+  "original_name": "rawconn_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1173,
+  "content_hash": "c39a15bdeabab365087453cbdcda3c47ed82c16713c10688ccf08e1476e3fd6d",
+  "semantic_fingerprint": "rawconn_test",
+  "detected_at": "2025-11-13T05:18:47.403774",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rawconn_test_c39a15bd.go",
+  "original_metadata": {
+    "size": 1173,
+    "modified": "2025-01-12T09:30:45.478267",
+    "created": "2025-11-11T03:39:11.699201"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/trivial.go",
+  "original_name": "trivial.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 203,
+  "content_hash": "65adbb48c7ea6ca0835867caab88ac30361dc892bb178833772dbde6e5a00c68",
+  "semantic_fingerprint": "trivial",
+  "detected_at": "2025-11-13T05:18:46.262382",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_trivial_65adbb48.go",
+  "original_metadata": {
+    "size": 203,
+    "modified": "2025-01-12T09:30:44.389987",
+    "created": "2025-11-11T03:39:11.677859"
+  },
+  "stripped_metadata": {}
+}

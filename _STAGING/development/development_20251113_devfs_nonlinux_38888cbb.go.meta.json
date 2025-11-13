@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/devfs_nonlinux.go",
+  "original_name": "devfs_nonlinux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1166,
+  "content_hash": "38888cbbdeb9c5ed542b56fdb2824507ed889b9c6a88e0cd493248f81b94dbc4",
+  "semantic_fingerprint": "devfs_nonlinux",
+  "detected_at": "2025-11-13T05:18:47.866149",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_devfs_nonlinux_38888cbb.go",
+  "original_metadata": {
+    "size": 1166,
+    "modified": "2025-01-12T09:31:05.583181",
+    "created": "2025-11-11T03:39:11.707871"
+  },
+  "stripped_metadata": {}
+}

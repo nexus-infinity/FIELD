@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/httpfs.go",
+  "original_name": "httpfs.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2174,
+  "content_hash": "cfa7a3655a5fee0be51fc14501f09145dc4a0981a540e65439e45381dfeecb74",
+  "semantic_fingerprint": "httpfs",
+  "detected_at": "2025-11-13T05:18:45.885653",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_httpfs_cfa7a365.go",
+  "original_metadata": {
+    "size": 2174,
+    "modified": "2025-01-12T09:30:47.859297",
+    "created": "2025-11-11T03:39:11.667537"
+  },
+  "stripped_metadata": {}
+}

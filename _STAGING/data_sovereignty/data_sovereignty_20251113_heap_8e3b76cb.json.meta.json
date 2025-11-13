@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/Heap.json",
+  "original_name": "Heap.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 1973,
+  "content_hash": "8e3b76cb3636acdef3fd52a8b41ce4e5554bf2d3ffa552f90744898c3adb939a",
+  "semantic_fingerprint": "heap",
+  "detected_at": "2025-11-13T05:18:46.891284",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_heap_8e3b76cb.json",
+  "original_metadata": {
+    "size": 1973,
+    "modified": "2025-02-02T16:32:20.578587",
+    "created": "2025-11-11T03:39:11.688837"
+  },
+  "stripped_metadata": {}
+}

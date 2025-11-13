@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cipher.go",
+  "original_name": "cipher.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2453,
+  "content_hash": "b762080ed949d2f2b3b7cfdf1e55be19e10b5d49edb04731a18689550f2afdba",
+  "semantic_fingerprint": "cipher",
+  "detected_at": "2025-11-13T05:18:47.389990",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cipher_b762080e.go",
+  "original_metadata": {
+    "size": 2453,
+    "modified": "2025-01-12T09:30:44.941692",
+    "created": "2025-11-11T03:39:11.698885"
+  },
+  "stripped_metadata": {}
+}

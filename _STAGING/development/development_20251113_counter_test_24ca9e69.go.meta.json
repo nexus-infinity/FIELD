@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/counter_test.go",
+  "original_name": "counter_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14363,
+  "content_hash": "24ca9e69b4e6b329841fd0007a0d6ab8f5899c671f83cbd76adc3ae9dbdd3179",
+  "semantic_fingerprint": "counter_test",
+  "detected_at": "2025-11-13T05:18:46.056407",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_counter_test_24ca9e69.go",
+  "original_metadata": {
+    "size": 14363,
+    "modified": "2025-01-12T09:30:47.664264",
+    "created": "2025-11-11T03:39:11.673050"
+  },
+  "stripped_metadata": {}
+}

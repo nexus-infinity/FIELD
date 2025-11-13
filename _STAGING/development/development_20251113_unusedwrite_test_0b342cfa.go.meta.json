@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unusedwrite_test.go",
+  "original_name": "unusedwrite_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 450,
+  "content_hash": "0b342cfa9cb5325f9e25e52b77708ffaca88c47a253a19c139bb7baa924b10bc",
+  "semantic_fingerprint": "unusedwrite_test",
+  "detected_at": "2025-11-13T05:18:46.733819",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unusedwrite_test_0b342cfa.go",
+  "original_metadata": {
+    "size": 450,
+    "modified": "2025-01-12T09:30:47.791595",
+    "created": "2025-11-11T03:39:11.685278"
+  },
+  "stripped_metadata": {}
+}

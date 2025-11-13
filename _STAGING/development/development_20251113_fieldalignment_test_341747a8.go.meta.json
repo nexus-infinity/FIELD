@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fieldalignment_test.go",
+  "original_name": "fieldalignment_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 464,
+  "content_hash": "341747a843fdeb7f9c84cf960e9e49452a3f95766e922d77e50ed0cd77e85707",
+  "semantic_fingerprint": "fieldalignment_test",
+  "detected_at": "2025-11-13T05:18:47.064953",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fieldalignment_test_341747a8.go",
+  "original_metadata": {
+    "size": 464,
+    "modified": "2025-01-12T09:30:47.747559",
+    "created": "2025-11-11T03:39:11.692758"
+  },
+  "stripped_metadata": {}
+}

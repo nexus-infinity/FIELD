@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/transport.go",
+  "original_name": "transport.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 93192,
+  "content_hash": "de87c053e4c90297a76656d1c7eb15c757e03d959a1a943303ba22db03c93f3c",
+  "semantic_fingerprint": "transport",
+  "detected_at": "2025-11-13T05:18:45.944544",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_transport_de87c053.go",
+  "original_metadata": {
+    "size": 93192,
+    "modified": "2025-01-12T09:30:45.440323",
+    "created": "2025-11-11T03:39:11.668318"
+  },
+  "stripped_metadata": {}
+}

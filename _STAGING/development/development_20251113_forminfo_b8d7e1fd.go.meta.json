@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/forminfo.go",
+  "original_name": "forminfo.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8913,
+  "content_hash": "b8d7e1fd095038fee9db7ea058bea492c55d642de2178475569ee763eebe25d7",
+  "semantic_fingerprint": "forminfo",
+  "detected_at": "2025-11-13T05:18:47.433748",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_forminfo_b8d7e1fd.go",
+  "original_metadata": {
+    "size": 8913,
+    "modified": "2025-01-12T09:30:45.818466",
+    "created": "2025-11-11T03:39:11.699930"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/reflect.go",
+  "original_name": "reflect.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 752,
+  "content_hash": "a1ad590defa43eb939d562d91ffdffb4f18184c7931449f448a8c161dc4257ad",
+  "semantic_fingerprint": "reflect",
+  "detected_at": "2025-11-13T05:18:47.629341",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_reflect_a1ad590d.go",
+  "original_metadata": {
+    "size": 752,
+    "modified": "2025-01-12T09:30:35.517848",
+    "created": "2025-11-11T03:39:11.702878"
+  },
+  "stripped_metadata": {}
+}

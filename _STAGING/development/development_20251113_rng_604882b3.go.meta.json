@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rng.go",
+  "original_name": "rng.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2659,
+  "content_hash": "604882b366b914339cd7f78ec5b646e1986fd1c8b2f24be90777c5aa4def4280",
+  "semantic_fingerprint": "rng",
+  "detected_at": "2025-11-13T05:18:46.934425",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rng_604882b3.go",
+  "original_metadata": {
+    "size": 2659,
+    "modified": "2025-01-12T09:31:05.586182",
+    "created": "2025-11-11T03:39:11.689824"
+  },
+  "stripped_metadata": {}
+}

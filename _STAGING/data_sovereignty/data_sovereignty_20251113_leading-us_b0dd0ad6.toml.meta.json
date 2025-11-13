@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/leading-us.toml",
+  "original_name": "leading-us.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 18,
+  "content_hash": "b0dd0ad66a354253ee781603195178b50522ee1af767b65227febfe98e40a1bc",
+  "semantic_fingerprint": "leading-us",
+  "detected_at": "2025-11-13T05:18:46.786849",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_leading-us_b0dd0ad6.toml",
+  "original_metadata": {
+    "size": 18,
+    "modified": "2025-01-12T09:30:51.616680",
+    "created": "2025-11-11T03:39:11.686633"
+  },
+  "stripped_metadata": {}
+}

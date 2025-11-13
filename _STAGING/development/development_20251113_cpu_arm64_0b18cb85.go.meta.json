@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu_arm64.go",
+  "original_name": "cpu_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3960,
+  "content_hash": "0b18cb85032b670a24f0d705d9bb3451ccc6bbd65a86883dc889e1b6f7c3f86c",
+  "semantic_fingerprint": "cpu_arm64",
+  "detected_at": "2025-11-13T05:18:47.622123",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_arm64_0b18cb85.go",
+  "original_metadata": {
+    "size": 3960,
+    "modified": "2025-01-12T09:30:45.806742",
+    "created": "2025-11-11T03:39:11.702646"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_range_over_func.go",
+  "original_name": "callgraph_range_over_func.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1478,
+  "content_hash": "3f7ca7534cf8f65936cf33227107c57fe4b1c6b9e0a9a9c7ce6fbe561632ea8d",
+  "semantic_fingerprint": "callgraph_range_over_func",
+  "detected_at": "2025-11-13T05:18:46.875306",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_range_over_func_3f7ca753.go",
+  "original_metadata": {
+    "size": 1478,
+    "modified": "2025-01-12T09:30:47.802897",
+    "created": "2025-11-11T03:39:11.688444"
+  },
+  "stripped_metadata": {}
+}

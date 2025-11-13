@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/interp.go",
+  "original_name": "interp.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 21199,
+  "content_hash": "d71cf74506fdb08c571ba2326e09cafb8309698c6e6bb907f7d258429876b6dd",
+  "semantic_fingerprint": "interp",
+  "detected_at": "2025-11-13T05:18:47.899883",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_interp_d71cf745.go",
+  "original_metadata": {
+    "size": 21199,
+    "modified": "2025-01-12T09:30:47.824255",
+    "created": "2025-11-11T03:39:11.708631"
+  },
+  "stripped_metadata": {}
+}

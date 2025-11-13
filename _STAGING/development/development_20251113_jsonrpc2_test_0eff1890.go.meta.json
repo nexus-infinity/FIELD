@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/jsonrpc2_test.go",
+  "original_name": "jsonrpc2_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10163,
+  "content_hash": "0eff18904fd336b90089496d4755c6c34995b166530b7bfe9137b0d98617b736",
+  "semantic_fingerprint": "jsonrpc2_test",
+  "detected_at": "2025-11-13T05:18:46.376094",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_jsonrpc2_test_0eff1890.go",
+  "original_metadata": {
+    "size": 10163,
+    "modified": "2025-01-12T09:30:35.563798",
+    "created": "2025-11-11T03:39:11.680102"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sourcex_test.go",
+  "original_name": "sourcex_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2454,
+  "content_hash": "a4a7eedec55412f872a3b95715b7cedfd81cdaffff4af9dc3f3f38e670d1f393",
+  "semantic_fingerprint": "sourcex_test",
+  "detected_at": "2025-11-13T05:18:46.846057",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sourcex_test_a4a7eede.go",
+  "original_metadata": {
+    "size": 2454,
+    "modified": "2025-01-12T09:30:47.881667",
+    "created": "2025-11-11T03:39:11.687750"
+  },
+  "stripped_metadata": {}
+}

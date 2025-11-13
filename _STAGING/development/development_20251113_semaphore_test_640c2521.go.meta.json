@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/semaphore_test.go",
+  "original_name": "semaphore_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5695,
+  "content_hash": "640c2521e2e4393f4ca127e080199aa52ce7b8792d375a8bc5cd0758f8cfd6fc",
+  "semantic_fingerprint": "semaphore_test",
+  "detected_at": "2025-11-13T05:18:46.137971",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_semaphore_test_640c2521.go",
+  "original_metadata": {
+    "size": 5695,
+    "modified": "2025-01-12T09:31:07.393092",
+    "created": "2025-11-11T03:39:11.675194"
+  },
+  "stripped_metadata": {}
+}

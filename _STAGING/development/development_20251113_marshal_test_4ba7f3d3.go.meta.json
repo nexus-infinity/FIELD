@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/marshal_test.go",
+  "original_name": "marshal_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10216,
+  "content_hash": "4ba7f3d30390b1754da6341a73b2068acc0d7d9046caa36d4a9e90e8801ad2ca",
+  "semantic_fingerprint": "marshal_test",
+  "detected_at": "2025-11-13T05:18:47.692955",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_marshal_test_4ba7f3d3.go",
+  "original_metadata": {
+    "size": 10216,
+    "modified": "2025-01-12T09:30:45.083040",
+    "created": "2025-11-11T03:39:11.704178"
+  },
+  "stripped_metadata": {}
+}

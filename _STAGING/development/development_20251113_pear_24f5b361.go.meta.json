@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pear.go",
+  "original_name": "pear.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 41,
+  "content_hash": "24f5b3618e7849cdeb2d8a58e98d11d339d67eb2959c2cc93e976ff4f5cbbe91",
+  "semantic_fingerprint": "pear",
+  "detected_at": "2025-11-13T05:18:47.043680",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pear_24f5b361.go",
+  "original_metadata": {
+    "size": 41,
+    "modified": "2025-01-12T09:30:47.710846",
+    "created": "2025-11-11T03:39:11.692251"
+  },
+  "stripped_metadata": {}
+}

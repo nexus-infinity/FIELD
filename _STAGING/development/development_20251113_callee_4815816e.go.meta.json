@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callee.go",
+  "original_name": "callee.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2072,
+  "content_hash": "4815816eb4dae87c6c470a8761075c4c07b689e931641d7293173f560b6fcc6e",
+  "semantic_fingerprint": "callee",
+  "detected_at": "2025-11-13T05:18:46.748429",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callee_4815816e.go",
+  "original_metadata": {
+    "size": 2072,
+    "modified": "2025-01-12T09:30:35.520417",
+    "created": "2025-11-11T03:39:11.685652"
+  },
+  "stripped_metadata": {}
+}

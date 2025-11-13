@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_linux_s390x.go",
+  "original_name": "zerrors_linux_s390x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 75037,
+  "content_hash": "57ceed70b023411e25ac4d75077254c51cb4651071004522902c5775b9a08c98",
+  "semantic_fingerprint": "zerrors_linux_s390x",
+  "detected_at": "2025-11-13T05:18:46.322741",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_linux_s390x_57ceed70.go",
+  "original_metadata": {
+    "size": 75037,
+    "modified": "2025-01-12T09:30:45.731110",
+    "created": "2025-11-11T03:39:11.678961"
+  },
+  "stripped_metadata": {}
+}

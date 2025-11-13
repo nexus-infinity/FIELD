@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_freebsd_386.go",
+  "original_name": "syscall_freebsd_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1200,
+  "content_hash": "21e96d69fdbfbc5d07ee3cd9fd3bb628b352234eceb52487f7d6111afea7138a",
+  "semantic_fingerprint": "syscall_freebsd_386",
+  "detected_at": "2025-11-13T05:18:46.955872",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_freebsd_386_21e96d69.go",
+  "original_metadata": {
+    "size": 1200,
+    "modified": "2025-01-12T09:30:45.714239",
+    "created": "2025-11-11T03:39:11.690325"
+  },
+  "stripped_metadata": {}
+}

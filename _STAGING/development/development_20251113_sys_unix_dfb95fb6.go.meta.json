@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sys_unix.go",
+  "original_name": "sys_unix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1415,
+  "content_hash": "dfb95fb684453c7314fc9a31dacb6bb6de7fa3ccc1752b9bb7f2741a062911d5",
+  "semantic_fingerprint": "sys_unix",
+  "detected_at": "2025-11-13T05:18:47.542297",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sys_unix_dfb95fb6.go",
+  "original_metadata": {
+    "size": 1415,
+    "modified": "2025-01-12T09:30:45.771342",
+    "created": "2025-11-11T03:39:11.701696"
+  },
+  "stripped_metadata": {}
+}

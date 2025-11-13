@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/gostacks.go",
+  "original_name": "gostacks.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 645,
+  "content_hash": "e2c73afcec1e136605f674cfb2202381332778e2eda0823c0fc25318dad89cd5",
+  "semantic_fingerprint": "gostacks",
+  "detected_at": "2025-11-13T05:18:46.545554",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_gostacks_e2c73afc.go",
+  "original_metadata": {
+    "size": 645,
+    "modified": "2025-01-12T09:30:47.899483",
+    "created": "2025-11-11T03:39:11.683664"
+  },
+  "stripped_metadata": {}
+}

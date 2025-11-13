@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/asm.go",
+  "original_name": "asm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 26096,
+  "content_hash": "0ce817e21c03e9404c7881312216b80656da292a6be0b64262180b9bd3157f02",
+  "semantic_fingerprint": "asm",
+  "detected_at": "2025-11-13T05:18:47.381886",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_asm_0ce817e2.go",
+  "original_metadata": {
+    "size": 26096,
+    "modified": "2025-01-12T09:30:44.323582",
+    "created": "2025-11-11T03:39:11.698693"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/nilfunc_test.go",
+  "original_name": "nilfunc_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 435,
+  "content_hash": "5ca71bc67d36e0d07a08d70727c692549014e9da7bf9061a96aa61431e5e62f1",
+  "semantic_fingerprint": "nilfunc_test",
+  "detected_at": "2025-11-13T05:18:47.021482",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_nilfunc_test_5ca71bc6.go",
+  "original_metadata": {
+    "size": 435,
+    "modified": "2025-01-12T09:30:47.754526",
+    "created": "2025-11-11T03:39:11.691776"
+  },
+  "stripped_metadata": {}
+}

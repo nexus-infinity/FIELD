@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/file_wasip1.go",
+  "original_name": "file_wasip1.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 633,
+  "content_hash": "f0f2843543dda496cdc03f477d3912a10c01f5d39f10d8a2215f441c79d6b245",
+  "semantic_fingerprint": "file_wasip1",
+  "detected_at": "2025-11-13T05:18:47.547865",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_file_wasip1_f0f28435.go",
+  "original_metadata": {
+    "size": 633,
+    "modified": "2025-01-12T09:30:45.475753",
+    "created": "2025-11-11T03:39:11.701767"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/frame.go",
+  "original_name": "frame.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5000,
+  "content_hash": "acc9ca03889fd1dc9d7f8c068216eda66c84f11bee4029fe836da52f43d11f23",
+  "semantic_fingerprint": "frame",
+  "detected_at": "2025-11-13T05:18:47.119521",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_frame_acc9ca03.go",
+  "original_metadata": {
+    "size": 5000,
+    "modified": "2025-01-12T09:30:47.884660",
+    "created": "2025-11-11T03:39:11.693852"
+  },
+  "stripped_metadata": {}
+}

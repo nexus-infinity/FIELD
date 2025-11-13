@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/composite_test.go",
+  "original_name": "composite_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 459,
+  "content_hash": "46c53fa3a15a0c115ca409987fe0f7fd24e77d3df8dd7d432a3841ca690e6774",
+  "semantic_fingerprint": "composite_test",
+  "detected_at": "2025-11-13T05:18:46.418870",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_composite_test_46c53fa3.go",
+  "original_metadata": {
+    "size": 459,
+    "modified": "2025-01-12T09:30:47.740781",
+    "created": "2025-11-11T03:39:11.681260"
+  },
+  "stripped_metadata": {}
+}

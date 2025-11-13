@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/goroot.go",
+  "original_name": "goroot.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 666,
+  "content_hash": "92f377d09135604f023f38eedafb2cb2f2f10a0a07c687791e12c37e3df539c6",
+  "semantic_fingerprint": "goroot",
+  "detected_at": "2025-11-13T05:18:46.405430",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_goroot_92f377d0.go",
+  "original_metadata": {
+    "size": 666,
+    "modified": "2025-01-12T09:30:47.712837",
+    "created": "2025-11-11T03:39:11.680878"
+  },
+  "stripped_metadata": {}
+}

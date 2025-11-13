@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/play.go",
+  "original_name": "play.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10235,
+  "content_hash": "3a1aacc87b8247e7e89aae79c000f09e5a96c374574d75ef4d828aed68b6a3ec",
+  "semantic_fingerprint": "play",
+  "detected_at": "2025-11-13T05:18:46.416117",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_play_3a1aacc8.go",
+  "original_metadata": {
+    "size": 10235,
+    "modified": "2025-01-12T09:30:35.519806",
+    "created": "2025-11-11T03:39:11.681169"
+  },
+  "stripped_metadata": {}
+}

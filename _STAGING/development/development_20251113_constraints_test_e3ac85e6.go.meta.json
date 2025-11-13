@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/constraints_test.go",
+  "original_name": "constraints_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4300,
+  "content_hash": "e3ac85e6a3a1d0bce9cff2cd5d2bcddc98d30a185b071bad8c999e6aa02dedaa",
+  "semantic_fingerprint": "constraints_test",
+  "detected_at": "2025-11-13T05:18:46.070586",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_constraints_test_e3ac85e6.go",
+  "original_metadata": {
+    "size": 4300,
+    "modified": "2025-01-12T09:31:05.579783",
+    "created": "2025-11-11T03:39:11.673373"
+  },
+  "stripped_metadata": {}
+}

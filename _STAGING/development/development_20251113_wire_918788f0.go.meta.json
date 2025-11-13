@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/wire.go",
+  "original_name": "wire.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3244,
+  "content_hash": "918788f0ef07a8eed51c08b2781dc7c2fcf79ca062ffc17ccf365392542ddadc",
+  "semantic_fingerprint": "wire",
+  "detected_at": "2025-11-13T05:18:47.389266",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_wire_918788f0.go",
+  "original_metadata": {
+    "size": 3244,
+    "modified": "2025-01-12T09:30:35.564541",
+    "created": "2025-11-11T03:39:11.698862"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/y10k.toml",
+  "original_name": "y10k.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 58,
+  "content_hash": "bc7e63fed3c0395a3997dd7462236c148a95331550e9f33da0d1ecdb44526c72",
+  "semantic_fingerprint": "y10k",
+  "detected_at": "2025-11-13T05:18:46.451308",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_y10k_bc7e63fe.toml",
+  "original_metadata": {
+    "size": 58,
+    "modified": "2025-01-12T09:30:51.604241",
+    "created": "2025-11-11T03:39:11.681934"
+  },
+  "stripped_metadata": {}
+}

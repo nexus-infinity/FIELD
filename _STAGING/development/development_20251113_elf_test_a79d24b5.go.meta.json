@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/elf_test.go",
+  "original_name": "elf_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 17042,
+  "content_hash": "a79d24b5e21874518b9bb9d62664b92bf74559cc7efdc9b416e65f666b8c6d17",
+  "semantic_fingerprint": "elf_test",
+  "detected_at": "2025-11-13T05:18:46.906250",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_elf_test_a79d24b5.go",
+  "original_metadata": {
+    "size": 17042,
+    "modified": "2025-01-12T09:30:44.724898",
+    "created": "2025-11-11T03:39:11.689206"
+  },
+  "stripped_metadata": {}
+}

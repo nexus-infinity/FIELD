@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/run-full-tests.sh",
+  "original_name": "run-full-tests.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 5995,
+  "content_hash": "0e95c45122d9f3403f7395b185c45154d8ff03b1a95214ab418005abad48d4a5",
+  "semantic_fingerprint": "run-full-tests",
+  "detected_at": "2025-11-13T05:18:46.897636",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_run-full-tests_0e95c451.sh",
+  "original_metadata": {
+    "size": 5995,
+    "modified": "2025-02-02T16:32:20.675251",
+    "created": "2025-11-11T03:39:11.688987"
+  },
+  "stripped_metadata": {}
+}

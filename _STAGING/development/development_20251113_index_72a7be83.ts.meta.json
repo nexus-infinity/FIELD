@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/index.ts",
+  "original_name": "index.ts",
+  "file_type": ".ts",
+  "mime_type": "video/mp2t",
+  "size_bytes": 1271,
+  "content_hash": "72a7be83642b3da6317dc9661bfbc8a8f521773812ac6e5c58ddee1c4386a86c",
+  "semantic_fingerprint": "index",
+  "detected_at": "2025-11-13T05:18:47.530763",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_index_72a7be83.ts",
+  "original_metadata": {
+    "size": 1271,
+    "modified": "2025-01-05T13:02:58.095167",
+    "created": "2025-11-11T03:39:11.701487"
+  },
+  "stripped_metadata": {}
+}

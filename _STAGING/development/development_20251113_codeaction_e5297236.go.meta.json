@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/codeaction.go",
+  "original_name": "codeaction.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 30747,
+  "content_hash": "e529723617366d53c4f492ea6879e467f9e278684f1dfc901bc14a2662f95203",
+  "semantic_fingerprint": "codeaction",
+  "detected_at": "2025-11-13T05:18:46.069040",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_codeaction_e5297236.go",
+  "original_metadata": {
+    "size": 30747,
+    "modified": "2025-01-12T09:30:35.206609",
+    "created": "2025-11-11T03:39:11.673325"
+  },
+  "stripped_metadata": {}
+}

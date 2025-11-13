@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/maps_test.go",
+  "original_name": "maps_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4576,
+  "content_hash": "a3f5ebba03db050e86c9363d16706b7eba8a4e10e9d0aa61b0d5769ba680f683",
+  "semantic_fingerprint": "maps_test",
+  "detected_at": "2025-11-13T05:18:47.018689",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_maps_test_a3f5ebba.go",
+  "original_metadata": {
+    "size": 4576,
+    "modified": "2025-01-12T09:31:05.583899",
+    "created": "2025-11-11T03:39:11.691699"
+  },
+  "stripped_metadata": {}
+}

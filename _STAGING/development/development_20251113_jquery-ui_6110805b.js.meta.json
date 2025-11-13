@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/jquery-ui.js",
+  "original_name": "jquery-ui.js",
+  "file_type": ".js",
+  "mime_type": "text/javascript",
+  "size_bytes": 30584,
+  "content_hash": "6110805b3eb2b4051f6f49eacd4c23bcec7441948ac5cc29c300d8281e75f794",
+  "semantic_fingerprint": "jquery-ui",
+  "detected_at": "2025-11-13T05:18:47.845869",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_jquery-ui_6110805b.js",
+  "original_metadata": {
+    "size": 30584,
+    "modified": "2025-01-12T09:30:47.716736",
+    "created": "2025-11-11T03:39:11.707552"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/shift_test.go",
+  "original_name": "shift_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4144,
+  "content_hash": "e933640da4bb6c539716edbbe81f473e8d98123a4619e285f02908030bb176af",
+  "semantic_fingerprint": "shift_test",
+  "detected_at": "2025-11-13T05:18:47.136921",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_shift_test_e933640d.go",
+  "original_metadata": {
+    "size": 4144,
+    "modified": "2025-01-12T09:30:44.465608",
+    "created": "2025-11-11T03:39:11.694263"
+  },
+  "stripped_metadata": {}
+}

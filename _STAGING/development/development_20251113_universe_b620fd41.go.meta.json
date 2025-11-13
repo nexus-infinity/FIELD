@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/universe.go",
+  "original_name": "universe.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9363,
+  "content_hash": "b620fd4100c7636ceb6b40a1ddc41ec9080fb82197d3ef2648ce2a8ac1df84cc",
+  "semantic_fingerprint": "universe",
+  "detected_at": "2025-11-13T05:18:47.356485",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_universe_b620fd41.go",
+  "original_metadata": {
+    "size": 9363,
+    "modified": "2025-01-12T09:30:44.507461",
+    "created": "2025-11-11T03:39:11.698241"
+  },
+  "stripped_metadata": {}
+}

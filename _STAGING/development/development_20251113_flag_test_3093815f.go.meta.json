@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/flag_test.go",
+  "original_name": "flag_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 610,
+  "content_hash": "3093815f7a40bc09c15b06d691de82b3b70ea075defde63b5d7505eaa49ad4de",
+  "semantic_fingerprint": "flag_test",
+  "detected_at": "2025-11-13T05:18:47.115019",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_flag_test_3093815f.go",
+  "original_metadata": {
+    "size": 610,
+    "modified": "2025-01-12T09:30:44.709257",
+    "created": "2025-11-11T03:39:11.693723"
+  },
+  "stripped_metadata": {}
+}

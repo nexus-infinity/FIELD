@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/no-secs.toml",
+  "original_name": "no-secs.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 49,
+  "content_hash": "ef05045f90ffc68453b0883c2a8caf1524a39ff62db6f308946fc610fbc6cc35",
+  "semantic_fingerprint": "no-secs",
+  "detected_at": "2025-11-13T05:18:46.742746",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_no-secs_ef05045f.toml",
+  "original_metadata": {
+    "size": 49,
+    "modified": "2025-01-12T09:30:51.625387",
+    "created": "2025-11-11T03:39:11.685511"
+  },
+  "stripped_metadata": {}
+}

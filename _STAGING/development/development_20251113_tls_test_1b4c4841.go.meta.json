@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/tls_test.go",
+  "original_name": "tls_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 61944,
+  "content_hash": "1b4c484161c66fe5561ee03281169b428b3333f699227e52d42505c259e30c6b",
+  "semantic_fingerprint": "tls_test",
+  "detected_at": "2025-11-13T05:18:47.700308",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_tls_test_1b4c4841.go",
+  "original_metadata": {
+    "size": 61944,
+    "modified": "2025-01-12T09:30:45.045478",
+    "created": "2025-11-11T03:39:11.704298"
+  },
+  "stripped_metadata": {}
+}

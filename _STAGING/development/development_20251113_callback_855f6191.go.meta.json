@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callback.go",
+  "original_name": "callback.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1908,
+  "content_hash": "855f619135e6bd50f085162c6dd2b888ceecca800f134dfffacdb1911e6f6b4f",
+  "semantic_fingerprint": "callback",
+  "detected_at": "2025-11-13T05:18:46.331410",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callback_855f6191.go",
+  "original_metadata": {
+    "size": 1908,
+    "modified": "2025-01-12T09:30:45.652410",
+    "created": "2025-11-11T03:39:11.679148"
+  },
+  "stripped_metadata": {}
+}

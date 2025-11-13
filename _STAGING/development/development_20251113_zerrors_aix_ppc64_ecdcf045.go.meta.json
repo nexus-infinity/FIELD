@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_aix_ppc64.go",
+  "original_name": "zerrors_aix_ppc64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 48288,
+  "content_hash": "ecdcf045dcdcc0cd40400a49cbaba26ec8dd3a3544b191ebe07b38c66af35864",
+  "semantic_fingerprint": "zerrors_aix_ppc64",
+  "detected_at": "2025-11-13T05:18:47.940443",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_aix_ppc64_ecdcf045.go",
+  "original_metadata": {
+    "size": 48288,
+    "modified": "2025-01-12T09:30:45.722441",
+    "created": "2025-11-11T03:39:11.709413"
+  },
+  "stripped_metadata": {}
+}

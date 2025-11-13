@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bool.json",
+  "original_name": "bool.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 141,
+  "content_hash": "7fa7490587f3d1f4b0ebc531861573171ffc2811e7d6ffdac726a2e9bffd6dd4",
+  "semantic_fingerprint": "bool",
+  "detected_at": "2025-11-13T05:18:46.255137",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_bool_7fa74905.json",
+  "original_metadata": {
+    "size": 141,
+    "modified": "2025-01-12T09:30:51.645825",
+    "created": "2025-11-11T03:39:11.677676"
+  },
+  "stripped_metadata": {}
+}

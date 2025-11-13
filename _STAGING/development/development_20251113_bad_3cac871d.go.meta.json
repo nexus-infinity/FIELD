@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/bad.go",
+  "original_name": "bad.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 113,
+  "content_hash": "3cac871d018b70989d15750019e4823d6e523f0fd3a10ec14a2e4e548d4fd771",
+  "semantic_fingerprint": "bad",
+  "detected_at": "2025-11-13T05:18:47.675271",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_bad_3cac871d.go",
+  "original_metadata": {
+    "size": 113,
+    "modified": "2025-01-12T09:30:47.711098",
+    "created": "2025-11-11T03:39:11.703844"
+  },
+  "stripped_metadata": {}
+}

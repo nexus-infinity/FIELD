@@ -1,0 +1,27 @@
+=== CERTIFICATE ANALYSIS SUMMARY ===
+Analysis Date: Mon  4 Aug 2025 22:07:16 AEST
+System: macOS 15.6
+
+KEY FINDINGS:
+- Excessive certificate count detected
+- Multiple duplicate certificate authorities
+- Potential security implications from certificate bloat
+
+FILES CREATED:
+- keychain_backups/ : Safety backups of keychains
+- certificate_counts.txt : Certificate count by keychain
+- suspicious_certs.txt : Potentially suspicious certificates
+- certificate_dates.txt : Date analysis
+- duplicate_analysis.txt : Duplicate certificate identification
+- validity_check.txt : Validity and expiration analysis
+- cleanup_recommendations.txt : Safe cleanup steps
+- analysis.log : Complete analysis log
+
+NEXT STEPS:
+1. Review cleanup_recommendations.txt
+2. Open Keychain Access and sort by expiration date
+3. Remove expired certificates
+4. Remove obvious duplicates
+5. Reset certificate cache
+
+⚠️  IMPORTANT: Backups created before any changes

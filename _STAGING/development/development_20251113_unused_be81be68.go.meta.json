@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unused.go",
+  "original_name": "unused.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2437,
+  "content_hash": "be81be6881ac8895be69bfd9f792335281caf283f0ad413437af0fd4869ea84f",
+  "semantic_fingerprint": "unused",
+  "detected_at": "2025-11-13T05:18:47.499944",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unused_be81be68.go",
+  "original_metadata": {
+    "size": 2437,
+    "modified": "2025-01-12T09:30:49.940961",
+    "created": "2025-11-11T03:39:11.700959"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mkerrors.sh",
+  "original_name": "mkerrors.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 20652,
+  "content_hash": "6f1980f17315b51ecd2deb232e055fda64006917a459e3e47760f045ed4ac67d",
+  "semantic_fingerprint": "mkerrors",
+  "detected_at": "2025-11-13T05:18:46.761927",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_mkerrors_6f1980f1.sh",
+  "original_metadata": {
+    "size": 20652,
+    "modified": "2025-01-12T09:30:44.782581",
+    "created": "2025-11-11T03:39:11.686003"
+  },
+  "stripped_metadata": {}
+}

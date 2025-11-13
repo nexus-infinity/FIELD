@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/value_access_benchmark_test.go",
+  "original_name": "value_access_benchmark_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4395,
+  "content_hash": "cdb44fc086dda67c73311b6ce8ac2ee81bdeb538547f9fd86f7deec9575e5488",
+  "semantic_fingerprint": "value_access_benchmark_test",
+  "detected_at": "2025-11-13T05:18:47.929662",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_value_access_benchmark_test_cdb44fc0.go",
+  "original_metadata": {
+    "size": 4395,
+    "modified": "2025-01-12T09:31:05.602567",
+    "created": "2025-11-11T03:39:11.709263"
+  },
+  "stripped_metadata": {}
+}

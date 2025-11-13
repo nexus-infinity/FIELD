@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/shadow_test.go",
+  "original_name": "shadow_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 418,
+  "content_hash": "1bc6a39dde81a0dc620bab1593b68002394c32c02d46bc2065858692e584a76a",
+  "semantic_fingerprint": "shadow_test",
+  "detected_at": "2025-11-13T05:18:47.764260",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_shadow_test_1bc6a39d.go",
+  "original_metadata": {
+    "size": 418,
+    "modified": "2025-01-12T09:30:47.759945",
+    "created": "2025-11-11T03:39:11.705883"
+  },
+  "stripped_metadata": {}
+}

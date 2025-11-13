@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/svn.go",
+  "original_name": "svn.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4565,
+  "content_hash": "c0689e4fc02f9d00beba097a597b1e29a4eed09b20664cd9360a9f453d085acf",
+  "semantic_fingerprint": "svn",
+  "detected_at": "2025-11-13T05:18:45.923703",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_svn_c0689e4f.go",
+  "original_metadata": {
+    "size": 4565,
+    "modified": "2025-01-12T09:30:44.539490",
+    "created": "2025-11-11T03:39:11.668037"
+  },
+  "stripped_metadata": {}
+}

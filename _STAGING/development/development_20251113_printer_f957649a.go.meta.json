@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/printer.go",
+  "original_name": "printer.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 22038,
+  "content_hash": "f957649a78494349ee8b12bc91d34fff6daeafd150265f4f5c9d2695bab6c70d",
+  "semantic_fingerprint": "printer",
+  "detected_at": "2025-11-13T05:18:47.701972",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_printer_f957649a.go",
+  "original_metadata": {
+    "size": 22038,
+    "modified": "2025-01-12T09:30:44.474343",
+    "created": "2025-11-11T03:39:11.704319"
+  },
+  "stripped_metadata": {}
+}

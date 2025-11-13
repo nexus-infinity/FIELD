@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/namespace.go",
+  "original_name": "namespace.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 11946,
+  "content_hash": "f62ffdddd825d556ae45dd7dc5f26cf2225e6956a77facfb0c5e96d7b895c96a",
+  "semantic_fingerprint": "namespace",
+  "detected_at": "2025-11-13T05:18:47.832968",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_namespace_f62ffddd.go",
+  "original_metadata": {
+    "size": 11946,
+    "modified": "2025-01-12T09:30:47.859669",
+    "created": "2025-11-11T03:39:11.707293"
+  },
+  "stripped_metadata": {}
+}

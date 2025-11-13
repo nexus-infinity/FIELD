@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lostcancel_test.go",
+  "original_name": "lostcancel_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 449,
+  "content_hash": "1a860b2b0f4b6fd0ab11fde9de397105c9fd46f144b8812a4a08373ca4663013",
+  "semantic_fingerprint": "lostcancel_test",
+  "detected_at": "2025-11-13T05:18:46.953753",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lostcancel_test_1a860b2b.go",
+  "original_metadata": {
+    "size": 449,
+    "modified": "2025-01-12T09:30:47.753797",
+    "created": "2025-11-11T03:39:11.690271"
+  },
+  "stripped_metadata": {}
+}

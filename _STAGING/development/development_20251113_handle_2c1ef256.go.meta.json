@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/handle.go",
+  "original_name": "handle.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3677,
+  "content_hash": "2c1ef256721a299c4ace90235e0a42a93d04b16f50fa0004f78468063eb9bd75",
+  "semantic_fingerprint": "handle",
+  "detected_at": "2025-11-13T05:18:46.964358",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_handle_2c1ef256.go",
+  "original_metadata": {
+    "size": 3677,
+    "modified": "2025-01-12T09:30:45.516567",
+    "created": "2025-11-11T03:39:11.690516"
+  },
+  "stripped_metadata": {}
+}

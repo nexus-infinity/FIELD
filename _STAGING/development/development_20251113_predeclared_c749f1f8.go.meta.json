@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/predeclared.go",
+  "original_name": "predeclared.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2116,
+  "content_hash": "c749f1f8f79b08ec0ff11e963f54b264e2edcf1d8a79e654c9776a550e0f936a",
+  "semantic_fingerprint": "predeclared",
+  "detected_at": "2025-11-13T05:18:47.256886",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_predeclared_c749f1f8.go",
+  "original_metadata": {
+    "size": 2116,
+    "modified": "2025-01-12T09:30:35.555024",
+    "created": "2025-11-11T03:39:11.696452"
+  },
+  "stripped_metadata": {}
+}

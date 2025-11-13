@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/CheckMathInt.go",
+  "original_name": "CheckMathInt.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 199,
+  "content_hash": "63d55dd98060c985f1da21641ecdc5c6e8634f8e03099fc5421f9b7a522895bb",
+  "semantic_fingerprint": "checkmathint",
+  "detected_at": "2025-11-13T05:18:46.183890",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_checkmathint_63d55dd9.go",
+  "original_metadata": {
+    "size": 199,
+    "modified": "2025-01-12T09:30:50.026071",
+    "created": "2025-11-11T03:39:11.676291"
+  },
+  "stripped_metadata": {}
+}

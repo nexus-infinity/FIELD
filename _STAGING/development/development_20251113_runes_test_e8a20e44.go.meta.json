@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/runes_test.go",
+  "original_name": "runes_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14387,
+  "content_hash": "e8a20e447121898aa312a02fce780122d773cd8e5d17d646f376f95e73eb4ebc",
+  "semantic_fingerprint": "runes_test",
+  "detected_at": "2025-11-13T05:18:47.070835",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_runes_test_e8a20e44.go",
+  "original_metadata": {
+    "size": 14387,
+    "modified": "2025-01-12T09:30:49.587821",
+    "created": "2025-11-11T03:39:11.692916"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/tile_test.go",
+  "original_name": "tile_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1149,
+  "content_hash": "1638a26166ac62d772a78ef08849d17f1dd387403d8a8490e58374fdebdb67c0",
+  "semantic_fingerprint": "tile_test",
+  "detected_at": "2025-11-13T05:18:47.705653",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_tile_test_1638a261.go",
+  "original_metadata": {
+    "size": 1149,
+    "modified": "2025-01-12T09:31:07.401289",
+    "created": "2025-11-11T03:39:11.704427"
+  },
+  "stripped_metadata": {}
+}

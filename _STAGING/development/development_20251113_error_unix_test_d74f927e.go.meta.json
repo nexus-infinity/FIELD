@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/error_unix_test.go",
+  "original_name": "error_unix_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1530,
+  "content_hash": "d74f927eeda4c10f227874843205736751460bdd6d4e12393af4ffc01d327e58",
+  "semantic_fingerprint": "error_unix_test",
+  "detected_at": "2025-11-13T05:18:46.567883",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_error_unix_test_d74f927e.go",
+  "original_metadata": {
+    "size": 1530,
+    "modified": "2025-01-12T09:30:45.469129",
+    "created": "2025-11-11T03:39:11.684237"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/playground.go",
+  "original_name": "playground.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2014,
+  "content_hash": "0ef5fb6505b9d39571c3b24f501abef85f76e5cbf1739b78fda037ff5423b58b",
+  "semantic_fingerprint": "playground",
+  "detected_at": "2025-11-13T05:18:46.118617",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_playground_0ef5fb65.go",
+  "original_metadata": {
+    "size": 2014,
+    "modified": "2025-01-12T09:30:47.908185",
+    "created": "2025-11-11T03:39:11.674646"
+  },
+  "stripped_metadata": {}
+}

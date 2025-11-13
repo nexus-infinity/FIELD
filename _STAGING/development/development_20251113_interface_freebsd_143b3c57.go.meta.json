@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/interface_freebsd.go",
+  "original_name": "interface_freebsd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1990,
+  "content_hash": "143b3c57472071662dcc61a76dd262dbbf0fc0dc44c3c1f9a4a154d075da67c1",
+  "semantic_fingerprint": "interface_freebsd",
+  "detected_at": "2025-11-13T05:18:46.123431",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_interface_freebsd_143b3c57.go",
+  "original_metadata": {
+    "size": 1990,
+    "modified": "2025-01-12T09:30:45.804090",
+    "created": "2025-11-11T03:39:11.674797"
+  },
+  "stripped_metadata": {}
+}

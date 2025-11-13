@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/rnr_test.go",
+  "original_name": "rnr_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5060,
+  "content_hash": "59d97f715972b2e5d6b2d176b5aabd72975545b5e62017bb7d350cec30493354",
+  "semantic_fingerprint": "rnr_test",
+  "detected_at": "2025-11-13T05:18:46.885365",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_rnr_test_59d97f71.go",
+  "original_metadata": {
+    "size": 5060,
+    "modified": "2025-01-12T09:30:47.719842",
+    "created": "2025-11-11T03:39:11.688684"
+  },
+  "stripped_metadata": {}
+}

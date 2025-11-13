@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/test_ops.py",
+  "original_name": "test_ops.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 393,
+  "content_hash": "9df1b2349bcdcbbfe399679b2a37af2ca87200c36f2398f2b64653365a440be8",
+  "semantic_fingerprint": "test_ops",
+  "detected_at": "2025-11-13T05:18:47.612034",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_test_ops_9df1b234.py",
+  "original_metadata": {
+    "size": 393,
+    "modified": "2025-06-13T00:41:15.252743",
+    "created": "2025-11-11T03:39:11.702425"
+  },
+  "stripped_metadata": {}
+}

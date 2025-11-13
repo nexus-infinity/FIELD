@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/abi.go",
+  "original_name": "abi.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 14149,
+  "content_hash": "63e39563fc093c44870f75ba600f7c7a5e86cee2ed2a8e5ce4bfec61815f8280",
+  "semantic_fingerprint": "abi",
+  "detected_at": "2025-11-13T05:18:47.012390",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_abi_63e39563.go",
+  "original_metadata": {
+    "size": 14149,
+    "modified": "2025-01-12T09:30:44.470190",
+    "created": "2025-11-11T03:39:11.691549"
+  },
+  "stripped_metadata": {}
+}

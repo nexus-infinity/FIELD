@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/start_posix.go",
+  "original_name": "start_posix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 441,
+  "content_hash": "ce31bfa884a422f4759594a74e0625f2aecd1e28d5e679c9f80e7d4ce201f102",
+  "semantic_fingerprint": "start_posix",
+  "detected_at": "2025-11-13T05:18:46.298127",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_start_posix_ce31bfa8.go",
+  "original_metadata": {
+    "size": 441,
+    "modified": "2025-01-12T09:30:47.671162",
+    "created": "2025-11-11T03:39:11.678509"
+  },
+  "stripped_metadata": {}
+}

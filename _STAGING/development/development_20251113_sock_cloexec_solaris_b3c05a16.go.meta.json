@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sock_cloexec_solaris.go",
+  "original_name": "sock_cloexec_solaris.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1558,
+  "content_hash": "b3c05a1623810e8effd4cc6bc41499fb1b15fac022034b8fe805700dbfbd8171",
+  "semantic_fingerprint": "sock_cloexec_solaris",
+  "detected_at": "2025-11-13T05:18:46.879804",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sock_cloexec_solaris_b3c05a16.go",
+  "original_metadata": {
+    "size": 1558,
+    "modified": "2025-01-12T09:30:45.253512",
+    "created": "2025-11-11T03:39:11.688575"
+  },
+  "stripped_metadata": {}
+}

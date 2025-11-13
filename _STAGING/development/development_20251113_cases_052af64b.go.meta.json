@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cases.go",
+  "original_name": "cases.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4991,
+  "content_hash": "052af64ba88e6e5275195a544c59d14de78cdc3a659e2f4be4c7070d929b376f",
+  "semantic_fingerprint": "cases",
+  "detected_at": "2025-11-13T05:18:46.562079",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cases_052af64b.go",
+  "original_metadata": {
+    "size": 4991,
+    "modified": "2025-01-12T09:30:49.396845",
+    "created": "2025-11-11T03:39:11.684054"
+  },
+  "stripped_metadata": {}
+}

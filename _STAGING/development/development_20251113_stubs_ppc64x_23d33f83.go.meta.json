@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stubs_ppc64x.go",
+  "original_name": "stubs_ppc64x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 688,
+  "content_hash": "23d33f83f31569acff4602e14fb221f8b15510cf354da7f5f4a16b3f5fabc63f",
+  "semantic_fingerprint": "stubs_ppc64x",
+  "detected_at": "2025-11-13T05:18:46.248456",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stubs_ppc64x_23d33f83.go",
+  "original_metadata": {
+    "size": 688,
+    "modified": "2025-01-12T09:30:45.638397",
+    "created": "2025-11-11T03:39:11.677550"
+  },
+  "stripped_metadata": {}
+}

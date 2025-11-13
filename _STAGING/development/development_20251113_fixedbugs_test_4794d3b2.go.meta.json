@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fixedbugs_test.go",
+  "original_name": "fixedbugs_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1155,
+  "content_hash": "4794d3b2a4732bc6ad529b0cfe4f26c9ff04fdaa15573a1ea79fc0fcb5f57cf1",
+  "semantic_fingerprint": "fixedbugs_test",
+  "detected_at": "2025-11-13T05:18:47.628721",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fixedbugs_test_4794d3b2.go",
+  "original_metadata": {
+    "size": 1155,
+    "modified": "2025-01-12T09:30:35.235095",
+    "created": "2025-11-11T03:39:11.702857"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/staticcheck.go",
+  "original_name": "staticcheck.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1845,
+  "content_hash": "259b3449da4792065ec2d575d0d5b1eee34b6e33be8c66f82d9b5a67156a1978",
+  "semantic_fingerprint": "staticcheck",
+  "detected_at": "2025-11-13T05:18:47.112599",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_staticcheck_259b3449.go",
+  "original_metadata": {
+    "size": 1845,
+    "modified": "2025-01-12T09:30:35.230942",
+    "created": "2025-11-11T03:39:11.693666"
+  },
+  "stripped_metadata": {}
+}

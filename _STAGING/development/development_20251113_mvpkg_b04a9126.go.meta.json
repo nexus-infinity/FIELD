@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mvpkg.go",
+  "original_name": "mvpkg.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10921,
+  "content_hash": "b04a912619f6bfb50bc808e8611e8e5fd303908a899688d8200d8eb22b7fe223",
+  "semantic_fingerprint": "mvpkg",
+  "detected_at": "2025-11-13T05:18:46.017121",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mvpkg_b04a9126.go",
+  "original_metadata": {
+    "size": 10921,
+    "modified": "2025-01-12T09:30:47.913789",
+    "created": "2025-11-11T03:39:11.672163"
+  },
+  "stripped_metadata": {}
+}

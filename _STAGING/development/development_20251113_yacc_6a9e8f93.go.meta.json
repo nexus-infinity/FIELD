@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/yacc.go",
+  "original_name": "yacc.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 71387,
+  "content_hash": "6a9e8f93fa532ab3bdf0ecae36c73f3fe33584f538f675819ceb4428b0ea5db5",
+  "semantic_fingerprint": "yacc",
+  "detected_at": "2025-11-13T05:18:46.383933",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_yacc_6a9e8f93.go",
+  "original_metadata": {
+    "size": 71387,
+    "modified": "2025-01-12T09:30:47.715570",
+    "created": "2025-11-11T03:39:11.680236"
+  },
+  "stripped_metadata": {}
+}

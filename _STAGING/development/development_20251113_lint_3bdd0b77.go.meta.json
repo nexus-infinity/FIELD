@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lint.go",
+  "original_name": "lint.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6898,
+  "content_hash": "3bdd0b77a9680812b2bcfcbc21821a93f52da222da4562dd1e72b03c0c8bb1b5",
+  "semantic_fingerprint": "lint",
+  "detected_at": "2025-11-13T05:18:47.509733",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lint_3bdd0b77.go",
+  "original_metadata": {
+    "size": 6898,
+    "modified": "2025-01-12T09:30:49.945419",
+    "created": "2025-11-11T03:39:11.701106"
+  },
+  "stripped_metadata": {}
+}

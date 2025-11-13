@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/snapshot.go",
+  "original_name": "snapshot.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3852,
+  "content_hash": "9aa8a1e4b0da41d9fad5bef0753e2b80f34aca0b6877070b2dac256f49ae3d3c",
+  "semantic_fingerprint": "snapshot",
+  "detected_at": "2025-11-13T05:18:47.540649",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_snapshot_9aa8a1e4.go",
+  "original_metadata": {
+    "size": 3852,
+    "modified": "2025-01-12T09:30:35.215339",
+    "created": "2025-11-11T03:39:11.701662"
+  },
+  "stripped_metadata": {}
+}

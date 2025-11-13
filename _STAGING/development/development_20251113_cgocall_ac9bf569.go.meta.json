@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cgocall.go",
+  "original_name": "cgocall.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 25092,
+  "content_hash": "ac9bf569807f1bfb33a692ffe5671e9c5f0ea2d68ed12c10c6829c2a65710b5a",
+  "semantic_fingerprint": "cgocall",
+  "detected_at": "2025-11-13T05:18:46.784755",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cgocall_ac9bf569.go",
+  "original_metadata": {
+    "size": 25092,
+    "modified": "2025-01-12T09:30:45.518219",
+    "created": "2025-11-11T03:39:11.686567"
+  },
+  "stripped_metadata": {}
+}

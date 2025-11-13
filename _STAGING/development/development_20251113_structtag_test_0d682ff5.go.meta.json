@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/structtag_test.go",
+  "original_name": "structtag_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 427,
+  "content_hash": "0d682ff57fcb5e664fd9ad057b7fb09dfa5a56b658c14c9ce145f946cdbdbc76",
+  "semantic_fingerprint": "structtag_test",
+  "detected_at": "2025-11-13T05:18:46.336622",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_structtag_test_0d682ff5.go",
+  "original_metadata": {
+    "size": 427,
+    "modified": "2025-01-12T09:30:47.765660",
+    "created": "2025-11-11T03:39:11.679304"
+  },
+  "stripped_metadata": {}
+}

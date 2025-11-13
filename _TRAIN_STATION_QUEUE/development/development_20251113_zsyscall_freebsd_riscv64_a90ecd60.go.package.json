@@ -1,0 +1,21 @@
+{
+  "file_id": "development-a90ecd60f1af",
+  "field_name": "development",
+  "content_hash": "a90ecd60f1afb72dce15d53f4d472e4b7654c4eb50b563738b7d7023ba4d3a2d",
+  "semantic_fingerprint": "zsyscall_freebsd_riscv64",
+  "file_path": "/Users/jbear/FIELD/_TRAIN_STATION_QUEUE/development/development_20251113_zsyscall_freebsd_riscv64_a90ecd60.go",
+  "observer_score": 1.0,
+  "is_duplicate": false,
+  "linked_to_thread": null,
+  "geometric_anchor": "Metatron origin [0,0,0]",
+  "semantic_anchor": "development data",
+  "temporal_anchor": {
+    "past": "Collected from Akron",
+    "present": "Staged for refinement",
+    "future": "Irrefutable at Jnana"
+  },
+  "collected_at": "2025-11-13T05:20:21.923256",
+  "queued_at": "2025-11-13T05:20:21.923413",
+  "destination": "NixOS Willowie Chakra System",
+  "entry_chakra": "Muladhara (Root - 2/108Hz)"
+}

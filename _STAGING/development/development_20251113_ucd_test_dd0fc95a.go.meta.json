@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ucd_test.go",
+  "original_name": "ucd_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2768,
+  "content_hash": "dd0fc95ac785d0f1daf9646513c34aa5b4449a32575b3d49c42acf638f089a79",
+  "semantic_fingerprint": "ucd_test",
+  "detected_at": "2025-11-13T05:18:46.328646",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ucd_test_dd0fc95a.go",
+  "original_metadata": {
+    "size": 2768,
+    "modified": "2025-01-12T09:30:49.549836",
+    "created": "2025-11-11T03:39:11.679069"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/benchcmp.go",
+  "original_name": "benchcmp.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4304,
+  "content_hash": "3396494eee37e27cac9b5425901e135bbf2922edb46a35c49ab94edb3c3e700e",
+  "semantic_fingerprint": "benchcmp",
+  "detected_at": "2025-11-13T05:18:46.921208",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_benchcmp_3396494e.go",
+  "original_metadata": {
+    "size": 4304,
+    "modified": "2025-01-12T09:30:47.703681",
+    "created": "2025-11-11T03:39:11.689550"
+  },
+  "stripped_metadata": {}
+}

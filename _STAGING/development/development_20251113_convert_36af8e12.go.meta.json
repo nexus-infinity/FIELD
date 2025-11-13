@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/convert.go",
+  "original_name": "convert.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 503,
+  "content_hash": "36af8e12355678641631b8c9025f1471e90fb9eb53e97c42ed584f0aca180dc9",
+  "semantic_fingerprint": "convert",
+  "detected_at": "2025-11-13T05:18:46.869106",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_convert_36af8e12.go",
+  "original_metadata": {
+    "size": 503,
+    "modified": "2025-01-12T09:30:49.982336",
+    "created": "2025-11-11T03:39:11.688256"
+  },
+  "stripped_metadata": {}
+}

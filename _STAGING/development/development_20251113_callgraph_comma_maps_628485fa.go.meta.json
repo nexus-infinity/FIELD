@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/callgraph_comma_maps.go",
+  "original_name": "callgraph_comma_maps.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1279,
+  "content_hash": "628485facb22d779c922ee4c8f66fd0e2c17a3963b43e717c2fa3fbefde6a7b2",
+  "semantic_fingerprint": "callgraph_comma_maps",
+  "detected_at": "2025-11-13T05:18:46.296064",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_callgraph_comma_maps_628485fa.go",
+  "original_metadata": {
+    "size": 1279,
+    "modified": "2025-01-12T09:30:47.802221",
+    "created": "2025-11-11T03:39:11.678451"
+  },
+  "stripped_metadata": {}
+}

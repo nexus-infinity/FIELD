@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/inspector.go",
+  "original_name": "inspector.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7547,
+  "content_hash": "af2f1b2460af5074b11d405bb07f705296490cd9f24ca3757f0fc6e5c14dae3f",
+  "semantic_fingerprint": "inspector",
+  "detected_at": "2025-11-13T05:18:46.727191",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_inspector_af2f1b24.go",
+  "original_metadata": {
+    "size": 7547,
+    "modified": "2025-01-12T09:30:35.479417",
+    "created": "2025-11-11T03:39:11.685136"
+  },
+  "stripped_metadata": {}
+}

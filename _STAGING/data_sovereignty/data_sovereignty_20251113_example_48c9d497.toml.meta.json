@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/example.toml",
+  "original_name": "example.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1429,
+  "content_hash": "48c9d497aa0749a8380c6c6c31ec0ecc65b7e8ca773a1ea8639f4e5f1d01e8f6",
+  "semantic_fingerprint": "example",
+  "detected_at": "2025-11-13T05:18:47.862109",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_example_48c9d497.toml",
+  "original_metadata": {
+    "size": 1429,
+    "modified": "2025-01-12T09:30:51.582873",
+    "created": "2025-11-11T03:39:11.707801"
+  },
+  "stripped_metadata": {}
+}

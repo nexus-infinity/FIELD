@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ocagent.go",
+  "original_name": "ocagent.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9337,
+  "content_hash": "a6e754ddb664e843c8e05aa6e7cca68a08285d365bdc25b70cd1491844e4e97d",
+  "semantic_fingerprint": "ocagent",
+  "detected_at": "2025-11-13T05:18:46.599506",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ocagent_a6e754dd.go",
+  "original_metadata": {
+    "size": 9337,
+    "modified": "2025-01-12T09:30:47.869597",
+    "created": "2025-11-11T03:39:11.684834"
+  },
+  "stripped_metadata": {}
+}

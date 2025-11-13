@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/multichecker_test.go",
+  "original_name": "multichecker_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2614,
+  "content_hash": "2ffff32b1ddfb973524ba8c424ec1ea2290b92f1160152c09d53ad1edde69c69",
+  "semantic_fingerprint": "multichecker_test",
+  "detected_at": "2025-11-13T05:18:47.254697",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_multichecker_test_2ffff32b.go",
+  "original_metadata": {
+    "size": 2614,
+    "modified": "2025-01-12T09:30:47.732136",
+    "created": "2025-11-11T03:39:11.696390"
+  },
+  "stripped_metadata": {}
+}

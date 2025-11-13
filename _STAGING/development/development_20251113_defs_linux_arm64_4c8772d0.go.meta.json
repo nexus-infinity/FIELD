@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_linux_arm64.go",
+  "original_name": "defs_linux_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 472,
+  "content_hash": "4c8772d0541fc5423576dae35e806276245023ad619e9dd66d179b8eff26de50",
+  "semantic_fingerprint": "defs_linux_arm64",
+  "detected_at": "2025-11-13T05:18:47.668455",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_linux_arm64_4c8772d0.go",
+  "original_metadata": {
+    "size": 472,
+    "modified": "2025-01-12T09:30:45.261517",
+    "created": "2025-11-11T03:39:11.703708"
+  },
+  "stripped_metadata": {}
+}

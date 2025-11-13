@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/a_fuzz_test.go",
+  "original_name": "a_fuzz_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 284,
+  "content_hash": "e0c6bef9874e2294a9295a30b01c636c9da79ed9c4e4182dabf328a553842472",
+  "semantic_fingerprint": "a_fuzz_test",
+  "detected_at": "2025-11-13T05:18:47.325690",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_a_fuzz_test_e0c6bef9.go",
+  "original_metadata": {
+    "size": 284,
+    "modified": "2025-01-12T09:30:47.741151",
+    "created": "2025-11-11T03:39:11.697584"
+  },
+  "stripped_metadata": {}
+}

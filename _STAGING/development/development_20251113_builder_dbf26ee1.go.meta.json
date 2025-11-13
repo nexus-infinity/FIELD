@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/builder.go",
+  "original_name": "builder.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 11675,
+  "content_hash": "dbf26ee167f74a58053791d5d3ae28719481382bbd57c76b719a40e211d9c571",
+  "semantic_fingerprint": "builder",
+  "detected_at": "2025-11-13T05:18:47.425995",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_builder_dbf26ee1.go",
+  "original_metadata": {
+    "size": 11675,
+    "modified": "2025-01-12T09:30:44.906756",
+    "created": "2025-11-11T03:39:11.699764"
+  },
+  "stripped_metadata": {}
+}

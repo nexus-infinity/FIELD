@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/DOJO/Date first received.pdf",
+  "original_name": "Date first received.pdf",
+  "file_type": ".pdf",
+  "mime_type": "application/pdf",
+  "size_bytes": 422147,
+  "content_hash": "e3a58ef4cba3cc652a7293b58ced69625761c489816a951c0f4b263047c479fb",
+  "semantic_fingerprint": "date-first-received",
+  "detected_at": "2025-11-13T05:18:45.859543",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_date-first-received_e3a58ef4.pdf",
+  "original_metadata": {
+    "size": 422147,
+    "modified": "2025-08-14T05:46:32.680060",
+    "created": "2025-11-11T03:39:11.509035"
+  },
+  "stripped_metadata": {}
+}

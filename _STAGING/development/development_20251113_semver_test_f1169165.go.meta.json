@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/semver_test.go",
+  "original_name": "semver_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 501,
+  "content_hash": "f116916586bf1cf05ba2054ec9954a322fd39e9bf6b84f2291e601dfca2cce91",
+  "semantic_fingerprint": "semver_test",
+  "detected_at": "2025-11-13T05:18:46.433239",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_semver_test_f1169165.go",
+  "original_metadata": {
+    "size": 501,
+    "modified": "2025-01-12T09:30:35.276558",
+    "created": "2025-11-11T03:39:11.681553"
+  },
+  "stripped_metadata": {}
+}

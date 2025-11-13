@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/index.json",
+  "original_name": "index.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 57,
+  "content_hash": "864736a5b948773fde8b3a56f608cbb300480b65abbcf6bd1a8738b4d08ed953",
+  "semantic_fingerprint": "index",
+  "detected_at": "2025-11-13T05:18:47.744780",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_index_864736a5.json",
+  "original_metadata": {
+    "size": 57,
+    "modified": "2025-01-12T09:30:49.133225",
+    "created": "2025-11-11T03:39:11.705387"
+  },
+  "stripped_metadata": {}
+}

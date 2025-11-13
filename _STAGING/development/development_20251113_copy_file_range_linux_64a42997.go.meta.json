@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/copy_file_range_linux.go",
+  "original_name": "copy_file_range_linux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3976,
+  "content_hash": "64a4299750c2c8a2a30f32e0b9ebbd9d8a57fcee1fb02518e8d346f6bf7c91ce",
+  "semantic_fingerprint": "copy_file_range_linux",
+  "detected_at": "2025-11-13T05:18:46.085696",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_copy_file_range_linux_64a42997.go",
+  "original_metadata": {
+    "size": 3976,
+    "modified": "2025-01-12T09:30:45.249510",
+    "created": "2025-11-11T03:39:11.673740"
+  },
+  "stripped_metadata": {}
+}

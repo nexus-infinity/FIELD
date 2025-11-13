@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/atomicalign.go",
+  "original_name": "atomicalign.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3325,
+  "content_hash": "e1dee3ffeeada318147eb173eebb4762cc947790e58aed0eceefae130c4bccea",
+  "semantic_fingerprint": "atomicalign",
+  "detected_at": "2025-11-13T05:18:46.601879",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_atomicalign_e1dee3ff.go",
+  "original_metadata": {
+    "size": 3325,
+    "modified": "2025-01-12T09:30:47.736112",
+    "created": "2025-11-11T03:39:11.684901"
+  },
+  "stripped_metadata": {}
+}

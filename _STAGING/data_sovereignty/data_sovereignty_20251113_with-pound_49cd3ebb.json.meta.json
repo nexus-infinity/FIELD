@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/with-pound.json",
+  "original_name": "with-pound.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 183,
+  "content_hash": "49cd3ebb3830a70fde707dcaff1ec71307800c23be21bca45bc22d9ead53ff8d",
+  "semantic_fingerprint": "with-pound",
+  "detected_at": "2025-11-13T05:18:46.996653",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_with-pound_49cd3ebb.json",
+  "original_metadata": {
+    "size": 183,
+    "modified": "2025-01-12T09:30:51.665438",
+    "created": "2025-11-11T03:39:11.691131"
+  },
+  "stripped_metadata": {}
+}

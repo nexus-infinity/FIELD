@@ -1,0 +1,1482 @@
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x0000000F 
+attributes:
+    0x00000000 <uint32>=0x0000000F 
+    0x00000001 <blob>="com.apple.systemdefault"
+    0x00000002 <blob>=<NULL>
+    0x00000003 <uint32>=0x00000001 
+    0x00000004 <uint32>=0x00000000 
+    0x00000005 <uint32>=0x00000000 
+    0x00000006 <blob>=0x43F8D935D3C393BC8E1F3F496E727D2E56F4AD81  "C\370\3315\323\303\223\274\216\037?Inr}.V\364\255\201"
+    0x00000007 <blob>=<NULL>
+    0x00000008 <blob>=0x7B38373139316361322D306663392D313164342D383439612D3030303530326235323132327D00  "{87191ca2-0fc9-11d4-849a-000502b52122}\000"
+    0x00000009 <uint32>=0x0000002A  "\000\000\000*"
+    0x0000000A <uint32>=0x00000800 
+    0x0000000B <uint32>=0x00000800 
+    0x0000000C <blob>=0x0000000000000000 
+    0x0000000D <blob>=0x0000000000000000 
+    0x0000000E <uint32>=0x00000000 
+    0x0000000F <uint32>=0x00000000 
+    0x00000010 <uint32>=0x00000001 
+    0x00000011 <uint32>=0x00000000 
+    0x00000012 <uint32>=0x00000001 
+    0x00000013 <uint32>=0x00000000 
+    0x00000014 <uint32>=0x00000000 
+    0x00000015 <uint32>=0x00000000 
+    0x00000016 <uint32>=0x00000001 
+    0x00000017 <uint32>=0x00000000 
+    0x00000018 <uint32>=0x00000000 
+    0x00000019 <uint32>=0x00000001 
+    0x0000001A <uint32>=0x00000000 
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x0000000F 
+attributes:
+    0x00000000 <uint32>=0x0000000F 
+    0x00000001 <blob>="com.apple.kerberos.kdc"
+    0x00000002 <blob>=<NULL>
+    0x00000003 <uint32>=0x00000001 
+    0x00000004 <uint32>=0x00000000 
+    0x00000005 <uint32>=0x00000000 
+    0x00000006 <blob>=0x64E4929A62324FB386730CE5A4A8D9DABC52CB17  "d\344\222\232b2O\263\206s\014\345\244\250\331\332\274R\313\027"
+    0x00000007 <blob>=<NULL>
+    0x00000008 <blob>=0x7B38373139316361322D306663392D313164342D383439612D3030303530326235323132327D00  "{87191ca2-0fc9-11d4-849a-000502b52122}\000"
+    0x00000009 <uint32>=0x0000002A  "\000\000\000*"
+    0x0000000A <uint32>=0x00000800 
+    0x0000000B <uint32>=0x00000800 
+    0x0000000C <blob>=0x0000000000000000 
+    0x0000000D <blob>=0x0000000000000000 
+    0x0000000E <uint32>=0x00000000 
+    0x0000000F <uint32>=0x00000000 
+    0x00000010 <uint32>=0x00000001 
+    0x00000011 <uint32>=0x00000000 
+    0x00000012 <uint32>=0x00000001 
+    0x00000013 <uint32>=0x00000000 
+    0x00000014 <uint32>=0x00000000 
+    0x00000015 <uint32>=0x00000000 
+    0x00000016 <uint32>=0x00000001 
+    0x00000017 <uint32>=0x00000000 
+    0x00000018 <uint32>=0x00000000 
+    0x00000019 <uint32>=0x00000001 
+    0x0000001A <uint32>=0x00000000 
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x00000010 
+attributes:
+    0x00000000 <uint32>=0x00000010 
+    0x00000001 <blob>="com.apple.systemdefault"
+    0x00000002 <blob>=<NULL>
+    0x00000003 <uint32>=0x00000001 
+    0x00000004 <uint32>=0x00000000 
+    0x00000005 <uint32>=0x00000000 
+    0x00000006 <blob>=0x43F8D935D3C393BC8E1F3F496E727D2E56F4AD81  "C\370\3315\323\303\223\274\216\037?Inr}.V\364\255\201"
+    0x00000007 <blob>=<NULL>
+    0x00000008 <blob>=0x7B38373139316361322D306663392D313164342D383439612D3030303530326235323132327D00  "{87191ca2-0fc9-11d4-849a-000502b52122}\000"
+    0x00000009 <uint32>=0x0000002A  "\000\000\000*"
+    0x0000000A <uint32>=0x00000800 
+    0x0000000B <uint32>=0x00000800 
+    0x0000000C <blob>=0x0000000000000000 
+    0x0000000D <blob>=0x0000000000000000 
+    0x0000000E <uint32>=0x00000001 
+    0x0000000F <uint32>=0x00000001 
+    0x00000010 <uint32>=0x00000001 
+    0x00000011 <uint32>=0x00000000 
+    0x00000012 <uint32>=0x00000000 
+    0x00000013 <uint32>=0x00000001 
+    0x00000014 <uint32>=0x00000000 
+    0x00000015 <uint32>=0x00000001 
+    0x00000016 <uint32>=0x00000000 
+    0x00000017 <uint32>=0x00000000 
+    0x00000018 <uint32>=0x00000000 
+    0x00000019 <uint32>=0x00000000 
+    0x0000001A <uint32>=0x00000001 
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x00000010 
+attributes:
+    0x00000000 <uint32>=0x00000010 
+    0x00000001 <blob>="com.apple.kerberos.kdc"
+    0x00000002 <blob>=<NULL>
+    0x00000003 <uint32>=0x00000001 
+    0x00000004 <uint32>=0x00000000 
+    0x00000005 <uint32>=0x00000000 
+    0x00000006 <blob>=0x64E4929A62324FB386730CE5A4A8D9DABC52CB17  "d\344\222\232b2O\263\206s\014\345\244\250\331\332\274R\313\027"
+    0x00000007 <blob>=<NULL>
+    0x00000008 <blob>=0x7B38373139316361322D306663392D313164342D383439612D3030303530326235323132327D00  "{87191ca2-0fc9-11d4-849a-000502b52122}\000"
+    0x00000009 <uint32>=0x0000002A  "\000\000\000*"
+    0x0000000A <uint32>=0x00000800 
+    0x0000000B <uint32>=0x00000800 
+    0x0000000C <blob>=0x0000000000000000 
+    0x0000000D <blob>=0x0000000000000000 
+    0x0000000E <uint32>=0x00000001 
+    0x0000000F <uint32>=0x00000001 
+    0x00000010 <uint32>=0x00000001 
+    0x00000011 <uint32>=0x00000000 
+    0x00000012 <uint32>=0x00000000 
+    0x00000013 <uint32>=0x00000001 
+    0x00000014 <uint32>=0x00000000 
+    0x00000015 <uint32>=0x00000001 
+    0x00000016 <uint32>=0x00000000 
+    0x00000017 <uint32>=0x00000000 
+    0x00000018 <uint32>=0x00000000 
+    0x00000019 <uint32>=0x00000000 
+    0x0000001A <uint32>=0x00000001 
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Identity Root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Encryption Root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Cloud Private Key Root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Cloud Public Key Root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Cloud Nonce Root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Non Connectable identity address"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Non Connectable identity root"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="CT TKPeriod"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="CT TEK BUFF V2 LEN"
+    "cdat"<timedate>=0x32303234303133313130303133365A00  "20240131100136Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133365A00  "20240131100136Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Local Device Identifier"
+    "cdat"<timedate>=0x32303234303133313130303133375A00  "20240131100137Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133375A00  "20240131100137Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="WiFiAnalytics"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="com.apple.wifi.analytics.tokenStore.airportd"
+    "cdat"<timedate>=0x32303234303133313130303133395A00  "20240131100139Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303133313130303133395A00  "20240131100139Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="WiFiAnalytics"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Williowie"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Williowie"
+    "cdat"<timedate>=0x32303234303732383038303335355A00  "20240728080355Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303732383038303335355A00  "20240728080355Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Willowie Starlink"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Willowie Starlink"
+    "cdat"<timedate>=0x32303234303732393031333631365A00  "20240729013616Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303732393031333631365A00  "20240729013616Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Bear iPad Pro"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Bear iPad Pro"
+    "cdat"<timedate>=0x32303234303732393031333730305A00  "20240729013700Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303732393031333730305A00  "20240729013700Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Bears iPhone 14"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Bears iPhone 14"
+    "cdat"<timedate>=0x32303234303732393031333735335A00  "20240729013753Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303732393031333735335A00  "20240729013753Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="com.apple.LaunchServices.encr.3"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="com.apple.LaunchServices.encr.3"
+    "cdat"<timedate>=0x32303234303732393032323633345A00  "20240729022634Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303732393032323633345A00  "20240729022634Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>=<NULL>
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Starlink"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Starlink"
+    "cdat"<timedate>=0x32303234303830333033313634325A00  "20240803031642Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303830333033313634325A00  "20240803031642Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="ExpressVPNDataFile"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="DataFileKey"
+    "cdat"<timedate>=0x32303234303830373132353930385A00  "20240807125908Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303830373132353930385A00  "20240807125908Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="ExpressVPNDataFile"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="ExpressVPNDataFile"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="DataFileIV"
+    "cdat"<timedate>=0x32303234303830373132353930385A00  "20240807125908Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234303830373132353930385A00  "20240807125908Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="ExpressVPNDataFile"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Avira Phantom VPN"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="0141-e405dfce4b0c7da6358c296fb0c5cf5cf546a02d:0141-e405dfce4b0c7da6358c296fb0c5cf5cf546a02d@phantom.avira-vpn.com"
+    "cdat"<timedate>=0x32303234313030323137333431375A00  "20241002173417Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="IPSec Shared Secret"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313030323137333431375A00  "20241002173417Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="E130C9A0-B7D2-4D7A-94B4-17F99C52BAE9.SS"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Williowie Starlink"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Williowie Starlink"
+    "cdat"<timedate>=0x32303234313030363137323830385A00  "20241006172808Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313030363137323830385A00  "20241006172808Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Parallels.vTPM.{7d5d42bd-8fac-4c83-bff8-dea714e8c3e3}"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="{7d5d42bd-8fac-4c83-bff8-dea714e8c3e3}"
+    "cdat"<timedate>=0x32303234313031363030353830385A00  "20241016005808Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313031363030353830385A00  "20241016005808Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="Parallels.vTPM.{7d5d42bd-8fac-4c83-bff8-dea714e8c3e3}"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Parallels.vTPM.{f0119901-b494-4977-a2eb-4e7643a5ffad}"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="{f0119901-b494-4977-a2eb-4e7643a5ffad}"
+    "cdat"<timedate>=0x32303234313031363030353831335A00  "20241016005813Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313031363030353831335A00  "20241016005813Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="Parallels.vTPM.{f0119901-b494-4977-a2eb-4e7643a5ffad}"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="78:5E:A2:65:EF:58"
+    "cdat"<timedate>=0x32303234313031383130333833385A00  "20241018103838Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313031383130333833385A00  "20241018103838Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="A0:D7:F3:AB:72:39"
+    "cdat"<timedate>=0x32303234313032343038333735305A00  "20241024083750Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313032343038333735305A00  "20241024083750Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="81A735B9-2A38-9FE0-26A2-9200DE9FB955"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public 94:BF:2D:5A:9A:DB Random D6:71:FF:59:F6:6A"
+    "cdat"<timedate>=0x32303234313033303232333732395A00  "20241030223729Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313033303232333732395A00  "20241030223729Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Parallels.vTPM.{5fd1ac59-dd97-4f4c-a11b-8d575dd9a4e5}"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="{5fd1ac59-dd97-4f4c-a11b-8d575dd9a4e5}"
+    "cdat"<timedate>=0x32303234313033303232333931355A00  "20241030223915Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313033303232333931355A00  "20241030223915Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="Parallels.vTPM.{5fd1ac59-dd97-4f4c-a11b-8d575dd9a4e5}"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="en1"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="AirPort"
+    "cdat"<timedate>=0x32303234313132383033313134345A00  "20241128031144Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="Internet-sharing password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313132383033313134345A00  "20241128031144Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="com.apple.network.wlan.swap.ssid.en1"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Ronnin"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Ronnin"
+    "cdat"<timedate>=0x32303234313132383033343235365A00  "20241128034256Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313132383033343235365A00  "20241128034256Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="TotalAV IKEv2 Password"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>=<NULL>
+    "cdat"<timedate>=0x32303234313231373034303135355A00  "20241217040155Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303234313231373034303135355A00  "20241217040155Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="SSAVHelperKeychainIkevPW"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>=<NULL>
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="jbr"
+    "cdat"<timedate>=0x32303235303132393134313130345A00  "20250129141104Z\000"
+    "crtr"<uint32>="ddns"
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="DNS Key"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303132393134313130345A00  "20250129141104Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="dns:"
+    "type"<uint32>=0x72238180  "r#\201\200"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="DIRECT-MH-EPSON-WF-3820 Series"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="DIRECT-MH-EPSON-WF-3820 Series"
+    "cdat"<timedate>=0x32303235303231393037303434365A00  "20250219070446Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303231393037303434365A00  "20250219070446Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Galaxy S22 B9AE"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Galaxy S22 B9AE"
+    "cdat"<timedate>=0x32303235303232373031303532335A00  "20250227010523Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303232373031303532335A00  "20250227010523Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="com.malwarebytes.mbam.settings"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>=<NULL>
+    "cdat"<timedate>=0x32303235303330333030353130385A00  "20250303005108Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303330333030353130385A00  "20250303005108Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="com.malwarebytes.mbam.settings"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="ProtonVPN WireGuard config"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="ProtonVPN WG"
+    "cdat"<timedate>=0x32303235303331383038333032375A00  "20250318083027Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303331383038333032375A00  "20250318083027Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="ch.protonvpn.mac"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Willowie"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Willowie"
+    "cdat"<timedate>=0x32303235303331383231303731305A00  "20250318210710Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303331383231303731305A00  "20250318210710Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Nix Store encryption password"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Nix Store"
+    "cdat"<timedate>=0x32303235303530323139343035345A00  "20250502194054Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="Encrypted volume password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>="Added automatically by the Nix installer for use by /Library/LaunchDaemons/org.nixos.darwin-store.plist"
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303530323139343035345A00  "20250502194054Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="25300A95-AE6B-45CE-A966-71336717209D"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="00:09:A7:62:89:74"
+    "cdat"<timedate>=0x32303235303531363139333534335A00  "20250516193543Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303531363139333534335A00  "20250516193543Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="6FA1A234-F679-47F3-EB53-29F25494DF4F"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Random C0:FB:DF:C5:3E:9E Random E0:77:E5:41:7B:E1"
+    "cdat"<timedate>=0x32303235303631373133323232345A00  "20250617132224Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303631373133323232345A00  "20250617132224Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="51282632-B0AF-F210-4E13-B2C271A768C7"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public F8:7D:76:9C:98:2F Random E0:77:E5:41:7B:E1"
+    "cdat"<timedate>=0x32303234303830353034313532365A00  "20240805041526Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303632333037313932315A00  "20250623071921Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="2D32DA4A-BAC2-D371-6CE7-806B154D8D5F"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public DC:56:E7:17:36:87 Random E0:77:E5:41:7B:E1"
+    "cdat"<timedate>=0x32303234303830383137313131345A00  "20240808171114Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303632333133313233355A00  "20250623131235Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Bear iPhone SE"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Bear iPhone SE"
+    "cdat"<timedate>=0x32303235303632363135323732365A00  "20250626152726Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303632363135323732365A00  "20250626152726Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Cloud Master Key Root"
+    "cdat"<timedate>=0x32303235303632373032333931395A00  "20250627023919Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303632373032333931395A00  "20250627023919Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="70:66:1B:36:79:A9"
+    "cdat"<timedate>=0x32303235303632393136313731325A00  "20250629161712Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303632393136313731325A00  "20250629161712Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="41:42:DB:91:5A:52"
+    "cdat"<timedate>=0x32303235303730343032313332395A00  "20250704021329Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303730343032313332395A00  "20250704021329Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="FBC5D5D4-6E69-BC80-A4FE-78F7AA0E2A80"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public 08:25:73:EF:39:AD Random E0:77:E5:41:7B:E1"
+    "cdat"<timedate>=0x32303235303730373132343330325A00  "20250707124302Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303730373132343330325A00  "20250707124302Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="E49812D5-55F3-0433-1233-F4C85E72A3B6"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public DC:56:E7:42:4D:50 Random E0:77:E5:41:7B:E1"
+    "cdat"<timedate>=0x32303235303631313230353131305A00  "20250611205110Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303731323039303531305A00  "20250712090510Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="E49812D5-55F3-0433-1233-F4C85E72A3B6"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public DC:56:E7:42:4D:50 Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303731383036323633345A00  "20250718062634Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303731383036323633345A00  "20250718062634Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="2D32DA4A-BAC2-D371-6CE7-806B154D8D5F"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public DC:56:E7:17:36:87 Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303731383036323734305A00  "20250718062740Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303731383036323933345A00  "20250718062934Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="51282632-B0AF-F210-4E13-B2C271A768C7"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public F8:7D:76:9C:98:2F Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303731383036323633345A00  "20250718062634Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303731383036323934345A00  "20250718062944Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="FBC5D5D4-6E69-BC80-A4FE-78F7AA0E2A80"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Public 08:25:73:EF:39:AD Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303731393031313535305A00  "20250719011550Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303731393031313535345A00  "20250719011554Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="CA0AEDC6-725C-E945-BD11-0E4C1E7B5D40"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Random E6:C1:69:DF:05:C2 Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303732343133323533305A00  "20250724132530Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303732343133323533305A00  "20250724132530Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="6FA1A234-F679-47F3-EB53-29F25494DF4F"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Random C0:FB:DF:C5:3E:9E Random FB:00:F3:D2:D6:2A"
+    "cdat"<timedate>=0x32303235303732363232313931365A00  "20250726221916Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303732363232323433395A00  "20250726222439Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothLE"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="Transfer"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Transfer"
+    "cdat"<timedate>=0x32303235303732383031323632345A00  "20250728012624Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>="AirPort network password"
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303732383031323632345A00  "20250728012624Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="AirPort"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="BluetoothGlobal"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="Identity Root Key"
+    "cdat"<timedate>=0x32303234303133313130303133355A00  "20240131100135Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930335A00  "20250803064903Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="BluetoothGlobal"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="18:65:90:BD:4D:A6"
+    "cdat"<timedate>=0x32303234303732383038303134315A00  "20240728080141Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930355A00  "20250803064905Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="20:04:CB:8F:DB:B6"
+    "cdat"<timedate>=0x32303235303632353136303230395A00  "20250625160209Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930355A00  "20250803064905Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="24:1B:7A:60:01:6A"
+    "cdat"<timedate>=0x32303234303832303232303034305A00  "20240820220040Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930355A00  "20250803064905Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="68:FE:F7:61:B6:93"
+    "cdat"<timedate>=0x32303234303732393033313831365A00  "20240729031816Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930355A00  "20250803064905Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="MobileBluetooth"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="70:F0:87:30:A5:9D"
+    "cdat"<timedate>=0x32303235303132393134303334345A00  "20250129140344Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930355A00  "20250803064905Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="MobileBluetooth"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="WiFiAnalytics"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="com.apple.wifi.analytics.persistence"
+    "cdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="WiFiAnalytics"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="WiFiAnalytics"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="com.apple.wifi.analytics.persistence-iv"
+    "cdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="WiFiAnalytics"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="WiFiAnalytics"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="com.apple.wifi.analytics.persistence-tag"
+    "cdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "crtr"<uint32>=<NULL>
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343930385A00  "20250803064908Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="WiFiAnalytics"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: "genp"
+attributes:
+    0x00000007 <blob>="WARP"
+    0x00000008 <blob>=<NULL>
+    "acct"<blob>="WARPSecret"
+    "cdat"<timedate>=0x32303235303732393134323035315A00  "20250729142051Z\000"
+    "crtr"<uint32>="aapl"
+    "cusi"<sint32>=<NULL>
+    "desc"<blob>=<NULL>
+    "gena"<blob>=<NULL>
+    "icmt"<blob>=<NULL>
+    "invi"<sint32>=<NULL>
+    "mdat"<timedate>=0x32303235303830333036343932365A00  "20250803064926Z\000"
+    "nega"<sint32>=<NULL>
+    "prot"<blob>=<NULL>
+    "scrp"<sint32>=<NULL>
+    "svce"<blob>="WARP"
+    "type"<uint32>=<NULL>
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="com.apple.systemdefault"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0x43F8D935D3C393BC8E1F3F496E727D2E56F4AD81  "C\370\3315\323\303\223\274\216\037?Inr}.V\364\255\201"
+    "issu"<blob>=0x303C3120301E06035504030C17636F6D2E6170706C652E73797374656D64656661756C7431183016060355040A0C0F53797374656D204964656E74697479  "0<1 0\036\006\003U\004\003\014\027com.apple.systemdefault1\0300\026\006\003U\004\012\014\017System Identity"
+    "labl"<blob>="com.apple.systemdefault"
+    "skid"<blob>=<NULL>
+    "snbr"<blob>=0x5C2D139A  "\134-\023\232"
+    "subj"<blob>=0x303C3120301E06035504030C17636F6D2E6170706C652E73797374656D64656661756C7431183016060355040A0C0F53797374656D204964656E74697479  "0<1 0\036\006\003U\004\003\014\027com.apple.systemdefault1\0300\026\006\003U\004\012\014\017System Identity"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="com.apple.kerberos.kdc"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0x64E4929A62324FB386730CE5A4A8D9DABC52CB17  "d\344\222\232b2O\263\206s\014\345\244\250\331\332\274R\313\027"
+    "issu"<blob>=0x303B311F301D06035504030C16636F6D2E6170706C652E6B65726265726F732E6B646331183016060355040A0C0F53797374656D204964656E74697479  "0;1\0370\035\006\003U\004\003\014\026com.apple.kerberos.kdc1\0300\026\006\003U\004\012\014\017System Identity"
+    "labl"<blob>="com.apple.kerberos.kdc"
+    "skid"<blob>=<NULL>
+    "snbr"<blob>=0x63BD602D  "c\275`-"
+    "subj"<blob>=0x303B311F301D06035504030C16636F6D2E6170706C652E6B65726265726F732E6B646331183016060355040A0C0F53797374656D204964656E74697479  "0;1\0370\035\006\003U\004\003\014\026com.apple.kerberos.kdc1\0300\026\006\003U\004\012\014\017System Identity"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="Apple Worldwide Developer Relations Certification Authority"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0x88271709A9B618608BECEBBAF64759C55254A3B7  "\210'\027\011\251\266\030`\213\354\353\272\366GY\305RT\243\267"
+    "issu"<blob>=0x3062310B300906035504061302555331133011060355040A130A4150504C4520494E432E31263024060355040B131D4150504C452043455254494649434154494F4E20415554484F52495459311630140603550403130D4150504C4520524F4F54204341  "0b1\0130\011\006\003U\004\006\023\002US1\0230\021\006\003U\004\012\023\012APPLE INC.1&0$\006\003U\004\013\023\035APPLE CERTIFICATION AUTHORITY1\0260\024\006\003U\004\003\023\015APPLE ROOT CA"
+    "labl"<blob>="Apple Worldwide Developer Relations Certification Authority"
+    "skid"<blob>=0x88271709A9B618608BECEBBAF64759C55254A3B7  "\210'\027\011\251\266\030`\213\354\353\272\366GY\305RT\243\267"
+    "snbr"<blob>=0x01DEBCC4396DA010  "\001\336\274\3049m\240\020"
+    "subj"<blob>=0x308196310B300906035504061302555331133011060355040A0C0A4170706C6520496E632E312C302A060355040B0C234170706C6520576F726C647769646520446576656C6F7065722052656C6174696F6E733144304206035504030C3B4170706C6520576F726C647769646520446576656C6F7065722052656C6174696F6E732043657274696669636174696F6E20417574686F72697479  "0\201\2261\0130\011\006\003U\004\006\023\002US1\0230\021\006\003U\004\012\014\012Apple Inc.1,0*\006\003U\004\013\014#Apple Worldwide Developer Relations1D0B\006\003U\004\003\014;Apple Worldwide Developer Relations Certification Authority"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="info@mailbutler.io"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0xE1A91A876C3DB0C6C9D96FB02FDAB5E5CF24BC99  "\341\251\032\207l=\260\306\311\331o\260/\332\265\345\317$\274\231"
+    "issu"<blob>=0x308180310B3009060355040613024445310F300D06035504080C064265726C696E310F300D06035504070C064265726C696E31183016060355040A0C0F4D61696C6275746C657220476D62483112301006035504030C096C6F63616C686F73743121301F06092A864886F70D0109011612696E666F406D61696C6275746C65722E696F  "0\201\2001\0130\011\006\003U\004\006\023\002DE1\0170\015\006\003U\004\010\014\006Berlin1\0170\015\006\003U\004\007\014\006Berlin1\0300\026\006\003U\004\012\014\017Mailbutler GmbH1\0220\020\006\003U\004\003\014\011localhost1!0\037\006\011*\206H\206\367\015\001\011\001\026\022info@mailbutler.io"
+    "labl"<blob>="localhost"
+    "skid"<blob>=0xE1A91A876C3DB0C6C9D96FB02FDAB5E5CF24BC99  "\341\251\032\207l=\260\306\311\331o\260/\332\265\345\317$\274\231"
+    "snbr"<blob>=0x59E765DA9517E3F50C7F866E0118D3EE2FC8CAC4  "Y\347e\332\225\027\343\365\014\177\206n\001\030\323\356/\310\312\304"
+    "subj"<blob>=0x308180310B3009060355040613024445310F300D06035504080C064265726C696E310F300D06035504070C064265726C696E31183016060355040A0C0F4D61696C6275746C657220476D62483112301006035504030C096C6F63616C686F73743121301F06092A864886F70D0109011612696E666F406D61696C6275746C65722E696F  "0\201\2001\0130\011\006\003U\004\006\023\002DE1\0170\015\006\003U\004\010\014\006Berlin1\0170\015\006\003U\004\007\014\006Berlin1\0300\026\006\003U\004\012\014\017Mailbutler GmbH1\0220\020\006\003U\004\003\014\011localhost1!0\037\006\011*\206H\206\367\015\001\011\001\026\022info@mailbutler.io"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="GlobalSign Root CA"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0x607B661A450D97CA89502F7D04CD34A8FFFCFD4B  "`{f\032E\015\227\312\211P/}\004\3154\250\377\374\375K"
+    "issu"<blob>=0x3057310B300906035504061302424531193017060355040A1310474C4F42414C5349474E204E562D53413110300E060355040B1307524F4F54204341311B301906035504031312474C4F42414C5349474E20524F4F54204341  "0W1\0130\011\006\003U\004\006\023\002BE1\0310\027\006\003U\004\012\023\020GLOBALSIGN NV-SA1\0200\016\006\003U\004\013\023\007ROOT CA1\0330\031\006\003U\004\003\023\022GLOBALSIGN ROOT CA"
+    "labl"<blob>="GlobalSign Root CA"
+    "skid"<blob>=0x607B661A450D97CA89502F7D04CD34A8FFFCFD4B  "`{f\032E\015\227\312\211P/}\004\3154\250\377\374\375K"
+    "snbr"<blob>=0x040000000001154B5AC394  "\004\000\000\000\000\001\025KZ\303\224"
+    "subj"<blob>=0x3057310B300906035504061302424531193017060355040A1310474C4F42414C5349474E204E562D53413110300E060355040B1307524F4F54204341311B301906035504031312474C4F42414C5349474E20524F4F54204341  "0W1\0130\011\006\003U\004\006\023\002BE1\0310\027\006\003U\004\012\023\020GLOBALSIGN NV-SA1\0200\016\006\003U\004\013\023\007ROOT CA1\0330\031\006\003U\004\003\023\022GLOBALSIGN ROOT CA"
+keychain: "/Library/Keychains/System.keychain"
+version: 256
+class: 0x80001000 
+attributes:
+    "alis"<blob>="Obsidian Local REST API"
+    "cenc"<uint32>=0x00000003 
+    "ctyp"<uint32>=0x00000001 
+    "hpky"<blob>=0x73FD37ACB45E34E850DFB3515917E1CB25531438  "s\3757\254\264^4\350P\337\263QY\027\341\313%S\0248"
+    "issu"<blob>=0x30223120301E060355040313174F4253494449414E204C4F43414C205245535420415049  "0"1 0\036\006\003U\004\003\023\027OBSIDIAN LOCAL REST API"
+    "labl"<blob>="Obsidian Local REST API"
+    "skid"<blob>=<NULL>
+    "snbr"<blob>=0x01 
+    "subj"<blob>=0x30223120301E060355040313174F4253494449414E204C4F43414C205245535420415049  "0"1 0\036\006\003U\004\003\023\027OBSIDIAN LOCAL REST API"

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/GO-2022-0463.json",
+  "original_name": "GO-2022-0463.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 9036,
+  "content_hash": "97c815ebe08d658aa0dcfd46e98514b4794d29b8181dd6e0de78e05daf381f37",
+  "semantic_fingerprint": "go-2022-0463",
+  "detected_at": "2025-11-13T05:18:46.391408",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_go-2022-0463_97c815eb.json",
+  "original_metadata": {
+    "size": 9036,
+    "modified": "2025-01-12T09:30:49.132767",
+    "created": "2025-11-11T03:39:11.680450"
+  },
+  "stripped_metadata": {}
+}

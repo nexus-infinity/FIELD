@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sqrt.go",
+  "original_name": "sqrt.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3078,
+  "content_hash": "d55bfa6adb2448163ca500b9f36175e18915c6d9973a7fb117e6c6acc76aecc5",
+  "semantic_fingerprint": "sqrt",
+  "detected_at": "2025-11-13T05:18:45.903084",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sqrt_d55bfa6a.go",
+  "original_metadata": {
+    "size": 3078,
+    "modified": "2025-01-12T09:30:45.398753",
+    "created": "2025-11-11T03:39:11.667943"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/robustio_test.go",
+  "original_name": "robustio_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2910,
+  "content_hash": "5a39cfbe693c67e39c21f2e7b2974ee8c95cd25cc1a29b147296aa8a30c5a9ad",
+  "semantic_fingerprint": "robustio_test",
+  "detected_at": "2025-11-13T05:18:47.873505",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_robustio_test_5a39cfbe.go",
+  "original_metadata": {
+    "size": 2910,
+    "modified": "2025-01-12T09:30:47.899254",
+    "created": "2025-11-11T03:39:11.708060"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/merge.go",
+  "original_name": "merge.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 17393,
+  "content_hash": "d8f771b85a04002024d27908317609dcbd12aadc8cc2986d662fdca8a768a407",
+  "semantic_fingerprint": "merge",
+  "detected_at": "2025-11-13T05:18:46.180897",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_merge_d8f771b8.go",
+  "original_metadata": {
+    "size": 17393,
+    "modified": "2025-01-12T09:30:44.757654",
+    "created": "2025-11-11T03:39:11.676228"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/endian_little.go",
+  "original_name": "endian_little.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 433,
+  "content_hash": "c6bc70c372d9e1fe86fcf295f406b17bf04bf8d1af25c2456f58520cdaef3be9",
+  "semantic_fingerprint": "endian_little",
+  "detected_at": "2025-11-13T05:18:47.803814",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_endian_little_c6bc70c3.go",
+  "original_metadata": {
+    "size": 433,
+    "modified": "2025-01-12T09:30:45.810390",
+    "created": "2025-11-11T03:39:11.706669"
+  },
+  "stripped_metadata": {}
+}

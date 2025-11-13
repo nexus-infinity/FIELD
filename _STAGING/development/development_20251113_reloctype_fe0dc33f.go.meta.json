@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/reloctype.go",
+  "original_name": "reloctype.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2502,
+  "content_hash": "fe0dc33fab11d6275fc07322566f37dda9b4ef4655cda57b8fcdd77705ae1948",
+  "semantic_fingerprint": "reloctype",
+  "detected_at": "2025-11-13T05:18:46.010058",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_reloctype_fe0dc33f.go",
+  "original_metadata": {
+    "size": 2502,
+    "modified": "2025-01-12T09:30:45.073484",
+    "created": "2025-11-11T03:39:11.671996"
+  },
+  "stripped_metadata": {}
+}

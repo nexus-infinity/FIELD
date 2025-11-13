@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/orange.go",
+  "original_name": "orange.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 41,
+  "content_hash": "c7c169581ed17706b58c3b56d4aeb636027b0eae3c04f81ed2591335c57e7b07",
+  "semantic_fingerprint": "orange",
+  "detected_at": "2025-11-13T05:18:45.922783",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_orange_c7c16958.go",
+  "original_metadata": {
+    "size": 41,
+    "modified": "2025-01-12T09:30:47.710754",
+    "created": "2025-11-11T03:39:11.668019"
+  },
+  "stripped_metadata": {}
+}

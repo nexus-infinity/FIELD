@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/message.go",
+  "original_name": "message.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1570,
+  "content_hash": "78cfcda02b24a0c37afbc3ddc1ef69b628b0e9ee24b83a0c50607d6ccb0c724d",
+  "semantic_fingerprint": "message",
+  "detected_at": "2025-11-13T05:18:46.566553",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_message_78cfcda0.go",
+  "original_metadata": {
+    "size": 1570,
+    "modified": "2025-01-12T09:30:45.804301",
+    "created": "2025-11-11T03:39:11.684195"
+  },
+  "stripped_metadata": {}
+}

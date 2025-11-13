@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/nat_test.go",
+  "original_name": "nat_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 26845,
+  "content_hash": "c4b66c74b02f4e93401fd6a05e8fba4e482a5ecce0386165b93ffbb514a6097c",
+  "semantic_fingerprint": "nat_test",
+  "detected_at": "2025-11-13T05:18:47.277575",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_nat_test_c4b66c74.go",
+  "original_metadata": {
+    "size": 26845,
+    "modified": "2025-01-12T09:30:45.393854",
+    "created": "2025-11-11T03:39:11.696805"
+  },
+  "stripped_metadata": {}
+}

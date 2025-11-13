@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ndiff.go",
+  "original_name": "ndiff.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2491,
+  "content_hash": "2d6f3970d6cbb4bb1b67cb9370bcb6a24883649b726b946a0705c1d184ed6946",
+  "semantic_fingerprint": "ndiff",
+  "detected_at": "2025-11-13T05:18:47.768601",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ndiff_2d6f3970.go",
+  "original_metadata": {
+    "size": 2491,
+    "modified": "2025-01-12T09:30:47.865801",
+    "created": "2025-11-11T03:39:11.705995"
+  },
+  "stripped_metadata": {}
+}

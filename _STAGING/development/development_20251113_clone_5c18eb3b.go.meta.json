@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/clone.go",
+  "original_name": "clone.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 809,
+  "content_hash": "5c18eb3b45b7d9ae63d0cc43f9e337c077de05dd47fd5a1ea49dafeb7e1b862b",
+  "semantic_fingerprint": "clone",
+  "detected_at": "2025-11-13T05:18:47.515805",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_clone_5c18eb3b.go",
+  "original_metadata": {
+    "size": 809,
+    "modified": "2025-01-12T09:30:45.676883",
+    "created": "2025-11-11T03:39:11.701205"
+  },
+  "stripped_metadata": {}
+}

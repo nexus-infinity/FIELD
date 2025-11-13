@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/findcall_test.go",
+  "original_name": "findcall_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1894,
+  "content_hash": "06ff2e7679e6262f7ab4419e743b3f2811fe5b97036d6ef7d2ff0e43d6d37058",
+  "semantic_fingerprint": "findcall_test",
+  "detected_at": "2025-11-13T05:18:46.083330",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_findcall_test_06ff2e76.go",
+  "original_metadata": {
+    "size": 1894,
+    "modified": "2025-01-12T09:30:47.748753",
+    "created": "2025-11-11T03:39:11.673677"
+  },
+  "stripped_metadata": {}
+}

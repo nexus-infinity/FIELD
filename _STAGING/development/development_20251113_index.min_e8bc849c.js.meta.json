@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/index.min.js",
+  "original_name": "index.min.js",
+  "file_type": ".js",
+  "mime_type": "text/javascript",
+  "size_bytes": 17085,
+  "content_hash": "e8bc849c184b98da770285278023c11e42d54f5cad3325dcb33d1d8b46d5c12f",
+  "semantic_fingerprint": "index.min",
+  "detected_at": "2025-11-13T05:18:47.837923",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_index.min_e8bc849c.js",
+  "original_metadata": {
+    "size": 17085,
+    "modified": "2025-01-05T13:03:26.412425",
+    "created": "2025-11-11T03:39:11.707394"
+  },
+  "stripped_metadata": {}
+}

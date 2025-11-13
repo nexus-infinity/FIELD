@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsysnum_linux_arm64.go",
+  "original_name": "zsysnum_linux_arm64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9164,
+  "content_hash": "7bca63cf763cdc79dbf0a5f6e4dc27dc89c73fabcb8597a68850f695bc543c9a",
+  "semantic_fingerprint": "zsysnum_linux_arm64",
+  "detected_at": "2025-11-13T05:18:47.422156",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsysnum_linux_arm64_7bca63cf.go",
+  "original_metadata": {
+    "size": 9164,
+    "modified": "2025-01-12T09:30:45.746835",
+    "created": "2025-11-11T03:39:11.699684"
+  },
+  "stripped_metadata": {}
+}

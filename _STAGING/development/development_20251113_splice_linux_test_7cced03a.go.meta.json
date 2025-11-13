@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/splice_linux_test.go",
+  "original_name": "splice_linux_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2894,
+  "content_hash": "7cced03a9625dc4f75484ea130be58fd5fa6884701375a3e0d7405048cc4cfed",
+  "semantic_fingerprint": "splice_linux_test",
+  "detected_at": "2025-11-13T05:18:47.232094",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_splice_linux_test_7cced03a.go",
+  "original_metadata": {
+    "size": 2894,
+    "modified": "2025-01-12T09:30:45.254087",
+    "created": "2025-11-11T03:39:11.695946"
+  },
+  "stripped_metadata": {}
+}

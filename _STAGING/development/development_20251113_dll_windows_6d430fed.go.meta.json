@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dll_windows.go",
+  "original_name": "dll_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 459,
+  "content_hash": "6d430fedd95d26e9d8404226fb18fc9dcdfe6c188fb74d31fb27016a004b67cd",
+  "semantic_fingerprint": "dll_windows",
+  "detected_at": "2025-11-13T05:18:46.540448",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dll_windows_6d430fed.go",
+  "original_metadata": {
+    "size": 459,
+    "modified": "2025-01-12T09:30:45.653336",
+    "created": "2025-11-11T03:39:11.683455"
+  },
+  "stripped_metadata": {}
+}

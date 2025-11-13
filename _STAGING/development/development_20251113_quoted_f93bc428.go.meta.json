@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/quoted.go",
+  "original_name": "quoted.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2839,
+  "content_hash": "f93bc428b4c69cfcba69715e98e83d984bc897aae9074c55f27c88dc9b118ac7",
+  "semantic_fingerprint": "quoted",
+  "detected_at": "2025-11-13T05:18:47.150582",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_quoted_f93bc428.go",
+  "original_metadata": {
+    "size": 2839,
+    "modified": "2025-01-12T09:30:44.713329",
+    "created": "2025-11-11T03:39:11.694511"
+  },
+  "stripped_metadata": {}
+}

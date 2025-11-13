@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/wrap_test.go",
+  "original_name": "wrap_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6119,
+  "content_hash": "6d467b8c4d71d72d40791c82f334fa6514e7d8efb8ec4eb440cc1c820ae69937",
+  "semantic_fingerprint": "wrap_test",
+  "detected_at": "2025-11-13T05:18:47.136080",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_wrap_test_6d467b8c.go",
+  "original_metadata": {
+    "size": 6119,
+    "modified": "2025-01-12T09:30:45.096780",
+    "created": "2025-11-11T03:39:11.694242"
+  },
+  "stripped_metadata": {}
+}

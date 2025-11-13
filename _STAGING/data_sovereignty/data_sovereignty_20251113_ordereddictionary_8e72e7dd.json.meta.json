@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/OrderedDictionary.json",
+  "original_name": "OrderedDictionary.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 13823,
+  "content_hash": "8e72e7dd806ed63c25b907090dd2a62748e5fa7e89dac7285b4e62e9fdecefb7",
+  "semantic_fingerprint": "ordereddictionary",
+  "detected_at": "2025-11-13T05:18:47.962220",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_ordereddictionary_8e72e7dd.json",
+  "original_metadata": {
+    "size": 13823,
+    "modified": "2025-02-02T16:32:20.578786",
+    "created": "2025-11-11T03:39:11.709711"
+  },
+  "stripped_metadata": {}
+}

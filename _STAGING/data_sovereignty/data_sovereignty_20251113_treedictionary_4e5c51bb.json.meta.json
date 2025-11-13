@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/TreeDictionary.json",
+  "original_name": "TreeDictionary.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 8457,
+  "content_hash": "4e5c51bbd2f890bcf85a75d6aabb92f9a041f4f145c362000b78de6e73286690",
+  "semantic_fingerprint": "treedictionary",
+  "detected_at": "2025-11-13T05:18:47.941528",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_treedictionary_4e5c51bb.json",
+  "original_metadata": {
+    "size": 8457,
+    "modified": "2025-02-02T16:32:20.579269",
+    "created": "2025-11-11T03:39:11.709431"
+  },
+  "stripped_metadata": {}
+}

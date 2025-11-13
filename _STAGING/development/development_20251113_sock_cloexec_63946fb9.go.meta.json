@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sock_cloexec.go",
+  "original_name": "sock_cloexec.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 712,
+  "content_hash": "63946fb9819643b61d64ea1bb20387f7f621d156f4d92d27c1ece0bfaab667e5",
+  "semantic_fingerprint": "sock_cloexec",
+  "detected_at": "2025-11-13T05:18:46.043761",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sock_cloexec_63946fb9.go",
+  "original_metadata": {
+    "size": 712,
+    "modified": "2025-01-12T09:30:45.253364",
+    "created": "2025-11-11T03:39:11.672789"
+  },
+  "stripped_metadata": {}
+}

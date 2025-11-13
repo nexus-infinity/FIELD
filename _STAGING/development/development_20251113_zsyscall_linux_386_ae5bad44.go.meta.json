@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zsyscall_linux_386.go",
+  "original_name": "zsyscall_linux_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 35513,
+  "content_hash": "ae5bad445d35946bd4bbf3291da63666881c9402c85779a3c8b336328aea67b6",
+  "semantic_fingerprint": "zsyscall_linux_386",
+  "detected_at": "2025-11-13T05:18:46.973275",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zsyscall_linux_386_ae5bad44.go",
+  "original_metadata": {
+    "size": 35513,
+    "modified": "2025-01-12T09:30:45.737597",
+    "created": "2025-11-11T03:39:11.690669"
+  },
+  "stripped_metadata": {}
+}

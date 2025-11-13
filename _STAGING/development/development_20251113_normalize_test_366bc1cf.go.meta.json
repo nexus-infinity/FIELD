@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/normalize_test.go",
+  "original_name": "normalize_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3137,
+  "content_hash": "366bc1cfd1b1f37115fbf39760ee6e4fd1fb7c06857b060c5f70dddbf723ec9c",
+  "semantic_fingerprint": "normalize_test",
+  "detected_at": "2025-11-13T05:18:47.071604",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_normalize_test_366bc1cf.go",
+  "original_metadata": {
+    "size": 3137,
+    "modified": "2025-01-12T09:30:47.905545",
+    "created": "2025-11-11T03:39:11.692938"
+  },
+  "stripped_metadata": {}
+}

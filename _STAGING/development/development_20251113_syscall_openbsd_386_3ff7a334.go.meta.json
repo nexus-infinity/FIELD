@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_openbsd_386.go",
+  "original_name": "syscall_openbsd_386.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 715,
+  "content_hash": "3ff7a334dfea0bc22d4c076e3f802281754ffa2d7425aa284b3bc218474ab46d",
+  "semantic_fingerprint": "syscall_openbsd_386",
+  "detected_at": "2025-11-13T05:18:46.310927",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_openbsd_386_3ff7a334.go",
+  "original_metadata": {
+    "size": 715,
+    "modified": "2025-01-12T09:30:45.716950",
+    "created": "2025-11-11T03:39:11.678761"
+  },
+  "stripped_metadata": {}
+}

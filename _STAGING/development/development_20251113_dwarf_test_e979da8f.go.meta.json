@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dwarf_test.go",
+  "original_name": "dwarf_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7049,
+  "content_hash": "e979da8fa87190e54604f16537a9b5ac0886634fe7b4e05490a93f9b60d77f49",
+  "semantic_fingerprint": "dwarf_test",
+  "detected_at": "2025-11-13T05:18:47.720250",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dwarf_test_e979da8f.go",
+  "original_metadata": {
+    "size": 7049,
+    "modified": "2025-01-12T09:30:44.718813",
+    "created": "2025-11-11T03:39:11.704753"
+  },
+  "stripped_metadata": {}
+}

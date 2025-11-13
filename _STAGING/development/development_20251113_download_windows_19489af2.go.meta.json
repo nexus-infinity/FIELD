@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/download_windows.go",
+  "original_name": "download_windows.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1050,
+  "content_hash": "19489af285b1cbad43a9f9f91b7b67f71be2c46d5c948dd21364762f8e0d94ef",
+  "semantic_fingerprint": "download_windows",
+  "detected_at": "2025-11-13T05:18:46.932139",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_download_windows_19489af2.go",
+  "original_metadata": {
+    "size": 1050,
+    "modified": "2025-01-12T09:30:47.637807",
+    "created": "2025-11-11T03:39:11.689761"
+  },
+  "stripped_metadata": {}
+}

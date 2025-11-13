@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/store.go",
+  "original_name": "store.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 837,
+  "content_hash": "94ef3a5ba5abda9e0bb4af972ddd94dfbbe55acb82e37541cb266b3ec921bede",
+  "semantic_fingerprint": "store",
+  "detected_at": "2025-11-13T05:18:46.319560",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_store_94ef3a5b.go",
+  "original_metadata": {
+    "size": 837,
+    "modified": "2025-01-12T09:30:47.804783",
+    "created": "2025-11-11T03:39:11.678941"
+  },
+  "stripped_metadata": {}
+}

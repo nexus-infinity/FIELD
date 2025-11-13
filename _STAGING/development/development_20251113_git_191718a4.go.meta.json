@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/git.go",
+  "original_name": "git.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 28070,
+  "content_hash": "191718a4459e97daaef8d3bf848e4b9fef7d49c543148acf4b6631801ab2c2b1",
+  "semantic_fingerprint": "git",
+  "detected_at": "2025-11-13T05:18:46.160819",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_git_191718a4.go",
+  "original_metadata": {
+    "size": 28070,
+    "modified": "2025-01-12T09:30:44.538990",
+    "created": "2025-11-11T03:39:11.675767"
+  },
+  "stripped_metadata": {}
+}

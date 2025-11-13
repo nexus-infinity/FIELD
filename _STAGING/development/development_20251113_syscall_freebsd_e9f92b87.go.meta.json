@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_freebsd.go",
+  "original_name": "syscall_freebsd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8932,
+  "content_hash": "e9f92b879051635de6b2b7f54f3016c6883ae1d314c73c756b2a485dbfa81268",
+  "semantic_fingerprint": "syscall_freebsd",
+  "detected_at": "2025-11-13T05:18:47.897614",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_freebsd_e9f92b87.go",
+  "original_metadata": {
+    "size": 8932,
+    "modified": "2025-01-12T09:30:45.714167",
+    "created": "2025-11-11T03:39:11.708578"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defer.go",
+  "original_name": "defer.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 961,
+  "content_hash": "0b83acec01a74ef9290f4daac65744ef2a253a52d457653d1cf4a68b9df6a906",
+  "semantic_fingerprint": "defer",
+  "detected_at": "2025-11-13T05:18:47.132342",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defer_0b83acec.go",
+  "original_metadata": {
+    "size": 961,
+    "modified": "2025-01-12T09:30:35.508222",
+    "created": "2025-11-11T03:39:11.694152"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dedup.go",
+  "original_name": "dedup.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 406,
+  "content_hash": "0cf74516fd06efed1b9626aa22bef48ebcdbe245ea86c6ace187e422733db593",
+  "semantic_fingerprint": "dedup",
+  "detected_at": "2025-11-13T05:18:47.274448",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dedup_0cf74516.go",
+  "original_metadata": {
+    "size": 406,
+    "modified": "2025-01-12T09:30:50.065243",
+    "created": "2025-11-11T03:39:11.696743"
+  },
+  "stripped_metadata": {}
+}

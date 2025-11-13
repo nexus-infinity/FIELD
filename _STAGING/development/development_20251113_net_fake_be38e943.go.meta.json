@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/net_fake.go",
+  "original_name": "net_fake.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 883,
+  "content_hash": "be38e943dd687ac5587aca47c17c892eee53515b25230784f6838f925363e717",
+  "semantic_fingerprint": "net_fake",
+  "detected_at": "2025-11-13T05:18:46.307870",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_net_fake_be38e943.go",
+  "original_metadata": {
+    "size": 883,
+    "modified": "2025-01-12T09:30:45.709931",
+    "created": "2025-11-11T03:39:11.678699"
+  },
+  "stripped_metadata": {}
+}

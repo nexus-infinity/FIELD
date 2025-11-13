@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cmp.go",
+  "original_name": "cmp.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3972,
+  "content_hash": "58c3d321e601b0cd48c8e0d41771cbc1c82fb8b522f6bceffc25429449b2e453",
+  "semantic_fingerprint": "cmp",
+  "detected_at": "2025-11-13T05:18:47.113246",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cmp_58c3d321.go",
+  "original_metadata": {
+    "size": 3972,
+    "modified": "2025-01-12T09:30:35.390649",
+    "created": "2025-11-11T03:39:11.693685"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/diff_test.go",
+  "original_name": "diff_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1099,
+  "content_hash": "2f8f88789db9e9b3cd29c8b9d9f43217f7942511ff6f92128eac4c1354fe1bf4",
+  "semantic_fingerprint": "diff_test",
+  "detected_at": "2025-11-13T05:18:46.865304",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_diff_test_2f8f8878.go",
+  "original_metadata": {
+    "size": 1099,
+    "modified": "2025-01-12T09:30:35.546891",
+    "created": "2025-11-11T03:39:11.688149"
+  },
+  "stripped_metadata": {}
+}

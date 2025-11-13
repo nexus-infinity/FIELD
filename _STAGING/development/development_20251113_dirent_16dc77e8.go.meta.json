@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/dirent.go",
+  "original_name": "dirent.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2465,
+  "content_hash": "16dc77e85f0c938a3cf260a55d9f9446a71dc05d40c141fc1d5dd33419adab49",
+  "semantic_fingerprint": "dirent",
+  "detected_at": "2025-11-13T05:18:45.881343",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_dirent_16dc77e8.go",
+  "original_metadata": {
+    "size": 2465,
+    "modified": "2025-01-12T09:30:45.700505",
+    "created": "2025-11-11T03:39:11.667435"
+  },
+  "stripped_metadata": {}
+}

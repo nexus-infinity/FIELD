@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/defs_linux_mips64x.go",
+  "original_name": "defs_linux_mips64x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 538,
+  "content_hash": "909db362af43e5a4a0f6d10fa98d4124f704571b68680ef27965aabbd50beba8",
+  "semantic_fingerprint": "defs_linux_mips64x",
+  "detected_at": "2025-11-13T05:18:46.427459",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_defs_linux_mips64x_909db362.go",
+  "original_metadata": {
+    "size": 538,
+    "modified": "2025-01-12T09:30:45.261661",
+    "created": "2025-11-11T03:39:11.681414"
+  },
+  "stripped_metadata": {}
+}

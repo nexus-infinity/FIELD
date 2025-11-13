@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/builtin.go",
+  "original_name": "builtin.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 31963,
+  "content_hash": "5c8fbadd7241f26ec7949418f04efdeb6fabfd320b86096ab90ea837a98bfbd0",
+  "semantic_fingerprint": "builtin",
+  "detected_at": "2025-11-13T05:18:47.944084",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_builtin_5c8fbadd.go",
+  "original_metadata": {
+    "size": 31963,
+    "modified": "2025-01-12T09:30:44.508221",
+    "created": "2025-11-11T03:39:11.709468"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/shuffle-sources.sh",
+  "original_name": "shuffle-sources.sh",
+  "file_type": ".sh",
+  "mime_type": "application/x-sh",
+  "size_bytes": 883,
+  "content_hash": "6e4f65a301fcfc7d454193f9022991a7de7c9c17bed0c8066752fc4db0e89132",
+  "semantic_fingerprint": "shuffle-sources",
+  "detected_at": "2025-11-13T05:18:46.479909",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_shuffle-sources_6e4f65a3.sh",
+  "original_metadata": {
+    "size": 883,
+    "modified": "2025-02-02T16:32:20.675318",
+    "created": "2025-11-11T03:39:11.682417"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/banana.go",
+  "original_name": "banana.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 86,
+  "content_hash": "ecfd84d31cb67e26626d6e894aeeb8199ac2ab02fc5c8c13da0305759f7dd42e",
+  "semantic_fingerprint": "banana",
+  "detected_at": "2025-11-13T05:18:47.135274",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_banana_ecfd84d3.go",
+  "original_metadata": {
+    "size": 86,
+    "modified": "2025-01-12T09:30:47.710659",
+    "created": "2025-11-11T03:39:11.694223"
+  },
+  "stripped_metadata": {}
+}

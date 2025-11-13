@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/norace_test.go",
+  "original_name": "norace_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 385,
+  "content_hash": "c23772f45b6dc093491d2389fcc4dac8722ddb6177debe8d9da493ca22087477",
+  "semantic_fingerprint": "norace_test",
+  "detected_at": "2025-11-13T05:18:47.895098",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_norace_test_c23772f4.go",
+  "original_metadata": {
+    "size": 385,
+    "modified": "2025-01-12T09:31:05.600659",
+    "created": "2025-11-11T03:39:11.708528"
+  },
+  "stripped_metadata": {}
+}

@@ -1,4 +1,3 @@
-# Fractal Wireframe Migration Plan
 
 This document coordinates the realignment of the FIELD sacred domains with the **Fractal Field Wireframe v1.7** geometry. It records the current landscape, the canonical target structure, and the staged actions needed to migrate safely without breaking existing flows.
 
@@ -34,22 +33,22 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 ```
 ▼TATA/
- ├── ◎source_core/
- │    ├── ⬣axioms_foundational/
- │    └── ⬣legacy_data_anchors/
- ├── ▲integrity_structure/
- │    ├── ⬣legal_trust_structures/
- │    └── ⬰compliance_verification_logs/
- ├── ⭟verification_vessel/
- │    ├── ⬣certified_artifacts_evidence/
- │    └── ✶verification_protocols_output/
- ├── ⬢temporal_records/
- │    ├── ⬘chronological_event_logs/
- │    └── ⬘lineage_succession_data/
- ├── ✦sovereign_wisdom/
- │    ├── ✶legal_ethical_frameworks/
- │    └── ⬖governance_interfaces/
- └── ⭣registry/
+ ├── ◎_source_core/
+ │    ├── ⬣_axioms_foundational/
+ │    └── ⬣_legacy_data_anchors/
+ ├── ▲_integrity_structure/
+ │    ├── ⬣_legal_trust_structures/
+ │    └── ⬰_compliance_verification_logs/
+ ├── ⭟_verification_vessel/
+ │    ├── ⬣_certified_artifacts_evidence/
+ │    └── ✶_verification_protocols_output/
+ ├── ⬢_temporal_records/
+ │    ├── ⬘_chronological_event_logs/
+ │    └── ⬘_lineage_succession_data/
+ ├── ✦_sovereign_wisdom/
+ │    ├── ✶_legal_ethical_frameworks/
+ │    └── ⬖_governance_interfaces/
+ └── ⭣_registry/
       ├── tata_registry.json
       └── README.md
 ```
@@ -64,13 +63,13 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 | Legacy Path | Target Petal | Action | Notes |
 |-------------|--------------|--------|-------|
-| `_pulse/`, `_reflection/`, `_vault/` | Distribute contents across all petals | Stage → review → merge | Keep temporal logs with timestamps in `⬢temporal_records` |
+| `_pulse/`, `_reflection/`, `_vault/` | Distribute contents across all petals | Stage → review → merge | Keep temporal logs with timestamps in `⬢_temporal_records` |
 | `P1_manifest/`, `P2_intake/`, `P3_alignment/` etc. | Case-by-case | Stage | Map using prior P# ↔ petal chart (appendix A) |
-| `legal_intelligence/`, `legal_documents/`, `VLSB (legal-Board)/` | ▲integrity_structure/⬣legal_trust_structures/ | Stage, then move | Preserve folder structure inside new petal |
-| `VERIFIED/`, `P5_certified/`, `_verification` | ⭟verification_vessel/ | Merge subfolders | Create `README` noting verification provenance |
-| `timelines/`, `JR/`, `P11_reports/`, `_temporal_records/` | ⬢temporal_records/ | Rename + consolidate | Chronological logs to `⬘chronological_event_logs` |
-| `✦_wisdom/`, `≛_wisdom/`, `✦_47_sovereign/` | ✦sovereign_wisdom/ | Combine | Ensure ethical frameworks vs interfaces separated |
-| `⭣_79_manifest/`, `⭣_void/` | ⭣registry/ | Archive or merge | Move final inventories into canonical registry |
+| `legal_intelligence/`, `legal_documents/`, `VLSB (legal-Board)/` | ▲_integrity_structure/⬣_legal_trust_structures/ | Stage, then move | Preserve folder structure inside new petal |
+| `VERIFIED/`, `P5_certified/`, `_verification` | ⭟_verification_vessel/ | Merge subfolders | Create `README` noting verification provenance |
+| `timelines/`, `JR/`, `P11_reports/`, `_temporal_records/` | ⬢_temporal_records/ | Rename + consolidate | Chronological logs to `⬘_chronological_event_logs` |
+| `✦_wisdom/`, `≛_wisdom/`, `✦_47_sovereign/` | ✦_sovereign_wisdom/ | Combine | Ensure ethical frameworks vs interfaces separated |
+| `⭣_79_manifest/`, `⭣_void/` | ⭣_registry/ | Archive or merge | Move final inventories into canonical registry |
 
 ### Execution Notes
 
@@ -86,22 +85,22 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 ```
 ▲ATLAS/
- ├── ◎primal_cartography/
- │    ├── ⬣core_axiom_library/
- │    └── ◍ontological_input_signals/
- ├── ▲identity_map/
- │    ├── ⬣dna_identity_blueprints/
- │    └── ▲entity_relationship_graphs/
- ├── ⭟knowledge_vessel/
- │    ├── ⬟active_ai_models/
- │    └── ✶quantum_neural_processor_outputs/
- ├── ⬢resonance_patterns/
- │    ├── ⧫chakra_energetic_overlays/
- │    └── ⧫frequency_pattern_analysis/
- ├── ✦pattern_intelligence/
- │    ├── ✶recognized_fractal_patterns/
- │    └── ⬖knowledge_access_interfaces/
- └── ⭣registry_sync/
+ ├── ◎_primal_cartography/
+ │    ├── ⬣_core_axiom_library/
+ │    └── ◍_ontological_input_signals/
+ ├── ▲_identity_map/
+ │    ├── ⬣_dna_identity_blueprints/
+ │    └── ▲_entity_relationship_graphs/
+ ├── ⭟_knowledge_vessel/
+ │    ├── ⬟_active_ai_models/
+ │    └── ✶_quantum_neural_processor_outputs/
+ ├── ⬢_resonance_patterns/
+ │    ├── ⧫_chakra_energetic_overlays/
+ │    └── ⧫_frequency_pattern_analysis/
+ ├── ✦_pattern_intelligence/
+ │    ├── ✶_recognized_fractal_patterns/
+ │    └── ⬖_knowledge_access_interfaces/
+ └── ⭣_registry_sync/
       ├── atlas_registry.json
       └── README.md
 ```
@@ -116,13 +115,13 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 | Legacy Path | Target Petal | Action | Notes |
 |-------------|--------------|--------|-------|
-| `_knowledge_vessel/` | ⭟knowledge_vessel/ | Rename & merge | Subdirs map to `⬟active_ai_models`, `✶quantum_neural_processor_outputs` |
-| `creative_suite/`, `_pattern_intelligence/`, `active_logic/` | ✦pattern_intelligence/ | Stage → merge | Distinguish outputs vs interfaces |
-| `chakra_core/`, `chakra-system/`, `chakra_backup_*` | ⬢resonance_patterns/ | Stage key overlays | Remove dated backups post-validation |
-| `ontology/`, `◎_ontology/`, `◎_source_resonance/` | ◎primal_cartography/ | Consolidate | Move raw inputs to `◍ontological_input_signals` |
-| `CASE_INTELLIGENCE/`, `account_systems/`, `SAIGES/` | ▲identity_map/ | Stage → integrate | Blueprint vs relationship graph separation |
+| `_knowledge_vessel/` | ⭟_knowledge_vessel/ | Rename & merge | Subdirs map to `⬟_active_ai_models`, `✶_quantum_neural_processor_outputs` |
+| `creative_suite/`, `_pattern_intelligence/`, `active_logic/` | ✦_pattern_intelligence/ | Stage → merge | Distinguish outputs vs interfaces |
+| `chakra_core/`, `chakra-system/`, `chakra_backup_*` | ⬢_resonance_patterns/ | Stage key overlays | Remove dated backups post-validation |
+| `ontology/`, `◎_ontology/`, `◎_source_resonance/` | ◎_primal_cartography/ | Consolidate | Move raw inputs to `◍_ontological_input_signals` |
+| `CASE_INTELLIGENCE/`, `account_systems/`, `SAIGES/` | ▲_identity_map/ | Stage → integrate | Blueprint vs relationship graph separation |
 | `_pulse`, `_vault`, `_reflection` | Distrib. | Stage | Use observation logs to direct placement |
-| `⭣_registry/` | ⭣registry_sync/ | Rename | Ensure sync tooling documented in README |
+| `⭣_registry/` | ⭣_registry_sync/ | Rename | Ensure sync tooling documented in README |
 
 ### Execution Notes
 
@@ -138,23 +137,23 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 ```
 ◼︎DOJO/
- ├── ◎primal_crucible/
- │    ├── ⬣execution_principles_base/
- │    └── ◍process_trigger_inputs/
- ├── ▲choreography_structure/
- │    ├── ⬣docker_nixos_process_configs/
- │    └── ⬕task_dependency_links/
- ├── ⭟chakra_vessel/
- │    ├── ⬟bootstrap_execution_scripts/
- │    └── ⬕chakra_flow_control_sync/
- ├── ⬢execution_core/
- │    ├── ⬟temporal_truth_verification_process/
- │    ├── ◍live_container_state_signals/
- │    └── ⬰runtime_error_logs/
- ├── ✦execution_intelligence/
- │    ├── ✶process_optimization_outputs/
- │    └── ⬖process_control_interfaces/
- └── ⭣registry/
+ ├── ◎_primal_crucible/
+ │    ├── ⬣_execution_principles_base/
+ │    └── ◍_process_trigger_inputs/
+ ├── ▲_choreography_structure/
+ │    ├── ⬣_docker_nixos_process_configs/
+ │    └── ⬕_task_dependency_links/
+ ├── ⭟_chakra_vessel/
+ │    ├── ⬟_bootstrap_execution_scripts/
+ │    └── ⬕_chakra_flow_control_sync/
+ ├── ⬢_execution_core/
+ │    ├── ⬟_temporal_truth_verification_process/
+ │    ├── ◍_live_container_state_signals/
+ │    └── ⬰_runtime_error_logs/
+ ├── ✦_execution_intelligence/
+ │    ├── ✶_process_optimization_outputs/
+ │    └── ⬖_process_control_interfaces/
+ └── ⭣_registry/
       ├── dojo_registry.json
       └── README.md
 ```
@@ -169,13 +168,13 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 | Legacy Path | Target Petal | Action | Notes |
 |-------------|--------------|--------|-------|
-| `_pulse/`, `_manifest/`, `_state/`, `_reflection/` | Distribute | Stage | Process triggers → `◍process_trigger_inputs` |
-| `◎_geometry/`, `◎_evolution/` | ◎primal_crucible/ | Merge | Keep doctrinal references in `⬣execution_principles_base` |
-| `FIELDControl/`, `system_integration/`, `routes/` | ▲choreography_structure/ | Stage | Document dependencies in `⬕task_dependency_links` |
-| `chakra_consciousness/`, `chakra_cores/`, `⚡_chakra_vessel/` | ⭟chakra_vessel/ | Consolidate | Distinguish bootstrap vs flow control |
-| `executions/`, `manifestations/`, `TruthVerification/` | ⬢execution_core/ | Stage | Logs to `⬰runtime_error_logs`, verification scripts to `⬟temporal_truth_verification_process` |
-| `Dojo.xcodeproj`, `DojoMac`, `UniversalMediaApp`, `FIELDControl` | ✦execution_intelligence/ or subfolders | Stage by function | Keep binaries/configs under interfaces |
-| `◇_registry/` | ⭣registry/ | Rename | Ensure README lists active manifests |
+| `_pulse/`, `_manifest/`, `_state/`, `_reflection/` | Distribute | Stage | Process triggers → `◍_process_trigger_inputs` |
+| `◎_geometry/`, `◎_evolution/` | ◎_primal_crucible/ | Merge | Keep doctrinal references in `⬣_execution_principles_base` |
+| `FIELDControl/`, `system_integration/`, `routes/` | ▲_choreography_structure/ | Stage | Document dependencies in `⬕_task_dependency_links` |
+| `chakra_consciousness/`, `chakra_cores/`, `⚡_chakra_vessel/` | ⭟_chakra_vessel/ | Consolidate | Distinguish bootstrap vs flow control |
+| `executions/`, `manifestations/`, `TruthVerification/` | ⬢_execution_core/ | Stage | Logs to `⬰_runtime_error_logs`, verification scripts to `⬟_temporal_truth_verification_process` |
+| `Dojo.xcodeproj`, `DojoMac`, `UniversalMediaApp`, `FIELDControl` | ✦_execution_intelligence/ or subfolders | Stage by function | Keep binaries/configs under interfaces |
+| `◇_registry/` | ⭣_registry/ | Rename | Ensure README lists active manifests |
 
 ### Execution Notes
 
@@ -191,25 +190,25 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 ```
 ●OBI-WAN/
- ├── ◎observer_core/
- │    ├── ⬣observer_axioms_principles/
- │    └── ◍raw_awareness_input_signals/
- ├── ▲witness_framework/
- │    ├── ▲meditation_reflection_frameworks/
- │    └── ⬰reflection_protocol_audits/
- ├── ⭟reflective_memory/
- │    ├── ⧫synthesized_insights_essence/
- │    ├── ⬘persona_journals_logs/
- │    └── ⬣oowl_memory_system_logs/
- ├── ⬢memory_patterns/
- │    ├── ⬘chronological_memory_timelines/
- │    └── ⧫dream_emotional_resonance/
- ├── ✦cognitive_expression/
- │    ├── ✶generated_knowledge_maps/
- │    ├── ✶developed_cognitive_models/
- │    └── ✶creative_outputs_poetry_art/
- │    └── ⬖user_interaction_interfaces/
- └── ⭣registry/
+ ├── ◎_observer_core/
+ │    ├── ⬣_observer_axioms_principles/
+ │    └── ◍_raw_awareness_input_signals/
+ ├── ▲_witness_framework/
+ │    ├── ▲_meditation_reflection_frameworks/
+ │    └── ⬰_reflection_protocol_audits/
+ ├── ⭟_reflective_memory/
+ │    ├── ⧫_synthesized_insights_essence/
+ │    ├── ⬘_persona_journals_logs/
+ │    └── ⬣_oowl_memory_system_logs/
+ ├── ⬢_memory_patterns/
+ │    ├── ⬘_chronological_memory_timelines/
+ │    └── ⧫_dream_emotional_resonance/
+ ├── ✦_cognitive_expression/
+ │    ├── ✶_generated_knowledge_maps/
+ │    ├── ✶_developed_cognitive_models/
+ │    └── ✶_creative_outputs_poetry_art/
+ │    └── ⬖_user_interaction_interfaces/
+ └── ⭣_registry/
       ├── obiwan_registry.json
       └── README.md
 ```
@@ -224,13 +223,13 @@ This document coordinates the realignment of the FIELD sacred domains with the *
 
 | Legacy Path | Target Petal | Action | Notes |
 |-------------|--------------|--------|-------|
-| `_pulse/`, `_vault/`, `_reflection/` | Distribute | Stage | Observation inputs go to `◍raw_awareness_input_signals` |
-| `_reflective_memory/`, `_memory/`, `memory/` | ⭟reflective_memory/ | Merge | Keep persona journaling under `⬘persona_journals_logs` |
-| `timeline/`, `state_snapshots/`, `memories/` | ⬢memory_patterns/ | Stage | Chronological vs resonance split |
-| `creative_memory/`, `●Documents/`, `observations/` | ✦cognitive_expression/ | Curate | Place maps/models/scripts in respective subfolders |
-| `MONITORING_ALERTS/`, `logs/` | ▲witness_framework/ | Stage | Audits go to `⬰reflection_protocol_audits` |
-| `intentions/` | ✦cognitive_expression/⬖user_interaction_interfaces? | Keep as-is | Ensure registry acknowledges intention vessels |
-| Registry gaps | ⭣registry/ | Create | Seed with `obiwan_registry.json` |
+| `_pulse/`, `_vault/`, `_reflection/` | Distribute | Stage | Observation inputs go to `◍_raw_awareness_input_signals` |
+| `_reflective_memory/`, `_memory/`, `memory/` | ⭟_reflective_memory/ | Merge | Keep persona journaling under `⬘_persona_journals_logs` |
+| `timeline/`, `state_snapshots/`, `memories/` | ⬢_memory_patterns/ | Stage | Chronological vs resonance split |
+| `creative_memory/`, `●Documents/`, `observations/` | ✦_cognitive_expression/ | Curate | Place maps/models/scripts in respective subfolders |
+| `MONITORING_ALERTS/`, `logs/` | ▲_witness_framework/ | Stage | Audits go to `⬰_reflection_protocol_audits` |
+| `intentions/` | ✦_cognitive_expression/⬖_user_interaction_interfaces? | Keep as-is | Ensure registry acknowledges intention vessels |
+| Registry gaps | ⭣_registry/ | Create | Seed with `obiwan_registry.json` |
 
 ### Execution Notes
 

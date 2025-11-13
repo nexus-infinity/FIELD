@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/certificate_counts.txt",
+  "original_name": "certificate_counts.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 97,
+  "content_hash": "5523135064d4b922ce3df4ae1433cc8b376841e72f4b2e834dce55b9ddab0904",
+  "semantic_fingerprint": "certificate_counts",
+  "detected_at": "2025-11-13T05:18:45.872003",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_certificate_counts_55231350.txt",
+  "original_metadata": {
+    "size": 97,
+    "modified": "2025-08-04T22:07:16.167665",
+    "created": "2025-11-11T03:39:11.511240"
+  },
+  "stripped_metadata": {}
+}

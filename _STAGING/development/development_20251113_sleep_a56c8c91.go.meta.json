@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/sleep.go",
+  "original_name": "sleep.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 8702,
+  "content_hash": "a56c8c9177d589c75b28ca71995915569219e653ca3dcaee6970abd8589a40cd",
+  "semantic_fingerprint": "sleep",
+  "detected_at": "2025-11-13T05:18:47.022382",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_sleep_a56c8c91.go",
+  "original_metadata": {
+    "size": 8702,
+    "modified": "2025-01-12T09:30:45.771021",
+    "created": "2025-11-11T03:39:11.691800"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/badspace.go",
+  "original_name": "badspace.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 272,
+  "content_hash": "de47a69ad048ffb5aa3ff731ab55df4d5f86696224e1a8338279d7ad037852a8",
+  "semantic_fingerprint": "badspace",
+  "detected_at": "2025-11-13T05:18:46.544160",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_badspace_de47a69a.go",
+  "original_metadata": {
+    "size": 272,
+    "modified": "2025-01-12T09:30:47.745839",
+    "created": "2025-11-11T03:39:11.683574"
+  },
+  "stripped_metadata": {}
+}

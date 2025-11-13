@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/test_einsum.py",
+  "original_name": "test_einsum.py",
+  "file_type": ".py",
+  "mime_type": "text/x-python",
+  "size_bytes": 52890,
+  "content_hash": "cdc142e4e15119903daf9de05ca985654415d28fd3d4191d4d72d9f2f1b460b0",
+  "semantic_fingerprint": "test_einsum",
+  "detected_at": "2025-11-13T05:18:47.596495",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_test_einsum_cdc142e4.py",
+  "original_metadata": {
+    "size": 52890,
+    "modified": "2025-06-13T00:41:10.345327",
+    "created": "2025-11-11T03:39:11.702104"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/signal_windows_test.go",
+  "original_name": "signal_windows_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1993,
+  "content_hash": "649000621ad407d71d733edc5549dcd1d6435b8aba01ca825392c494dd04a7a6",
+  "semantic_fingerprint": "signal_windows_test",
+  "detected_at": "2025-11-13T05:18:46.963058",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_signal_windows_test_64900062.go",
+  "original_metadata": {
+    "size": 1993,
+    "modified": "2025-01-12T09:30:45.480481",
+    "created": "2025-11-11T03:39:11.690475"
+  },
+  "stripped_metadata": {}
+}

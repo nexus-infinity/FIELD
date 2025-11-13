@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/termlist_test.go",
+  "original_name": "termlist_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7486,
+  "content_hash": "9a81c782307ef7da806cb1e569369cdbe7488adcd8d3c1eee84be6060cbd40ad",
+  "semantic_fingerprint": "termlist_test",
+  "detected_at": "2025-11-13T05:18:47.754446",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_termlist_test_9a81c782.go",
+  "original_metadata": {
+    "size": 7486,
+    "modified": "2025-01-12T09:30:45.156219",
+    "created": "2025-11-11T03:39:11.705632"
+  },
+  "stripped_metadata": {}
+}

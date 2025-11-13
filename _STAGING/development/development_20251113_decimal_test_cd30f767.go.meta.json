@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/decimal_test.go",
+  "original_name": "decimal_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3412,
+  "content_hash": "cd30f767b53d778fa6a4d95cc1914fa54bd7e2eed50339071450c5c70f8b774b",
+  "semantic_fingerprint": "decimal_test",
+  "detected_at": "2025-11-13T05:18:47.623533",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_decimal_test_cd30f767.go",
+  "original_metadata": {
+    "size": 3412,
+    "modified": "2025-01-12T09:30:45.389688",
+    "created": "2025-11-11T03:39:11.702693"
+  },
+  "stripped_metadata": {}
+}

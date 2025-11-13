@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/free.go",
+  "original_name": "free.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3165,
+  "content_hash": "e1967c9e0632fb501d7355c22a4e3f3b7e9937f1b8c34d631e92b2f06e243285",
+  "semantic_fingerprint": "free",
+  "detected_at": "2025-11-13T05:18:47.426878",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_free_e1967c9e.go",
+  "original_metadata": {
+    "size": 3165,
+    "modified": "2025-01-12T09:30:35.581973",
+    "created": "2025-11-11T03:39:11.699780"
+  },
+  "stripped_metadata": {}
+}

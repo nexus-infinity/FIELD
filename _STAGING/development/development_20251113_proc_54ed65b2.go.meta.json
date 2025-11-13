@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/proc.go",
+  "original_name": "proc.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2327,
+  "content_hash": "54ed65b25fe5251adb4b7799117f38ba0b2176610f2d21b333a7a5745e988200",
+  "semantic_fingerprint": "proc",
+  "detected_at": "2025-11-13T05:18:45.902374",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_proc_54ed65b2.go",
+  "original_metadata": {
+    "size": 2327,
+    "modified": "2025-01-12T09:30:45.478096",
+    "created": "2025-11-11T03:39:11.667921"
+  },
+  "stripped_metadata": {}
+}

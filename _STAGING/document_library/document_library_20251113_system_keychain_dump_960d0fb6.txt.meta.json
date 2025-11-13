@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/OBI_WAN/system_keychain_dump.txt",
+  "original_name": "system_keychain_dump.txt",
+  "file_type": ".txt",
+  "mime_type": "text/plain",
+  "size_bytes": 54587,
+  "content_hash": "960d0fb676fe986895e3f0a4684041920a57025aebba29180292be2b2d257633",
+  "semantic_fingerprint": "system_keychain_dump",
+  "detected_at": "2025-11-13T05:18:45.863740",
+  "suggested_field": "document_library",
+  "suggested_name": "document_library_20251113_system_keychain_dump_960d0fb6.txt",
+  "original_metadata": {
+    "size": 54587,
+    "modified": "2025-08-04T22:07:16.117267",
+    "created": "2025-11-11T03:39:11.511061"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/emptyvfs.go",
+  "original_name": "emptyvfs.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2064,
+  "content_hash": "92b602fc330a7c3061cb30898954a975aab5984903cc8258a80feb2fb090cc47",
+  "semantic_fingerprint": "emptyvfs",
+  "detected_at": "2025-11-13T05:18:47.046643",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_emptyvfs_92b602fc.go",
+  "original_metadata": {
+    "size": 2064,
+    "modified": "2025-01-12T09:30:47.858885",
+    "created": "2025-11-11T03:39:11.692337"
+  },
+  "stripped_metadata": {}
+}

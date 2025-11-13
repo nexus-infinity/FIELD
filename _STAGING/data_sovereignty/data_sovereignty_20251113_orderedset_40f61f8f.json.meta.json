@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/OrderedSet.json",
+  "original_name": "OrderedSet.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 32261,
+  "content_hash": "40f61f8f60c4a67306a7ed397ac7f47401b359e350c93175656e03c2014374e3",
+  "semantic_fingerprint": "orderedset",
+  "detected_at": "2025-11-13T05:18:47.273655",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_orderedset_40f61f8f.json",
+  "original_metadata": {
+    "size": 32261,
+    "modified": "2025-02-02T16:32:20.579004",
+    "created": "2025-11-11T03:39:11.696724"
+  },
+  "stripped_metadata": {}
+}

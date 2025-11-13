@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/Deque.json",
+  "original_name": "Deque.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 9736,
+  "content_hash": "c7ba553ba8b9cd456de05506a1a9eef3f0bbf6bad4f43666788f8f333e043d14",
+  "semantic_fingerprint": "deque",
+  "detected_at": "2025-11-13T05:18:46.434199",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_deque_c7ba553b.json",
+  "original_metadata": {
+    "size": 9736,
+    "modified": "2025-02-02T16:32:20.578433",
+    "created": "2025-11-11T03:39:11.681571"
+  },
+  "stripped_metadata": {}
+}

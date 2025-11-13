@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stack.go",
+  "original_name": "stack.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 904,
+  "content_hash": "b0e2dfd9fe77f2f324c44044268d8cfc2af2f37b858d8e86b1a9b120a655471d",
+  "semantic_fingerprint": "stack",
+  "detected_at": "2025-11-13T05:18:47.234887",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stack_b0e2dfd9.go",
+  "original_metadata": {
+    "size": 904,
+    "modified": "2025-01-12T09:30:44.710182",
+    "created": "2025-11-11T03:39:11.695983"
+  },
+  "stripped_metadata": {}
+}

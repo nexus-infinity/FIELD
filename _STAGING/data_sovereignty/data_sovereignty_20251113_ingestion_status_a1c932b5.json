@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-06-30T21:48:47.929358",
+  "field_integrity_status": "RESONANT",
+  "ingestion_status": {
+    "session_id": "sovereignty_20250630_214847",
+    "status": "completed",
+    "sovereignty_integration": true,
+    "manifest_result": {
+      "status": "success",
+      "manifest_path": "/Volumes/Akron/email_sovereignty_manifest.json",
+      "statistics": {
+        "total_files": 0,
+        "total_size_bytes": 0,
+        "total_size_mb": 0.0
+      },
+      "stream_breakdown": {}
+    }
+  },
+  "system_version": "sovereignty_integrated_v1.0"
+}

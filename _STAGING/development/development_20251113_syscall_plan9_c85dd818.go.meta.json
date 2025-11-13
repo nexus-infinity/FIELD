@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_plan9.go",
+  "original_name": "syscall_plan9.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9597,
+  "content_hash": "c85dd818d620c77783f63b923267e23826b3ab9feabb718bf388498fa229b891",
+  "semantic_fingerprint": "syscall_plan9",
+  "detected_at": "2025-11-13T05:18:46.246015",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_plan9_c85dd818.go",
+  "original_metadata": {
+    "size": 9597,
+    "modified": "2025-01-12T09:30:45.718012",
+    "created": "2025-11-11T03:39:11.677498"
+  },
+  "stripped_metadata": {}
+}

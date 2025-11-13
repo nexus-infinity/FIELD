@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stubs_riscv64.go",
+  "original_name": "stubs_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 695,
+  "content_hash": "cb0a247091345e14d18e02625dfd3b5c19be44b635399d9d6379aaf5f47c9e91",
+  "semantic_fingerprint": "stubs_riscv64",
+  "detected_at": "2025-11-13T05:18:47.317194",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stubs_riscv64_cb0a2470.go",
+  "original_metadata": {
+    "size": 695,
+    "modified": "2025-01-12T09:30:45.638471",
+    "created": "2025-11-11T03:39:11.697459"
+  },
+  "stripped_metadata": {}
+}

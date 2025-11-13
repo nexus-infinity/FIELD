@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cpu_mips64x.go",
+  "original_name": "cpu_mips64x.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 320,
+  "content_hash": "77a333aebca444ef9f718d27df30422a9ac88cba29add1029c30d3dc1c6dc781",
+  "semantic_fingerprint": "cpu_mips64x",
+  "detected_at": "2025-11-13T05:18:47.384764",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cpu_mips64x_77a333ae.go",
+  "original_metadata": {
+    "size": 320,
+    "modified": "2025-01-12T09:30:45.808686",
+    "created": "2025-11-11T03:39:11.698767"
+  },
+  "stripped_metadata": {}
+}

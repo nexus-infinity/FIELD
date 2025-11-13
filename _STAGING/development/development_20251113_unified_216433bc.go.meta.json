@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unified.go",
+  "original_name": "unified.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6990,
+  "content_hash": "216433bca36aa5873620a1597fe9bf63447ed5f85111d04815950fefbee54e00",
+  "semantic_fingerprint": "unified",
+  "detected_at": "2025-11-13T05:18:45.925421",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unified_216433bc.go",
+  "original_metadata": {
+    "size": 6990,
+    "modified": "2025-01-12T09:30:35.546638",
+    "created": "2025-11-11T03:39:11.668075"
+  },
+  "stripped_metadata": {}
+}

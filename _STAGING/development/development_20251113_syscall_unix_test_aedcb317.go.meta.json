@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_unix_test.go",
+  "original_name": "syscall_unix_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 9653,
+  "content_hash": "aedcb317b8b502b478c6ac8780757f681b7624818f7113dbbc70566f8e59ca0e",
+  "semantic_fingerprint": "syscall_unix_test",
+  "detected_at": "2025-11-13T05:18:45.994885",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_unix_test_aedcb317.go",
+  "original_metadata": {
+    "size": 9653,
+    "modified": "2025-01-12T09:30:45.718868",
+    "created": "2025-11-11T03:39:11.671682"
+  },
+  "stripped_metadata": {}
+}

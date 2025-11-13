@@ -1,0 +1,31 @@
+=== Suspicious Certificate Analysis ===
+
+All Certificate Authorities found:
+   4     "alis"<blob>="lisa.haechler@ch.rothschildandco.com"
+   3     "alis"<blob>="Apple Worldwide Developer Relations Certification Authority"
+   2     "alis"<blob>="GlobalSign Root CA"
+   2     "alis"<blob>="Developer ID Certification Authority"
+   2     "alis"<blob>="contact.center@swisscom.com"
+   2     "alis"<blob>="BEKB - BCBE Issuing CA G2"
+   1     "issu"<blob>=0x306B310B3009060355040613024954310E300C06035504070C054D696C616E31233021060355040A0C1A416374616C697320532E702E412E2F30333335383532303936373127302506035504030C1E416374616C69732041757468656E7469636174696F6E20526F6F74204341  "0k1\0130\011\006\003U\004\006\023\002IT1\0160\014\006\003U\004\007\014\005Milan1#0!\006\003U\004\012\014\032Actalis S.p.A./033585209671'0%\006\003U\004\003\014\036Actalis Authentication Root CA"
+   1     "alis"<blob>="SwissSign Silver CA - G2"
+   1     "alis"<blob>="SwissSign RSA SMIME Root CA 2021 - 1"
+   1     "alis"<blob>="SwissSign RSA SMIME LCP ICA 2021 - 2"
+   1     "alis"<blob>="SwissSign Personal Silver CA 2014 - G22"
+   1     "alis"<blob>="SwissSign Gold CA - G2"
+   1     "alis"<blob>="QuoVadis Root CA 3"
+   1     "alis"<blob>="posta-certificata@legalmail.it"
+   1     "alis"<blob>="pascal.baeriswyl@bekb.ch"
+   1     "alis"<blob>="Obsidian Local REST API"
+   1     "alis"<blob>="noreply@bill.swisscom.com"
+   1     "alis"<blob>="melisa.hasanica@bekb.ch"
+   1     "alis"<blob>="info@mailbutler.io"
+   1     "alis"<blob>="DPDHL User CA I5"
+   1     "alis"<blob>="Developer ID Application: Jeremy Rich (KQPY9CSK58)"
+   1     "alis"<blob>="denise.laeubli@mll-legal.com"
+   1     "alis"<blob>="contact.center@bill.swisscom.com"
+   1     "alis"<blob>="Apple Public Client RSA CA 12 - G1"
+   1     "alis"<blob>="AgID CA1"
+
+Certificates added in suspicious timeframes:
+(Around system corruption period)

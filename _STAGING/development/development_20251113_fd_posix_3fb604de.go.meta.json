@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fd_posix.go",
+  "original_name": "fd_posix.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1922,
+  "content_hash": "3fb604deea58fcb0af34e203075720b77f8bbadb1a3ce8df102515609dfdff6b",
+  "semantic_fingerprint": "fd_posix",
+  "detected_at": "2025-11-13T05:18:46.738604",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fd_posix_3fb604de.go",
+  "original_metadata": {
+    "size": 1922,
+    "modified": "2025-01-12T09:30:45.251332",
+    "created": "2025-11-11T03:39:11.685388"
+  },
+  "stripped_metadata": {}
+}

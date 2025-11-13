@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/test.bash",
+  "original_name": "test.bash",
+  "file_type": ".bash",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 178,
+  "content_hash": "7c40c11de6871f2ac4baa14741d0f0376b1bcff639e5543eac4ead7b9fb99b62",
+  "semantic_fingerprint": "test",
+  "detected_at": "2025-11-13T05:18:47.035012",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_test_7c40c11d.bash",
+  "original_metadata": {
+    "size": 178,
+    "modified": "2025-01-12T09:31:07.391114",
+    "created": "2025-11-11T03:39:11.691944"
+  },
+  "stripped_metadata": {}
+}

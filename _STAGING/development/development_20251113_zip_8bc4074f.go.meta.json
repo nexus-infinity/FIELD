@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zip.go",
+  "original_name": "zip.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 34137,
+  "content_hash": "8bc4074f3c6569f80d13ebe366307ce0f2c42fab146e3c3b8566d99a163b3a1f",
+  "semantic_fingerprint": "zip",
+  "detected_at": "2025-11-13T05:18:47.388322",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zip_8bc4074f.go",
+  "original_metadata": {
+    "size": 34137,
+    "modified": "2025-01-12T09:30:47.647778",
+    "created": "2025-11-11T03:39:11.698839"
+  },
+  "stripped_metadata": {}
+}

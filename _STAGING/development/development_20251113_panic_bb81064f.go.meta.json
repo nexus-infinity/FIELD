@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/panic.go",
+  "original_name": "panic.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 312,
+  "content_hash": "bb81064f2b96402f22327eb51ab23c57afda28411b93d43ebdf224267bab6a3d",
+  "semantic_fingerprint": "panic",
+  "detected_at": "2025-11-13T05:18:46.909247",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_panic_bb81064f.go",
+  "original_metadata": {
+    "size": 312,
+    "modified": "2025-01-12T09:30:45.654367",
+    "created": "2025-11-11T03:39:11.689277"
+  },
+  "stripped_metadata": {}
+}

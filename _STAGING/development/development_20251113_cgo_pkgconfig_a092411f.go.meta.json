@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/cgo_pkgconfig.go",
+  "original_name": "cgo_pkgconfig.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1140,
+  "content_hash": "a092411fb0cba1e8d8dfbdbfbd9f739c584e7dd7525d8d63c295c4180710f3aa",
+  "semantic_fingerprint": "cgo_pkgconfig",
+  "detected_at": "2025-11-13T05:18:47.963104",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_cgo_pkgconfig_a092411f.go",
+  "original_metadata": {
+    "size": 1140,
+    "modified": "2025-01-12T09:30:47.808333",
+    "created": "2025-11-11T03:39:11.709727"
+  },
+  "stripped_metadata": {}
+}

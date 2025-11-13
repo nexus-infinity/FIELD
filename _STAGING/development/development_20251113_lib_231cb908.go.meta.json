@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/lib.go",
+  "original_name": "lib.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 91386,
+  "content_hash": "231cb90835b5b44b4d95a16200bbb99c5ae61c344cb386c93165ff1aaf5aa722",
+  "semantic_fingerprint": "lib",
+  "detected_at": "2025-11-13T05:18:45.964970",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_lib_231cb908.go",
+  "original_metadata": {
+    "size": 91386,
+    "modified": "2025-01-12T09:30:44.726511",
+    "created": "2025-11-11T03:39:11.668633"
+  },
+  "stripped_metadata": {}
+}

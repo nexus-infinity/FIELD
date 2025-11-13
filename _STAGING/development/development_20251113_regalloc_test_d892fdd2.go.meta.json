@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/regalloc_test.go",
+  "original_name": "regalloc_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6463,
+  "content_hash": "d892fdd2829ce77d45910f70ce2f219b032b1b8dc8bf6597e58d1dfff2b928b0",
+  "semantic_fingerprint": "regalloc_test",
+  "detected_at": "2025-11-13T05:18:47.101410",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_regalloc_test_d892fdd2.go",
+  "original_metadata": {
+    "size": 6463,
+    "modified": "2025-01-12T09:30:44.450413",
+    "created": "2025-11-11T03:39:11.693484"
+  },
+  "stripped_metadata": {}
+}

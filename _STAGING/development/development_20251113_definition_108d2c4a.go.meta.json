@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/definition.go",
+  "original_name": "definition.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3770,
+  "content_hash": "108d2c4a60d7d85f8cf3276cf0ad1002cc14cd9f7ea08837dfc6e60a969d4dcb",
+  "semantic_fingerprint": "definition",
+  "detected_at": "2025-11-13T05:18:47.146808",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_definition_108d2c4a.go",
+  "original_metadata": {
+    "size": 3770,
+    "modified": "2025-01-12T09:30:35.197131",
+    "created": "2025-11-11T03:39:11.694436"
+  },
+  "stripped_metadata": {}
+}

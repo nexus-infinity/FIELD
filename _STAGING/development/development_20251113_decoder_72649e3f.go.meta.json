@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/decoder.go",
+  "original_name": "decoder.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7454,
+  "content_hash": "72649e3f803b51daef118e2ac5b02a10d486748de5a2e6d131122a61624ae97e",
+  "semantic_fingerprint": "decoder",
+  "detected_at": "2025-11-13T05:18:46.261638",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_decoder_72649e3f.go",
+  "original_metadata": {
+    "size": 7454,
+    "modified": "2025-01-12T09:30:45.087204",
+    "created": "2025-11-11T03:39:11.677836"
+  },
+  "stripped_metadata": {}
+}

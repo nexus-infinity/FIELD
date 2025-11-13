@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/error_windows_test.go",
+  "original_name": "error_windows_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1759,
+  "content_hash": "ac7603e6479d97b2e1bf65a92e8d8c671e2fa172c5901ad0b61af88a2cc709c5",
+  "semantic_fingerprint": "error_windows_test",
+  "detected_at": "2025-11-13T05:18:47.219068",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_error_windows_test_ac7603e6.go",
+  "original_metadata": {
+    "size": 1759,
+    "modified": "2025-01-12T09:30:45.469206",
+    "created": "2025-11-11T03:39:11.695733"
+  },
+  "stripped_metadata": {}
+}

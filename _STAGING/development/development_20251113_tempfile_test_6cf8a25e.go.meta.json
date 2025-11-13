@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/tempfile_test.go",
+  "original_name": "tempfile_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5623,
+  "content_hash": "6cf8a25ea51214ff9c1c202296e4bfeb7ead40c09a08e1863492656c87273f64",
+  "semantic_fingerprint": "tempfile_test",
+  "detected_at": "2025-11-13T05:18:47.295555",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_tempfile_test_6cf8a25e.go",
+  "original_metadata": {
+    "size": 5623,
+    "modified": "2025-01-12T09:30:45.482783",
+    "created": "2025-11-11T03:39:11.697158"
+  },
+  "stripped_metadata": {}
+}

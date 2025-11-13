@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/segv_linux.go",
+  "original_name": "segv_linux.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 517,
+  "content_hash": "a7a962fde028fce9b80be78ce233369f7f733ab78fe093a1ffaeb13b80e9384f",
+  "semantic_fingerprint": "segv_linux",
+  "detected_at": "2025-11-13T05:18:46.817418",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_segv_linux_a7a962fd.go",
+  "original_metadata": {
+    "size": 517,
+    "modified": "2025-01-12T09:30:45.650703",
+    "created": "2025-11-11T03:39:11.687303"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/pkgfact.go",
+  "original_name": "pkgfact.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3565,
+  "content_hash": "8108f68742494fc27cc0353876c0b362eb5722e2f25042e58c726edd165c3da0",
+  "semantic_fingerprint": "pkgfact",
+  "detected_at": "2025-11-13T05:18:46.198353",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_pkgfact_8108f687.go",
+  "original_metadata": {
+    "size": 3565,
+    "modified": "2025-01-12T09:30:47.756084",
+    "created": "2025-11-11T03:39:11.676548"
+  },
+  "stripped_metadata": {}
+}

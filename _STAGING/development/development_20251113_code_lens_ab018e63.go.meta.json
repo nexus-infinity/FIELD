@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/code_lens.go",
+  "original_name": "code_lens.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1950,
+  "content_hash": "ab018e63c323ce1d2234fa014082d375525bfe4427dab5c55378c8591356aacc",
+  "semantic_fingerprint": "code_lens",
+  "detected_at": "2025-11-13T05:18:47.407502",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_code_lens_ab018e63.go",
+  "original_metadata": {
+    "size": 1950,
+    "modified": "2025-01-12T09:30:35.226618",
+    "created": "2025-11-11T03:39:11.699312"
+  },
+  "stripped_metadata": {}
+}

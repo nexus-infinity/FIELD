@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ycbcr.go",
+  "original_name": "ycbcr.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 11083,
+  "content_hash": "7afc91f21cb8eb68027f54180a862137bdef26cfd59389ecb609c0f87923de0c",
+  "semantic_fingerprint": "ycbcr",
+  "detected_at": "2025-11-13T05:18:47.875127",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ycbcr_7afc91f2.go",
+  "original_metadata": {
+    "size": 11083,
+    "modified": "2025-01-12T09:30:45.171684",
+    "created": "2025-11-11T03:39:11.708104"
+  },
+  "stripped_metadata": {}
+}

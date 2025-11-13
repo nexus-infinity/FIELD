@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/unsafeptr.go",
+  "original_name": "unsafeptr.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4862,
+  "content_hash": "ebb9298b3cf58531bb7f836d6489fc64913d70a6c7257efebb1c8b7025067c78",
+  "semantic_fingerprint": "unsafeptr",
+  "detected_at": "2025-11-13T05:18:46.285813",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_unsafeptr_ebb9298b.go",
+  "original_metadata": {
+    "size": 4862,
+    "modified": "2025-01-12T09:30:44.904806",
+    "created": "2025-11-11T03:39:11.678320"
+  },
+  "stripped_metadata": {}
+}

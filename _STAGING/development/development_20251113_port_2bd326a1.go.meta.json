@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/port.go",
+  "original_name": "port.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5790,
+  "content_hash": "2bd326a14a3f70fe9782c700236ae6e6ea6a12b63fa2b77ce95252a4098104df",
+  "semantic_fingerprint": "port",
+  "detected_at": "2025-11-13T05:18:46.355155",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_port_2bd326a1.go",
+  "original_metadata": {
+    "size": 5790,
+    "modified": "2025-01-12T09:30:35.193312",
+    "created": "2025-11-11T03:39:11.679686"
+  },
+  "stripped_metadata": {}
+}

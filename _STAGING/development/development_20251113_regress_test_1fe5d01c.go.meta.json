@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/regress_test.go",
+  "original_name": "regress_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 20736,
+  "content_hash": "1fe5d01c33354563f7819057a4e53c76f72bacfe88cbedce0d80ce107db7330f",
+  "semantic_fingerprint": "regress_test",
+  "detected_at": "2025-11-13T05:18:47.353924",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_regress_test_1fe5d01c.go",
+  "original_metadata": {
+    "size": 20736,
+    "modified": "2025-01-12T09:30:45.409773",
+    "created": "2025-11-11T03:39:11.698177"
+  },
+  "stripped_metadata": {}
+}

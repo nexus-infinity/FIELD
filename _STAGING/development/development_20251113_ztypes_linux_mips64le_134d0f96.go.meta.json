@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_linux_mips64le.go",
+  "original_name": "ztypes_linux_mips64le.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 10327,
+  "content_hash": "134d0f962bd337a4f06b3a16e0553a82497d5d7ae7ecd61284b21f243baa4fb5",
+  "semantic_fingerprint": "ztypes_linux_mips64le",
+  "detected_at": "2025-11-13T05:18:47.636632",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_linux_mips64le_134d0f96.go",
+  "original_metadata": {
+    "size": 10327,
+    "modified": "2025-01-12T09:30:45.753396",
+    "created": "2025-11-11T03:39:11.703055"
+  },
+  "stripped_metadata": {}
+}

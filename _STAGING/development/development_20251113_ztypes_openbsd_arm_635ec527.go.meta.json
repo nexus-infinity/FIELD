@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_openbsd_arm.go",
+  "original_name": "ztypes_openbsd_arm.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 7000,
+  "content_hash": "635ec527ed0101fa430c6b4fc1acd0d4c7b5dfe7736b3d5affe7fdae0788e6b4",
+  "semantic_fingerprint": "ztypes_openbsd_arm",
+  "detected_at": "2025-11-13T05:18:45.896083",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_openbsd_arm_635ec527.go",
+  "original_metadata": {
+    "size": 7000,
+    "modified": "2025-01-12T09:30:45.755516",
+    "created": "2025-11-11T03:39:11.667778"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/singleflight.go",
+  "original_name": "singleflight.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5477,
+  "content_hash": "3ab234a431a14594f1bc46e76d9d35928fa18d05947801e167df1015834719a8",
+  "semantic_fingerprint": "singleflight",
+  "detected_at": "2025-11-13T05:18:46.420406",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_singleflight_3ab234a4.go",
+  "original_metadata": {
+    "size": 5477,
+    "modified": "2025-01-12T09:30:47.631767",
+    "created": "2025-11-11T03:39:11.681316"
+  },
+  "stripped_metadata": {}
+}

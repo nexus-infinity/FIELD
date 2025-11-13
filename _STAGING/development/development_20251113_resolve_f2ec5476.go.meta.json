@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/resolve.go",
+  "original_name": "resolve.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 15503,
+  "content_hash": "f2ec5476062910e2705281f8d626b73ec6e88d1d3880a95c41664f4975aef814",
+  "semantic_fingerprint": "resolve",
+  "detected_at": "2025-11-13T05:18:46.039773",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_resolve_f2ec5476.go",
+  "original_metadata": {
+    "size": 15503,
+    "modified": "2025-01-12T09:30:49.611081",
+    "created": "2025-11-11T03:39:11.672704"
+  },
+  "stripped_metadata": {}
+}

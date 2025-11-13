@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fast.go",
+  "original_name": "fast.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 2222,
+  "content_hash": "eeca498a9f3c6057f571c9836a5f0c6ae2cfa9ae71a43961f935fb3db8dda83e",
+  "semantic_fingerprint": "fast",
+  "detected_at": "2025-11-13T05:18:46.407504",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fast_eeca498a.go",
+  "original_metadata": {
+    "size": 2222,
+    "modified": "2025-01-12T09:30:47.867892",
+    "created": "2025-11-11T03:39:11.681007"
+  },
+  "stripped_metadata": {}
+}

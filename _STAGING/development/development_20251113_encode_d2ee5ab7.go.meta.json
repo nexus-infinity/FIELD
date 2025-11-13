@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/encode.go",
+  "original_name": "encode.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 17489,
+  "content_hash": "d2ee5ab7363191a07d161ccb0e0524be4e5e2650b0ffbab2343b8941af0147b0",
+  "semantic_fingerprint": "encode",
+  "detected_at": "2025-11-13T05:18:46.047381",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_encode_d2ee5ab7.go",
+  "original_metadata": {
+    "size": 17489,
+    "modified": "2025-01-12T09:30:44.756953",
+    "created": "2025-11-11T03:39:11.672853"
+  },
+  "stripped_metadata": {}
+}

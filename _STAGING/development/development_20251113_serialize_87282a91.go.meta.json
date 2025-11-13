@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/serialize.go",
+  "original_name": "serialize.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1850,
+  "content_hash": "87282a91d70024ccfbf2c6fdeffe65de81254a2c23dcc47a175793e8e827582d",
+  "semantic_fingerprint": "serialize",
+  "detected_at": "2025-11-13T05:18:46.390437",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_serialize_87282a91.go",
+  "original_metadata": {
+    "size": 1850,
+    "modified": "2025-01-12T09:30:44.712149",
+    "created": "2025-11-11T03:39:11.680429"
+  },
+  "stripped_metadata": {}
+}

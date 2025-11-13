@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/mem.go",
+  "original_name": "mem.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 4597,
+  "content_hash": "2440e87e72d5206ffc975485f009db30171570293dcc556288f2a10f5a552ff4",
+  "semantic_fingerprint": "mem",
+  "detected_at": "2025-11-13T05:18:47.370069",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_mem_2440e87e.go",
+  "original_metadata": {
+    "size": 4597,
+    "modified": "2025-01-12T09:30:45.236143",
+    "created": "2025-11-11T03:39:11.698505"
+  },
+  "stripped_metadata": {}
+}

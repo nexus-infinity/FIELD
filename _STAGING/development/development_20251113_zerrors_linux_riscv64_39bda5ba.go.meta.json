@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/zerrors_linux_riscv64.go",
+  "original_name": "zerrors_linux_riscv64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 72503,
+  "content_hash": "39bda5ba42b3cc6824dc70c74ea5bbbe8ee3c53efd124f157d722c2ec7a2989d",
+  "semantic_fingerprint": "zerrors_linux_riscv64",
+  "detected_at": "2025-11-13T05:18:46.844108",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_zerrors_linux_riscv64_39bda5ba.go",
+  "original_metadata": {
+    "size": 72503,
+    "modified": "2025-01-12T09:30:45.730658",
+    "created": "2025-11-11T03:39:11.687715"
+  },
+  "stripped_metadata": {}
+}

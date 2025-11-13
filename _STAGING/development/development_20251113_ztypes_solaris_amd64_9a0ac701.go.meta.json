@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ztypes_solaris_amd64.go",
+  "original_name": "ztypes_solaris_amd64.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 5699,
+  "content_hash": "9a0ac701ca49d694f30d373fd8d129a7cf17f854035bd97804f6ee761b5acf77",
+  "semantic_fingerprint": "ztypes_solaris_amd64",
+  "detected_at": "2025-11-13T05:18:46.717410",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ztypes_solaris_amd64_9a0ac701.go",
+  "original_metadata": {
+    "size": 5699,
+    "modified": "2025-01-12T09:30:45.756198",
+    "created": "2025-11-11T03:39:11.685002"
+  },
+  "stripped_metadata": {}
+}

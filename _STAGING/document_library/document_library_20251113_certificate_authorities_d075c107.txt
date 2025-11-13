@@ -1,0 +1,6 @@
+    "alis"<blob>="GlobalSign Root CA"
+    "labl"<blob>="GlobalSign Root CA"
+    "alis"<blob>="GlobalSign"
+    "labl"<blob>="GlobalSign"
+    "alis"<blob>="GlobalSign Root CA"
+    "labl"<blob>="GlobalSign Root CA"

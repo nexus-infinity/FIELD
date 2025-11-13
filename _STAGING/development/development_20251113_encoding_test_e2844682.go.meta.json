@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/encoding_test.go",
+  "original_name": "encoding_test.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6177,
+  "content_hash": "e28446826706cc24cec0dc57e6cbdb808e66fb1bec77482f5e2e79b88f77d557",
+  "semantic_fingerprint": "encoding_test",
+  "detected_at": "2025-11-13T05:18:47.023230",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_encoding_test_e2844682.go",
+  "original_metadata": {
+    "size": 6177,
+    "modified": "2025-01-12T09:30:49.497841",
+    "created": "2025-11-11T03:39:11.691823"
+  },
+  "stripped_metadata": {}
+}

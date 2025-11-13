@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fetch.go",
+  "original_name": "fetch.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 19412,
+  "content_hash": "374e8543cd65b6ac999dd531f8e4543200f2393ff30976397442f4e0f886b026",
+  "semantic_fingerprint": "fetch",
+  "detected_at": "2025-11-13T05:18:46.362634",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fetch_374e8543.go",
+  "original_metadata": {
+    "size": 19412,
+    "modified": "2025-01-12T09:30:44.751971",
+    "created": "2025-11-11T03:39:11.679789"
+  },
+  "stripped_metadata": {}
+}

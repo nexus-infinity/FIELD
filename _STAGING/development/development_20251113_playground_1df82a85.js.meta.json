@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/playground.js",
+  "original_name": "playground.js",
+  "file_type": ".js",
+  "mime_type": "text/javascript",
+  "size_bytes": 16558,
+  "content_hash": "1df82a8597189f3fc6b13c1ad38806097ac5d5574039891ab68d9c72fbcf1d6d",
+  "semantic_fingerprint": "playground",
+  "detected_at": "2025-11-13T05:18:46.957178",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_playground_1df82a85.js",
+  "original_metadata": {
+    "size": 16558,
+    "modified": "2025-01-12T09:30:35.532408",
+    "created": "2025-11-11T03:39:11.690347"
+  },
+  "stripped_metadata": {}
+}

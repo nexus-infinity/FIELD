@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/stubs.go",
+  "original_name": "stubs.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 216,
+  "content_hash": "ca8c43986830b7ff29127fa7310c9ad87395f60b9eb035b0ec98b8cc7515dd8d",
+  "semantic_fingerprint": "stubs",
+  "detected_at": "2025-11-13T05:18:47.363868",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_stubs_ca8c4398.go",
+  "original_metadata": {
+    "size": 216,
+    "modified": "2025-01-12T09:30:44.385612",
+    "created": "2025-11-11T03:39:11.698397"
+  },
+  "stripped_metadata": {}
+}

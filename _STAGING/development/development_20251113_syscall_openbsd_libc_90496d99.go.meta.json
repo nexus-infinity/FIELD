@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_openbsd_libc.go",
+  "original_name": "syscall_openbsd_libc.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3739,
+  "content_hash": "90496d9957b43e50e2fe30facfe34429d88b8626701842fc012650adc2b02115",
+  "semantic_fingerprint": "syscall_openbsd_libc",
+  "detected_at": "2025-11-13T05:18:47.269822",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_openbsd_libc_90496d99.go",
+  "original_metadata": {
+    "size": 3739,
+    "modified": "2025-01-12T09:30:45.717381",
+    "created": "2025-11-11T03:39:11.696684"
+  },
+  "stripped_metadata": {}
+}

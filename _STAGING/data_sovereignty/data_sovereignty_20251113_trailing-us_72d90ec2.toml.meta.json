@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/trailing-us.toml",
+  "original_name": "trailing-us.toml",
+  "file_type": ".toml",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 19,
+  "content_hash": "72d90ec27f5c6c99fa58c1578292f918cee084a0ae976c3741ff1b8149e2850f",
+  "semantic_fingerprint": "trailing-us",
+  "detected_at": "2025-11-13T05:18:45.900305",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_trailing-us_72d90ec2.toml",
+  "original_metadata": {
+    "size": 19,
+    "modified": "2025-01-12T09:30:51.618592",
+    "created": "2025-11-11T03:39:11.667869"
+  },
+  "stripped_metadata": {}
+}

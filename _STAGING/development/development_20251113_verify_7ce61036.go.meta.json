@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/verify.go",
+  "original_name": "verify.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 36518,
+  "content_hash": "7ce61036cc7eb4674394ba16a5b32120f9785ae82af9476396e8b4ab814fec13",
+  "semantic_fingerprint": "verify",
+  "detected_at": "2025-11-13T05:18:47.917436",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_verify_7ce61036.go",
+  "original_metadata": {
+    "size": 36518,
+    "modified": "2025-01-12T09:30:45.051792",
+    "created": "2025-11-11T03:39:11.709049"
+  },
+  "stripped_metadata": {}
+}

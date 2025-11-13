@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/fixnamed.go",
+  "original_name": "fixnamed.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 142,
+  "content_hash": "fc13e7b809024741dc655091cd9a4b399517211012c4794413c6037f5390e8a1",
+  "semantic_fingerprint": "fixnamed",
+  "detected_at": "2025-11-13T05:18:46.799285",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_fixnamed_fc13e7b8.go",
+  "original_metadata": {
+    "size": 142,
+    "modified": "2025-01-12T09:30:47.765254",
+    "created": "2025-11-11T03:39:11.686918"
+  },
+  "stripped_metadata": {}
+}

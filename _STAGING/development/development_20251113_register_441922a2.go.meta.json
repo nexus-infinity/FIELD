@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/register.go",
+  "original_name": "register.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 414,
+  "content_hash": "441922a27162c466a80fd95cedde6bc77de49f583c90a9701b1638fee9c0e990",
+  "semantic_fingerprint": "register",
+  "detected_at": "2025-11-13T05:18:45.993965",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_register_441922a2.go",
+  "original_metadata": {
+    "size": 414,
+    "modified": "2025-01-12T09:30:45.787309",
+    "created": "2025-11-11T03:39:11.669360"
+  },
+  "stripped_metadata": {}
+}

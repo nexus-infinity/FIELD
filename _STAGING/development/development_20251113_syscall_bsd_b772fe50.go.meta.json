@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/syscall_bsd.go",
+  "original_name": "syscall_bsd.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 13957,
+  "content_hash": "b772fe50da97a5a4c76e480bf4240d3fdc85a6ee87513eb8f8a785812159d263",
+  "semantic_fingerprint": "syscall_bsd",
+  "detected_at": "2025-11-13T05:18:46.409332",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_syscall_bsd_b772fe50.go",
+  "original_metadata": {
+    "size": 13957,
+    "modified": "2025-01-12T09:30:45.713285",
+    "created": "2025-11-11T03:39:11.681070"
+  },
+  "stripped_metadata": {}
+}

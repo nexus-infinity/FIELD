@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/msan.go",
+  "original_name": "msan.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1658,
+  "content_hash": "09d588919c2a594bcf0d8e1055c5b9597dc3c495d6fbfde5731b3f761a3f3b3a",
+  "semantic_fingerprint": "msan",
+  "detected_at": "2025-11-13T05:18:46.398198",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_msan_09d58891.go",
+  "original_metadata": {
+    "size": 1658,
+    "modified": "2025-01-12T09:30:45.552901",
+    "created": "2025-11-11T03:39:11.680667"
+  },
+  "stripped_metadata": {}
+}

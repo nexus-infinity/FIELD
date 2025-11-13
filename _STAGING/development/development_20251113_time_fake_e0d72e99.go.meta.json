@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/time_fake.go",
+  "original_name": "time_fake.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 677,
+  "content_hash": "e0d72e99b184528266260e7d06ed229575670d5753d0490a5d79c0d0271fd303",
+  "semantic_fingerprint": "time_fake",
+  "detected_at": "2025-11-13T05:18:47.208712",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_time_fake_e0d72e99.go",
+  "original_metadata": {
+    "size": 677,
+    "modified": "2025-01-12T09:30:45.720067",
+    "created": "2025-11-11T03:39:11.695577"
+  },
+  "stripped_metadata": {}
+}

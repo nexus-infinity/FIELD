@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/Dictionary.json",
+  "original_name": "Dictionary.json",
+  "file_type": ".json",
+  "mime_type": "application/json",
+  "size_bytes": 3411,
+  "content_hash": "900d377f45421cf686270c220aca83e872671fb269d51b55cb4de884f58a3329",
+  "semantic_fingerprint": "dictionary",
+  "detected_at": "2025-11-13T05:18:46.507269",
+  "suggested_field": "data_sovereignty",
+  "suggested_name": "data_sovereignty_20251113_dictionary_900d377f.json",
+  "original_metadata": {
+    "size": 3411,
+    "modified": "2025-02-02T16:32:20.578506",
+    "created": "2025-11-11T03:39:11.682758"
+  },
+  "stripped_metadata": {}
+}

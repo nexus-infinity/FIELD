@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/objset.go",
+  "original_name": "objset.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1053,
+  "content_hash": "ed45af613624a2c75be8aec27508619958114767e1688a59cdbbee570345e6ef",
+  "semantic_fingerprint": "objset",
+  "detected_at": "2025-11-13T05:18:47.727297",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_objset_ed45af61.go",
+  "original_metadata": {
+    "size": 1053,
+    "modified": "2025-01-12T09:30:45.153375",
+    "created": "2025-11-11T03:39:11.704910"
+  },
+  "stripped_metadata": {}
+}

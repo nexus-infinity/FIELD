@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/ignore.go",
+  "original_name": "ignore.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 6500,
+  "content_hash": "cf14846c455f11300a74d2792079ed3232b6efb79a4819643713c18d3871746e",
+  "semantic_fingerprint": "ignore",
+  "detected_at": "2025-11-13T05:18:47.336182",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_ignore_cf14846c.go",
+  "original_metadata": {
+    "size": 6500,
+    "modified": "2025-01-12T09:30:48.883683",
+    "created": "2025-11-11T03:39:11.697774"
+  },
+  "stripped_metadata": {}
+}

@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/upstream.go",
+  "original_name": "upstream.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 430,
+  "content_hash": "83431f0be70a75fd1745566fa1f9c309622e4d08126c9807dd3be563b75a0eb0",
+  "semantic_fingerprint": "upstream",
+  "detected_at": "2025-11-13T05:18:47.035746",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_upstream_83431f0b.go",
+  "original_metadata": {
+    "size": 430,
+    "modified": "2025-01-12T09:30:49.926706",
+    "created": "2025-11-11T03:39:11.691972"
+  },
+  "stripped_metadata": {}
+}

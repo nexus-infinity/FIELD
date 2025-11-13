@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/token.go",
+  "original_name": "token.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 3680,
+  "content_hash": "bc96536b4ca6e946a5094c3c60a085485cf6e25be1fc74914bdefcf4352f1516",
+  "semantic_fingerprint": "token",
+  "detected_at": "2025-11-13T05:18:46.126531",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_token_bc96536b.go",
+  "original_metadata": {
+    "size": 3680,
+    "modified": "2025-01-12T09:30:44.931274",
+    "created": "2025-11-11T03:39:11.674899"
+  },
+  "stripped_metadata": {}
+}

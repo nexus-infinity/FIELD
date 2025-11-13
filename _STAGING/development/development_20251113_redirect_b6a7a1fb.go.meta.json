@@ -1,0 +1,18 @@
+{
+  "original_path": "/Volumes/Akron/INTAKE/AKRON/redirect.go",
+  "original_name": "redirect.go",
+  "file_type": ".go",
+  "mime_type": "application/octet-stream",
+  "size_bytes": 1796,
+  "content_hash": "b6a7a1fb81db319f82888393c5e2291ec2071f586bbe5687043f4c16a9e0249e",
+  "semantic_fingerprint": "redirect",
+  "detected_at": "2025-11-13T05:18:46.965055",
+  "suggested_field": "development",
+  "suggested_name": "development_20251113_redirect_b6a7a1fb.go",
+  "original_metadata": {
+    "size": 1796,
+    "modified": "2025-01-12T09:30:47.841984",
+    "created": "2025-11-11T03:39:11.690539"
+  },
+  "stripped_metadata": {}
+}
